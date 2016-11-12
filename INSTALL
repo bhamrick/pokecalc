@@ -1,0 +1,33 @@
+Installing Pokecalc
+===================
+
+# Prerequisites
+* ncurses headers
+
+# Install stack.
+
+Go to haskellstack.org and follow the directions onsite.
+
+# Install purescript.
+
+Run `stack unpack purescript`. Navigate to the purescript directory and run `stack install`.
+
+# Install npm.
+
+Then install some npm packages: bower, pulp, react, react-dom.
+
+# Symlink nodejs to node.
+
+If your version of node is too old, then you can update it by install `n`, the node package manager, and using it to install the latest version of node.
+
+# Install bower.
+
+Run `bower install`.
+
+# Build using pulp.
+
+Run `pulp build` and `pulp browserify --to output.js`.
+
+# Serve!
+
+Python's SimpleHTTPServer can be used to host via `python -m SimpleHTTPServer`.
