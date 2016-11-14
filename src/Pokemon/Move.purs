@@ -279,7 +279,7 @@ allMoves =
         , power: 90
         , accuracy: 100
         , spread: false
-        , type_: Special
+        , type_: Psychic
         , class_: Special
         , effect: NoEffect
         }
