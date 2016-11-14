@@ -1,0 +1,23 @@
+body {
+	font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;
+}
+
+.level {
+	width: 30px;
+}
+
+.bst {
+	width: 30px;
+}
+
+.iv {
+	width: 20px;
+}
+
+.ev {
+	width: 30px;
+}
+
+.basepower {
+	width: 30px;
+}

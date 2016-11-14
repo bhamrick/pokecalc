@@ -52,6 +52,7 @@ battlerSpec = T.simpleSpec performAction render
                 , R.input
                     [ RP.placeholder "Level"
                     , RP.value (show b.level)
+                    , RP.className "level"
                     , RP.onChange \e ->
                         let val = (unsafeCoerce e).target.value
                         in
@@ -103,6 +104,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show base.hp)
+                            , RP.className "bst"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -118,6 +120,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show ivs.hp)
+                            , RP.className "iv"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -133,6 +136,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show evs.hp)
+                            , RP.className "ev"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -154,6 +158,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show base.atk)
+                            , RP.className "bst"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -169,6 +174,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show ivs.atk)
+                            , RP.className "iv"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -184,6 +190,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show evs.atk)
+                            , RP.className "ev"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -205,6 +212,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show base.def)
+                            , RP.className "bst"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -220,6 +228,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show ivs.def)
+                            , RP.className "iv"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -235,6 +244,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show evs.def)
+                            , RP.className "ev"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -256,6 +266,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show base.spa)
+                            , RP.className "bst"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -271,6 +282,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show ivs.spa)
+                            , RP.className "iv"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -286,6 +298,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show evs.spa)
+                            , RP.className "ev"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -307,6 +320,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show base.spd)
+                            , RP.className "bst"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -322,6 +336,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show ivs.spd)
+                            , RP.className "iv"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -337,6 +352,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show evs.spd)
+                            , RP.className "ev"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -358,6 +374,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show base.spe)
+                            , RP.className "bst"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -373,6 +390,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show ivs.spe)
+                            , RP.className "iv"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -388,6 +406,7 @@ battlerSpec = T.simpleSpec performAction render
                     , R.td'
                         [ R.input
                             [ RP.value (show evs.spe)
+                            , RP.className "ev"
                             , RP.onChange \e ->
                                 let
                                 contents = (unsafeCoerce e).target.value
@@ -662,6 +681,7 @@ battlerSpec = T.simpleSpec performAction render
                 ] []
             , R.input
                 [ RP.value (show m.power)
+                , RP.className "basepower"
                 , RP.onChange \e ->
                     case Int.fromString (unsafeCoerce e).target.value of
                         Nothing -> pure unit
