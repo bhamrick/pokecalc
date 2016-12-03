@@ -82,8 +82,8 @@ data Nature
     | Serious
     | Timid
 
-battleStats :: BaseStats -> Int -> IVs -> EVs -> Nature -> Stages -> BattleStats
-battleStats (BaseStats base) level (IVs ivs) (EVs evs) nature (Stages stages) =
+battleStats :: BaseStats -> Int -> IVs -> EVs -> Nature -> BattleStats
+battleStats (BaseStats base) level (IVs ivs) (EVs evs) nature =
     let
     -- pre-nature stats
     preHP = floor $ ((toNumber ivs.hp) + 2.0 * (toNumber base.hp) + ((toNumber evs.hp) / 4.0)) * toNumber level / 100.0 + 10.0 + toNumber level

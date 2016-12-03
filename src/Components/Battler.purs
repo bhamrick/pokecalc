@@ -2,7 +2,9 @@ module Components.Battler where
 
 import Prelude
 
+import Data.Int as Int
 import Data.Maybe
+import Unsafe.Coerce (unsafeCoerce)
 
 import Pokemon.Battler
 import Pokemon.Species
@@ -13,7 +15,7 @@ import Pokemon.Type
 import Thermite as T
 import React as R
 import React.DOM as R
-import React.DOM.Props as R
+import React.DOM.Props as RP
 import ReactDOM as DOM
 
 data BattlerAction
@@ -35,12 +37,448 @@ battlerSpec :: forall eff props. T.Spec eff Battler props BattlerAction
 battlerSpec = T.simpleSpec performAction render
     where
     render :: T.Render Battler props BattlerAction
-    render dispatch _ b _ =
-        [ R.text "Testing"
-        ]
+    render dispatch _ (Battler b) _ =
+        case b.species of
+            Species s ->
+                [ R.input
+                    [ RP.placeholder "Species"
+                    , RP.defaultValue s.name
+                    ] []
+                , R.input
+                    [ RP.placeholder "Level"
+                    , RP.value (show b.level)
+                    , RP.onChange \e ->
+                        let val = (unsafeCoerce e).target.value
+                        in
+                        if val == ""
+                        then dispatch $ UpdateLevel 0
+                        else
+                            case Int.fromString (unsafeCoerce e).target.value of
+                                Nothing -> pure unit
+                                Just l -> dispatch $ UpdateLevel l
+                    ] []
+                -- TODO: pokemon types
+                -- TODO: nature
+                -- TODO: moves
+                , statTable
+                    dispatch
+                    s.baseStats
+                    b.ivs
+                    b.evs
+                    (battleStats
+                        s.baseStats
+                        b.level
+                        b.ivs
+                        b.evs
+                        b.nature
+                    )
+                ]
+    statTable dispatch (BaseStats base) (IVs ivs) (EVs evs) (BattleStats computed) =
+        R.table'
+            [ R.tbody'
+                [ R.tr'
+                    [ R.th'
+                        []
+                    , R.th'
+                        [ R.text "Base" ]
+                    , R.th'
+                        [ R.text "IV" ]
+                    , R.th'
+                        [ R.text "EV" ]
+                    , R.th'
+                        [ R.text "Stat" ]
+                    ]
+                , R.tr'
+                    [ R.td'
+                        [ R.text "HP" ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show base.hp)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateBaseStat HP 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateBaseStat HP v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show ivs.hp)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateIV HP 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateIV HP v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show evs.hp)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateEV HP 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateEV HP v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.text (show computed.hp) ]
+                    ]
+                , R.tr'
+                    [ R.td'
+                        [ R.text "Atk" ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show base.atk)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateBaseStat Atk 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateBaseStat Atk v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show ivs.atk)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateIV Atk 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateIV Atk v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show evs.atk)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateEV Atk 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateEV Atk v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.text (show computed.atk) ]
+                    ]
+                , R.tr'
+                    [ R.td'
+                        [ R.text "Def" ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show base.def)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateBaseStat Def 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateBaseStat Def v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show ivs.def)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateIV Def 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateIV Def v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show evs.def)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateEV Def 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateEV Def v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.text (show computed.def) ]
+                    ]
+                , R.tr'
+                    [ R.td'
+                        [ R.text "SpA" ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show base.spa)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateBaseStat SpA 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateBaseStat SpA v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show ivs.spa)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateIV SpA 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateIV SpA v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show evs.spa)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateEV SpA 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateEV SpA v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.text (show computed.spa) ]
+                    ]
+                , R.tr'
+                    [ R.td'
+                        [ R.text "SpD" ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show base.spd)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateBaseStat SpD 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateBaseStat SpD v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show ivs.spd)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateIV SpD 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateIV SpD v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show evs.spd)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateEV SpD 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateEV SpD v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.text (show computed.spd) ]
+                    ]
+                , R.tr'
+                    [ R.td'
+                        [ R.text "Spe" ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show base.spe)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateBaseStat Spe 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateBaseStat Spe v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show ivs.spe)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateIV Spe 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateIV Spe v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.input
+                            [ RP.value (show evs.spe)
+                            , RP.onChange \e ->
+                                let
+                                contents = (unsafeCoerce e).target.value
+                                in
+                                if contents == ""
+                                then dispatch $ UpdateEV Spe 0
+                                else case Int.fromString contents of
+                                    Nothing -> pure unit
+                                    Just v -> dispatch $ UpdateEV Spe v
+                            ]
+                            []
+                        ]
+                    , R.td'
+                        [ R.text (show computed.spe) ]
+                    ]
+                ]
+            ]
 
     performAction :: T.PerformAction eff Battler props BattlerAction
     performAction action _ _ =
         case action of
+            UpdateSpeciesName n -> do
+                void $ T.modifyState \(Battler b) ->
+                    case b.species of
+                        Species s ->
+                            Battler (b { species = Species (s { name = n })})
+            UpdateBaseStat stat v -> do
+                void $ T.modifyState \(Battler b) ->
+                    case b.species of
+                        Species s ->
+                            case s.baseStats of
+                                BaseStats base ->
+                                    let
+                                    base' = case stat of
+                                        HP -> base { hp = v }
+                                        Atk -> base { atk = v }
+                                        Def -> base { def = v }
+                                        SpA -> base { spa = v }
+                                        SpD -> base { spd = v }
+                                        Spe -> base { spe = v }
+                                    in
+                                    Battler (b { species = Species (s { baseStats = BaseStats base' }) })
+            UpdateType1 t -> do
+                void $ T.modifyState \(Battler b) ->
+                    case b.species of
+                        Species s ->
+                            Battler (b { species = Species (s { type1 = t })})
+            UpdateType2 t -> do
+                void $ T.modifyState \(Battler b) ->
+                    case b.species of
+                        Species s ->
+                            Battler (b { species = Species (s { type2 = t })})
+            UpdateLevel l -> do
+                void $ T.modifyState \(Battler b) ->
+                    Battler (b { level = l })
+            UpdateMove1 m -> do
+                void $ T.modifyState \(Battler b) ->
+                    Battler (b { move1 = m })
+            UpdateMove2 m -> do
+                void $ T.modifyState \(Battler b) ->
+                    Battler (b { move1 = m })
+            UpdateMove3 m -> do
+                void $ T.modifyState \(Battler b) ->
+                    Battler (b { move1 = m })
+            UpdateMove4 m -> do
+                void $ T.modifyState \(Battler b) ->
+                    Battler (b { move1 = m })
+            UpdateIV stat v -> do
+                void $ T.modifyState \(Battler b) ->
+                    case b.ivs of
+                        IVs ivs ->
+                            let
+                            ivs' = case stat of
+                                HP -> ivs { hp = v }
+                                Atk -> ivs { atk = v }
+                                Def -> ivs { def = v }
+                                SpA -> ivs { spa = v }
+                                SpD -> ivs { spd = v }
+                                Spe -> ivs { spe = v }
+                            in
+                            Battler (b { ivs = IVs ivs' })
+            UpdateEV stat v -> do
+                void $ T.modifyState \(Battler b) ->
+                    case b.evs of
+                        EVs evs ->
+                            let
+                            evs' = case stat of
+                                HP -> evs { hp = v }
+                                Atk -> evs { atk = v }
+                                Def -> evs { def = v }
+                                SpA -> evs { spa = v }
+                                SpD -> evs { spd = v }
+                                Spe -> evs { spe = v }
+                            in
+                            Battler (b { evs = EVs evs' })
+            UpdateNature n -> do
+                void $ T.modifyState \(Battler b) ->
+                    Battler (b { nature = n })
+            -- UpdateStage stat v -> do
+            --     void $ T.modifyState \(Battler b) ->
+            --         Battler b
             _ -> do
                 pure unit

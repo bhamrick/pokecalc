@@ -30,12 +30,12 @@ initialBattler = Battler
     { species: Species
         { name: "Sample"
         , baseStats: BaseStats
-            { hp: 40
-            , atk: 40
-            , def: 40
-            , spa: 40
-            , spd: 40
-            , spe: 40
+            { hp: 80
+            , atk: 80
+            , def: 80
+            , spa: 80
+            , spd: 80
+            , spe: 80
             }
         , type1: Just Normal
         , type2: Nothing
