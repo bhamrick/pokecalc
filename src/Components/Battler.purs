@@ -64,7 +64,7 @@ battlerSpec = T.simpleSpec performAction render
                     ] []
                 , typeDropdown (dispatch <<< UpdateType1) s.type1
                 , typeDropdown (dispatch <<< UpdateType2) s.type2
-                -- TODO: nature
+                , natureDropdown (dispatch <<< UpdateNature) b.nature
                 -- TODO: moves
                 , statTable
                     dispatch
@@ -450,81 +450,197 @@ battlerSpec = T.simpleSpec performAction render
                     _ -> pure unit
             ]
             [ R.option
-                [ RP.value "none"
-                ]
+                [ RP.value "none" ]
                 [ R.text "None" ]
             , R.option
-                [ RP.value "normal"
-                ]
+                [ RP.value "normal" ]
                 [ R.text "Normal" ]
             , R.option
-                [ RP.value "fighting"
-                ]
+                [ RP.value "fighting" ]
                 [ R.text "Fighting" ]
             , R.option
-                [ RP.value "flying"
-                ]
+                [ RP.value "flying" ]
                 [ R.text "Flying" ]
             , R.option
-                [ RP.value "poison"
-                ]
+                [ RP.value "poison" ]
                 [ R.text "Poison" ]
             , R.option
-                [ RP.value "ground"
-                ]
+                [ RP.value "ground" ]
                 [ R.text "Ground" ]
             , R.option
-                [ RP.value "rock"
-                ]
+                [ RP.value "rock" ]
                 [ R.text "Rock" ]
             , R.option
-                [ RP.value "bug"
-                ]
+                [ RP.value "bug" ]
                 [ R.text "Bug" ]
             , R.option
-                [ RP.value "ghost"
-                ]
+                [ RP.value "ghost" ]
                 [ R.text "Ghost" ]
             , R.option
-                [ RP.value "steel"
-                ]
+                [ RP.value "steel" ]
                 [ R.text "Steel" ]
             , R.option
-                [ RP.value "fire"
-                ]
+                [ RP.value "fire" ]
                 [ R.text "Fire" ]
             , R.option
-                [ RP.value "water"
-                ]
+                [ RP.value "water" ]
                 [ R.text "Water" ]
             , R.option
-                [ RP.value "grass"
-                ]
+                [ RP.value "grass" ]
                 [ R.text "Grass" ]
             , R.option
-                [ RP.value "electric"
-                ]
+                [ RP.value "electric" ]
                 [ R.text "Electric" ]
             , R.option
-                [ RP.value "psychic"
-                ]
+                [ RP.value "psychic" ]
                 [ R.text "Psychic" ]
             , R.option
-                [ RP.value "ice"
-                ]
+                [ RP.value "ice" ]
                 [ R.text "Ice" ]
             , R.option
-                [ RP.value "dragon"
-                ]
+                [ RP.value "dragon" ]
                 [ R.text "Dragon" ]
             , R.option
-                [ RP.value "dark"
-                ]
+                [ RP.value "dark" ]
                 [ R.text "Dark" ]
             , R.option
-                [ RP.value "fairy"
-                ]
+                [ RP.value "fairy" ]
                 [ R.text "Fairy" ]
+            ]
+
+    natureDropdown dispatchNature nature =
+        R.select
+            [ RP.onChange \e ->
+                case (unsafeCoerce e).target.value of
+                    "adamant" -> dispatchNature Adamant
+                    "bashful" -> dispatchNature Bashful 
+                    "bold" -> dispatchNature Bold 
+                    "brave" -> dispatchNature Brave 
+                    "calm" -> dispatchNature Calm 
+                    "careful" -> dispatchNature Careful 
+                    "docile" -> dispatchNature Docile 
+                    "gentle" -> dispatchNature Gentle 
+                    "hardy" -> dispatchNature Hardy 
+                    "hasty" -> dispatchNature Hasty 
+                    "impish" -> dispatchNature Impish 
+                    "jolly" -> dispatchNature Jolly 
+                    "lax" -> dispatchNature Lax 
+                    "lonely" -> dispatchNature Lonely 
+                    "mild" -> dispatchNature Mild
+                    "modest" -> dispatchNature Modest 
+                    "naive" -> dispatchNature Naive 
+                    "naughty" -> dispatchNature Naughty 
+                    "quiet" -> dispatchNature Quiet 
+                    "quirky" -> dispatchNature Quirky 
+                    "rash" -> dispatchNature Rash 
+                    "relaxed" -> dispatchNature Relaxed 
+                    "sassy" -> dispatchNature Sassy 
+                    "serious" -> dispatchNature Serious 
+                    "timid" -> dispatchNature Timid 
+                    _ -> pure unit
+            , RP.value (case nature of
+                Adamant -> "adamant"
+                Bashful -> "bashful"
+                Bold -> "bold"
+                Brave -> "brave"
+                Calm -> "calm"
+                Careful -> "careful"
+                Docile -> "docile"
+                Gentle -> "gentle"
+                Hardy -> "hardy"
+                Hasty -> "hasty"
+                Impish -> "impish"
+                Jolly -> "jolly"
+                Lax -> "lax"
+                Lonely -> "lonely"
+                Mild -> "mild"
+                Modest -> "modest"
+                Naive -> "naive"
+                Naughty -> "naughty"
+                Quiet -> "quiet"
+                Quirky -> "quirky"
+                Rash -> "rash"
+                Relaxed -> "relaxed"
+                Sassy -> "sassy"
+                Serious -> "serious"
+                Timid -> "timid"
+                )
+            ]
+            [ R.option
+                [ RP.value "adamant" ]
+                [ R.text "Adamant (+Atk, -SpA)" ]
+            , R.option
+                [ RP.value "bashful" ]
+                [ R.text "Bashful" ]
+            , R.option
+                [ RP.value "bold" ]
+                [ R.text "Bold (+Def, -Atk)" ]
+            , R.option
+                [ RP.value "brave" ]
+                [ R.text "Brave (+Atk, -Spe)" ]
+            , R.option
+                [ RP.value "calm" ]
+                [ R.text "Calm (+SpD, -Atk)" ]
+            , R.option
+                [ RP.value "careful" ]
+                [ R.text "Careful (+SpD, -SpA)" ]
+            , R.option
+                [ RP.value "docile" ]
+                [ R.text "Docile" ]
+            , R.option
+                [ RP.value "gentle" ]
+                [ R.text "Gentle (+SpD, -Def)" ]
+            , R.option
+                [ RP.value "hardy" ]
+                [ R.text "Hardy" ]
+            , R.option
+                [ RP.value "hasty" ]
+                [ R.text "Hasty (+Spe, -Def)" ]
+            , R.option
+                [ RP.value "impish" ]
+                [ R.text "Impish (+Def, -SpA)" ]
+            , R.option
+                [ RP.value "jolly" ]
+                [ R.text "Jolly (+Spe, -SpA)" ]
+            , R.option
+                [ RP.value "lax" ]
+                [ R.text "Lax (+Def, -SpD)" ]
+            , R.option
+                [ RP.value "lonely" ]
+                [ R.text "Lonely (+Atk, -Def)" ]
+            , R.option
+                [ RP.value "mild" ]
+                [ R.text "Mild (+SpA, -Def)" ]
+            , R.option
+                [ RP.value "modest" ]
+                [ R.text "Modest (+SpA, -Atk)" ]
+            , R.option
+                [ RP.value "naive" ]
+                [ R.text "Naive (+Spe, -SpD)" ]
+            , R.option
+                [ RP.value "naughty" ]
+                [ R.text "Naughty (+Atk, -SpD)" ]
+            , R.option
+                [ RP.value "quiet" ]
+                [ R.text "Quiet (+SpA, -Spe)" ]
+            , R.option
+                [ RP.value "quirky" ]
+                [ R.text "Quirky" ]
+            , R.option
+                [ RP.value "rash" ]
+                [ R.text "Rash (+SpA, -SpD)" ]
+            , R.option
+                [ RP.value "relaxed" ]
+                [ R.text "Relaxed (+Def, -Spe)" ]
+            , R.option
+                [ RP.value "sassy" ]
+                [ R.text "Sassy (+SpD, -Spe)" ]
+            , R.option
+                [ RP.value "serious" ]
+                [ R.text "Serious" ]
+            , R.option
+                [ RP.value "timid" ]
+                [ R.text "Timid (+Spe, -Atk)" ]
             ]
 
     performAction :: T.PerformAction eff Battler props BattlerAction

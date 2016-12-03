@@ -20436,13 +20436,13 @@ var Data_Unit = require("../Data.Unit");
 var Data_Show = require("../Data.Show");
 var Data_Eq = require("../Data.Eq");
 var Data_Function = require("../Data.Function");
-var Control_Semigroupoid = require("../Control.Semigroupoid");
 var Control_Bind = require("../Control.Bind");
 var Control_Monad_Free_Trans = require("../Control.Monad.Free.Trans");
 var Control_Coroutine = require("../Control.Coroutine");
 var Control_Monad_Aff = require("../Control.Monad.Aff");
 var Data_Functor = require("../Data.Functor");
 var Data_Ord = require("../Data.Ord");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
 var UpdateSpeciesName = (function () {
     function UpdateSpeciesName(value0) {
         this.value0 = value0;
@@ -21014,6 +21014,562 @@ var battlerSpec = (function () {
             };
         };
     };
+    var performAction = function (action) {
+        return function (v) {
+            return function (v1) {
+                if (action instanceof UpdateSpeciesName) {
+                    return Control_Bind.bind(Control_Monad_Free_Trans.bindFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $107 = {};
+                        for (var $108 in v2) {
+                            if (v2.hasOwnProperty($108)) {
+                                $107[$108] = v2[$108];
+                            };
+                        };
+                        $107.species = (function () {
+                            var $104 = {};
+                            for (var $105 in v2.species) {
+                                if (v2.species.hasOwnProperty($105)) {
+                                    $104[$105] = v2.species[$105];
+                                };
+                            };
+                            $104.name = action.value0;
+                            return $104;
+                        })();
+                        return $107;
+                    })))(function () {
+                        var $110 = Data_StrMap.lookup(Data_String.toLower(action.value0))(Pokemon_SpeciesData.speciesByName);
+                        if ($110 instanceof Data_Maybe.Nothing) {
+                            return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
+                        };
+                        if ($110 instanceof Data_Maybe.Just) {
+                            return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                                var $112 = {};
+                                for (var $113 in v2) {
+                                    if (v2.hasOwnProperty($113)) {
+                                        $112[$113] = v2[$113];
+                                    };
+                                };
+                                $112.species = $110.value0;
+                                return $112;
+                            }));
+                        };
+                        throw new Error("Failed pattern match at Components.Battler line 654, column 17 - line 658, column 62: " + [ $110.constructor.name ]);
+                    });
+                };
+                if (action instanceof UpdateBaseStat) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
+                        var base$prime = (function () {
+                            if (action.value0 instanceof Pokemon_Stats.HP) {
+                                var $121 = {};
+                                for (var $122 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($122)) {
+                                        $121[$122] = v3.species.baseStats[$122];
+                                    };
+                                };
+                                $121.hp = action.value1;
+                                return $121;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Atk) {
+                                var $124 = {};
+                                for (var $125 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($125)) {
+                                        $124[$125] = v3.species.baseStats[$125];
+                                    };
+                                };
+                                $124.atk = action.value1;
+                                return $124;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Def) {
+                                var $127 = {};
+                                for (var $128 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($128)) {
+                                        $127[$128] = v3.species.baseStats[$128];
+                                    };
+                                };
+                                $127.def = action.value1;
+                                return $127;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.SpA) {
+                                var $130 = {};
+                                for (var $131 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($131)) {
+                                        $130[$131] = v3.species.baseStats[$131];
+                                    };
+                                };
+                                $130.spa = action.value1;
+                                return $130;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.SpD) {
+                                var $133 = {};
+                                for (var $134 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($134)) {
+                                        $133[$134] = v3.species.baseStats[$134];
+                                    };
+                                };
+                                $133.spd = action.value1;
+                                return $133;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Spe) {
+                                var $136 = {};
+                                for (var $137 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($137)) {
+                                        $136[$137] = v3.species.baseStats[$137];
+                                    };
+                                };
+                                $136.spe = action.value1;
+                                return $136;
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 666, column 45 - line 672, column 64: " + [ action.value0.constructor.name ]);
+                        })();
+                        var $142 = {};
+                        for (var $143 in v3) {
+                            if (v3.hasOwnProperty($143)) {
+                                $142[$143] = v3[$143];
+                            };
+                        };
+                        $142.species = (function () {
+                            var $139 = {};
+                            for (var $140 in v3.species) {
+                                if (v3.species.hasOwnProperty($140)) {
+                                    $139[$140] = v3.species[$140];
+                                };
+                            };
+                            $139.baseStats = base$prime;
+                            return $139;
+                        })();
+                        return $142;
+                    }));
+                };
+                if (action instanceof UpdateType1) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $152 = {};
+                        for (var $153 in v2) {
+                            if (v2.hasOwnProperty($153)) {
+                                $152[$153] = v2[$153];
+                            };
+                        };
+                        $152.species = (function () {
+                            var $149 = {};
+                            for (var $150 in v2.species) {
+                                if (v2.species.hasOwnProperty($150)) {
+                                    $149[$150] = v2.species[$150];
+                                };
+                            };
+                            $149.type1 = action.value0;
+                            return $149;
+                        })();
+                        return $152;
+                    }));
+                };
+                if (action instanceof UpdateType2) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $161 = {};
+                        for (var $162 in v2) {
+                            if (v2.hasOwnProperty($162)) {
+                                $161[$162] = v2[$162];
+                            };
+                        };
+                        $161.species = (function () {
+                            var $158 = {};
+                            for (var $159 in v2.species) {
+                                if (v2.species.hasOwnProperty($159)) {
+                                    $158[$159] = v2.species[$159];
+                                };
+                            };
+                            $158.type2 = action.value0;
+                            return $158;
+                        })();
+                        return $161;
+                    }));
+                };
+                if (action instanceof UpdateLevel) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $166 = {};
+                        for (var $167 in v2) {
+                            if (v2.hasOwnProperty($167)) {
+                                $166[$167] = v2[$167];
+                            };
+                        };
+                        $166.level = action.value0;
+                        return $166;
+                    }));
+                };
+                if (action instanceof UpdateMove1) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $171 = {};
+                        for (var $172 in v2) {
+                            if (v2.hasOwnProperty($172)) {
+                                $171[$172] = v2[$172];
+                            };
+                        };
+                        $171.move1 = action.value0;
+                        return $171;
+                    }));
+                };
+                if (action instanceof UpdateMove2) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $176 = {};
+                        for (var $177 in v2) {
+                            if (v2.hasOwnProperty($177)) {
+                                $176[$177] = v2[$177];
+                            };
+                        };
+                        $176.move1 = action.value0;
+                        return $176;
+                    }));
+                };
+                if (action instanceof UpdateMove3) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $181 = {};
+                        for (var $182 in v2) {
+                            if (v2.hasOwnProperty($182)) {
+                                $181[$182] = v2[$182];
+                            };
+                        };
+                        $181.move1 = action.value0;
+                        return $181;
+                    }));
+                };
+                if (action instanceof UpdateMove4) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $186 = {};
+                        for (var $187 in v2) {
+                            if (v2.hasOwnProperty($187)) {
+                                $186[$187] = v2[$187];
+                            };
+                        };
+                        $186.move1 = action.value0;
+                        return $186;
+                    }));
+                };
+                if (action instanceof UpdateIV) {
+                    var v$prime = Data_Ord.min(Data_Ord.ordInt)(31)(Data_Ord.max(Data_Ord.ordInt)(0)(action.value1));
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
+                        var ivs$prime = (function () {
+                            if (action.value0 instanceof Pokemon_Stats.HP) {
+                                var $193 = {};
+                                for (var $194 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($194)) {
+                                        $193[$194] = v3.ivs[$194];
+                                    };
+                                };
+                                $193.hp = v$prime;
+                                return $193;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Atk) {
+                                var $196 = {};
+                                for (var $197 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($197)) {
+                                        $196[$197] = v3.ivs[$197];
+                                    };
+                                };
+                                $196.atk = v$prime;
+                                return $196;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Def) {
+                                var $199 = {};
+                                for (var $200 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($200)) {
+                                        $199[$200] = v3.ivs[$200];
+                                    };
+                                };
+                                $199.def = v$prime;
+                                return $199;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.SpA) {
+                                var $202 = {};
+                                for (var $203 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($203)) {
+                                        $202[$203] = v3.ivs[$203];
+                                    };
+                                };
+                                $202.spa = v$prime;
+                                return $202;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.SpD) {
+                                var $205 = {};
+                                for (var $206 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($206)) {
+                                        $205[$206] = v3.ivs[$206];
+                                    };
+                                };
+                                $205.spd = v$prime;
+                                return $205;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Spe) {
+                                var $208 = {};
+                                for (var $209 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($209)) {
+                                        $208[$209] = v3.ivs[$209];
+                                    };
+                                };
+                                $208.spe = v$prime;
+                                return $208;
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 706, column 36 - line 712, column 56: " + [ action.value0.constructor.name ]);
+                        })();
+                        var $211 = {};
+                        for (var $212 in v3) {
+                            if (v3.hasOwnProperty($212)) {
+                                $211[$212] = v3[$212];
+                            };
+                        };
+                        $211.ivs = ivs$prime;
+                        return $211;
+                    }));
+                };
+                if (action instanceof UpdateEV) {
+                    var v$prime = Data_Ord.min(Data_Ord.ordInt)(252)(Data_Ord.max(Data_Ord.ordInt)(0)(action.value1));
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
+                        var evs$prime = (function () {
+                            if (action.value0 instanceof Pokemon_Stats.HP) {
+                                var $219 = {};
+                                for (var $220 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($220)) {
+                                        $219[$220] = v3.evs[$220];
+                                    };
+                                };
+                                $219.hp = v$prime;
+                                return $219;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Atk) {
+                                var $222 = {};
+                                for (var $223 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($223)) {
+                                        $222[$223] = v3.evs[$223];
+                                    };
+                                };
+                                $222.atk = v$prime;
+                                return $222;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Def) {
+                                var $225 = {};
+                                for (var $226 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($226)) {
+                                        $225[$226] = v3.evs[$226];
+                                    };
+                                };
+                                $225.def = v$prime;
+                                return $225;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.SpA) {
+                                var $228 = {};
+                                for (var $229 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($229)) {
+                                        $228[$229] = v3.evs[$229];
+                                    };
+                                };
+                                $228.spa = v$prime;
+                                return $228;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.SpD) {
+                                var $231 = {};
+                                for (var $232 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($232)) {
+                                        $231[$232] = v3.evs[$232];
+                                    };
+                                };
+                                $231.spd = v$prime;
+                                return $231;
+                            };
+                            if (action.value0 instanceof Pokemon_Stats.Spe) {
+                                var $234 = {};
+                                for (var $235 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($235)) {
+                                        $234[$235] = v3.evs[$235];
+                                    };
+                                };
+                                $234.spe = v$prime;
+                                return $234;
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 721, column 36 - line 727, column 56: " + [ action.value0.constructor.name ]);
+                        })();
+                        var $237 = {};
+                        for (var $238 in v3) {
+                            if (v3.hasOwnProperty($238)) {
+                                $237[$238] = v3[$238];
+                            };
+                        };
+                        $237.evs = evs$prime;
+                        return $237;
+                    }));
+                };
+                if (action instanceof UpdateNature) {
+                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $243 = {};
+                        for (var $244 in v2) {
+                            if (v2.hasOwnProperty($244)) {
+                                $243[$244] = v2[$244];
+                            };
+                        };
+                        $243.nature = action.value0;
+                        return $243;
+                    }));
+                };
+                return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
+            };
+        };
+    };
+    var natureDropdown = function (dispatchNature) {
+        return function (nature) {
+            return React_DOM.select([ React_DOM_Props.onChange(function (e) {
+                var $247 = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                if ($247 === "adamant") {
+                    return dispatchNature(Pokemon_Stats.Adamant.value);
+                };
+                if ($247 === "bashful") {
+                    return dispatchNature(Pokemon_Stats.Bashful.value);
+                };
+                if ($247 === "bold") {
+                    return dispatchNature(Pokemon_Stats.Bold.value);
+                };
+                if ($247 === "brave") {
+                    return dispatchNature(Pokemon_Stats.Brave.value);
+                };
+                if ($247 === "calm") {
+                    return dispatchNature(Pokemon_Stats.Calm.value);
+                };
+                if ($247 === "careful") {
+                    return dispatchNature(Pokemon_Stats.Careful.value);
+                };
+                if ($247 === "docile") {
+                    return dispatchNature(Pokemon_Stats.Docile.value);
+                };
+                if ($247 === "gentle") {
+                    return dispatchNature(Pokemon_Stats.Gentle.value);
+                };
+                if ($247 === "hardy") {
+                    return dispatchNature(Pokemon_Stats.Hardy.value);
+                };
+                if ($247 === "hasty") {
+                    return dispatchNature(Pokemon_Stats.Hasty.value);
+                };
+                if ($247 === "impish") {
+                    return dispatchNature(Pokemon_Stats.Impish.value);
+                };
+                if ($247 === "jolly") {
+                    return dispatchNature(Pokemon_Stats.Jolly.value);
+                };
+                if ($247 === "lax") {
+                    return dispatchNature(Pokemon_Stats.Lax.value);
+                };
+                if ($247 === "lonely") {
+                    return dispatchNature(Pokemon_Stats.Lonely.value);
+                };
+                if ($247 === "mild") {
+                    return dispatchNature(Pokemon_Stats.Mild.value);
+                };
+                if ($247 === "modest") {
+                    return dispatchNature(Pokemon_Stats.Modest.value);
+                };
+                if ($247 === "naive") {
+                    return dispatchNature(Pokemon_Stats.Naive.value);
+                };
+                if ($247 === "naughty") {
+                    return dispatchNature(Pokemon_Stats.Naughty.value);
+                };
+                if ($247 === "quiet") {
+                    return dispatchNature(Pokemon_Stats.Quiet.value);
+                };
+                if ($247 === "quirky") {
+                    return dispatchNature(Pokemon_Stats.Quirky.value);
+                };
+                if ($247 === "rash") {
+                    return dispatchNature(Pokemon_Stats.Rash.value);
+                };
+                if ($247 === "relaxed") {
+                    return dispatchNature(Pokemon_Stats.Relaxed.value);
+                };
+                if ($247 === "sassy") {
+                    return dispatchNature(Pokemon_Stats.Sassy.value);
+                };
+                if ($247 === "serious") {
+                    return dispatchNature(Pokemon_Stats.Serious.value);
+                };
+                if ($247 === "timid") {
+                    return dispatchNature(Pokemon_Stats.Timid.value);
+                };
+                return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+            }), React_DOM_Props.value((function () {
+                if (nature instanceof Pokemon_Stats.Adamant) {
+                    return "adamant";
+                };
+                if (nature instanceof Pokemon_Stats.Bashful) {
+                    return "bashful";
+                };
+                if (nature instanceof Pokemon_Stats.Bold) {
+                    return "bold";
+                };
+                if (nature instanceof Pokemon_Stats.Brave) {
+                    return "brave";
+                };
+                if (nature instanceof Pokemon_Stats.Calm) {
+                    return "calm";
+                };
+                if (nature instanceof Pokemon_Stats.Careful) {
+                    return "careful";
+                };
+                if (nature instanceof Pokemon_Stats.Docile) {
+                    return "docile";
+                };
+                if (nature instanceof Pokemon_Stats.Gentle) {
+                    return "gentle";
+                };
+                if (nature instanceof Pokemon_Stats.Hardy) {
+                    return "hardy";
+                };
+                if (nature instanceof Pokemon_Stats.Hasty) {
+                    return "hasty";
+                };
+                if (nature instanceof Pokemon_Stats.Impish) {
+                    return "impish";
+                };
+                if (nature instanceof Pokemon_Stats.Jolly) {
+                    return "jolly";
+                };
+                if (nature instanceof Pokemon_Stats.Lax) {
+                    return "lax";
+                };
+                if (nature instanceof Pokemon_Stats.Lonely) {
+                    return "lonely";
+                };
+                if (nature instanceof Pokemon_Stats.Mild) {
+                    return "mild";
+                };
+                if (nature instanceof Pokemon_Stats.Modest) {
+                    return "modest";
+                };
+                if (nature instanceof Pokemon_Stats.Naive) {
+                    return "naive";
+                };
+                if (nature instanceof Pokemon_Stats.Naughty) {
+                    return "naughty";
+                };
+                if (nature instanceof Pokemon_Stats.Quiet) {
+                    return "quiet";
+                };
+                if (nature instanceof Pokemon_Stats.Quirky) {
+                    return "quirky";
+                };
+                if (nature instanceof Pokemon_Stats.Rash) {
+                    return "rash";
+                };
+                if (nature instanceof Pokemon_Stats.Relaxed) {
+                    return "relaxed";
+                };
+                if (nature instanceof Pokemon_Stats.Sassy) {
+                    return "sassy";
+                };
+                if (nature instanceof Pokemon_Stats.Serious) {
+                    return "serious";
+                };
+                if (nature instanceof Pokemon_Stats.Timid) {
+                    return "timid";
+                };
+                throw new Error("Failed pattern match at Components.Battler line 541, column 25 - line 567, column 17: " + [ nature.constructor.name ]);
+            })()) ])([ React_DOM.option([ React_DOM_Props.value("adamant") ])([ React_DOM.text("Adamant (+Atk, -SpA)") ]), React_DOM.option([ React_DOM_Props.value("bashful") ])([ React_DOM.text("Bashful") ]), React_DOM.option([ React_DOM_Props.value("bold") ])([ React_DOM.text("Bold (+Def, -Atk)") ]), React_DOM.option([ React_DOM_Props.value("brave") ])([ React_DOM.text("Brave (+Atk, -Spe)") ]), React_DOM.option([ React_DOM_Props.value("calm") ])([ React_DOM.text("Calm (+SpD, -Atk)") ]), React_DOM.option([ React_DOM_Props.value("careful") ])([ React_DOM.text("Careful (+SpD, -SpA)") ]), React_DOM.option([ React_DOM_Props.value("docile") ])([ React_DOM.text("Docile") ]), React_DOM.option([ React_DOM_Props.value("gentle") ])([ React_DOM.text("Gentle (+SpD, -Def)") ]), React_DOM.option([ React_DOM_Props.value("hardy") ])([ React_DOM.text("Hardy") ]), React_DOM.option([ React_DOM_Props.value("hasty") ])([ React_DOM.text("Hasty (+Spe, -Def)") ]), React_DOM.option([ React_DOM_Props.value("impish") ])([ React_DOM.text("Impish (+Def, -SpA)") ]), React_DOM.option([ React_DOM_Props.value("jolly") ])([ React_DOM.text("Jolly (+Spe, -SpA)") ]), React_DOM.option([ React_DOM_Props.value("lax") ])([ React_DOM.text("Lax (+Def, -SpD)") ]), React_DOM.option([ React_DOM_Props.value("lonely") ])([ React_DOM.text("Lonely (+Atk, -Def)") ]), React_DOM.option([ React_DOM_Props.value("mild") ])([ React_DOM.text("Mild (+SpA, -Def)") ]), React_DOM.option([ React_DOM_Props.value("modest") ])([ React_DOM.text("Modest (+SpA, -Atk)") ]), React_DOM.option([ React_DOM_Props.value("naive") ])([ React_DOM.text("Naive (+Spe, -SpD)") ]), React_DOM.option([ React_DOM_Props.value("naughty") ])([ React_DOM.text("Naughty (+Atk, -SpD)") ]), React_DOM.option([ React_DOM_Props.value("quiet") ])([ React_DOM.text("Quiet (+SpA, -Spe)") ]), React_DOM.option([ React_DOM_Props.value("quirky") ])([ React_DOM.text("Quirky") ]), React_DOM.option([ React_DOM_Props.value("rash") ])([ React_DOM.text("Rash (+SpA, -SpD)") ]), React_DOM.option([ React_DOM_Props.value("relaxed") ])([ React_DOM.text("Relaxed (+Def, -Spe)") ]), React_DOM.option([ React_DOM_Props.value("sassy") ])([ React_DOM.text("Sassy (+SpD, -Spe)") ]), React_DOM.option([ React_DOM_Props.value("serious") ])([ React_DOM.text("Serious") ]), React_DOM.option([ React_DOM_Props.value("timid") ])([ React_DOM.text("Timid (+Spe, -Atk)") ]) ]);
+        };
+    };
     var render = function (dispatch) {
         return function (v) {
             return function (v1) {
@@ -21022,423 +21578,29 @@ var battlerSpec = (function () {
                         return dispatch(new UpdateSpeciesName((Unsafe_Coerce.unsafeCoerce(e)).target.value));
                     }) ])([  ]), React_DOM.input([ React_DOM_Props.placeholder("Level"), React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.level)), React_DOM_Props.onChange(function (e) {
                         var val = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                        var $106 = val === "";
-                        if ($106) {
+                        var $254 = val === "";
+                        if ($254) {
                             return dispatch(new UpdateLevel(0));
                         };
-                        if (!$106) {
-                            var $107 = Data_Int.fromString((Unsafe_Coerce.unsafeCoerce(e)).target.value);
-                            if ($107 instanceof Data_Maybe.Nothing) {
+                        if (!$254) {
+                            var $255 = Data_Int.fromString((Unsafe_Coerce.unsafeCoerce(e)).target.value);
+                            if ($255 instanceof Data_Maybe.Nothing) {
                                 return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                             };
-                            if ($107 instanceof Data_Maybe.Just) {
-                                return dispatch(new UpdateLevel($107.value0));
+                            if ($255 instanceof Data_Maybe.Just) {
+                                return dispatch(new UpdateLevel($255.value0));
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 61, column 29 - line 63, column 67: " + [ $107.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 61, column 29 - line 63, column 67: " + [ $255.constructor.name ]);
                         };
-                        throw new Error("Failed pattern match at Components.Battler line 58, column 25 - line 63, column 67: " + [ $106.constructor.name ]);
-                    }) ])([  ]), typeDropdown(function ($255) {
-                        return dispatch(UpdateType1.create($255));
-                    })(v1.species.type1), typeDropdown(function ($256) {
-                        return dispatch(UpdateType2.create($256));
-                    })(v1.species.type2), statTable(dispatch)(v1.species.baseStats)(v1.ivs)(v1.evs)(Pokemon_Stats.battleStats(v1.species.baseStats)(v1.level)(v1.ivs)(v1.evs)(v1.nature)) ];
+                        throw new Error("Failed pattern match at Components.Battler line 58, column 25 - line 63, column 67: " + [ $254.constructor.name ]);
+                    }) ])([  ]), typeDropdown(function ($257) {
+                        return dispatch(UpdateType1.create($257));
+                    })(v1.species.type1), typeDropdown(function ($258) {
+                        return dispatch(UpdateType2.create($258));
+                    })(v1.species.type2), natureDropdown(function ($259) {
+                        return dispatch(UpdateNature.create($259));
+                    })(v1.nature), statTable(dispatch)(v1.species.baseStats)(v1.ivs)(v1.evs)(Pokemon_Stats.battleStats(v1.species.baseStats)(v1.level)(v1.ivs)(v1.evs)(v1.nature)) ];
                 };
-            };
-        };
-    };
-    var performAction = function (action) {
-        return function (v) {
-            return function (v1) {
-                if (action instanceof UpdateSpeciesName) {
-                    return Control_Bind.bind(Control_Monad_Free_Trans.bindFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $115 = {};
-                        for (var $116 in v2) {
-                            if (v2.hasOwnProperty($116)) {
-                                $115[$116] = v2[$116];
-                            };
-                        };
-                        $115.species = (function () {
-                            var $112 = {};
-                            for (var $113 in v2.species) {
-                                if (v2.species.hasOwnProperty($113)) {
-                                    $112[$113] = v2.species[$113];
-                                };
-                            };
-                            $112.name = action.value0;
-                            return $112;
-                        })();
-                        return $115;
-                    })))(function () {
-                        var $118 = Data_StrMap.lookup(Data_String.toLower(action.value0))(Pokemon_SpeciesData.speciesByName);
-                        if ($118 instanceof Data_Maybe.Nothing) {
-                            return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
-                        };
-                        if ($118 instanceof Data_Maybe.Just) {
-                            return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                                var $120 = {};
-                                for (var $121 in v2) {
-                                    if (v2.hasOwnProperty($121)) {
-                                        $120[$121] = v2[$121];
-                                    };
-                                };
-                                $120.species = $118.value0;
-                                return $120;
-                            }));
-                        };
-                        throw new Error("Failed pattern match at Components.Battler line 538, column 17 - line 542, column 62: " + [ $118.constructor.name ]);
-                    });
-                };
-                if (action instanceof UpdateBaseStat) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
-                        var base$prime = (function () {
-                            if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $129 = {};
-                                for (var $130 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($130)) {
-                                        $129[$130] = v3.species.baseStats[$130];
-                                    };
-                                };
-                                $129.hp = action.value1;
-                                return $129;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $132 = {};
-                                for (var $133 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($133)) {
-                                        $132[$133] = v3.species.baseStats[$133];
-                                    };
-                                };
-                                $132.atk = action.value1;
-                                return $132;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $135 = {};
-                                for (var $136 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($136)) {
-                                        $135[$136] = v3.species.baseStats[$136];
-                                    };
-                                };
-                                $135.def = action.value1;
-                                return $135;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $138 = {};
-                                for (var $139 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($139)) {
-                                        $138[$139] = v3.species.baseStats[$139];
-                                    };
-                                };
-                                $138.spa = action.value1;
-                                return $138;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $141 = {};
-                                for (var $142 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($142)) {
-                                        $141[$142] = v3.species.baseStats[$142];
-                                    };
-                                };
-                                $141.spd = action.value1;
-                                return $141;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $144 = {};
-                                for (var $145 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($145)) {
-                                        $144[$145] = v3.species.baseStats[$145];
-                                    };
-                                };
-                                $144.spe = action.value1;
-                                return $144;
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 550, column 45 - line 556, column 64: " + [ action.value0.constructor.name ]);
-                        })();
-                        var $150 = {};
-                        for (var $151 in v3) {
-                            if (v3.hasOwnProperty($151)) {
-                                $150[$151] = v3[$151];
-                            };
-                        };
-                        $150.species = (function () {
-                            var $147 = {};
-                            for (var $148 in v3.species) {
-                                if (v3.species.hasOwnProperty($148)) {
-                                    $147[$148] = v3.species[$148];
-                                };
-                            };
-                            $147.baseStats = base$prime;
-                            return $147;
-                        })();
-                        return $150;
-                    }));
-                };
-                if (action instanceof UpdateType1) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $160 = {};
-                        for (var $161 in v2) {
-                            if (v2.hasOwnProperty($161)) {
-                                $160[$161] = v2[$161];
-                            };
-                        };
-                        $160.species = (function () {
-                            var $157 = {};
-                            for (var $158 in v2.species) {
-                                if (v2.species.hasOwnProperty($158)) {
-                                    $157[$158] = v2.species[$158];
-                                };
-                            };
-                            $157.type1 = action.value0;
-                            return $157;
-                        })();
-                        return $160;
-                    }));
-                };
-                if (action instanceof UpdateType2) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $169 = {};
-                        for (var $170 in v2) {
-                            if (v2.hasOwnProperty($170)) {
-                                $169[$170] = v2[$170];
-                            };
-                        };
-                        $169.species = (function () {
-                            var $166 = {};
-                            for (var $167 in v2.species) {
-                                if (v2.species.hasOwnProperty($167)) {
-                                    $166[$167] = v2.species[$167];
-                                };
-                            };
-                            $166.type2 = action.value0;
-                            return $166;
-                        })();
-                        return $169;
-                    }));
-                };
-                if (action instanceof UpdateLevel) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $174 = {};
-                        for (var $175 in v2) {
-                            if (v2.hasOwnProperty($175)) {
-                                $174[$175] = v2[$175];
-                            };
-                        };
-                        $174.level = action.value0;
-                        return $174;
-                    }));
-                };
-                if (action instanceof UpdateMove1) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $179 = {};
-                        for (var $180 in v2) {
-                            if (v2.hasOwnProperty($180)) {
-                                $179[$180] = v2[$180];
-                            };
-                        };
-                        $179.move1 = action.value0;
-                        return $179;
-                    }));
-                };
-                if (action instanceof UpdateMove2) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $184 = {};
-                        for (var $185 in v2) {
-                            if (v2.hasOwnProperty($185)) {
-                                $184[$185] = v2[$185];
-                            };
-                        };
-                        $184.move1 = action.value0;
-                        return $184;
-                    }));
-                };
-                if (action instanceof UpdateMove3) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $189 = {};
-                        for (var $190 in v2) {
-                            if (v2.hasOwnProperty($190)) {
-                                $189[$190] = v2[$190];
-                            };
-                        };
-                        $189.move1 = action.value0;
-                        return $189;
-                    }));
-                };
-                if (action instanceof UpdateMove4) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $194 = {};
-                        for (var $195 in v2) {
-                            if (v2.hasOwnProperty($195)) {
-                                $194[$195] = v2[$195];
-                            };
-                        };
-                        $194.move1 = action.value0;
-                        return $194;
-                    }));
-                };
-                if (action instanceof UpdateIV) {
-                    var v$prime = Data_Ord.min(Data_Ord.ordInt)(31)(Data_Ord.max(Data_Ord.ordInt)(0)(action.value1));
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
-                        var ivs$prime = (function () {
-                            if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $201 = {};
-                                for (var $202 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($202)) {
-                                        $201[$202] = v3.ivs[$202];
-                                    };
-                                };
-                                $201.hp = v$prime;
-                                return $201;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $204 = {};
-                                for (var $205 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($205)) {
-                                        $204[$205] = v3.ivs[$205];
-                                    };
-                                };
-                                $204.atk = v$prime;
-                                return $204;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $207 = {};
-                                for (var $208 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($208)) {
-                                        $207[$208] = v3.ivs[$208];
-                                    };
-                                };
-                                $207.def = v$prime;
-                                return $207;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $210 = {};
-                                for (var $211 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($211)) {
-                                        $210[$211] = v3.ivs[$211];
-                                    };
-                                };
-                                $210.spa = v$prime;
-                                return $210;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $213 = {};
-                                for (var $214 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($214)) {
-                                        $213[$214] = v3.ivs[$214];
-                                    };
-                                };
-                                $213.spd = v$prime;
-                                return $213;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $216 = {};
-                                for (var $217 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($217)) {
-                                        $216[$217] = v3.ivs[$217];
-                                    };
-                                };
-                                $216.spe = v$prime;
-                                return $216;
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 590, column 36 - line 596, column 56: " + [ action.value0.constructor.name ]);
-                        })();
-                        var $219 = {};
-                        for (var $220 in v3) {
-                            if (v3.hasOwnProperty($220)) {
-                                $219[$220] = v3[$220];
-                            };
-                        };
-                        $219.ivs = ivs$prime;
-                        return $219;
-                    }));
-                };
-                if (action instanceof UpdateEV) {
-                    var v$prime = Data_Ord.min(Data_Ord.ordInt)(252)(Data_Ord.max(Data_Ord.ordInt)(0)(action.value1));
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
-                        var evs$prime = (function () {
-                            if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $227 = {};
-                                for (var $228 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($228)) {
-                                        $227[$228] = v3.evs[$228];
-                                    };
-                                };
-                                $227.hp = v$prime;
-                                return $227;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $230 = {};
-                                for (var $231 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($231)) {
-                                        $230[$231] = v3.evs[$231];
-                                    };
-                                };
-                                $230.atk = v$prime;
-                                return $230;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $233 = {};
-                                for (var $234 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($234)) {
-                                        $233[$234] = v3.evs[$234];
-                                    };
-                                };
-                                $233.def = v$prime;
-                                return $233;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $236 = {};
-                                for (var $237 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($237)) {
-                                        $236[$237] = v3.evs[$237];
-                                    };
-                                };
-                                $236.spa = v$prime;
-                                return $236;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $239 = {};
-                                for (var $240 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($240)) {
-                                        $239[$240] = v3.evs[$240];
-                                    };
-                                };
-                                $239.spd = v$prime;
-                                return $239;
-                            };
-                            if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $242 = {};
-                                for (var $243 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($243)) {
-                                        $242[$243] = v3.evs[$243];
-                                    };
-                                };
-                                $242.spe = v$prime;
-                                return $242;
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 605, column 36 - line 611, column 56: " + [ action.value0.constructor.name ]);
-                        })();
-                        var $245 = {};
-                        for (var $246 in v3) {
-                            if (v3.hasOwnProperty($246)) {
-                                $245[$246] = v3[$246];
-                            };
-                        };
-                        $245.evs = evs$prime;
-                        return $245;
-                    }));
-                };
-                if (action instanceof UpdateNature) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $251 = {};
-                        for (var $252 in v2) {
-                            if (v2.hasOwnProperty($252)) {
-                                $251[$252] = v2[$252];
-                            };
-                        };
-                        $251.nature = action.value0;
-                        return $251;
-                    }));
-                };
-                return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
             };
         };
     };
