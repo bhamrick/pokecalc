@@ -7,6 +7,7 @@ import Data.Lens
 import Data.Foldable
 
 import Pokemon.Battler
+import Pokemon.SpeciesData
 
 import Components.Battler
 
@@ -34,9 +35,25 @@ _OnBattler = prism OnBattler \ca ->
 
 calculatorSpec :: forall eff props. T.Spec eff CalculatorState props CalculatorAction
 calculatorSpec = container $ fold
-    [ T.focus _battler _OnBattler battlerSpec
+    [ pokemonList
+    , T.focus _battler _OnBattler battlerSpec
     ]
     where
     container :: forall state action. T.Spec eff state props action -> T.Spec eff state props action
     container = over T._render \render d p s c ->
         [ R.div [ RP.className "container" ] (render d p s c) ]
+
+    pokemonList :: T.Spec eff CalculatorState props CalculatorAction
+    pokemonList = T.simpleSpec performAction render
+        where
+        render dispatch _ s _ =
+            [ R.datalist
+                [ RP._id "species" ]
+                (map (\n ->
+                    R.option
+                        [ RP.value n ]
+                        []
+                    ) speciesNames
+                )
+            ]
+        performAction _ _ _ = pure unit

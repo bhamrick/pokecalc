@@ -29,7 +29,7 @@ import Components.Calculator
 initialState =
     { battler: Battler
         { species: Species
-            { name: "Sample"
+            { name: ""
             , baseStats: BaseStats
                 { hp: 80
                 , atk: 80

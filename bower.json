@@ -12,7 +12,8 @@
     "purescript-thermite": "^3.1.0",
     "purescript-maybe": "^2.0.1",
     "purescript-maps": "^2.0.1",
-    "purescript-profunctor-lenses": "^2.2.0"
+    "purescript-profunctor-lenses": "^2.2.0",
+    "purescript-strings": "^2.0.2"
   },
   "devDependencies": {
     "purescript-psci-support": "^2.0.0"

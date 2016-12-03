@@ -1,5 +1,9 @@
 module Pokemon.Type where
 
+import Data.Eq
+import Data.Ord
+import Data.Generic
+
 data Type
     = Normal
     | Fighting
@@ -19,3 +23,11 @@ data Type
     | Dragon
     | Dark
     | Fairy
+
+derive instance genericType :: Generic Type
+
+instance eqType :: Eq Type where
+    eq = gEq
+
+instance ordType :: Ord Type where
+    compare = gCompare

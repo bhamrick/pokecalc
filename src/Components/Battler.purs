@@ -4,10 +4,13 @@ import Prelude
 
 import Data.Int as Int
 import Data.Maybe
+import Data.StrMap as StrMap
+import Data.String
 import Unsafe.Coerce (unsafeCoerce)
 
 import Pokemon.Battler
 import Pokemon.Species
+import Pokemon.SpeciesData
 import Pokemon.Stats
 import Pokemon.Move
 import Pokemon.Type
@@ -43,6 +46,8 @@ battlerSpec = T.simpleSpec performAction render
                 [ R.input
                     [ RP.placeholder "Species"
                     , RP.defaultValue s.name
+                    , RP.list "species"
+                    , RP.onChange \e -> dispatch $ UpdateSpeciesName (unsafeCoerce e).target.value
                     ] []
                 , R.input
                     [ RP.placeholder "Level"
@@ -57,7 +62,8 @@ battlerSpec = T.simpleSpec performAction render
                                 Nothing -> pure unit
                                 Just l -> dispatch $ UpdateLevel l
                     ] []
-                -- TODO: pokemon types
+                , typeDropdown (dispatch <<< UpdateType1) s.type1
+                , typeDropdown (dispatch <<< UpdateType2) s.type2
                 -- TODO: nature
                 -- TODO: moves
                 , statTable
@@ -396,6 +402,130 @@ battlerSpec = T.simpleSpec performAction render
                     ]
                 ]
             ]
+    
+    typeDropdown dispatchType curType =
+        R.select
+            [ RP.value (case curType of
+                Nothing -> "none"
+                Just Normal -> "normal"
+                Just Fighting -> "fighting"
+                Just Flying -> "flying"
+                Just Poison -> "poison"
+                Just Ground -> "ground"
+                Just Rock -> "rock"
+                Just Bug -> "bug"
+                Just Ghost -> "ghost"
+                Just Steel -> "steel"
+                Just Fire -> "fire"
+                Just Water -> "water"
+                Just Grass -> "grass"
+                Just Electric -> "electric"
+                Just Psychic -> "psychic"
+                Just Ice -> "ice"
+                Just Dragon -> "dragon"
+                Just Dark -> "dark"
+                Just Fairy -> "fairy"
+                )
+            , RP.onChange \e ->
+                case (unsafeCoerce e).target.value of
+                    "none" -> dispatchType Nothing
+                    "normal" -> dispatchType (Just Normal)
+                    "fighting" -> dispatchType (Just Fighting)
+                    "flying" -> dispatchType (Just Flying)
+                    "poison" -> dispatchType (Just Poison)
+                    "ground" -> dispatchType (Just Ground)
+                    "rock" -> dispatchType (Just Rock)
+                    "bug" -> dispatchType (Just Bug)
+                    "ghost" -> dispatchType (Just Ghost)
+                    "steel" -> dispatchType (Just Steel)
+                    "fire" -> dispatchType (Just Fire)
+                    "water" -> dispatchType (Just Water)
+                    "grass" -> dispatchType (Just Grass)
+                    "electric" -> dispatchType (Just Electric)
+                    "psychic" -> dispatchType (Just Psychic)
+                    "ice" -> dispatchType (Just Ice)
+                    "dragon" -> dispatchType (Just Dragon)
+                    "dark" -> dispatchType (Just Dark)
+                    "fairy" -> dispatchType (Just Fairy)
+                    _ -> pure unit
+            ]
+            [ R.option
+                [ RP.value "none"
+                ]
+                [ R.text "None" ]
+            , R.option
+                [ RP.value "normal"
+                ]
+                [ R.text "Normal" ]
+            , R.option
+                [ RP.value "fighting"
+                ]
+                [ R.text "Fighting" ]
+            , R.option
+                [ RP.value "flying"
+                ]
+                [ R.text "Flying" ]
+            , R.option
+                [ RP.value "poison"
+                ]
+                [ R.text "Poison" ]
+            , R.option
+                [ RP.value "ground"
+                ]
+                [ R.text "Ground" ]
+            , R.option
+                [ RP.value "rock"
+                ]
+                [ R.text "Rock" ]
+            , R.option
+                [ RP.value "bug"
+                ]
+                [ R.text "Bug" ]
+            , R.option
+                [ RP.value "ghost"
+                ]
+                [ R.text "Ghost" ]
+            , R.option
+                [ RP.value "steel"
+                ]
+                [ R.text "Steel" ]
+            , R.option
+                [ RP.value "fire"
+                ]
+                [ R.text "Fire" ]
+            , R.option
+                [ RP.value "water"
+                ]
+                [ R.text "Water" ]
+            , R.option
+                [ RP.value "grass"
+                ]
+                [ R.text "Grass" ]
+            , R.option
+                [ RP.value "electric"
+                ]
+                [ R.text "Electric" ]
+            , R.option
+                [ RP.value "psychic"
+                ]
+                [ R.text "Psychic" ]
+            , R.option
+                [ RP.value "ice"
+                ]
+                [ R.text "Ice" ]
+            , R.option
+                [ RP.value "dragon"
+                ]
+                [ R.text "Dragon" ]
+            , R.option
+                [ RP.value "dark"
+                ]
+                [ R.text "Dark" ]
+            , R.option
+                [ RP.value "fairy"
+                ]
+                [ R.text "Fairy" ]
+            ]
 
     performAction :: T.PerformAction eff Battler props BattlerAction
     performAction action _ _ =
@@ -405,6 +535,11 @@ battlerSpec = T.simpleSpec performAction render
                     case b.species of
                         Species s ->
                             Battler (b { species = Species (s { name = n })})
+                case StrMap.lookup (toLower n) speciesByName of
+                    Nothing -> pure unit
+                    Just species -> do
+                        void $ T.modifyState \(Battler b) ->
+                            Battler (b { species = species })
             UpdateBaseStat stat v -> do
                 void $ T.modifyState \(Battler b) ->
                     case b.species of
@@ -447,31 +582,33 @@ battlerSpec = T.simpleSpec performAction render
                 void $ T.modifyState \(Battler b) ->
                     Battler (b { move1 = m })
             UpdateIV stat v -> do
+                let v' = min 31 (max 0 v)
                 void $ T.modifyState \(Battler b) ->
                     case b.ivs of
                         IVs ivs ->
                             let
                             ivs' = case stat of
-                                HP -> ivs { hp = v }
-                                Atk -> ivs { atk = v }
-                                Def -> ivs { def = v }
-                                SpA -> ivs { spa = v }
-                                SpD -> ivs { spd = v }
-                                Spe -> ivs { spe = v }
+                                HP -> ivs { hp = v' }
+                                Atk -> ivs { atk = v' }
+                                Def -> ivs { def = v' }
+                                SpA -> ivs { spa = v' }
+                                SpD -> ivs { spd = v' }
+                                Spe -> ivs { spe = v' }
                             in
                             Battler (b { ivs = IVs ivs' })
             UpdateEV stat v -> do
+                let v' = min 252 (max 0 v)
                 void $ T.modifyState \(Battler b) ->
                     case b.evs of
                         EVs evs ->
                             let
                             evs' = case stat of
-                                HP -> evs { hp = v }
-                                Atk -> evs { atk = v }
-                                Def -> evs { def = v }
-                                SpA -> evs { spa = v }
-                                SpD -> evs { spd = v }
-                                Spe -> evs { spe = v }
+                                HP -> evs { hp = v' }
+                                Atk -> evs { atk = v' }
+                                Def -> evs { def = v' }
+                                SpA -> evs { spa = v' }
+                                SpD -> evs { spd = v' }
+                                Spe -> evs { spe = v' }
                             in
                             Battler (b { evs = EVs evs' })
             UpdateNature n -> do

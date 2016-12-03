@@ -84,7 +84,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":8,"_process":397}],2:[function(require,module,exports){
+},{"./emptyFunction":8,"_process":402}],2:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -361,7 +361,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 }).call(this,require('_process'))
-},{"./invariant":16,"_process":397}],7:[function(require,module,exports){
+},{"./invariant":16,"_process":402}],7:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -447,7 +447,7 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":2,"./createArrayFromMixed":6,"./getMarkupWrap":12,"./invariant":16,"_process":397}],8:[function(require,module,exports){
+},{"./ExecutionEnvironment":2,"./createArrayFromMixed":6,"./getMarkupWrap":12,"./invariant":16,"_process":402}],8:[function(require,module,exports){
 "use strict";
 
 /**
@@ -508,7 +508,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":397}],10:[function(require,module,exports){
+},{"_process":402}],10:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -667,7 +667,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":2,"./invariant":16,"_process":397}],13:[function(require,module,exports){
+},{"./ExecutionEnvironment":2,"./invariant":16,"_process":402}],13:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -830,7 +830,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":397}],17:[function(require,module,exports){
+},{"_process":402}],17:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1102,7 +1102,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":8,"_process":397}],24:[function(require,module,exports){
+},{"./emptyFunction":8,"_process":402}],24:[function(require,module,exports){
 'use strict';
 /* eslint-disable no-unused-vars */
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -2034,7 +2034,7 @@ var CSSPropertyOperations = {
 
 module.exports = CSSPropertyOperations;
 }).call(this,require('_process'))
-},{"./CSSProperty":29,"./ReactInstrumentation":88,"./dangerousStyleValue":129,"_process":397,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/camelizeStyleName":4,"fbjs/lib/hyphenateStyleName":15,"fbjs/lib/memoizeStringOnly":19,"fbjs/lib/warning":23}],31:[function(require,module,exports){
+},{"./CSSProperty":29,"./ReactInstrumentation":88,"./dangerousStyleValue":129,"_process":402,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/camelizeStyleName":4,"fbjs/lib/hyphenateStyleName":15,"fbjs/lib/memoizeStringOnly":19,"fbjs/lib/warning":23}],31:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -2155,7 +2155,7 @@ var CallbackQueue = function () {
 
 module.exports = PooledClass.addPoolingTo(CallbackQueue);
 }).call(this,require('_process'))
-},{"./PooledClass":49,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],32:[function(require,module,exports){
+},{"./PooledClass":49,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],32:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -2703,7 +2703,7 @@ var DOMChildrenOperations = {
 
 module.exports = DOMChildrenOperations;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":34,"./Danger":38,"./ReactDOMComponentTree":58,"./ReactInstrumentation":88,"./createMicrosoftUnsafeLocalFunction":128,"./setInnerHTML":150,"./setTextContent":151,"_process":397}],34:[function(require,module,exports){
+},{"./DOMLazyTree":34,"./Danger":38,"./ReactDOMComponentTree":58,"./ReactInstrumentation":88,"./createMicrosoftUnsafeLocalFunction":128,"./setInnerHTML":150,"./setTextContent":151,"_process":402}],34:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -3053,7 +3053,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],37:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],37:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3292,7 +3292,7 @@ var DOMPropertyOperations = {
 
 module.exports = DOMPropertyOperations;
 }).call(this,require('_process'))
-},{"./DOMProperty":36,"./ReactDOMComponentTree":58,"./ReactInstrumentation":88,"./quoteAttributeValueForBrowser":147,"_process":397,"fbjs/lib/warning":23}],38:[function(require,module,exports){
+},{"./DOMProperty":36,"./ReactDOMComponentTree":58,"./ReactInstrumentation":88,"./quoteAttributeValueForBrowser":147,"_process":402,"fbjs/lib/warning":23}],38:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3342,7 +3342,7 @@ var Danger = {
 
 module.exports = Danger;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":34,"./reactProdInvariant":148,"_process":397,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/createNodesFromMarkup":7,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16}],39:[function(require,module,exports){
+},{"./DOMLazyTree":34,"./reactProdInvariant":148,"_process":402,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/createNodesFromMarkup":7,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16}],39:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -3748,7 +3748,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":42,"./EventPluginUtils":43,"./ReactErrorUtils":79,"./accumulateInto":125,"./forEachAccumulated":133,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],42:[function(require,module,exports){
+},{"./EventPluginRegistry":42,"./EventPluginUtils":43,"./ReactErrorUtils":79,"./accumulateInto":125,"./forEachAccumulated":133,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],42:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -4005,7 +4005,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],43:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],43:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -4233,7 +4233,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 }).call(this,require('_process'))
-},{"./ReactErrorUtils":79,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],44:[function(require,module,exports){
+},{"./ReactErrorUtils":79,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],44:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -4369,7 +4369,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 }).call(this,require('_process'))
-},{"./EventPluginHub":41,"./EventPluginUtils":43,"./accumulateInto":125,"./forEachAccumulated":133,"_process":397,"fbjs/lib/warning":23}],45:[function(require,module,exports){
+},{"./EventPluginHub":41,"./EventPluginUtils":43,"./accumulateInto":125,"./forEachAccumulated":133,"_process":402,"fbjs/lib/warning":23}],45:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -4872,7 +4872,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 }).call(this,require('_process'))
-},{"./ReactPropTypesSecret":96,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/React":158}],49:[function(require,module,exports){
+},{"./ReactPropTypesSecret":96,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/React":158}],49:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -4998,7 +4998,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],50:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],50:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5482,7 +5482,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":47,"./ReactReconciler":98,"./instantiateReactComponent":144,"./shouldUpdateReactComponent":152,"./traverseAllChildren":153,"_process":397,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],52:[function(require,module,exports){
+},{"./KeyEscapeUtils":47,"./ReactReconciler":98,"./instantiateReactComponent":144,"./shouldUpdateReactComponent":152,"./traverseAllChildren":153,"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],52:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5560,7 +5560,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],54:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],54:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -6464,7 +6464,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 }).call(this,require('_process'))
-},{"./ReactComponentEnvironment":53,"./ReactErrorUtils":79,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactNodeTypes":93,"./ReactReconciler":98,"./checkReactTypeSpec":127,"./reactProdInvariant":148,"./shouldUpdateReactComponent":152,"_process":397,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24,"react/lib/React":158,"react/lib/ReactCurrentOwner":163}],55:[function(require,module,exports){
+},{"./ReactComponentEnvironment":53,"./ReactErrorUtils":79,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactNodeTypes":93,"./ReactReconciler":98,"./checkReactTypeSpec":127,"./reactProdInvariant":148,"./shouldUpdateReactComponent":152,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24,"react/lib/React":158,"react/lib/ReactCurrentOwner":163}],55:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -6577,7 +6577,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactDOM;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":58,"./ReactDOMInvalidARIAHook":64,"./ReactDOMNullInputValuePropHook":65,"./ReactDOMUnknownPropertyHook":73,"./ReactDefaultInjection":76,"./ReactInstrumentation":88,"./ReactMount":91,"./ReactReconciler":98,"./ReactUpdates":105,"./ReactVersion":106,"./findDOMNode":131,"./getHostComponentFromComposite":138,"./renderSubtreeIntoContainer":149,"_process":397,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/warning":23}],56:[function(require,module,exports){
+},{"./ReactDOMComponentTree":58,"./ReactDOMInvalidARIAHook":64,"./ReactDOMNullInputValuePropHook":65,"./ReactDOMUnknownPropertyHook":73,"./ReactDefaultInjection":76,"./ReactInstrumentation":88,"./ReactMount":91,"./ReactReconciler":98,"./ReactUpdates":105,"./ReactVersion":106,"./findDOMNode":131,"./getHostComponentFromComposite":138,"./renderSubtreeIntoContainer":149,"_process":402,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/warning":23}],56:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -7574,7 +7574,7 @@ _assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mi
 
 module.exports = ReactDOMComponent;
 }).call(this,require('_process'))
-},{"./AutoFocusUtils":27,"./CSSPropertyOperations":30,"./DOMLazyTree":34,"./DOMNamespaces":35,"./DOMProperty":36,"./DOMPropertyOperations":37,"./EventPluginHub":41,"./EventPluginRegistry":42,"./ReactBrowserEventEmitter":50,"./ReactDOMComponentFlags":57,"./ReactDOMComponentTree":58,"./ReactDOMInput":63,"./ReactDOMOption":66,"./ReactDOMSelect":67,"./ReactDOMTextarea":71,"./ReactInstrumentation":88,"./ReactMultiChild":92,"./ReactServerRenderingTransaction":102,"./escapeTextContentForBrowser":130,"./isEventSupported":145,"./reactProdInvariant":148,"./validateDOMNesting":154,"_process":397,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24}],57:[function(require,module,exports){
+},{"./AutoFocusUtils":27,"./CSSPropertyOperations":30,"./DOMLazyTree":34,"./DOMNamespaces":35,"./DOMProperty":36,"./DOMPropertyOperations":37,"./EventPluginHub":41,"./EventPluginRegistry":42,"./ReactBrowserEventEmitter":50,"./ReactDOMComponentFlags":57,"./ReactDOMComponentTree":58,"./ReactDOMInput":63,"./ReactDOMOption":66,"./ReactDOMSelect":67,"./ReactDOMTextarea":71,"./ReactInstrumentation":88,"./ReactMultiChild":92,"./ReactServerRenderingTransaction":102,"./escapeTextContentForBrowser":130,"./isEventSupported":145,"./reactProdInvariant":148,"./validateDOMNesting":154,"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24}],57:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -7782,7 +7782,7 @@ var ReactDOMComponentTree = {
 
 module.exports = ReactDOMComponentTree;
 }).call(this,require('_process'))
-},{"./DOMProperty":36,"./ReactDOMComponentFlags":57,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],59:[function(require,module,exports){
+},{"./DOMProperty":36,"./ReactDOMComponentFlags":57,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],59:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -7817,7 +7817,7 @@ function ReactDOMContainerInfo(topLevelWrapper, node) {
 
 module.exports = ReactDOMContainerInfo;
 }).call(this,require('_process'))
-},{"./validateDOMNesting":154,"_process":397}],60:[function(require,module,exports){
+},{"./validateDOMNesting":154,"_process":402}],60:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -8200,7 +8200,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMInput;
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":37,"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],64:[function(require,module,exports){
+},{"./DOMPropertyOperations":37,"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],64:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8295,7 +8295,7 @@ var ReactDOMInvalidARIAHook = {
 
 module.exports = ReactDOMInvalidARIAHook;
 }).call(this,require('_process'))
-},{"./DOMProperty":36,"_process":397,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],65:[function(require,module,exports){
+},{"./DOMProperty":36,"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],65:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8340,7 +8340,7 @@ var ReactDOMNullInputValuePropHook = {
 
 module.exports = ReactDOMNullInputValuePropHook;
 }).call(this,require('_process'))
-},{"_process":397,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],66:[function(require,module,exports){
+},{"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],66:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8465,7 +8465,7 @@ var ReactDOMOption = {
 
 module.exports = ReactDOMOption;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":58,"./ReactDOMSelect":67,"_process":397,"fbjs/lib/warning":23,"object-assign":24,"react/lib/React":158}],67:[function(require,module,exports){
+},{"./ReactDOMComponentTree":58,"./ReactDOMSelect":67,"_process":402,"fbjs/lib/warning":23,"object-assign":24,"react/lib/React":158}],67:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8667,7 +8667,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMSelect;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"_process":397,"fbjs/lib/warning":23,"object-assign":24}],68:[function(require,module,exports){
+},{"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"_process":402,"fbjs/lib/warning":23,"object-assign":24}],68:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9071,7 +9071,7 @@ _assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":33,"./DOMLazyTree":34,"./ReactDOMComponentTree":58,"./escapeTextContentForBrowser":130,"./reactProdInvariant":148,"./validateDOMNesting":154,"_process":397,"fbjs/lib/invariant":16,"object-assign":24}],71:[function(require,module,exports){
+},{"./DOMChildrenOperations":33,"./DOMLazyTree":34,"./ReactDOMComponentTree":58,"./escapeTextContentForBrowser":130,"./reactProdInvariant":148,"./validateDOMNesting":154,"_process":402,"fbjs/lib/invariant":16,"object-assign":24}],71:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -9227,7 +9227,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMTextarea;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],72:[function(require,module,exports){
+},{"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],72:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -9365,7 +9365,7 @@ module.exports = {
   traverseEnterLeave: traverseEnterLeave
 };
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],73:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],73:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -9479,7 +9479,7 @@ var ReactDOMUnknownPropertyHook = {
 
 module.exports = ReactDOMUnknownPropertyHook;
 }).call(this,require('_process'))
-},{"./DOMProperty":36,"./EventPluginRegistry":42,"_process":397,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],74:[function(require,module,exports){
+},{"./DOMProperty":36,"./EventPluginRegistry":42,"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],74:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -9842,7 +9842,7 @@ if (/[?&]react_perf\b/.test(url)) {
 
 module.exports = ReactDebugTool;
 }).call(this,require('_process'))
-},{"./ReactHostOperationHistoryHook":84,"./ReactInvalidSetStateWarningHook":89,"_process":397,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/performanceNow":21,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],75:[function(require,module,exports){
+},{"./ReactHostOperationHistoryHook":84,"./ReactInvalidSetStateWarningHook":89,"_process":402,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/performanceNow":21,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],75:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -10125,7 +10125,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactErrorUtils;
 }).call(this,require('_process'))
-},{"_process":397}],80:[function(require,module,exports){
+},{"_process":402}],80:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -10413,7 +10413,7 @@ var ReactHostComponent = {
 
 module.exports = ReactHostComponent;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"object-assign":24}],84:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"object-assign":24}],84:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -10679,7 +10679,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = { debugTool: debugTool };
 }).call(this,require('_process'))
-},{"./ReactDebugTool":74,"_process":397}],89:[function(require,module,exports){
+},{"./ReactDebugTool":74,"_process":402}],89:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -10718,7 +10718,7 @@ var ReactInvalidSetStateWarningHook = {
 
 module.exports = ReactInvalidSetStateWarningHook;
 }).call(this,require('_process'))
-},{"_process":397,"fbjs/lib/warning":23}],90:[function(require,module,exports){
+},{"_process":402,"fbjs/lib/warning":23}],90:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -11308,7 +11308,7 @@ var ReactMount = {
 
 module.exports = ReactMount;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":34,"./DOMProperty":36,"./ReactBrowserEventEmitter":50,"./ReactDOMComponentTree":58,"./ReactDOMContainerInfo":59,"./ReactDOMFeatureFlags":61,"./ReactFeatureFlags":82,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactMarkupChecksum":90,"./ReactReconciler":98,"./ReactUpdateQueue":104,"./ReactUpdates":105,"./instantiateReactComponent":144,"./reactProdInvariant":148,"./setInnerHTML":150,"./shouldUpdateReactComponent":152,"_process":397,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/React":158,"react/lib/ReactCurrentOwner":163}],92:[function(require,module,exports){
+},{"./DOMLazyTree":34,"./DOMProperty":36,"./ReactBrowserEventEmitter":50,"./ReactDOMComponentTree":58,"./ReactDOMContainerInfo":59,"./ReactDOMFeatureFlags":61,"./ReactFeatureFlags":82,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactMarkupChecksum":90,"./ReactReconciler":98,"./ReactUpdateQueue":104,"./ReactUpdates":105,"./instantiateReactComponent":144,"./reactProdInvariant":148,"./setInnerHTML":150,"./shouldUpdateReactComponent":152,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/React":158,"react/lib/ReactCurrentOwner":163}],92:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -11760,7 +11760,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 }).call(this,require('_process'))
-},{"./ReactChildReconciler":51,"./ReactComponentEnvironment":53,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactReconciler":98,"./flattenChildren":132,"./reactProdInvariant":148,"_process":397,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16,"react/lib/ReactCurrentOwner":163}],93:[function(require,module,exports){
+},{"./ReactChildReconciler":51,"./ReactComponentEnvironment":53,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactReconciler":98,"./flattenChildren":132,"./reactProdInvariant":148,"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16,"react/lib/ReactCurrentOwner":163}],93:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -11802,7 +11802,7 @@ var ReactNodeTypes = {
 
 module.exports = ReactNodeTypes;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"react/lib/React":158}],94:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"react/lib/React":158}],94:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -11898,7 +11898,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],95:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],95:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -11925,7 +11925,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":397}],96:[function(require,module,exports){
+},{"_process":402}],96:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12122,7 +12122,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 }).call(this,require('_process'))
-},{"./CallbackQueue":31,"./PooledClass":49,"./ReactBrowserEventEmitter":50,"./ReactInputSelection":86,"./ReactInstrumentation":88,"./ReactUpdateQueue":104,"./Transaction":123,"_process":397,"object-assign":24}],98:[function(require,module,exports){
+},{"./CallbackQueue":31,"./PooledClass":49,"./ReactBrowserEventEmitter":50,"./ReactInputSelection":86,"./ReactInstrumentation":88,"./ReactUpdateQueue":104,"./Transaction":123,"_process":402,"object-assign":24}],98:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -12292,7 +12292,7 @@ var ReactReconciler = {
 
 module.exports = ReactReconciler;
 }).call(this,require('_process'))
-},{"./ReactInstrumentation":88,"./ReactRef":99,"_process":397,"fbjs/lib/warning":23}],99:[function(require,module,exports){
+},{"./ReactInstrumentation":88,"./ReactRef":99,"_process":402,"fbjs/lib/warning":23}],99:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12495,7 +12495,7 @@ module.exports = {
   renderToStaticMarkup: renderToStaticMarkup
 };
 }).call(this,require('_process'))
-},{"./ReactDOMContainerInfo":59,"./ReactDefaultBatchingStrategy":75,"./ReactInstrumentation":88,"./ReactMarkupChecksum":90,"./ReactReconciler":98,"./ReactServerBatchingStrategy":100,"./ReactServerRenderingTransaction":102,"./ReactUpdates":105,"./instantiateReactComponent":144,"./reactProdInvariant":148,"_process":397,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"react/lib/React":158}],102:[function(require,module,exports){
+},{"./ReactDOMContainerInfo":59,"./ReactDefaultBatchingStrategy":75,"./ReactInstrumentation":88,"./ReactMarkupChecksum":90,"./ReactReconciler":98,"./ReactServerBatchingStrategy":100,"./ReactServerRenderingTransaction":102,"./ReactUpdates":105,"./instantiateReactComponent":144,"./reactProdInvariant":148,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"react/lib/React":158}],102:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -12587,7 +12587,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 }).call(this,require('_process'))
-},{"./PooledClass":49,"./ReactInstrumentation":88,"./ReactServerUpdateQueue":103,"./Transaction":123,"_process":397,"object-assign":24}],103:[function(require,module,exports){
+},{"./PooledClass":49,"./ReactInstrumentation":88,"./ReactServerUpdateQueue":103,"./Transaction":123,"_process":402,"object-assign":24}],103:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -12728,7 +12728,7 @@ var ReactServerUpdateQueue = function () {
 
 module.exports = ReactServerUpdateQueue;
 }).call(this,require('_process'))
-},{"./ReactUpdateQueue":104,"_process":397,"fbjs/lib/warning":23}],104:[function(require,module,exports){
+},{"./ReactUpdateQueue":104,"_process":402,"fbjs/lib/warning":23}],104:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -12956,7 +12956,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 }).call(this,require('_process'))
-},{"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],105:[function(require,module,exports){
+},{"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],105:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -13209,7 +13209,7 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 }).call(this,require('_process'))
-},{"./CallbackQueue":31,"./PooledClass":49,"./ReactFeatureFlags":82,"./ReactReconciler":98,"./Transaction":123,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"object-assign":24}],106:[function(require,module,exports){
+},{"./CallbackQueue":31,"./PooledClass":49,"./ReactFeatureFlags":82,"./ReactReconciler":98,"./Transaction":123,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"object-assign":24}],106:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13946,7 +13946,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 }).call(this,require('_process'))
-},{"./EventPropagators":44,"./ReactDOMComponentTree":58,"./SyntheticAnimationEvent":110,"./SyntheticClipboardEvent":111,"./SyntheticDragEvent":113,"./SyntheticEvent":114,"./SyntheticFocusEvent":115,"./SyntheticKeyboardEvent":117,"./SyntheticMouseEvent":118,"./SyntheticTouchEvent":119,"./SyntheticTransitionEvent":120,"./SyntheticUIEvent":121,"./SyntheticWheelEvent":122,"./getEventCharCode":134,"./reactProdInvariant":148,"_process":397,"fbjs/lib/EventListener":1,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16}],110:[function(require,module,exports){
+},{"./EventPropagators":44,"./ReactDOMComponentTree":58,"./SyntheticAnimationEvent":110,"./SyntheticClipboardEvent":111,"./SyntheticDragEvent":113,"./SyntheticEvent":114,"./SyntheticFocusEvent":115,"./SyntheticKeyboardEvent":117,"./SyntheticMouseEvent":118,"./SyntheticTouchEvent":119,"./SyntheticTransitionEvent":120,"./SyntheticUIEvent":121,"./SyntheticWheelEvent":122,"./getEventCharCode":134,"./reactProdInvariant":148,"_process":402,"fbjs/lib/EventListener":1,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16}],110:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -14365,7 +14365,7 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
   }
 }
 }).call(this,require('_process'))
-},{"./PooledClass":49,"_process":397,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23,"object-assign":24}],115:[function(require,module,exports){
+},{"./PooledClass":49,"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23,"object-assign":24}],115:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15018,7 +15018,7 @@ var TransactionImpl = {
 
 module.exports = TransactionImpl;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],124:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],124:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15105,7 +15105,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16}],126:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],126:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15238,7 +15238,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocationNames":95,"./ReactPropTypesSecret":96,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],128:[function(require,module,exports){
+},{"./ReactPropTypeLocationNames":95,"./ReactPropTypesSecret":96,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],128:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15351,7 +15351,7 @@ function dangerousStyleValue(name, value, component) {
 
 module.exports = dangerousStyleValue;
 }).call(this,require('_process'))
-},{"./CSSProperty":29,"_process":397,"fbjs/lib/warning":23}],130:[function(require,module,exports){
+},{"./CSSProperty":29,"_process":402,"fbjs/lib/warning":23}],130:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -15536,7 +15536,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":58,"./ReactInstanceMap":87,"./getHostComponentFromComposite":138,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],132:[function(require,module,exports){
+},{"./ReactDOMComponentTree":58,"./ReactInstanceMap":87,"./getHostComponentFromComposite":138,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],132:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -15614,7 +15614,7 @@ function flattenChildren(children, selfDebugID) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":47,"./traverseAllChildren":153,"_process":397,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],133:[function(require,module,exports){
+},{"./KeyEscapeUtils":47,"./traverseAllChildren":153,"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],133:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16295,7 +16295,7 @@ function instantiateReactComponent(node, shouldHaveDebugID) {
 
 module.exports = instantiateReactComponent;
 }).call(this,require('_process'))
-},{"./ReactCompositeComponent":54,"./ReactEmptyComponent":78,"./ReactHostComponent":83,"./getNextDebugID":140,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],145:[function(require,module,exports){
+},{"./ReactCompositeComponent":54,"./ReactEmptyComponent":78,"./ReactHostComponent":83,"./getNextDebugID":140,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],145:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16857,7 +16857,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":47,"./ReactElementSymbol":77,"./getIteratorFn":139,"./reactProdInvariant":148,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],154:[function(require,module,exports){
+},{"./KeyEscapeUtils":47,"./ReactElementSymbol":77,"./getIteratorFn":139,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],154:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -17241,7 +17241,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = validateDOMNesting;
 }).call(this,require('_process'))
-},{"_process":397,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23,"object-assign":24}],155:[function(require,module,exports){
+},{"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23,"object-assign":24}],155:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/ReactDOMServer');
@@ -17250,7 +17250,7 @@ module.exports = require('./lib/ReactDOMServer');
 arguments[4][47][0].apply(exports,arguments)
 },{"dup":47}],157:[function(require,module,exports){
 arguments[4][49][0].apply(exports,arguments)
-},{"./reactProdInvariant":178,"_process":397,"dup":49,"fbjs/lib/invariant":16}],158:[function(require,module,exports){
+},{"./reactProdInvariant":178,"_process":402,"dup":49,"fbjs/lib/invariant":16}],158:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -17341,7 +17341,7 @@ var React = {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactChildren":159,"./ReactClass":160,"./ReactComponent":161,"./ReactDOMFactories":164,"./ReactElement":165,"./ReactElementValidator":167,"./ReactPropTypes":170,"./ReactPureComponent":172,"./ReactVersion":173,"./onlyChild":177,"_process":397,"fbjs/lib/warning":23,"object-assign":24}],159:[function(require,module,exports){
+},{"./ReactChildren":159,"./ReactClass":160,"./ReactComponent":161,"./ReactDOMFactories":164,"./ReactElement":165,"./ReactElementValidator":167,"./ReactPropTypes":170,"./ReactPureComponent":172,"./ReactVersion":173,"./onlyChild":177,"_process":402,"fbjs/lib/warning":23,"object-assign":24}],159:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18251,7 +18251,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./ReactComponent":161,"./ReactElement":165,"./ReactNoopUpdateQueue":168,"./ReactPropTypeLocationNames":169,"./reactProdInvariant":178,"_process":397,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],161:[function(require,module,exports){
+},{"./ReactComponent":161,"./ReactElement":165,"./ReactNoopUpdateQueue":168,"./ReactPropTypeLocationNames":169,"./reactProdInvariant":178,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],161:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -18371,7 +18371,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactNoopUpdateQueue":168,"./canDefineProperty":174,"./reactProdInvariant":178,"_process":397,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],162:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":168,"./canDefineProperty":174,"./reactProdInvariant":178,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],162:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -18707,7 +18707,7 @@ var ReactComponentTreeHook = {
 
 module.exports = ReactComponentTreeHook;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":163,"./reactProdInvariant":178,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],163:[function(require,module,exports){
+},{"./ReactCurrentOwner":163,"./reactProdInvariant":178,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],163:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18910,7 +18910,7 @@ var ReactDOMFactories = {
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":165,"./ReactElementValidator":167,"_process":397}],165:[function(require,module,exports){
+},{"./ReactElement":165,"./ReactElementValidator":167,"_process":402}],165:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -19253,7 +19253,7 @@ ReactElement.isValidElement = function (object) {
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":163,"./ReactElementSymbol":166,"./canDefineProperty":174,"_process":397,"fbjs/lib/warning":23,"object-assign":24}],166:[function(require,module,exports){
+},{"./ReactCurrentOwner":163,"./ReactElementSymbol":166,"./canDefineProperty":174,"_process":402,"fbjs/lib/warning":23,"object-assign":24}],166:[function(require,module,exports){
 arguments[4][77][0].apply(exports,arguments)
 },{"dup":77}],167:[function(require,module,exports){
 (function (process){
@@ -19484,7 +19484,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":162,"./ReactCurrentOwner":163,"./ReactElement":165,"./canDefineProperty":174,"./checkReactTypeSpec":175,"./getIteratorFn":176,"_process":397,"fbjs/lib/warning":23}],168:[function(require,module,exports){
+},{"./ReactComponentTreeHook":162,"./ReactCurrentOwner":163,"./ReactElement":165,"./canDefineProperty":174,"./checkReactTypeSpec":175,"./getIteratorFn":176,"_process":402,"fbjs/lib/warning":23}],168:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -19582,9 +19582,9 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":397,"fbjs/lib/warning":23}],169:[function(require,module,exports){
+},{"_process":402,"fbjs/lib/warning":23}],169:[function(require,module,exports){
 arguments[4][95][0].apply(exports,arguments)
-},{"_process":397,"dup":95}],170:[function(require,module,exports){
+},{"_process":402,"dup":95}],170:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -20020,7 +20020,7 @@ function getClassName(propValue) {
 
 module.exports = ReactPropTypes;
 }).call(this,require('_process'))
-},{"./ReactElement":165,"./ReactPropTypeLocationNames":169,"./ReactPropTypesSecret":171,"./getIteratorFn":176,"_process":397,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23}],171:[function(require,module,exports){
+},{"./ReactElement":165,"./ReactPropTypeLocationNames":169,"./ReactPropTypesSecret":171,"./getIteratorFn":176,"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23}],171:[function(require,module,exports){
 arguments[4][96][0].apply(exports,arguments)
 },{"dup":96}],172:[function(require,module,exports){
 /**
@@ -20094,7 +20094,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":397}],175:[function(require,module,exports){
+},{"_process":402}],175:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -20183,7 +20183,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":162,"./ReactPropTypeLocationNames":169,"./ReactPropTypesSecret":171,"./reactProdInvariant":178,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],176:[function(require,module,exports){
+},{"./ReactComponentTreeHook":162,"./ReactPropTypeLocationNames":169,"./ReactPropTypesSecret":171,"./reactProdInvariant":178,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],176:[function(require,module,exports){
 arguments[4][139][0].apply(exports,arguments)
 },{"dup":139}],177:[function(require,module,exports){
 (function (process){
@@ -20225,7 +20225,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":165,"./reactProdInvariant":178,"_process":397,"fbjs/lib/invariant":16}],178:[function(require,module,exports){
+},{"./ReactElement":165,"./reactProdInvariant":178,"_process":402,"fbjs/lib/invariant":16}],178:[function(require,module,exports){
 arguments[4][148][0].apply(exports,arguments)
 },{"dup":148}],179:[function(require,module,exports){
 (function (process){
@@ -20405,7 +20405,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":156,"./ReactCurrentOwner":163,"./ReactElementSymbol":166,"./getIteratorFn":176,"./reactProdInvariant":178,"_process":397,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],180:[function(require,module,exports){
+},{"./KeyEscapeUtils":156,"./ReactCurrentOwner":163,"./ReactElementSymbol":166,"./getIteratorFn":176,"./reactProdInvariant":178,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],180:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
@@ -20416,9 +20416,12 @@ module.exports = require('./lib/React');
 var Prelude = require("../Prelude");
 var Data_Int = require("../Data.Int");
 var Data_Maybe = require("../Data.Maybe");
+var Data_StrMap = require("../Data.StrMap");
+var Data_String = require("../Data.String");
 var Unsafe_Coerce = require("../Unsafe.Coerce");
 var Pokemon_Battler = require("../Pokemon.Battler");
 var Pokemon_Species = require("../Pokemon.Species");
+var Pokemon_SpeciesData = require("../Pokemon.SpeciesData");
 var Pokemon_Stats = require("../Pokemon.Stats");
 var Pokemon_Move = require("../Pokemon.Move");
 var Pokemon_Type = require("../Pokemon.Type");
@@ -20427,16 +20430,19 @@ var React = require("../React");
 var React_DOM = require("../React.DOM");
 var React_DOM_Props = require("../React.DOM.Props");
 var ReactDOM = require("../ReactDOM");
-var Data_Show = require("../Data.Show");
-var Data_Eq = require("../Data.Eq");
-var Data_Function = require("../Data.Function");
 var Control_Applicative = require("../Control.Applicative");
 var Control_Monad_Eff = require("../Control.Monad.Eff");
 var Data_Unit = require("../Data.Unit");
-var Data_Functor = require("../Data.Functor");
+var Data_Show = require("../Data.Show");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Control_Bind = require("../Control.Bind");
 var Control_Monad_Free_Trans = require("../Control.Monad.Free.Trans");
 var Control_Coroutine = require("../Control.Coroutine");
 var Control_Monad_Aff = require("../Control.Monad.Aff");
+var Data_Functor = require("../Data.Functor");
+var Data_Ord = require("../Data.Ord");
 var UpdateSpeciesName = (function () {
     function UpdateSpeciesName(value0) {
         this.value0 = value0;
@@ -20567,6 +20573,130 @@ var UpdateStage = (function () {
     return UpdateStage;
 })();
 var battlerSpec = (function () {
+    var typeDropdown = function (dispatchType) {
+        return function (curType) {
+            return React_DOM.select([ React_DOM_Props.value((function () {
+                if (curType instanceof Data_Maybe.Nothing) {
+                    return "none";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Normal) {
+                    return "normal";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Fighting) {
+                    return "fighting";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Flying) {
+                    return "flying";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Poison) {
+                    return "poison";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Ground) {
+                    return "ground";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Rock) {
+                    return "rock";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Bug) {
+                    return "bug";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Ghost) {
+                    return "ghost";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Steel) {
+                    return "steel";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Fire) {
+                    return "fire";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Water) {
+                    return "water";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Grass) {
+                    return "grass";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Electric) {
+                    return "electric";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Psychic) {
+                    return "psychic";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Ice) {
+                    return "ice";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Dragon) {
+                    return "dragon";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Dark) {
+                    return "dark";
+                };
+                if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Fairy) {
+                    return "fairy";
+                };
+                throw new Error("Failed pattern match at Components.Battler line 408, column 25 - line 428, column 17: " + [ curType.constructor.name ]);
+            })()), React_DOM_Props.onChange(function (e) {
+                var $41 = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                if ($41 === "none") {
+                    return dispatchType(Data_Maybe.Nothing.value);
+                };
+                if ($41 === "normal") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Normal.value));
+                };
+                if ($41 === "fighting") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Fighting.value));
+                };
+                if ($41 === "flying") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Flying.value));
+                };
+                if ($41 === "poison") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Poison.value));
+                };
+                if ($41 === "ground") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Ground.value));
+                };
+                if ($41 === "rock") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Rock.value));
+                };
+                if ($41 === "bug") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Bug.value));
+                };
+                if ($41 === "ghost") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Ghost.value));
+                };
+                if ($41 === "steel") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Steel.value));
+                };
+                if ($41 === "fire") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Fire.value));
+                };
+                if ($41 === "water") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Water.value));
+                };
+                if ($41 === "grass") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Grass.value));
+                };
+                if ($41 === "electric") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Electric.value));
+                };
+                if ($41 === "psychic") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Psychic.value));
+                };
+                if ($41 === "ice") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Ice.value));
+                };
+                if ($41 === "dragon") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Dragon.value));
+                };
+                if ($41 === "dark") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Dark.value));
+                };
+                if ($41 === "fairy") {
+                    return dispatchType(new Data_Maybe.Just(Pokemon_Type.Fairy.value));
+                };
+                return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+            }) ])([ React_DOM.option([ React_DOM_Props.value("none") ])([ React_DOM.text("None") ]), React_DOM.option([ React_DOM_Props.value("normal") ])([ React_DOM.text("Normal") ]), React_DOM.option([ React_DOM_Props.value("fighting") ])([ React_DOM.text("Fighting") ]), React_DOM.option([ React_DOM_Props.value("flying") ])([ React_DOM.text("Flying") ]), React_DOM.option([ React_DOM_Props.value("poison") ])([ React_DOM.text("Poison") ]), React_DOM.option([ React_DOM_Props.value("ground") ])([ React_DOM.text("Ground") ]), React_DOM.option([ React_DOM_Props.value("rock") ])([ React_DOM.text("Rock") ]), React_DOM.option([ React_DOM_Props.value("bug") ])([ React_DOM.text("Bug") ]), React_DOM.option([ React_DOM_Props.value("ghost") ])([ React_DOM.text("Ghost") ]), React_DOM.option([ React_DOM_Props.value("steel") ])([ React_DOM.text("Steel") ]), React_DOM.option([ React_DOM_Props.value("fire") ])([ React_DOM.text("Fire") ]), React_DOM.option([ React_DOM_Props.value("water") ])([ React_DOM.text("Water") ]), React_DOM.option([ React_DOM_Props.value("grass") ])([ React_DOM.text("Grass") ]), React_DOM.option([ React_DOM_Props.value("electric") ])([ React_DOM.text("Electric") ]), React_DOM.option([ React_DOM_Props.value("psychic") ])([ React_DOM.text("Psychic") ]), React_DOM.option([ React_DOM_Props.value("ice") ])([ React_DOM.text("Ice") ]), React_DOM.option([ React_DOM_Props.value("dragon") ])([ React_DOM.text("Dragon") ]), React_DOM.option([ React_DOM_Props.value("dark") ])([ React_DOM.text("Dark") ]), React_DOM.option([ React_DOM_Props.value("fairy") ])([ React_DOM.text("Fairy") ]) ]);
+        };
+    };
     var statTable = function (dispatch) {
         return function (v) {
             return function (v1) {
@@ -20574,128 +20704,9 @@ var battlerSpec = (function () {
                     return function (v3) {
                         return React_DOM["table'"]([ React_DOM["tbody'"]([ React_DOM["tr'"]([ React_DOM["th'"]([  ]), React_DOM["th'"]([ React_DOM.text("Base") ]), React_DOM["th'"]([ React_DOM.text("IV") ]), React_DOM["th'"]([ React_DOM.text("EV") ]), React_DOM["th'"]([ React_DOM.text("Stat") ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("HP") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.hp)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $26 = contents === "";
-                            if ($26) {
-                                return dispatch(new UpdateBaseStat(Pokemon_Stats.HP.value, 0));
-                            };
-                            if (!$26) {
-                                var $27 = Data_Int.fromString(contents);
-                                if ($27 instanceof Data_Maybe.Nothing) {
-                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
-                                };
-                                if ($27 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.HP.value, $27.value0));
-                                };
-                                throw new Error("Failed pattern match at Components.Battler line 103, column 38 - line 105, column 77: " + [ $27.constructor.name ]);
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 101, column 33 - line 105, column 77: " + [ $26.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.hp)), React_DOM_Props.onChange(function (e) {
-                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $29 = contents === "";
-                            if ($29) {
-                                return dispatch(new UpdateIV(Pokemon_Stats.HP.value, 0));
-                            };
-                            if (!$29) {
-                                var $30 = Data_Int.fromString(contents);
-                                if ($30 instanceof Data_Maybe.Nothing) {
-                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
-                                };
-                                if ($30 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.HP.value, $30.value0));
-                                };
-                                throw new Error("Failed pattern match at Components.Battler line 118, column 38 - line 120, column 71: " + [ $30.constructor.name ]);
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 116, column 33 - line 120, column 71: " + [ $29.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.hp)), React_DOM_Props.onChange(function (e) {
-                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $32 = contents === "";
-                            if ($32) {
-                                return dispatch(new UpdateEV(Pokemon_Stats.HP.value, 0));
-                            };
-                            if (!$32) {
-                                var $33 = Data_Int.fromString(contents);
-                                if ($33 instanceof Data_Maybe.Nothing) {
-                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
-                                };
-                                if ($33 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.HP.value, $33.value0));
-                                };
-                                throw new Error("Failed pattern match at Components.Battler line 133, column 38 - line 135, column 71: " + [ $33.constructor.name ]);
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 131, column 33 - line 135, column 71: " + [ $32.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.hp)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Atk") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.atk)), React_DOM_Props.onChange(function (e) {
-                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $35 = contents === "";
-                            if ($35) {
-                                return dispatch(new UpdateBaseStat(Pokemon_Stats.Atk.value, 0));
-                            };
-                            if (!$35) {
-                                var $36 = Data_Int.fromString(contents);
-                                if ($36 instanceof Data_Maybe.Nothing) {
-                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
-                                };
-                                if ($36 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Atk.value, $36.value0));
-                                };
-                                throw new Error("Failed pattern match at Components.Battler line 154, column 38 - line 156, column 78: " + [ $36.constructor.name ]);
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 152, column 33 - line 156, column 78: " + [ $35.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.atk)), React_DOM_Props.onChange(function (e) {
-                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $38 = contents === "";
-                            if ($38) {
-                                return dispatch(new UpdateIV(Pokemon_Stats.Atk.value, 0));
-                            };
-                            if (!$38) {
-                                var $39 = Data_Int.fromString(contents);
-                                if ($39 instanceof Data_Maybe.Nothing) {
-                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
-                                };
-                                if ($39 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.Atk.value, $39.value0));
-                                };
-                                throw new Error("Failed pattern match at Components.Battler line 169, column 38 - line 171, column 72: " + [ $39.constructor.name ]);
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 167, column 33 - line 171, column 72: " + [ $38.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.atk)), React_DOM_Props.onChange(function (e) {
-                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $41 = contents === "";
-                            if ($41) {
-                                return dispatch(new UpdateEV(Pokemon_Stats.Atk.value, 0));
-                            };
-                            if (!$41) {
-                                var $42 = Data_Int.fromString(contents);
-                                if ($42 instanceof Data_Maybe.Nothing) {
-                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
-                                };
-                                if ($42 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.Atk.value, $42.value0));
-                                };
-                                throw new Error("Failed pattern match at Components.Battler line 184, column 38 - line 186, column 72: " + [ $42.constructor.name ]);
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 182, column 33 - line 186, column 72: " + [ $41.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.atk)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Def") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.def)), React_DOM_Props.onChange(function (e) {
-                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $44 = contents === "";
-                            if ($44) {
-                                return dispatch(new UpdateBaseStat(Pokemon_Stats.Def.value, 0));
-                            };
-                            if (!$44) {
-                                var $45 = Data_Int.fromString(contents);
-                                if ($45 instanceof Data_Maybe.Nothing) {
-                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
-                                };
-                                if ($45 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Def.value, $45.value0));
-                                };
-                                throw new Error("Failed pattern match at Components.Battler line 205, column 38 - line 207, column 78: " + [ $45.constructor.name ]);
-                            };
-                            throw new Error("Failed pattern match at Components.Battler line 203, column 33 - line 207, column 78: " + [ $44.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.def)), React_DOM_Props.onChange(function (e) {
-                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $47 = contents === "";
                             if ($47) {
-                                return dispatch(new UpdateIV(Pokemon_Stats.Def.value, 0));
+                                return dispatch(new UpdateBaseStat(Pokemon_Stats.HP.value, 0));
                             };
                             if (!$47) {
                                 var $48 = Data_Int.fromString(contents);
@@ -20703,16 +20714,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($48 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.Def.value, $48.value0));
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.HP.value, $48.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 220, column 38 - line 222, column 72: " + [ $48.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 109, column 38 - line 111, column 77: " + [ $48.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 218, column 33 - line 222, column 72: " + [ $47.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.def)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 107, column 33 - line 111, column 77: " + [ $47.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.hp)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $50 = contents === "";
                             if ($50) {
-                                return dispatch(new UpdateEV(Pokemon_Stats.Def.value, 0));
+                                return dispatch(new UpdateIV(Pokemon_Stats.HP.value, 0));
                             };
                             if (!$50) {
                                 var $51 = Data_Int.fromString(contents);
@@ -20720,16 +20731,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($51 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.Def.value, $51.value0));
+                                    return dispatch(new UpdateIV(Pokemon_Stats.HP.value, $51.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 235, column 38 - line 237, column 72: " + [ $51.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 124, column 38 - line 126, column 71: " + [ $51.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 233, column 33 - line 237, column 72: " + [ $50.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.def)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("SpA") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spa)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 122, column 33 - line 126, column 71: " + [ $50.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.hp)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $53 = contents === "";
                             if ($53) {
-                                return dispatch(new UpdateBaseStat(Pokemon_Stats.SpA.value, 0));
+                                return dispatch(new UpdateEV(Pokemon_Stats.HP.value, 0));
                             };
                             if (!$53) {
                                 var $54 = Data_Int.fromString(contents);
@@ -20737,16 +20748,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($54 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.SpA.value, $54.value0));
+                                    return dispatch(new UpdateEV(Pokemon_Stats.HP.value, $54.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 256, column 38 - line 258, column 78: " + [ $54.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 139, column 38 - line 141, column 71: " + [ $54.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 254, column 33 - line 258, column 78: " + [ $53.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spa)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 137, column 33 - line 141, column 71: " + [ $53.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.hp)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Atk") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.atk)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $56 = contents === "";
                             if ($56) {
-                                return dispatch(new UpdateIV(Pokemon_Stats.SpA.value, 0));
+                                return dispatch(new UpdateBaseStat(Pokemon_Stats.Atk.value, 0));
                             };
                             if (!$56) {
                                 var $57 = Data_Int.fromString(contents);
@@ -20754,16 +20765,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($57 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.SpA.value, $57.value0));
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Atk.value, $57.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 271, column 38 - line 273, column 72: " + [ $57.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 160, column 38 - line 162, column 78: " + [ $57.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 269, column 33 - line 273, column 72: " + [ $56.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spa)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 158, column 33 - line 162, column 78: " + [ $56.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.atk)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $59 = contents === "";
                             if ($59) {
-                                return dispatch(new UpdateEV(Pokemon_Stats.SpA.value, 0));
+                                return dispatch(new UpdateIV(Pokemon_Stats.Atk.value, 0));
                             };
                             if (!$59) {
                                 var $60 = Data_Int.fromString(contents);
@@ -20771,16 +20782,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($60 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.SpA.value, $60.value0));
+                                    return dispatch(new UpdateIV(Pokemon_Stats.Atk.value, $60.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 286, column 38 - line 288, column 72: " + [ $60.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 175, column 38 - line 177, column 72: " + [ $60.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 284, column 33 - line 288, column 72: " + [ $59.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.spa)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("SpD") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spd)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 173, column 33 - line 177, column 72: " + [ $59.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.atk)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $62 = contents === "";
                             if ($62) {
-                                return dispatch(new UpdateBaseStat(Pokemon_Stats.SpD.value, 0));
+                                return dispatch(new UpdateEV(Pokemon_Stats.Atk.value, 0));
                             };
                             if (!$62) {
                                 var $63 = Data_Int.fromString(contents);
@@ -20788,16 +20799,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($63 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.SpD.value, $63.value0));
+                                    return dispatch(new UpdateEV(Pokemon_Stats.Atk.value, $63.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 307, column 38 - line 309, column 78: " + [ $63.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 190, column 38 - line 192, column 72: " + [ $63.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 305, column 33 - line 309, column 78: " + [ $62.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spd)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 188, column 33 - line 192, column 72: " + [ $62.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.atk)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Def") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.def)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $65 = contents === "";
                             if ($65) {
-                                return dispatch(new UpdateIV(Pokemon_Stats.SpD.value, 0));
+                                return dispatch(new UpdateBaseStat(Pokemon_Stats.Def.value, 0));
                             };
                             if (!$65) {
                                 var $66 = Data_Int.fromString(contents);
@@ -20805,16 +20816,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($66 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.SpD.value, $66.value0));
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Def.value, $66.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 322, column 38 - line 324, column 72: " + [ $66.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 211, column 38 - line 213, column 78: " + [ $66.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 320, column 33 - line 324, column 72: " + [ $65.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spd)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 209, column 33 - line 213, column 78: " + [ $65.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.def)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $68 = contents === "";
                             if ($68) {
-                                return dispatch(new UpdateEV(Pokemon_Stats.SpD.value, 0));
+                                return dispatch(new UpdateIV(Pokemon_Stats.Def.value, 0));
                             };
                             if (!$68) {
                                 var $69 = Data_Int.fromString(contents);
@@ -20822,16 +20833,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($69 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.SpD.value, $69.value0));
+                                    return dispatch(new UpdateIV(Pokemon_Stats.Def.value, $69.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 337, column 38 - line 339, column 72: " + [ $69.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 226, column 38 - line 228, column 72: " + [ $69.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 335, column 33 - line 339, column 72: " + [ $68.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.spd)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Spe") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spe)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 224, column 33 - line 228, column 72: " + [ $68.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.def)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $71 = contents === "";
                             if ($71) {
-                                return dispatch(new UpdateBaseStat(Pokemon_Stats.Spe.value, 0));
+                                return dispatch(new UpdateEV(Pokemon_Stats.Def.value, 0));
                             };
                             if (!$71) {
                                 var $72 = Data_Int.fromString(contents);
@@ -20839,16 +20850,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($72 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Spe.value, $72.value0));
+                                    return dispatch(new UpdateEV(Pokemon_Stats.Def.value, $72.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 358, column 38 - line 360, column 78: " + [ $72.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 241, column 38 - line 243, column 72: " + [ $72.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 356, column 33 - line 360, column 78: " + [ $71.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spe)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 239, column 33 - line 243, column 72: " + [ $71.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.def)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("SpA") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spa)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $74 = contents === "";
                             if ($74) {
-                                return dispatch(new UpdateIV(Pokemon_Stats.Spe.value, 0));
+                                return dispatch(new UpdateBaseStat(Pokemon_Stats.SpA.value, 0));
                             };
                             if (!$74) {
                                 var $75 = Data_Int.fromString(contents);
@@ -20856,16 +20867,16 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($75 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.Spe.value, $75.value0));
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.SpA.value, $75.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 373, column 38 - line 375, column 72: " + [ $75.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 262, column 38 - line 264, column 78: " + [ $75.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 371, column 33 - line 375, column 72: " + [ $74.constructor.name ]);
-                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spe)), React_DOM_Props.onChange(function (e) {
+                            throw new Error("Failed pattern match at Components.Battler line 260, column 33 - line 264, column 78: " + [ $74.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spa)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
                             var $77 = contents === "";
                             if ($77) {
-                                return dispatch(new UpdateEV(Pokemon_Stats.Spe.value, 0));
+                                return dispatch(new UpdateIV(Pokemon_Stats.SpA.value, 0));
                             };
                             if (!$77) {
                                 var $78 = Data_Int.fromString(contents);
@@ -20873,11 +20884,130 @@ var battlerSpec = (function () {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
                                 if ($78 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.Spe.value, $78.value0));
+                                    return dispatch(new UpdateIV(Pokemon_Stats.SpA.value, $78.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 388, column 38 - line 390, column 72: " + [ $78.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 277, column 38 - line 279, column 72: " + [ $78.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 386, column 33 - line 390, column 72: " + [ $77.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 275, column 33 - line 279, column 72: " + [ $77.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spa)), React_DOM_Props.onChange(function (e) {
+                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                            var $80 = contents === "";
+                            if ($80) {
+                                return dispatch(new UpdateEV(Pokemon_Stats.SpA.value, 0));
+                            };
+                            if (!$80) {
+                                var $81 = Data_Int.fromString(contents);
+                                if ($81 instanceof Data_Maybe.Nothing) {
+                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+                                };
+                                if ($81 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.SpA.value, $81.value0));
+                                };
+                                throw new Error("Failed pattern match at Components.Battler line 292, column 38 - line 294, column 72: " + [ $81.constructor.name ]);
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 290, column 33 - line 294, column 72: " + [ $80.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.spa)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("SpD") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spd)), React_DOM_Props.onChange(function (e) {
+                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                            var $83 = contents === "";
+                            if ($83) {
+                                return dispatch(new UpdateBaseStat(Pokemon_Stats.SpD.value, 0));
+                            };
+                            if (!$83) {
+                                var $84 = Data_Int.fromString(contents);
+                                if ($84 instanceof Data_Maybe.Nothing) {
+                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+                                };
+                                if ($84 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.SpD.value, $84.value0));
+                                };
+                                throw new Error("Failed pattern match at Components.Battler line 313, column 38 - line 315, column 78: " + [ $84.constructor.name ]);
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 311, column 33 - line 315, column 78: " + [ $83.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spd)), React_DOM_Props.onChange(function (e) {
+                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                            var $86 = contents === "";
+                            if ($86) {
+                                return dispatch(new UpdateIV(Pokemon_Stats.SpD.value, 0));
+                            };
+                            if (!$86) {
+                                var $87 = Data_Int.fromString(contents);
+                                if ($87 instanceof Data_Maybe.Nothing) {
+                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+                                };
+                                if ($87 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateIV(Pokemon_Stats.SpD.value, $87.value0));
+                                };
+                                throw new Error("Failed pattern match at Components.Battler line 328, column 38 - line 330, column 72: " + [ $87.constructor.name ]);
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 326, column 33 - line 330, column 72: " + [ $86.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spd)), React_DOM_Props.onChange(function (e) {
+                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                            var $89 = contents === "";
+                            if ($89) {
+                                return dispatch(new UpdateEV(Pokemon_Stats.SpD.value, 0));
+                            };
+                            if (!$89) {
+                                var $90 = Data_Int.fromString(contents);
+                                if ($90 instanceof Data_Maybe.Nothing) {
+                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+                                };
+                                if ($90 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.SpD.value, $90.value0));
+                                };
+                                throw new Error("Failed pattern match at Components.Battler line 343, column 38 - line 345, column 72: " + [ $90.constructor.name ]);
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 341, column 33 - line 345, column 72: " + [ $89.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.spd)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Spe") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spe)), React_DOM_Props.onChange(function (e) {
+                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                            var $92 = contents === "";
+                            if ($92) {
+                                return dispatch(new UpdateBaseStat(Pokemon_Stats.Spe.value, 0));
+                            };
+                            if (!$92) {
+                                var $93 = Data_Int.fromString(contents);
+                                if ($93 instanceof Data_Maybe.Nothing) {
+                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+                                };
+                                if ($93 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Spe.value, $93.value0));
+                                };
+                                throw new Error("Failed pattern match at Components.Battler line 364, column 38 - line 366, column 78: " + [ $93.constructor.name ]);
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 362, column 33 - line 366, column 78: " + [ $92.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spe)), React_DOM_Props.onChange(function (e) {
+                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                            var $95 = contents === "";
+                            if ($95) {
+                                return dispatch(new UpdateIV(Pokemon_Stats.Spe.value, 0));
+                            };
+                            if (!$95) {
+                                var $96 = Data_Int.fromString(contents);
+                                if ($96 instanceof Data_Maybe.Nothing) {
+                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+                                };
+                                if ($96 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateIV(Pokemon_Stats.Spe.value, $96.value0));
+                                };
+                                throw new Error("Failed pattern match at Components.Battler line 379, column 38 - line 381, column 72: " + [ $96.constructor.name ]);
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 377, column 33 - line 381, column 72: " + [ $95.constructor.name ]);
+                        }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spe)), React_DOM_Props.onChange(function (e) {
+                            var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                            var $98 = contents === "";
+                            if ($98) {
+                                return dispatch(new UpdateEV(Pokemon_Stats.Spe.value, 0));
+                            };
+                            if (!$98) {
+                                var $99 = Data_Int.fromString(contents);
+                                if ($99 instanceof Data_Maybe.Nothing) {
+                                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+                                };
+                                if ($99 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.Spe.value, $99.value0));
+                                };
+                                throw new Error("Failed pattern match at Components.Battler line 394, column 38 - line 396, column 72: " + [ $99.constructor.name ]);
+                            };
+                            throw new Error("Failed pattern match at Components.Battler line 392, column 33 - line 396, column 72: " + [ $98.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.spe)) ]) ]) ]) ]);
                     };
                 };
@@ -20888,24 +21018,30 @@ var battlerSpec = (function () {
         return function (v) {
             return function (v1) {
                 return function (v2) {
-                    return [ React_DOM.input([ React_DOM_Props.placeholder("Species"), React_DOM_Props.defaultValue(v1.species.name) ])([  ]), React_DOM.input([ React_DOM_Props.placeholder("Level"), React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.level)), React_DOM_Props.onChange(function (e) {
+                    return [ React_DOM.input([ React_DOM_Props.placeholder("Species"), React_DOM_Props.defaultValue(v1.species.name), React_DOM_Props.list("species"), React_DOM_Props.onChange(function (e) {
+                        return dispatch(new UpdateSpeciesName((Unsafe_Coerce.unsafeCoerce(e)).target.value));
+                    }) ])([  ]), React_DOM.input([ React_DOM_Props.placeholder("Level"), React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.level)), React_DOM_Props.onChange(function (e) {
                         var val = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                        var $85 = val === "";
-                        if ($85) {
+                        var $106 = val === "";
+                        if ($106) {
                             return dispatch(new UpdateLevel(0));
                         };
-                        if (!$85) {
-                            var $86 = Data_Int.fromString((Unsafe_Coerce.unsafeCoerce(e)).target.value);
-                            if ($86 instanceof Data_Maybe.Nothing) {
+                        if (!$106) {
+                            var $107 = Data_Int.fromString((Unsafe_Coerce.unsafeCoerce(e)).target.value);
+                            if ($107 instanceof Data_Maybe.Nothing) {
                                 return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                             };
-                            if ($86 instanceof Data_Maybe.Just) {
-                                return dispatch(new UpdateLevel($86.value0));
+                            if ($107 instanceof Data_Maybe.Just) {
+                                return dispatch(new UpdateLevel($107.value0));
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 56, column 29 - line 58, column 67: " + [ $86.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 61, column 29 - line 63, column 67: " + [ $107.constructor.name ]);
                         };
-                        throw new Error("Failed pattern match at Components.Battler line 53, column 25 - line 58, column 67: " + [ $85.constructor.name ]);
-                    }) ])([  ]), statTable(dispatch)(v1.species.baseStats)(v1.ivs)(v1.evs)(Pokemon_Stats.battleStats(v1.species.baseStats)(v1.level)(v1.ivs)(v1.evs)(v1.nature)) ];
+                        throw new Error("Failed pattern match at Components.Battler line 58, column 25 - line 63, column 67: " + [ $106.constructor.name ]);
+                    }) ])([  ]), typeDropdown(function ($255) {
+                        return dispatch(UpdateType1.create($255));
+                    })(v1.species.type1), typeDropdown(function ($256) {
+                        return dispatch(UpdateType2.create($256));
+                    })(v1.species.type2), statTable(dispatch)(v1.species.baseStats)(v1.ivs)(v1.evs)(Pokemon_Stats.battleStats(v1.species.baseStats)(v1.level)(v1.ivs)(v1.evs)(v1.nature)) ];
                 };
             };
         };
@@ -20914,372 +21050,392 @@ var battlerSpec = (function () {
         return function (v) {
             return function (v1) {
                 if (action instanceof UpdateSpeciesName) {
-                    return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $94 = {};
-                        for (var $95 in v2) {
-                            if (v2.hasOwnProperty($95)) {
-                                $94[$95] = v2[$95];
+                    return Control_Bind.bind(Control_Monad_Free_Trans.bindFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                        var $115 = {};
+                        for (var $116 in v2) {
+                            if (v2.hasOwnProperty($116)) {
+                                $115[$116] = v2[$116];
                             };
                         };
-                        $94.species = (function () {
-                            var $91 = {};
-                            for (var $92 in v2.species) {
-                                if (v2.species.hasOwnProperty($92)) {
-                                    $91[$92] = v2.species[$92];
+                        $115.species = (function () {
+                            var $112 = {};
+                            for (var $113 in v2.species) {
+                                if (v2.species.hasOwnProperty($113)) {
+                                    $112[$113] = v2.species[$113];
                                 };
                             };
-                            $91.name = action.value0;
-                            return $91;
+                            $112.name = action.value0;
+                            return $112;
                         })();
-                        return $94;
-                    }));
+                        return $115;
+                    })))(function () {
+                        var $118 = Data_StrMap.lookup(Data_String.toLower(action.value0))(Pokemon_SpeciesData.speciesByName);
+                        if ($118 instanceof Data_Maybe.Nothing) {
+                            return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
+                        };
+                        if ($118 instanceof Data_Maybe.Just) {
+                            return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
+                                var $120 = {};
+                                for (var $121 in v2) {
+                                    if (v2.hasOwnProperty($121)) {
+                                        $120[$121] = v2[$121];
+                                    };
+                                };
+                                $120.species = $118.value0;
+                                return $120;
+                            }));
+                        };
+                        throw new Error("Failed pattern match at Components.Battler line 538, column 17 - line 542, column 62: " + [ $118.constructor.name ]);
+                    });
                 };
                 if (action instanceof UpdateBaseStat) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
                         var base$prime = (function () {
                             if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $102 = {};
-                                for (var $103 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($103)) {
-                                        $102[$103] = v3.species.baseStats[$103];
+                                var $129 = {};
+                                for (var $130 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($130)) {
+                                        $129[$130] = v3.species.baseStats[$130];
                                     };
                                 };
-                                $102.hp = action.value1;
-                                return $102;
+                                $129.hp = action.value1;
+                                return $129;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $105 = {};
-                                for (var $106 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($106)) {
-                                        $105[$106] = v3.species.baseStats[$106];
+                                var $132 = {};
+                                for (var $133 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($133)) {
+                                        $132[$133] = v3.species.baseStats[$133];
                                     };
                                 };
-                                $105.atk = action.value1;
-                                return $105;
+                                $132.atk = action.value1;
+                                return $132;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $108 = {};
-                                for (var $109 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($109)) {
-                                        $108[$109] = v3.species.baseStats[$109];
+                                var $135 = {};
+                                for (var $136 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($136)) {
+                                        $135[$136] = v3.species.baseStats[$136];
                                     };
                                 };
-                                $108.def = action.value1;
-                                return $108;
+                                $135.def = action.value1;
+                                return $135;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $111 = {};
-                                for (var $112 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($112)) {
-                                        $111[$112] = v3.species.baseStats[$112];
+                                var $138 = {};
+                                for (var $139 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($139)) {
+                                        $138[$139] = v3.species.baseStats[$139];
                                     };
                                 };
-                                $111.spa = action.value1;
-                                return $111;
+                                $138.spa = action.value1;
+                                return $138;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $114 = {};
-                                for (var $115 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($115)) {
-                                        $114[$115] = v3.species.baseStats[$115];
+                                var $141 = {};
+                                for (var $142 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($142)) {
+                                        $141[$142] = v3.species.baseStats[$142];
                                     };
                                 };
-                                $114.spd = action.value1;
-                                return $114;
+                                $141.spd = action.value1;
+                                return $141;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $117 = {};
-                                for (var $118 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($118)) {
-                                        $117[$118] = v3.species.baseStats[$118];
+                                var $144 = {};
+                                for (var $145 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($145)) {
+                                        $144[$145] = v3.species.baseStats[$145];
                                     };
                                 };
-                                $117.spe = action.value1;
-                                return $117;
+                                $144.spe = action.value1;
+                                return $144;
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 415, column 45 - line 421, column 64: " + [ action.value0.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 550, column 45 - line 556, column 64: " + [ action.value0.constructor.name ]);
                         })();
-                        var $123 = {};
-                        for (var $124 in v3) {
-                            if (v3.hasOwnProperty($124)) {
-                                $123[$124] = v3[$124];
+                        var $150 = {};
+                        for (var $151 in v3) {
+                            if (v3.hasOwnProperty($151)) {
+                                $150[$151] = v3[$151];
                             };
                         };
-                        $123.species = (function () {
-                            var $120 = {};
-                            for (var $121 in v3.species) {
-                                if (v3.species.hasOwnProperty($121)) {
-                                    $120[$121] = v3.species[$121];
+                        $150.species = (function () {
+                            var $147 = {};
+                            for (var $148 in v3.species) {
+                                if (v3.species.hasOwnProperty($148)) {
+                                    $147[$148] = v3.species[$148];
                                 };
                             };
-                            $120.baseStats = base$prime;
-                            return $120;
+                            $147.baseStats = base$prime;
+                            return $147;
                         })();
-                        return $123;
+                        return $150;
                     }));
                 };
                 if (action instanceof UpdateType1) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $133 = {};
-                        for (var $134 in v2) {
-                            if (v2.hasOwnProperty($134)) {
-                                $133[$134] = v2[$134];
+                        var $160 = {};
+                        for (var $161 in v2) {
+                            if (v2.hasOwnProperty($161)) {
+                                $160[$161] = v2[$161];
                             };
                         };
-                        $133.species = (function () {
-                            var $130 = {};
-                            for (var $131 in v2.species) {
-                                if (v2.species.hasOwnProperty($131)) {
-                                    $130[$131] = v2.species[$131];
+                        $160.species = (function () {
+                            var $157 = {};
+                            for (var $158 in v2.species) {
+                                if (v2.species.hasOwnProperty($158)) {
+                                    $157[$158] = v2.species[$158];
                                 };
                             };
-                            $130.type1 = action.value0;
-                            return $130;
+                            $157.type1 = action.value0;
+                            return $157;
                         })();
-                        return $133;
+                        return $160;
                     }));
                 };
                 if (action instanceof UpdateType2) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $142 = {};
-                        for (var $143 in v2) {
-                            if (v2.hasOwnProperty($143)) {
-                                $142[$143] = v2[$143];
+                        var $169 = {};
+                        for (var $170 in v2) {
+                            if (v2.hasOwnProperty($170)) {
+                                $169[$170] = v2[$170];
                             };
                         };
-                        $142.species = (function () {
-                            var $139 = {};
-                            for (var $140 in v2.species) {
-                                if (v2.species.hasOwnProperty($140)) {
-                                    $139[$140] = v2.species[$140];
+                        $169.species = (function () {
+                            var $166 = {};
+                            for (var $167 in v2.species) {
+                                if (v2.species.hasOwnProperty($167)) {
+                                    $166[$167] = v2.species[$167];
                                 };
                             };
-                            $139.type2 = action.value0;
-                            return $139;
+                            $166.type2 = action.value0;
+                            return $166;
                         })();
-                        return $142;
+                        return $169;
                     }));
                 };
                 if (action instanceof UpdateLevel) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $147 = {};
-                        for (var $148 in v2) {
-                            if (v2.hasOwnProperty($148)) {
-                                $147[$148] = v2[$148];
+                        var $174 = {};
+                        for (var $175 in v2) {
+                            if (v2.hasOwnProperty($175)) {
+                                $174[$175] = v2[$175];
                             };
                         };
-                        $147.level = action.value0;
-                        return $147;
+                        $174.level = action.value0;
+                        return $174;
                     }));
                 };
                 if (action instanceof UpdateMove1) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $152 = {};
-                        for (var $153 in v2) {
-                            if (v2.hasOwnProperty($153)) {
-                                $152[$153] = v2[$153];
+                        var $179 = {};
+                        for (var $180 in v2) {
+                            if (v2.hasOwnProperty($180)) {
+                                $179[$180] = v2[$180];
                             };
                         };
-                        $152.move1 = action.value0;
-                        return $152;
+                        $179.move1 = action.value0;
+                        return $179;
                     }));
                 };
                 if (action instanceof UpdateMove2) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $157 = {};
-                        for (var $158 in v2) {
-                            if (v2.hasOwnProperty($158)) {
-                                $157[$158] = v2[$158];
+                        var $184 = {};
+                        for (var $185 in v2) {
+                            if (v2.hasOwnProperty($185)) {
+                                $184[$185] = v2[$185];
                             };
                         };
-                        $157.move1 = action.value0;
-                        return $157;
+                        $184.move1 = action.value0;
+                        return $184;
                     }));
                 };
                 if (action instanceof UpdateMove3) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $162 = {};
-                        for (var $163 in v2) {
-                            if (v2.hasOwnProperty($163)) {
-                                $162[$163] = v2[$163];
+                        var $189 = {};
+                        for (var $190 in v2) {
+                            if (v2.hasOwnProperty($190)) {
+                                $189[$190] = v2[$190];
                             };
                         };
-                        $162.move1 = action.value0;
-                        return $162;
+                        $189.move1 = action.value0;
+                        return $189;
                     }));
                 };
                 if (action instanceof UpdateMove4) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $167 = {};
-                        for (var $168 in v2) {
-                            if (v2.hasOwnProperty($168)) {
-                                $167[$168] = v2[$168];
+                        var $194 = {};
+                        for (var $195 in v2) {
+                            if (v2.hasOwnProperty($195)) {
+                                $194[$195] = v2[$195];
                             };
                         };
-                        $167.move1 = action.value0;
-                        return $167;
+                        $194.move1 = action.value0;
+                        return $194;
                     }));
                 };
                 if (action instanceof UpdateIV) {
+                    var v$prime = Data_Ord.min(Data_Ord.ordInt)(31)(Data_Ord.max(Data_Ord.ordInt)(0)(action.value1));
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
                         var ivs$prime = (function () {
                             if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $174 = {};
-                                for (var $175 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($175)) {
-                                        $174[$175] = v3.ivs[$175];
+                                var $201 = {};
+                                for (var $202 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($202)) {
+                                        $201[$202] = v3.ivs[$202];
                                     };
                                 };
-                                $174.hp = action.value1;
-                                return $174;
+                                $201.hp = v$prime;
+                                return $201;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $177 = {};
-                                for (var $178 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($178)) {
-                                        $177[$178] = v3.ivs[$178];
+                                var $204 = {};
+                                for (var $205 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($205)) {
+                                        $204[$205] = v3.ivs[$205];
                                     };
                                 };
-                                $177.atk = action.value1;
-                                return $177;
+                                $204.atk = v$prime;
+                                return $204;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $180 = {};
-                                for (var $181 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($181)) {
-                                        $180[$181] = v3.ivs[$181];
+                                var $207 = {};
+                                for (var $208 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($208)) {
+                                        $207[$208] = v3.ivs[$208];
                                     };
                                 };
-                                $180.def = action.value1;
-                                return $180;
+                                $207.def = v$prime;
+                                return $207;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $183 = {};
-                                for (var $184 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($184)) {
-                                        $183[$184] = v3.ivs[$184];
+                                var $210 = {};
+                                for (var $211 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($211)) {
+                                        $210[$211] = v3.ivs[$211];
                                     };
                                 };
-                                $183.spa = action.value1;
-                                return $183;
+                                $210.spa = v$prime;
+                                return $210;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $186 = {};
-                                for (var $187 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($187)) {
-                                        $186[$187] = v3.ivs[$187];
+                                var $213 = {};
+                                for (var $214 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($214)) {
+                                        $213[$214] = v3.ivs[$214];
                                     };
                                 };
-                                $186.spd = action.value1;
-                                return $186;
+                                $213.spd = v$prime;
+                                return $213;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $189 = {};
-                                for (var $190 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($190)) {
-                                        $189[$190] = v3.ivs[$190];
+                                var $216 = {};
+                                for (var $217 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($217)) {
+                                        $216[$217] = v3.ivs[$217];
                                     };
                                 };
-                                $189.spe = action.value1;
-                                return $189;
+                                $216.spe = v$prime;
+                                return $216;
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 454, column 36 - line 460, column 55: " + [ action.value0.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 590, column 36 - line 596, column 56: " + [ action.value0.constructor.name ]);
                         })();
-                        var $192 = {};
-                        for (var $193 in v3) {
-                            if (v3.hasOwnProperty($193)) {
-                                $192[$193] = v3[$193];
+                        var $219 = {};
+                        for (var $220 in v3) {
+                            if (v3.hasOwnProperty($220)) {
+                                $219[$220] = v3[$220];
                             };
                         };
-                        $192.ivs = ivs$prime;
-                        return $192;
+                        $219.ivs = ivs$prime;
+                        return $219;
                     }));
                 };
                 if (action instanceof UpdateEV) {
+                    var v$prime = Data_Ord.min(Data_Ord.ordInt)(252)(Data_Ord.max(Data_Ord.ordInt)(0)(action.value1));
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
                         var evs$prime = (function () {
                             if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $200 = {};
-                                for (var $201 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($201)) {
-                                        $200[$201] = v3.evs[$201];
+                                var $227 = {};
+                                for (var $228 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($228)) {
+                                        $227[$228] = v3.evs[$228];
                                     };
                                 };
-                                $200.hp = action.value1;
-                                return $200;
+                                $227.hp = v$prime;
+                                return $227;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $203 = {};
-                                for (var $204 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($204)) {
-                                        $203[$204] = v3.evs[$204];
+                                var $230 = {};
+                                for (var $231 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($231)) {
+                                        $230[$231] = v3.evs[$231];
                                     };
                                 };
-                                $203.atk = action.value1;
-                                return $203;
+                                $230.atk = v$prime;
+                                return $230;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $206 = {};
-                                for (var $207 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($207)) {
-                                        $206[$207] = v3.evs[$207];
+                                var $233 = {};
+                                for (var $234 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($234)) {
+                                        $233[$234] = v3.evs[$234];
                                     };
                                 };
-                                $206.def = action.value1;
-                                return $206;
+                                $233.def = v$prime;
+                                return $233;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $209 = {};
-                                for (var $210 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($210)) {
-                                        $209[$210] = v3.evs[$210];
+                                var $236 = {};
+                                for (var $237 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($237)) {
+                                        $236[$237] = v3.evs[$237];
                                     };
                                 };
-                                $209.spa = action.value1;
-                                return $209;
+                                $236.spa = v$prime;
+                                return $236;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $212 = {};
-                                for (var $213 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($213)) {
-                                        $212[$213] = v3.evs[$213];
+                                var $239 = {};
+                                for (var $240 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($240)) {
+                                        $239[$240] = v3.evs[$240];
                                     };
                                 };
-                                $212.spd = action.value1;
-                                return $212;
+                                $239.spd = v$prime;
+                                return $239;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $215 = {};
-                                for (var $216 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($216)) {
-                                        $215[$216] = v3.evs[$216];
+                                var $242 = {};
+                                for (var $243 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($243)) {
+                                        $242[$243] = v3.evs[$243];
                                     };
                                 };
-                                $215.spe = action.value1;
-                                return $215;
+                                $242.spe = v$prime;
+                                return $242;
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 468, column 36 - line 474, column 55: " + [ action.value0.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 605, column 36 - line 611, column 56: " + [ action.value0.constructor.name ]);
                         })();
-                        var $218 = {};
-                        for (var $219 in v3) {
-                            if (v3.hasOwnProperty($219)) {
-                                $218[$219] = v3[$219];
+                        var $245 = {};
+                        for (var $246 in v3) {
+                            if (v3.hasOwnProperty($246)) {
+                                $245[$246] = v3[$246];
                             };
                         };
-                        $218.evs = evs$prime;
-                        return $218;
+                        $245.evs = evs$prime;
+                        return $245;
                     }));
                 };
                 if (action instanceof UpdateNature) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $224 = {};
-                        for (var $225 in v2) {
-                            if (v2.hasOwnProperty($225)) {
-                                $224[$225] = v2[$225];
+                        var $251 = {};
+                        for (var $252 in v2) {
+                            if (v2.hasOwnProperty($252)) {
+                                $251[$252] = v2[$252];
                             };
                         };
-                        $224.nature = action.value0;
-                        return $224;
+                        $251.nature = action.value0;
+                        return $251;
                     }));
                 };
                 return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
@@ -21305,7 +21461,7 @@ module.exports = {
     battlerSpec: battlerSpec
 };
 
-},{"../Control.Applicative":185,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Eff":213,"../Control.Monad.Free.Trans":217,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.Int":298,"../Data.Maybe":327,"../Data.Show":359,"../Data.Unit":370,"../Pokemon.Battler":379,"../Pokemon.Move":380,"../Pokemon.Species":381,"../Pokemon.Stats":382,"../Pokemon.Type":383,"../Prelude":384,"../React":389,"../React.DOM":387,"../React.DOM.Props":386,"../ReactDOM":391,"../Thermite":392,"../Unsafe.Coerce":395}],182:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Bind":191,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Eff":213,"../Control.Monad.Free.Trans":217,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.Int":298,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Show":359,"../Data.StrMap":363,"../Data.String":367,"../Data.Unit":374,"../Pokemon.Battler":383,"../Pokemon.Move":384,"../Pokemon.Species":385,"../Pokemon.SpeciesData":386,"../Pokemon.Stats":387,"../Pokemon.Type":388,"../Prelude":389,"../React":394,"../React.DOM":392,"../React.DOM.Props":391,"../ReactDOM":396,"../Thermite":397,"../Unsafe.Coerce":400}],182:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -21313,6 +21469,7 @@ var Data_Either = require("../Data.Either");
 var Data_Lens = require("../Data.Lens");
 var Data_Foldable = require("../Data.Foldable");
 var Pokemon_Battler = require("../Pokemon.Battler");
+var Pokemon_SpeciesData = require("../Pokemon.SpeciesData");
 var Components_Battler = require("../Components.Battler");
 var Thermite = require("../Thermite");
 var React = require("../React");
@@ -21321,6 +21478,12 @@ var React_DOM_Props = require("../React.DOM.Props");
 var ReactDOM = require("../ReactDOM");
 var Data_Lens_Lens = require("../Data.Lens.Lens");
 var Data_Lens_Prism = require("../Data.Lens.Prism");
+var Data_Functor = require("../Data.Functor");
+var Control_Applicative = require("../Control.Applicative");
+var Control_Monad_Free_Trans = require("../Control.Monad.Free.Trans");
+var Control_Coroutine = require("../Control.Coroutine");
+var Control_Monad_Aff = require("../Control.Monad.Aff");
+var Data_Unit = require("../Data.Unit");
 var Data_Lens_Setter = require("../Data.Lens.Setter");
 var Data_Profunctor_Strong = require("../Data.Profunctor.Strong");
 var Data_Function = require("../Data.Function");
@@ -21338,14 +21501,14 @@ var _battler = function (dictStrong) {
         return v.battler;
     })(function (v) {
         return function (v1) {
-            var $7 = {};
-            for (var $8 in v) {
-                if (v.hasOwnProperty($8)) {
-                    $7[$8] = v[$8];
+            var $12 = {};
+            for (var $13 in v) {
+                if (v.hasOwnProperty($13)) {
+                    $12[$13] = v[$13];
                 };
             };
-            $7.battler = v1;
-            return $7;
+            $12.battler = v1;
+            return $12;
         };
     })(dictStrong);
 };
@@ -21355,6 +21518,27 @@ var _OnBattler = function (dictChoice) {
     })(dictChoice);
 };
 var calculatorSpec = (function () {
+    var pokemonList = (function () {
+        var render = function (dispatch) {
+            return function (v) {
+                return function (s) {
+                    return function (v1) {
+                        return [ React_DOM.datalist([ React_DOM_Props._id("species") ])(Data_Functor.map(Data_Functor.functorArray)(function (n) {
+                            return React_DOM.option([ React_DOM_Props.value(n) ])([  ]);
+                        })(Pokemon_SpeciesData.speciesNames)) ];
+                    };
+                };
+            };
+        };
+        var performAction = function (v) {
+            return function (v1) {
+                return function (v2) {
+                    return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
+                };
+            };
+        };
+        return Thermite.simpleSpec(performAction)(render);
+    })();
     var container = Data_Lens_Setter.over(Thermite._render(Data_Profunctor_Strong.strongFn))(function (render) {
         return function (d) {
             return function (p) {
@@ -21366,7 +21550,7 @@ var calculatorSpec = (function () {
             };
         };
     });
-    return container(Data_Foldable.fold(Data_Foldable.foldableArray)(Thermite.monoidSpec)([ Thermite.focus(function (dictStrong) {
+    return container(Data_Foldable.fold(Data_Foldable.foldableArray)(Thermite.monoidSpec)([ pokemonList, Thermite.focus(function (dictStrong) {
         return _battler(dictStrong);
     })(function (dictChoice) {
         return _OnBattler(dictChoice);
@@ -21379,7 +21563,7 @@ module.exports = {
     calculatorSpec: calculatorSpec
 };
 
-},{"../Components.Battler":181,"../Data.Either":261,"../Data.Foldable":269,"../Data.Function":284,"../Data.Lens":321,"../Data.Lens.Lens":314,"../Data.Lens.Prism":317,"../Data.Lens.Setter":318,"../Data.Profunctor.Strong":350,"../Pokemon.Battler":379,"../Prelude":384,"../React":389,"../React.DOM":387,"../React.DOM.Props":386,"../ReactDOM":391,"../Thermite":392}],183:[function(require,module,exports){
+},{"../Components.Battler":181,"../Control.Applicative":185,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Free.Trans":217,"../Data.Either":261,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens":321,"../Data.Lens.Lens":314,"../Data.Lens.Prism":317,"../Data.Lens.Setter":318,"../Data.Profunctor.Strong":350,"../Data.Unit":374,"../Pokemon.Battler":383,"../Pokemon.SpeciesData":386,"../Prelude":389,"../React":394,"../React.DOM":392,"../React.DOM.Props":391,"../ReactDOM":396,"../Thermite":397}],183:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Functor = require("../Data.Functor");
@@ -21490,7 +21674,7 @@ module.exports = {
     applicativeArray: applicativeArray
 };
 
-},{"../Control.Apply":187,"../Data.Functor":289,"../Data.Unit":370}],186:[function(require,module,exports){
+},{"../Control.Apply":187,"../Data.Functor":289,"../Data.Unit":374}],186:[function(require,module,exports){
 "use strict";
 
 exports.arrayApply = function (fs) {
@@ -22204,7 +22388,7 @@ module.exports = {
     functorCoTransform: functorCoTransform
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Monad.Free.Trans":217,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Parallel":234,"../Control.Parallel.Class":233,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Tuple":366,"../Data.Unit":370,"../Prelude":384}],195:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Monad.Free.Trans":217,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Parallel":234,"../Control.Parallel.Class":233,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],195:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -22291,7 +22475,7 @@ module.exports = {
     fix: fix
 };
 
-},{"../Data.Unit":370}],197:[function(require,module,exports){
+},{"../Data.Unit":374}],197:[function(require,module,exports){
 "use strict";
 
 exports._makeVar = function (nonCanceler) {
@@ -22416,7 +22600,7 @@ module.exports = {
     _takeVar: $foreign._takeVar
 };
 
-},{"../Control.Monad.Eff.Exception":207,"../Data.Function.Uncurried":283,"../Prelude":384,"./foreign":197}],199:[function(require,module,exports){
+},{"../Control.Monad.Eff.Exception":207,"../Data.Function.Uncurried":283,"../Prelude":389,"./foreign":197}],199:[function(require,module,exports){
 /* globals setTimeout, clearTimeout, setImmediate, clearImmediate */
 "use strict";
 
@@ -23100,7 +23284,7 @@ module.exports = {
     parallelParAff: parallelParAff
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Aff.Internal":198,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Exception":207,"../Control.Monad.Error.Class":214,"../Control.Monad.Rec.Class":221,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Parallel":234,"../Control.Parallel.Class":233,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Unit":370,"../Prelude":384,"../Unsafe.Coerce":395,"./foreign":199}],201:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Aff.Internal":198,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Exception":207,"../Control.Monad.Error.Class":214,"../Control.Monad.Rec.Class":221,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Parallel":234,"../Control.Parallel.Class":233,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Unit":374,"../Prelude":389,"../Unsafe.Coerce":400,"./foreign":199}],201:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -23116,7 +23300,7 @@ module.exports = {
     callCC: callCC
 };
 
-},{"../Prelude":384}],202:[function(require,module,exports){
+},{"../Prelude":389}],202:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -23288,7 +23472,7 @@ module.exports = {
     monadStateContT: monadStateContT
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Reader.Class":219,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Prelude":384}],203:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Reader.Class":219,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Prelude":389}],203:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -23379,7 +23563,7 @@ module.exports = {
     warn: $foreign.warn
 };
 
-},{"../Control.Monad.Eff":213,"../Data.Show":359,"../Data.Unit":370,"./foreign":204}],206:[function(require,module,exports){
+},{"../Control.Monad.Eff":213,"../Data.Show":359,"../Data.Unit":374,"./foreign":204}],206:[function(require,module,exports){
 "use strict";
 
 exports.showErrorImpl = function (err) {
@@ -23457,7 +23641,7 @@ module.exports = {
     throwException: $foreign.throwException
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Eff":213,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Show":359,"../Prelude":384,"./foreign":206}],208:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Eff":213,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Show":359,"../Prelude":389,"./foreign":206}],208:[function(require,module,exports){
 "use strict";
 
 exports.newRef = function (val) {
@@ -23516,7 +23700,7 @@ module.exports = {
     writeRef: $foreign.writeRef
 };
 
-},{"../Control.Monad.Eff":213,"../Data.Unit":370,"../Prelude":384,"./foreign":208}],210:[function(require,module,exports){
+},{"../Control.Monad.Eff":213,"../Data.Unit":374,"../Prelude":389,"./foreign":208}],210:[function(require,module,exports){
 "use strict";
 
 exports.unsafeCoerceEff = function (f) {
@@ -23636,7 +23820,7 @@ module.exports = {
     whileE: $foreign.whileE
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Data.Functor":289,"../Data.Unit":370,"./foreign":212}],214:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Data.Functor":289,"../Data.Unit":374,"./foreign":212}],214:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -23709,7 +23893,7 @@ module.exports = {
     monadErrorMaybe: monadErrorMaybe
 };
 
-},{"../Data.Either":261,"../Data.Function":284,"../Data.Maybe":327,"../Data.Unit":370,"../Prelude":384}],215:[function(require,module,exports){
+},{"../Data.Either":261,"../Data.Function":284,"../Data.Maybe":327,"../Data.Unit":374,"../Prelude":389}],215:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24020,7 +24204,7 @@ module.exports = {
     monadWriterExceptT: monadWriterExceptT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Tuple":366,"../Prelude":384}],216:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Tuple":370,"../Prelude":389}],216:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24045,7 +24229,7 @@ module.exports = {
     withExcept: withExcept
 };
 
-},{"../Control.Monad.Error.Class":214,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Identity":294,"../Data.Newtype":336,"../Prelude":384}],217:[function(require,module,exports){
+},{"../Control.Monad.Error.Class":214,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Identity":294,"../Data.Newtype":336,"../Prelude":389}],217:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24315,7 +24499,7 @@ module.exports = {
     monadRecFreeT: monadRecFreeT
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Exists":266,"../Data.Functor":289,"../Data.Unit":370,"../Prelude":384}],218:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Exists":266,"../Data.Functor":289,"../Data.Unit":374,"../Prelude":389}],218:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24580,7 +24764,7 @@ module.exports = {
     monadWriterMaybeT: monadWriterMaybeT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Tuple":366,"../Prelude":384}],219:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":389}],219:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24623,7 +24807,7 @@ module.exports = {
     monadReaderFun: monadReaderFun
 };
 
-},{"../Control.Category":192,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Functor":289,"../Prelude":384}],220:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Functor":289,"../Prelude":389}],220:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24887,7 +25071,7 @@ module.exports = {
     monadRecReaderT: monadRecReaderT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Distributive":260,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Prelude":384}],221:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Distributive":260,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Prelude":389}],221:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25105,7 +25289,7 @@ module.exports = {
     monadRecEither: monadRecEither
 };
 
-},{"../Control.Applicative":185,"../Control.Bind":191,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.ST":223,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Functor":289,"../Data.Identity":294,"../Data.Unit":370,"../Partial.Unsafe":376,"../Prelude":384}],222:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Bind":191,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.ST":223,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Functor":289,"../Data.Identity":294,"../Data.Unit":374,"../Partial.Unsafe":380,"../Prelude":389}],222:[function(require,module,exports){
 "use strict";
 
 exports.newSTRef = function (val) {
@@ -25207,7 +25391,7 @@ module.exports = {
     state: state
 };
 
-},{"../Data.Tuple":366,"../Data.Unit":370,"../Prelude":384}],225:[function(require,module,exports){
+},{"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],225:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25518,7 +25702,7 @@ module.exports = {
     monadWriterStateT: monadWriterStateT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Lazy":196,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Data.Tuple":366,"../Data.Unit":370,"../Prelude":384}],226:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Lazy":196,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],226:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25559,7 +25743,7 @@ module.exports = {
     withState: withState
 };
 
-},{"../Control.Monad.State.Class":224,"../Control.Monad.State.Trans":225,"../Control.Semigroupoid":236,"../Data.Identity":294,"../Data.Newtype":336,"../Data.Tuple":366,"../Prelude":384}],227:[function(require,module,exports){
+},{"../Control.Monad.State.Class":224,"../Control.Monad.State.Trans":225,"../Control.Semigroupoid":236,"../Data.Identity":294,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":389}],227:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25574,7 +25758,7 @@ module.exports = {
     lift: lift
 };
 
-},{"../Prelude":384}],228:[function(require,module,exports){
+},{"../Prelude":389}],228:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25628,7 +25812,7 @@ module.exports = {
     tell: tell
 };
 
-},{"../Control.Applicative":185,"../Control.Bind":191,"../Data.Function":284,"../Data.Tuple":366,"../Prelude":384}],229:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Bind":191,"../Data.Function":284,"../Data.Tuple":370,"../Prelude":389}],229:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25924,7 +26108,7 @@ module.exports = {
     monadWriterWriterT: monadWriterWriterT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Tuple":366,"../Data.Unit":370,"../Prelude":384}],230:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],230:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -25994,7 +26178,7 @@ module.exports = {
     monadArray: monadArray
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Data.Functor":289,"../Data.Unit":370}],231:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Data.Functor":289,"../Data.Unit":374}],231:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -26055,7 +26239,7 @@ module.exports = {
     monadZeroArray: monadZeroArray
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Plus":235,"../Data.Functor":289,"../Data.Unit":370}],233:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Plus":235,"../Data.Functor":289,"../Data.Unit":374}],233:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -26272,7 +26456,7 @@ module.exports = {
     monadParParCont: monadParParCont
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad.Cont.Trans":202,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Ref":209,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.Except.Trans":215,"../Control.Monad.Maybe.Trans":218,"../Control.Monad.Reader.Trans":220,"../Control.Monad.Writer.Trans":229,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Compose":285,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Unit":370,"../Prelude":384}],234:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad.Cont.Trans":202,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Ref":209,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.Except.Trans":215,"../Control.Monad.Maybe.Trans":218,"../Control.Monad.Reader.Trans":220,"../Control.Monad.Writer.Trans":229,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Compose":285,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Unit":374,"../Prelude":389}],234:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -26320,7 +26504,7 @@ module.exports = {
     parTraverse_: parTraverse_
 };
 
-},{"../Control.Category":192,"../Control.Parallel.Class":233,"../Control.Semigroupoid":236,"../Data.Foldable":269,"../Data.Traversable":365,"../Prelude":384}],235:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Parallel.Class":233,"../Control.Semigroupoid":236,"../Data.Foldable":269,"../Data.Traversable":369,"../Prelude":389}],235:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -26474,7 +26658,7 @@ module.exports = {
     isForeignProgressEvent: isForeignProgressEvent
 };
 
-},{"../Data.Either":261,"../Data.Eq":263,"../Data.Foreign":279,"../Data.Foreign.Class":270,"../Data.Newtype":336,"../Data.Ord":343,"../Prelude":384,"../Unsafe.Coerce":395,"./foreign":237}],239:[function(require,module,exports){
+},{"../Data.Either":261,"../Data.Eq":263,"../Data.Foreign":279,"../Data.Foreign.Class":270,"../Data.Newtype":336,"../Data.Ord":343,"../Prelude":389,"../Unsafe.Coerce":400,"./foreign":237}],239:[function(require,module,exports){
 "use strict";
 
 exports._readHTMLElement = function (failure) {
@@ -26903,7 +27087,7 @@ module.exports = {
     isForeignHTMLCanvasElement: isForeignHTMLCanvasElement
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../DOM.Event.Types":238,"../DOM.Node.Types":247,"../Data.Either":261,"../Data.Foreign":279,"../Data.Foreign.Class":270,"../Data.Identity":294,"../Data.List.Types":323,"../Prelude":384,"../Unsafe.Coerce":395,"./foreign":239}],241:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../DOM.Event.Types":238,"../DOM.Node.Types":247,"../Data.Either":261,"../Data.Foreign":279,"../Data.Foreign.Class":270,"../Data.Identity":294,"../Data.List.Types":323,"../Prelude":389,"../Unsafe.Coerce":400,"./foreign":239}],241:[function(require,module,exports){
 "use strict";
 
 exports.document = function (window) {
@@ -27132,7 +27316,7 @@ module.exports = {
     scrollY: $foreign.scrollY
 };
 
-},{"../Control.Monad.Eff":213,"../DOM":248,"../DOM.HTML.Types":240,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Nullable":339,"../Prelude":384,"./foreign":241}],243:[function(require,module,exports){
+},{"../Control.Monad.Eff":213,"../DOM":248,"../DOM.HTML.Types":240,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Nullable":339,"../Prelude":389,"./foreign":241}],243:[function(require,module,exports){
 /* global window */
 "use strict";
 
@@ -27259,7 +27443,7 @@ module.exports = {
     oOrdElementId: oOrdElementId
 };
 
-},{"../DOM.Event.Types":238,"../Data.Eq":263,"../Data.Newtype":336,"../Data.Ord":343,"../Prelude":384,"../Unsafe.Coerce":395}],248:[function(require,module,exports){
+},{"../DOM.Event.Types":238,"../Data.Eq":263,"../Data.Newtype":336,"../Data.Ord":343,"../Prelude":389,"../Unsafe.Coerce":400}],248:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 module.exports = {};
@@ -28062,7 +28246,7 @@ module.exports = {
     zipWith: $foreign.zipWith
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Lazy":196,"../Control.Monad.Rec.Class":221,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Traversable":365,"../Data.Tuple":366,"../Data.Unfoldable":368,"../Partial.Unsafe":376,"../Prelude":384,"./foreign":249}],251:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Lazy":196,"../Control.Monad.Rec.Class":221,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Partial.Unsafe":380,"../Prelude":389,"./foreign":249}],251:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -28238,7 +28422,7 @@ module.exports = {
     bitraverse_: bitraverse_
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Monoid":334,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Unit":370,"../Prelude":384}],252:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Monoid":334,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Unit":374,"../Prelude":389}],252:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -28320,7 +28504,7 @@ module.exports = {
     bitraverseDefault: bitraverseDefault
 };
 
-},{"../Control.Category":192,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Prelude":384}],254:[function(require,module,exports){
+},{"../Control.Category":192,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Prelude":389}],254:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var otherwise = true;
@@ -28348,7 +28532,7 @@ module.exports = {
     booleanAlgebraUnit: booleanAlgebraUnit
 };
 
-},{"../Data.HeytingAlgebra":293,"../Data.Unit":370}],256:[function(require,module,exports){
+},{"../Data.HeytingAlgebra":293,"../Data.Unit":374}],256:[function(require,module,exports){
 "use strict";
 
 exports.topInt = 2147483647;
@@ -28401,7 +28585,7 @@ module.exports = {
     boundedUnit: boundedUnit
 };
 
-},{"../Data.Ord":343,"../Data.Ordering":344,"../Data.Unit":370,"./foreign":256}],258:[function(require,module,exports){
+},{"../Data.Ord":343,"../Data.Ordering":344,"../Data.Unit":374,"./foreign":256}],258:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Ring = require("../Data.Ring");
@@ -28426,7 +28610,7 @@ module.exports = {
     commutativeRingUnit: commutativeRingUnit
 };
 
-},{"../Data.Ring":353,"../Data.Semiring":357,"../Data.Unit":370}],259:[function(require,module,exports){
+},{"../Data.Ring":353,"../Data.Semiring":357,"../Data.Unit":374}],259:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -28602,7 +28786,7 @@ module.exports = {
     traversableConst: traversableConst
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Semigroupoid":236,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Functor.Contravariant":286,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":365,"../Prelude":384}],260:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Semigroupoid":236,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Functor.Contravariant":286,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],260:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -28689,7 +28873,7 @@ module.exports = {
     distributiveFunction: distributiveFunction
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Identity":294,"../Data.Newtype":336,"../Prelude":384}],261:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Identity":294,"../Data.Newtype":336,"../Prelude":389}],261:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -29096,7 +29280,7 @@ module.exports = {
     semigroupEither: semigroupEither
 };
 
-},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Data.Bitraversable":253,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":365,"../Prelude":384}],262:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Data.Bitraversable":253,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],262:[function(require,module,exports){
 "use strict";
 
 exports.refEq = function (r1) {
@@ -29174,7 +29358,7 @@ module.exports = {
     eqArray: eqArray
 };
 
-},{"../Data.Unit":370,"../Data.Void":371,"./foreign":262}],264:[function(require,module,exports){
+},{"../Data.Unit":374,"../Data.Void":375,"./foreign":262}],264:[function(require,module,exports){
 "use strict";
 
 exports.intDegree = function (x) {
@@ -29258,7 +29442,7 @@ module.exports = {
     euclideanRingUnit: euclideanRingUnit
 };
 
-},{"../Data.CommutativeRing":258,"../Data.Ring":353,"../Data.Semiring":357,"../Data.Unit":370,"./foreign":264}],266:[function(require,module,exports){
+},{"../Data.CommutativeRing":258,"../Data.Ring":353,"../Data.Semiring":357,"../Data.Unit":374,"./foreign":264}],266:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Unsafe_Coerce = require("../Unsafe.Coerce");
@@ -29269,7 +29453,7 @@ module.exports = {
     runExists: runExists
 };
 
-},{"../Unsafe.Coerce":395}],267:[function(require,module,exports){
+},{"../Unsafe.Coerce":400}],267:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_CommutativeRing = require("../Data.CommutativeRing");
@@ -29292,7 +29476,7 @@ module.exports = {
     fieldUnit: fieldUnit
 };
 
-},{"../Data.CommutativeRing":258,"../Data.EuclideanRing":265,"../Data.Ring":353,"../Data.Semiring":357,"../Data.Unit":370}],268:[function(require,module,exports){
+},{"../Data.CommutativeRing":258,"../Data.EuclideanRing":265,"../Data.Ring":353,"../Data.Semiring":357,"../Data.Unit":374}],268:[function(require,module,exports){
 "use strict";
 
 exports.foldrArray = function (f) {
@@ -29818,7 +30002,7 @@ module.exports = {
     foldableMultiplicative: foldableMultiplicative
 };
 
-},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid":334,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Monoid.Multiplicative":333,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Unit":370,"../Prelude":384,"./foreign":268}],270:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid":334,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Monoid.Multiplicative":333,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Unit":374,"../Prelude":389,"./foreign":268}],270:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -29987,7 +30171,7 @@ module.exports = {
     nullOrUndefinedAsForeign: nullOrUndefinedAsForeign
 };
 
-},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Array":250,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Foreign":279,"../Data.Foreign.Index":272,"../Data.Foreign.Null":274,"../Data.Foreign.NullOrUndefined":275,"../Data.Foreign.Undefined":277,"../Data.Functor":289,"../Data.Identity":294,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Semiring":357,"../Data.Traversable":365,"../Prelude":384}],271:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Array":250,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Foreign":279,"../Data.Foreign.Index":272,"../Data.Foreign.Null":274,"../Data.Foreign.NullOrUndefined":275,"../Data.Foreign.Undefined":277,"../Data.Functor":289,"../Data.Identity":294,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Semiring":357,"../Data.Traversable":369,"../Prelude":389}],271:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -30085,7 +30269,7 @@ module.exports = {
     indexInt: indexInt
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Data.Eq":263,"../Data.Foreign":279,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Prelude":384,"./foreign":271}],273:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Data.Eq":263,"../Data.Foreign":279,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Prelude":389,"./foreign":271}],273:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -30126,7 +30310,7 @@ module.exports = {
     writeNull: $foreign.writeNull
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":384,"./foreign":273}],275:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":389,"./foreign":273}],275:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -30160,7 +30344,7 @@ module.exports = {
     unNullOrUndefined: unNullOrUndefined
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":384}],276:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":389}],276:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -30201,7 +30385,7 @@ module.exports = {
     writeUndefined: $foreign.writeUndefined
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":384,"./foreign":276}],278:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":389,"./foreign":276}],278:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -30530,7 +30714,7 @@ module.exports = {
     writeObject: $foreign.writeObject
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Error.Class":214,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.Either":261,"../Data.Eq":263,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Int":298,"../Data.List.NonEmpty":322,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.String":363,"../Prelude":384,"./foreign":278}],280:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Error.Class":214,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.Either":261,"../Data.Eq":263,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Int":298,"../Data.List.NonEmpty":322,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.String":367,"../Prelude":389,"./foreign":278}],280:[function(require,module,exports){
 exports.mkEffFn1 = function mkEffFn1(fn) {
   return function(x) {
     return fn(x)();
@@ -31047,7 +31231,7 @@ module.exports = {
     runFn9: $foreign.runFn9
 };
 
-},{"../Data.Unit":370,"./foreign":282}],284:[function(require,module,exports){
+},{"../Data.Unit":374,"./foreign":282}],284:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -31249,7 +31433,7 @@ module.exports = {
     alternativeCompose: alternativeCompose
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":365,"../Prelude":384}],286:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],286:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -31282,7 +31466,7 @@ module.exports = {
     coerce: coerce
 };
 
-},{"../Data.Functor":289,"../Data.Void":371,"../Prelude":384}],287:[function(require,module,exports){
+},{"../Data.Functor":289,"../Data.Void":375,"../Prelude":389}],287:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Functor = require("../Data.Functor");
@@ -31381,7 +31565,7 @@ module.exports = {
     functorArray: functorArray
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Unit":370,"./foreign":288}],290:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Unit":374,"./foreign":288}],290:[function(require,module,exports){
 "use strict";
 
 // module Data.Generic
@@ -32368,7 +32552,7 @@ module.exports = {
     showGenericSignature: showGenericSignature
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Semigroupoid":236,"../Data.Array":250,"../Data.Boolean":254,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Show":359,"../Data.String":363,"../Data.Traversable":365,"../Data.Tuple":366,"../Data.Unit":370,"../Prelude":384,"../Type.Proxy":393,"./foreign":290}],292:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Semigroupoid":236,"../Data.Array":250,"../Data.Boolean":254,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Show":359,"../Data.String":367,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389,"../Type.Proxy":398,"./foreign":290}],292:[function(require,module,exports){
 "use strict";
 
 exports.boolConj = function (b1) {
@@ -32480,7 +32664,7 @@ module.exports = {
     heytingAlgebraFunction: heytingAlgebraFunction
 };
 
-},{"../Data.Unit":370,"./foreign":292}],294:[function(require,module,exports){
+},{"../Data.Unit":374,"./foreign":292}],294:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -32666,7 +32850,7 @@ module.exports = {
     traversableIdentity: traversableIdentity
 };
 
-},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":365,"../Prelude":384}],295:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],295:[function(require,module,exports){
 "use strict";
 
 // module Data.Int.Bits
@@ -32874,7 +33058,7 @@ module.exports = {
     toStringAs: $foreign.toStringAs
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Int.Bits":296,"../Data.Maybe":327,"../Data.Ord":343,"../Math":374,"../Partial.Unsafe":376,"./foreign":297}],299:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Int.Bits":296,"../Data.Maybe":327,"../Data.Ord":343,"../Math":378,"../Partial.Unsafe":380,"./foreign":297}],299:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Lens_Lens_Tuple = require("../Data.Lens.Lens.Tuple");
@@ -33329,7 +33513,7 @@ module.exports = {
     unfolded: unfolded
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid":334,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Monoid.Multiplicative":333,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Tuple":366,"../Data.Unit":370,"../Prelude":384}],301:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid":334,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Monoid.Multiplicative":333,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],301:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33381,7 +33565,7 @@ module.exports = {
     viewOn: viewOn
 };
 
-},{"../Control.Category":192,"../Control.Monad.State.Class":224,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Tuple":366,"../Prelude":384}],302:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Monad.State.Class":224,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":389}],302:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33453,7 +33637,7 @@ module.exports = {
     unIndex: unIndex
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Monad.State":226,"../Control.Monad.State.Class":224,"../Control.Monad.State.Trans":225,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Compose":285,"../Data.Identity":294,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Internal.Wander":310,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Star":349,"../Data.Semiring":357,"../Data.Tuple":366,"../Prelude":384}],303:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Monad.State":226,"../Control.Monad.State.Class":224,"../Control.Monad.State.Trans":225,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Compose":285,"../Data.Identity":294,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Internal.Wander":310,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Star":349,"../Data.Semiring":357,"../Data.Tuple":370,"../Prelude":389}],303:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33496,7 +33680,7 @@ module.exports = {
     profunctorExchange: profunctorExchange
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Functor":289,"../Data.Profunctor":351,"../Prelude":384}],304:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Functor":289,"../Data.Profunctor":351,"../Prelude":389}],304:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33579,7 +33763,7 @@ module.exports = {
     wanderForget: wanderForget
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Const":259,"../Data.Either":261,"../Data.Functor":289,"../Data.Lens.Internal.Wander":310,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Cochoice":347,"../Data.Profunctor.Strong":350,"../Data.Tuple":366,"../Prelude":384}],305:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Const":259,"../Data.Either":261,"../Data.Functor":289,"../Data.Lens.Internal.Wander":310,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Cochoice":347,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],305:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33665,7 +33849,7 @@ module.exports = {
     wanderIndexed: wanderIndexed
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Lens.Internal.Wander":310,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Strong":350,"../Data.Tuple":366,"../Prelude":384}],306:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Lens.Internal.Wander":310,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],306:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33733,7 +33917,7 @@ module.exports = {
     choiceMarket: choiceMarket
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Functor":289,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Prelude":384}],307:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Functor":289,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Prelude":389}],307:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33823,7 +34007,7 @@ module.exports = {
     costrongRe: costrongRe
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Cochoice":347,"../Data.Profunctor.Costrong":348,"../Data.Profunctor.Strong":350,"../Prelude":384}],308:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Cochoice":347,"../Data.Profunctor.Costrong":348,"../Data.Profunctor.Strong":350,"../Prelude":389}],308:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33881,7 +34065,7 @@ module.exports = {
     strongShop: strongShop
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Profunctor":351,"../Data.Profunctor.Strong":350,"../Data.Tuple":366,"../Prelude":384}],309:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Profunctor":351,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],309:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Either = require("../Data.Either");
@@ -33925,7 +34109,7 @@ module.exports = {
     taggedCostrong: taggedCostrong
 };
 
-},{"../Data.Either":261,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Costrong":348,"../Data.Tuple":366}],310:[function(require,module,exports){
+},{"../Data.Either":261,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Costrong":348,"../Data.Tuple":370}],310:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33968,7 +34152,7 @@ module.exports = {
     wanderStar: wanderStar
 };
 
-},{"../Data.Functor":289,"../Data.Identity":294,"../Data.Newtype":336,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Star":349,"../Data.Profunctor.Strong":350,"../Prelude":384}],311:[function(require,module,exports){
+},{"../Data.Functor":289,"../Data.Identity":294,"../Data.Newtype":336,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Star":349,"../Data.Profunctor.Strong":350,"../Prelude":389}],311:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34104,7 +34288,7 @@ module.exports = {
     withIso: withIso
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens.Internal.Exchange":303,"../Data.Lens.Internal.Re":307,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Tuple":366,"../Prelude":384}],312:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens.Internal.Exchange":303,"../Data.Lens.Internal.Re":307,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Tuple":370,"../Prelude":389}],312:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Lens_Lens = require("../Data.Lens.Lens");
@@ -34121,7 +34305,7 @@ module.exports = {
     _2: _2
 };
 
-},{"../Data.Lens.Lens":314,"../Data.Profunctor.Strong":350,"../Data.Tuple":366}],313:[function(require,module,exports){
+},{"../Data.Lens.Lens":314,"../Data.Profunctor.Strong":350,"../Data.Tuple":370}],313:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34135,7 +34319,7 @@ module.exports = {
     united: united
 };
 
-},{"../Data.Function":284,"../Data.Lens.Lens":314,"../Data.Unit":370,"../Prelude":384}],314:[function(require,module,exports){
+},{"../Data.Function":284,"../Data.Lens.Lens":314,"../Data.Unit":374,"../Prelude":389}],314:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34193,7 +34377,7 @@ module.exports = {
     withLens: withLens
 };
 
-},{"../Control.Category":192,"../Data.Lens.Internal.Shop":308,"../Data.Lens.Types":320,"../Data.Profunctor":351,"../Data.Profunctor.Strong":350,"../Data.Tuple":366,"../Prelude":384}],315:[function(require,module,exports){
+},{"../Control.Category":192,"../Data.Lens.Internal.Shop":308,"../Data.Lens.Types":320,"../Data.Profunctor":351,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],315:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Either = require("../Data.Either");
@@ -34230,7 +34414,7 @@ module.exports = {
     _Nothing: _Nothing
 };
 
-},{"../Data.Either":261,"../Data.Function":284,"../Data.Lens.Prism":317,"../Data.Maybe":327,"../Data.Unit":370,"../Prelude":384}],317:[function(require,module,exports){
+},{"../Data.Either":261,"../Data.Function":284,"../Data.Lens.Prism":317,"../Data.Maybe":327,"../Data.Unit":374,"../Prelude":389}],317:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34337,7 +34521,7 @@ module.exports = {
     withPrism: withPrism
 };
 
-},{"../Control.Category":192,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Market":306,"../Data.Lens.Internal.Tagged":309,"../Data.Lens.Types":320,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Prelude":384}],318:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Market":306,"../Data.Lens.Internal.Tagged":309,"../Data.Lens.Types":320,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Prelude":389}],318:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34528,7 +34712,7 @@ module.exports = {
     subOver: subOver
 };
 
-},{"../Control.Monad.State.Class":224,"../Control.Semigroupoid":236,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.Maybe":327,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Tuple":366,"../Prelude":384}],319:[function(require,module,exports){
+},{"../Control.Monad.State.Class":224,"../Control.Semigroupoid":236,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.Maybe":327,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Tuple":370,"../Prelude":389}],319:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34633,7 +34817,7 @@ module.exports = {
     traversed: traversed
 };
 
-},{"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Lens.Indexed":302,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Internal.Wander":310,"../Data.Lens.Types":320,"../Data.Monoid.Disj":330,"../Data.Newtype":336,"../Data.Profunctor.Star":349,"../Data.Traversable":365,"../Data.Tuple":366,"../Prelude":384}],320:[function(require,module,exports){
+},{"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Lens.Indexed":302,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Internal.Wander":310,"../Data.Lens.Types":320,"../Data.Monoid.Disj":330,"../Data.Newtype":336,"../Data.Profunctor.Star":349,"../Data.Traversable":369,"../Data.Tuple":370,"../Prelude":389}],320:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Lens_Internal_Exchange = require("../Data.Lens.Internal.Exchange");
@@ -34746,7 +34930,7 @@ module.exports = {
     uncons: uncons
 };
 
-},{"../Control.Bind":191,"../Control.Semigroupoid":236,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Semiring":357,"../Data.Tuple":366,"../Data.Unfoldable":368,"../Prelude":384}],323:[function(require,module,exports){
+},{"../Control.Bind":191,"../Control.Semigroupoid":236,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Semiring":357,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Prelude":389}],323:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -35239,7 +35423,7 @@ module.exports = {
     traversableNonEmptyList: traversableNonEmptyList
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Generic":291,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":365,"../Data.Tuple":366,"../Data.Unfoldable":368,"../Data.Unit":370,"../Prelude":384}],324:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Generic":291,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Data.Unit":374,"../Prelude":389}],324:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36194,7 +36378,7 @@ module.exports = {
     zipWithA: zipWithA
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Lazy":196,"../Control.Monad.Rec.Class":221,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Boolean":254,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Traversable":365,"../Data.Tuple":366,"../Data.Unfoldable":368,"../Data.Unit":370,"../Prelude":384}],325:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Lazy":196,"../Control.Monad.Rec.Class":221,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Boolean":254,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Data.Unit":374,"../Prelude":389}],325:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36269,7 +36453,7 @@ module.exports = {
     monoidFirst: monoidFirst
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":384}],326:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":389}],326:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36347,7 +36531,7 @@ module.exports = {
     monoidLast: monoidLast
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":384}],327:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":389}],327:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36613,7 +36797,7 @@ module.exports = {
     showMaybe: showMaybe
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Extend":195,"../Control.Monad":230,"../Control.MonadZero":232,"../Control.Plus":235,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Unit":370,"../Prelude":384}],328:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Extend":195,"../Control.Monad":230,"../Control.MonadZero":232,"../Control.Plus":235,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Unit":374,"../Prelude":389}],328:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36728,7 +36912,7 @@ module.exports = {
     monoidAdditive: monoidAdditive
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":384}],329:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":389}],329:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36856,7 +37040,7 @@ module.exports = {
     semiringConj: semiringConj
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":384}],330:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":389}],330:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36984,7 +37168,7 @@ module.exports = {
     semiringDisj: semiringDisj
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":384}],331:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":389}],331:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37098,7 +37282,7 @@ module.exports = {
     monoidDual: monoidDual
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":384}],332:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":389}],332:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37141,7 +37325,7 @@ module.exports = {
     monoidEndo: monoidEndo
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Prelude":384}],333:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Prelude":389}],333:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37256,7 +37440,7 @@ module.exports = {
     monoidMultiplicative: monoidMultiplicative
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":384}],334:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":389}],334:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37320,7 +37504,7 @@ module.exports = {
     monoidArray: monoidArray
 };
 
-},{"../Data.Boolean":254,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Unit":370,"../Prelude":384}],335:[function(require,module,exports){
+},{"../Data.Boolean":254,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Unit":374,"../Prelude":389}],335:[function(require,module,exports){
 arguments[4][248][0].apply(exports,arguments)
 },{"dup":248}],336:[function(require,module,exports){
 // Generated by psc version 0.10.2
@@ -37438,7 +37622,7 @@ module.exports = {
     wrap: wrap
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Functor":289,"../Prelude":384}],337:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Functor":289,"../Prelude":389}],337:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37612,7 +37796,7 @@ module.exports = {
     traversableNonEmpty: traversableNonEmpty
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":365,"../Prelude":384}],338:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],338:[function(require,module,exports){
 "use strict";
 
 exports["null"] = null;
@@ -37662,7 +37846,7 @@ module.exports = {
     ordNullable: ordNullable
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Show":359,"../Prelude":384,"./foreign":338}],340:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Show":359,"../Prelude":389,"./foreign":338}],340:[function(require,module,exports){
 "use strict";
 
 exports.unsafeCompareImpl = function (lt) {
@@ -37981,7 +38165,7 @@ module.exports = {
     ordOrdering: ordOrdering
 };
 
-},{"../Data.Eq":263,"../Data.Function":284,"../Data.Ord.Unsafe":341,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semiring":357,"../Data.Unit":370,"../Data.Void":371,"./foreign":342}],344:[function(require,module,exports){
+},{"../Data.Eq":263,"../Data.Function":284,"../Data.Ord.Unsafe":341,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semiring":357,"../Data.Unit":374,"../Data.Void":375,"./foreign":342}],344:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Eq = require("../Data.Eq");
@@ -38132,7 +38316,7 @@ module.exports = {
     choiceFn: choiceFn
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Profunctor":351,"../Prelude":384}],346:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Profunctor":351,"../Prelude":389}],346:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -38154,7 +38338,7 @@ module.exports = {
     closedFunction: closedFunction
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Profunctor":351,"../Prelude":384}],347:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Profunctor":351,"../Prelude":389}],347:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Either = require("../Data.Either");
@@ -38198,7 +38382,7 @@ module.exports = {
     unsecond: unsecond
 };
 
-},{"../Data.Profunctor":351,"../Data.Tuple":366}],349:[function(require,module,exports){
+},{"../Data.Profunctor":351,"../Data.Tuple":370}],349:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -38438,7 +38622,7 @@ module.exports = {
     closedStar: closedStar
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Distributive":260,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Closed":346,"../Data.Profunctor.Strong":350,"../Data.Tuple":366,"../Prelude":384}],350:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Distributive":260,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Closed":346,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],350:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -38495,7 +38679,7 @@ module.exports = {
     strongFn: strongFn
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Functor":289,"../Data.Profunctor":351,"../Data.Tuple":366,"../Prelude":384}],351:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Functor":289,"../Data.Profunctor":351,"../Data.Tuple":370,"../Prelude":389}],351:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -38557,7 +38741,7 @@ module.exports = {
     profunctorFn: profunctorFn
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Newtype":336,"../Prelude":384}],352:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Newtype":336,"../Prelude":389}],352:[function(require,module,exports){
 "use strict";
 
 exports.intSub = function (x) {
@@ -38613,7 +38797,7 @@ module.exports = {
     ringUnit: ringUnit
 };
 
-},{"../Data.Semiring":357,"../Data.Unit":370,"./foreign":352}],354:[function(require,module,exports){
+},{"../Data.Semiring":357,"../Data.Unit":374,"./foreign":352}],354:[function(require,module,exports){
 "use strict";
 
 exports.concatString = function (s1) {
@@ -38671,7 +38855,7 @@ module.exports = {
     semigroupArray: semigroupArray
 };
 
-},{"../Data.Unit":370,"../Data.Void":371,"./foreign":354}],356:[function(require,module,exports){
+},{"../Data.Unit":374,"../Data.Void":375,"./foreign":354}],356:[function(require,module,exports){
 "use strict";
 
 exports.intAdd = function (x) {
@@ -38745,7 +38929,7 @@ module.exports = {
     semiringUnit: semiringUnit
 };
 
-},{"../Data.Unit":370,"./foreign":356}],358:[function(require,module,exports){
+},{"../Data.Unit":374,"./foreign":356}],358:[function(require,module,exports){
 "use strict";
 
 exports.showIntImpl = function (n) {
@@ -38846,6 +39030,509 @@ module.exports = {
 };
 
 },{"./foreign":358}],360:[function(require,module,exports){
+/* global exports */
+"use strict";
+
+// module Data.StrMap.ST
+
+exports["new"] = function () {
+  return {};
+};
+
+exports.peekImpl = function (just) {
+  return function (nothing) {
+    return function (m) {
+      return function (k) {
+        return function () {
+          return {}.hasOwnProperty.call(m, k) ? just(m[k]) : nothing;
+        };
+      };
+    };
+  };
+};
+
+exports.poke = function (m) {
+  return function (k) {
+    return function (v) {
+      return function () {
+        m[k] = v;
+        return m;
+      };
+    };
+  };
+};
+
+exports["delete"] = function (m) {
+  return function (k) {
+    return function () {
+      delete m[k];
+      return m;
+    };
+  };
+};
+
+},{}],361:[function(require,module,exports){
+// Generated by psc version 0.10.2
+"use strict";
+var $foreign = require("./foreign");
+var Control_Monad_Eff = require("../Control.Monad.Eff");
+var Control_Monad_ST = require("../Control.Monad.ST");
+var Data_Maybe = require("../Data.Maybe");
+var peek = $foreign.peekImpl(Data_Maybe.Just.create)(Data_Maybe.Nothing.value);
+module.exports = {
+    peek: peek, 
+    "delete": $foreign["delete"], 
+    "new": $foreign["new"], 
+    poke: $foreign.poke
+};
+
+},{"../Control.Monad.Eff":213,"../Control.Monad.ST":223,"../Data.Maybe":327,"./foreign":360}],362:[function(require,module,exports){
+/* global exports */
+"use strict";
+
+// module Data.StrMap
+
+exports._copy = function (m) {
+  var r = {};
+  for (var k in m) {
+    if (m.hasOwnProperty(k)) {
+      r[k] = m[k];
+    }
+  }
+  return r;
+};
+
+exports._copyEff = function (m) {
+  return function () {
+    var r = {};
+    for (var k in m) {
+      if (m.hasOwnProperty(k)) {
+        r[k] = m[k];
+      }
+    }
+    return r;
+  };
+};
+
+exports.empty = {};
+
+exports.runST = function (f) {
+  return f;
+};
+
+// jshint maxparams: 2
+exports._fmapStrMap = function (m0, f) {
+  var m = {};
+  for (var k in m0) {
+    if (m0.hasOwnProperty(k)) {
+      m[k] = f(m0[k]);
+    }
+  }
+  return m;
+};
+
+// jshint maxparams: 2
+exports._mapWithKey = function (m0, f) {
+  var m = {};
+  for (var k in m0) {
+    if (m0.hasOwnProperty(k)) {
+      m[k] = f(k)(m0[k]);
+    }
+  }
+  return m;
+};
+
+// jshint maxparams: 1
+exports._foldM = function (bind) {
+  return function (f) {
+    return function (mz) {
+      return function (m) {
+        var acc = mz;
+        function g(k) {
+          return function (z) {
+            return f(z)(k)(m[k]);
+          };
+        }
+        for (var k in m) {
+          if (m.hasOwnProperty(k)) {
+            acc = bind(acc)(g(k));
+          }
+        }
+        return acc;
+      };
+    };
+  };
+};
+
+// jshint maxparams: 4
+exports._foldSCStrMap = function (m, z, f, fromMaybe) {
+  for (var k in m) {
+    if (m.hasOwnProperty(k)) {
+      var maybeR = f(z)(k)(m[k]);
+      var r = fromMaybe(null)(maybeR);
+      if (r === null) return z;
+      else z = r;
+    }
+  }
+  return z;
+};
+
+// jshint maxparams: 1
+exports.all = function (f) {
+  return function (m) {
+    for (var k in m) {
+      if (m.hasOwnProperty(k) && !f(k)(m[k])) return false;
+    }
+    return true;
+  };
+};
+
+exports.size = function (m) {
+  var s = 0;
+  for (var k in m) {
+    if (m.hasOwnProperty(k)) {
+      ++s;
+    }
+  }
+  return s;
+};
+
+// jshint maxparams: 4
+exports._lookup = function (no, yes, k, m) {
+  return k in m ? yes(m[k]) : no;
+};
+
+// jshint maxparams: 2
+exports._unsafeDeleteStrMap = function (m, k) {
+  delete m[k];
+  return m;
+};
+
+// jshint maxparams: 4
+exports._lookupST = function (no, yes, k, m) {
+  return function () {
+    return k in m ? yes(m[k]) : no;
+  };
+};
+
+function _collect(f) {
+  return function (m) {
+    var r = [];
+    for (var k in m) {
+      if (m.hasOwnProperty(k)) {
+        r.push(f(k)(m[k]));
+      }
+    }
+    return r;
+  };
+}
+
+exports._collect = _collect;
+
+exports.keys = Object.keys || _collect(function (k) {
+  return function () { return k; };
+});
+
+},{}],363:[function(require,module,exports){
+// Generated by psc version 0.10.2
+"use strict";
+var $foreign = require("./foreign");
+var Prelude = require("../Prelude");
+var Control_Monad_Eff = require("../Control.Monad.Eff");
+var Control_Monad_ST = require("../Control.Monad.ST");
+var Data_Foldable = require("../Data.Foldable");
+var Data_Function_Uncurried = require("../Data.Function.Uncurried");
+var Data_List = require("../Data.List");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Monoid = require("../Data.Monoid");
+var Data_StrMap_ST = require("../Data.StrMap.ST");
+var Data_Traversable = require("../Data.Traversable");
+var Data_Tuple = require("../Data.Tuple");
+var Data_Unfoldable = require("../Data.Unfoldable");
+var Data_Functor = require("../Data.Functor");
+var Data_Function = require("../Data.Function");
+var Control_Apply = require("../Control.Apply");
+var Control_Applicative = require("../Control.Applicative");
+var Control_Category = require("../Control.Category");
+var Data_Eq = require("../Data.Eq");
+var Data_HeytingAlgebra = require("../Data.HeytingAlgebra");
+var Data_Show = require("../Data.Show");
+var Data_Semigroup = require("../Data.Semigroup");
+var Control_Semigroupoid = require("../Control.Semigroupoid");
+var Data_List_Types = require("../Data.List.Types");
+var Control_Bind = require("../Control.Bind");
+var values = function ($39) {
+    return Data_List.fromFoldable(Data_Foldable.foldableArray)($foreign._collect(function (v) {
+        return function (v1) {
+            return v1;
+        };
+    })($39));
+};
+var toList = function ($40) {
+    return Data_List.fromFoldable(Data_Foldable.foldableArray)($foreign._collect(Data_Tuple.Tuple.create)($40));
+};
+var toUnfoldable = function (dictUnfoldable) {
+    return function ($41) {
+        return Data_List.toUnfoldable(dictUnfoldable)(toList($41));
+    };
+};
+var thawST = $foreign._copyEff;
+var showStrMap = function (dictShow) {
+    return new Data_Show.Show(function (m) {
+        return "fromList " + Data_Show.show(Data_List_Types.showList(Data_Tuple.showTuple(Data_Show.showString)(dictShow)))(toList(m));
+    });
+};
+var pureST = function (f) {
+    return Control_Monad_Eff.runPure($foreign.runST(f));
+};
+var singleton = function (k) {
+    return function (v) {
+        return pureST(function __do() {
+            var v1 = Data_StrMap_ST["new"]();
+            Data_StrMap_ST.poke(v1)(k)(v)();
+            return v1;
+        });
+    };
+};
+var mutate = function (f) {
+    return function (m) {
+        return pureST(function __do() {
+            var v = thawST(m)();
+            f(v)();
+            return v;
+        });
+    };
+};
+var member = Data_Function_Uncurried.runFn4($foreign._lookup)(false)(Data_Function["const"](true));
+var mapWithKey = function (f) {
+    return function (m) {
+        return $foreign._mapWithKey(m, f);
+    };
+};
+var lookup = Data_Function_Uncurried.runFn4($foreign._lookup)(Data_Maybe.Nothing.value)(Data_Maybe.Just.create);
+var isSubmap = function (dictEq) {
+    return function (m1) {
+        return function (m2) {
+            var f = function (k) {
+                return function (v) {
+                    return $foreign._lookup(false, Data_Eq.eq(dictEq)(v), k, m2);
+                };
+            };
+            return $foreign.all(f)(m1);
+        };
+    };
+};
+var isEmpty = $foreign.all(function (v) {
+    return function (v1) {
+        return false;
+    };
+});
+var insert = function (k) {
+    return function (v) {
+        return mutate(function (s) {
+            return Data_StrMap_ST.poke(s)(k)(v);
+        });
+    };
+};
+var functorStrMap = new Data_Functor.Functor(function (f) {
+    return function (m) {
+        return $foreign._fmapStrMap(m, f);
+    };
+});
+var fromFoldableWith = function (dictFoldable) {
+    return function (f) {
+        return function (l) {
+            return pureST(function __do() {
+                var v = Data_StrMap_ST["new"]();
+                Data_Foldable.for_(Control_Monad_Eff.applicativeEff)(dictFoldable)(l)(function (v1) {
+                    return Control_Bind.bind(Control_Monad_Eff.bindEff)($foreign._lookupST(v1.value1, f(v1.value1), v1.value0, v))(Data_StrMap_ST.poke(v)(v1.value0));
+                })();
+                return v;
+            });
+        };
+    };
+};
+var fromFoldable = function (dictFoldable) {
+    return function (l) {
+        return pureST(function __do() {
+            var v = Data_StrMap_ST["new"]();
+            Data_Foldable.for_(Control_Monad_Eff.applicativeEff)(dictFoldable)(l)(function (v1) {
+                return Data_StrMap_ST.poke(v)(v1.value0)(v1.value1);
+            })();
+            return v;
+        });
+    };
+};
+var freezeST = $foreign._copyEff;
+var foldMaybe = function (f) {
+    return function (z) {
+        return function (m) {
+            return $foreign._foldSCStrMap(m, z, f, Data_Maybe.fromMaybe);
+        };
+    };
+};
+var foldM = function (dictMonad) {
+    return function (f) {
+        return function (z) {
+            return $foreign._foldM(Control_Bind.bind(dictMonad["__superclass_Control.Bind.Bind_1"]()))(f)(Control_Applicative.pure(dictMonad["__superclass_Control.Applicative.Applicative_0"]())(z));
+        };
+    };
+};
+var semigroupStrMap = function (dictSemigroup) {
+    return new Data_Semigroup.Semigroup(function (m1) {
+        return function (m2) {
+            return mutate(function (s1) {
+                return foldM(Control_Monad_Eff.monadEff)(function (s2) {
+                    return function (k) {
+                        return function (v2) {
+                            return Data_StrMap_ST.poke(s2)(k)($foreign._lookup(v2, function (v1) {
+                                return Data_Semigroup.append(dictSemigroup)(v1)(v2);
+                            }, k, m2));
+                        };
+                    };
+                })(s1)(m1);
+            })(m2);
+        };
+    });
+};
+var monoidStrMap = function (dictSemigroup) {
+    return new Data_Monoid.Monoid(function () {
+        return semigroupStrMap(dictSemigroup);
+    }, $foreign.empty);
+};
+var union = function (m) {
+    return mutate(function (s) {
+        return foldM(Control_Monad_Eff.monadEff)(Data_StrMap_ST.poke)(s)(m);
+    });
+};
+var unions = Data_Foldable.foldl(Data_List_Types.foldableList)(union)($foreign.empty);
+var fold = $foreign._foldM(Data_Function.applyFlipped);
+var foldMap = function (dictMonoid) {
+    return function (f) {
+        return fold(function (acc) {
+            return function (k) {
+                return function (v) {
+                    return Data_Semigroup.append(dictMonoid["__superclass_Data.Semigroup.Semigroup_0"]())(acc)(f(k)(v));
+                };
+            };
+        })(Data_Monoid.mempty(dictMonoid));
+    };
+};
+var foldableStrMap = new Data_Foldable.Foldable(function (dictMonoid) {
+    return function (f) {
+        return foldMap(dictMonoid)(Data_Function["const"](f));
+    };
+}, function (f) {
+    return fold(function (z) {
+        return function (v) {
+            return f(z);
+        };
+    });
+}, function (f) {
+    return function (z) {
+        return function (m) {
+            return Data_Foldable.foldr(Data_List_Types.foldableList)(f)(z)(values(m));
+        };
+    };
+});
+var traversableStrMap = new Data_Traversable.Traversable(function () {
+    return foldableStrMap;
+}, function () {
+    return functorStrMap;
+}, function (dictApplicative) {
+    return Data_Traversable.traverse(traversableStrMap)(dictApplicative)(Control_Category.id(Control_Category.categoryFn));
+}, function (dictApplicative) {
+    return function (f) {
+        return function (ms) {
+            return Data_Foldable.foldr(Data_List_Types.foldableList)(function (x) {
+                return function (acc) {
+                    return Control_Apply.apply(dictApplicative["__superclass_Control.Apply.Apply_0"]())(Data_Functor.map((dictApplicative["__superclass_Control.Apply.Apply_0"]())["__superclass_Data.Functor.Functor_0"]())(union)(x))(acc);
+                };
+            })(Control_Applicative.pure(dictApplicative)($foreign.empty))(Data_Functor.map(Data_List_Types.functorList)(Data_Functor.map((dictApplicative["__superclass_Control.Apply.Apply_0"]())["__superclass_Data.Functor.Functor_0"]())(Data_Tuple.uncurry(singleton)))(Data_Functor.map(Data_List_Types.functorList)(Data_Traversable.traverse(Data_Tuple.traversableTuple)(dictApplicative)(f))(toList(ms))));
+        };
+    };
+});
+var eqStrMap = function (dictEq) {
+    return new Data_Eq.Eq(function (m1) {
+        return function (m2) {
+            return isSubmap(dictEq)(m1)(m2) && isSubmap(dictEq)(m2)(m1);
+        };
+    });
+};
+var $$delete = function (k) {
+    return mutate(function (s) {
+        return Data_StrMap_ST["delete"](s)(k);
+    });
+};
+var pop = function (k) {
+    return function (m) {
+        return Data_Functor.mapFlipped(Data_Maybe.functorMaybe)(lookup(k)(m))(function (a) {
+            return new Data_Tuple.Tuple(a, $$delete(k)(m));
+        });
+    };
+};
+var alter = function (f) {
+    return function (k) {
+        return function (m) {
+            var $37 = f(lookup(k)(m));
+            if ($37 instanceof Data_Maybe.Nothing) {
+                return $$delete(k)(m);
+            };
+            if ($37 instanceof Data_Maybe.Just) {
+                return insert(k)($37.value0)(m);
+            };
+            throw new Error("Failed pattern match at Data.StrMap line 186, column 15 - line 188, column 25: " + [ $37.constructor.name ]);
+        };
+    };
+};
+var update = function (f) {
+    return function (k) {
+        return function (m) {
+            return alter(Data_Maybe.maybe(Data_Maybe.Nothing.value)(f))(k)(m);
+        };
+    };
+};
+module.exports = {
+    alter: alter, 
+    "delete": $$delete, 
+    fold: fold, 
+    foldM: foldM, 
+    foldMap: foldMap, 
+    foldMaybe: foldMaybe, 
+    freezeST: freezeST, 
+    fromFoldable: fromFoldable, 
+    fromFoldableWith: fromFoldableWith, 
+    insert: insert, 
+    isEmpty: isEmpty, 
+    isSubmap: isSubmap, 
+    lookup: lookup, 
+    mapWithKey: mapWithKey, 
+    member: member, 
+    pop: pop, 
+    pureST: pureST, 
+    singleton: singleton, 
+    thawST: thawST, 
+    toList: toList, 
+    toUnfoldable: toUnfoldable, 
+    union: union, 
+    unions: unions, 
+    update: update, 
+    values: values, 
+    functorStrMap: functorStrMap, 
+    foldableStrMap: foldableStrMap, 
+    traversableStrMap: traversableStrMap, 
+    eqStrMap: eqStrMap, 
+    showStrMap: showStrMap, 
+    semigroupStrMap: semigroupStrMap, 
+    monoidStrMap: monoidStrMap, 
+    all: $foreign.all, 
+    empty: $foreign.empty, 
+    keys: $foreign.keys, 
+    runST: $foreign.runST, 
+    size: $foreign.size
+};
+
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Eff":213,"../Control.Monad.ST":223,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Semigroup":355,"../Data.Show":359,"../Data.StrMap.ST":361,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Prelude":389,"./foreign":362}],364:[function(require,module,exports){
 "use strict";
 
 exports.charCodeAt = function (i) {
@@ -38867,7 +39554,7 @@ exports.char = function (s) {
   throw new Error("Data.String.Unsafe.char: Expected string of length 1.");
 };
 
-},{}],361:[function(require,module,exports){
+},{}],365:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -38877,7 +39564,7 @@ module.exports = {
     charCodeAt: $foreign.charCodeAt
 };
 
-},{"./foreign":360}],362:[function(require,module,exports){
+},{"./foreign":364}],366:[function(require,module,exports){
 "use strict";
 
 exports._charAt = function (just) {
@@ -39057,7 +39744,7 @@ exports.joinWith = function (s) {
   };
 };
 
-},{}],363:[function(require,module,exports){
+},{}],367:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -39213,7 +39900,7 @@ module.exports = {
     trim: $foreign.trim
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.String.Unsafe":361,"../Prelude":384,"./foreign":362}],364:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.String.Unsafe":365,"../Prelude":389,"./foreign":366}],368:[function(require,module,exports){
 "use strict";
 
 // jshint maxparams: 3
@@ -39278,7 +39965,7 @@ exports.traverseArrayImpl = function () {
   };
 }();
 
-},{}],365:[function(require,module,exports){
+},{}],369:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -39638,7 +40325,7 @@ module.exports = {
     traversableMultiplicative: traversableMultiplicative
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Multiplicative":333,"../Prelude":384,"./foreign":364}],366:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Multiplicative":333,"../Prelude":389,"./foreign":368}],370:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -40035,7 +40722,7 @@ module.exports = {
     bitraversableTuple: bitraversableTuple
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Biapplicative":188,"../Control.Biapply":189,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Lazy":196,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Data.Bitraversable":253,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":365,"../Data.Unit":370,"../Prelude":384}],367:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Biapplicative":188,"../Control.Biapply":189,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Lazy":196,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Data.Bitraversable":253,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Data.Unit":374,"../Prelude":389}],371:[function(require,module,exports){
 "use strict";
 
 exports.unfoldrArrayImpl = function (isNothing) {
@@ -40059,7 +40746,7 @@ exports.unfoldrArrayImpl = function (isNothing) {
   };
 };
 
-},{}],368:[function(require,module,exports){
+},{}],372:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -40132,12 +40819,12 @@ module.exports = {
     unfoldableArray: unfoldableArray
 };
 
-},{"../Data.Function":284,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ring":353,"../Data.Traversable":365,"../Data.Tuple":366,"../Data.Unit":370,"../Partial.Unsafe":376,"../Prelude":384,"./foreign":367}],369:[function(require,module,exports){
+},{"../Data.Function":284,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ring":353,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unit":374,"../Partial.Unsafe":380,"../Prelude":389,"./foreign":371}],373:[function(require,module,exports){
 "use strict";
 
 exports.unit = {};
 
-},{}],370:[function(require,module,exports){
+},{}],374:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -40150,7 +40837,7 @@ module.exports = {
     unit: $foreign.unit
 };
 
-},{"../Data.Show":359,"./foreign":369}],371:[function(require,module,exports){
+},{"../Data.Show":359,"./foreign":373}],375:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Show = require("../Data.Show");
@@ -40174,7 +40861,7 @@ module.exports = {
     showVoid: showVoid
 };
 
-},{"../Data.Show":359}],372:[function(require,module,exports){
+},{"../Data.Show":359}],376:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -40203,7 +40890,7 @@ var Control_Semigroupoid = require("../Control.Semigroupoid");
 var initialState = {
     battler: {
         species: {
-            name: "Sample", 
+            name: "", 
             baseStats: {
                 hp: 80, 
                 atk: 80, 
@@ -40263,7 +40950,7 @@ module.exports = {
     main: main
 };
 
-},{"../Components.Calculator":182,"../Control.Bind":191,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Console":205,"../Control.Semigroupoid":236,"../DOM":248,"../DOM.HTML":244,"../DOM.HTML.Types":240,"../DOM.HTML.Window":242,"../DOM.Node.ParentNode":246,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Nullable":339,"../Partial.Unsafe":376,"../Pokemon.Battler":379,"../Pokemon.Move":380,"../Pokemon.Species":381,"../Pokemon.Stats":382,"../Pokemon.Type":383,"../Prelude":384,"../React":389,"../ReactDOM":391,"../Thermite":392}],373:[function(require,module,exports){
+},{"../Components.Calculator":182,"../Control.Bind":191,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Console":205,"../Control.Semigroupoid":236,"../DOM":248,"../DOM.HTML":244,"../DOM.HTML.Types":240,"../DOM.HTML.Window":242,"../DOM.Node.ParentNode":246,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Nullable":339,"../Partial.Unsafe":380,"../Pokemon.Battler":383,"../Pokemon.Move":384,"../Pokemon.Species":385,"../Pokemon.Stats":387,"../Pokemon.Type":388,"../Prelude":389,"../React":394,"../ReactDOM":396,"../Thermite":397}],377:[function(require,module,exports){
 "use strict";
 
 // module Math
@@ -40344,7 +41031,7 @@ exports.sqrt1_2 = Math.SQRT1_2;
 
 exports.sqrt2 = Math.SQRT2;
 
-},{}],374:[function(require,module,exports){
+},{}],378:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -40378,7 +41065,7 @@ module.exports = {
     trunc: $foreign.trunc
 };
 
-},{"./foreign":373}],375:[function(require,module,exports){
+},{"./foreign":377}],379:[function(require,module,exports){
 "use strict";
 
 // module Partial.Unsafe
@@ -40387,7 +41074,7 @@ exports.unsafePartial = function (f) {
   return f();
 };
 
-},{}],376:[function(require,module,exports){
+},{}],380:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -40402,7 +41089,7 @@ module.exports = {
     unsafePartial: $foreign.unsafePartial
 };
 
-},{"../Partial":378,"./foreign":375}],377:[function(require,module,exports){
+},{"../Partial":382,"./foreign":379}],381:[function(require,module,exports){
 "use strict";
 
 // module Partial
@@ -40413,7 +41100,7 @@ exports.crashWith = function () {
   };
 };
 
-},{}],378:[function(require,module,exports){
+},{}],382:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -40425,7 +41112,7 @@ module.exports = {
     crashWith: $foreign.crashWith
 };
 
-},{"./foreign":377}],379:[function(require,module,exports){
+},{"./foreign":381}],383:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Maybe = require("../Data.Maybe");
@@ -40439,7 +41126,7 @@ module.exports = {
     Battler: Battler
 };
 
-},{"../Data.Maybe":327,"../Pokemon.Move":380,"../Pokemon.Species":381,"../Pokemon.Stats":382}],380:[function(require,module,exports){
+},{"../Data.Maybe":327,"../Pokemon.Move":384,"../Pokemon.Species":385,"../Pokemon.Stats":387}],384:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Pokemon_Type = require("../Pokemon.Type");
@@ -40482,7 +41169,7 @@ module.exports = {
     NoEffect: NoEffect
 };
 
-},{"../Pokemon.Type":383}],381:[function(require,module,exports){
+},{"../Pokemon.Type":388}],385:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Maybe = require("../Data.Maybe");
@@ -40495,7 +41182,381 @@ module.exports = {
     Species: Species
 };
 
-},{"../Data.Maybe":327,"../Pokemon.Stats":382,"../Pokemon.Type":383}],382:[function(require,module,exports){
+},{"../Data.Maybe":327,"../Pokemon.Stats":387,"../Pokemon.Type":388}],386:[function(require,module,exports){
+// Generated by psc version 0.10.2
+"use strict";
+var Prelude = require("../Prelude");
+var Data_Maybe = require("../Data.Maybe");
+var Data_StrMap = require("../Data.StrMap");
+var Data_String = require("../Data.String");
+var Data_Tuple = require("../Data.Tuple");
+var Pokemon_Species = require("../Pokemon.Species");
+var Pokemon_Stats = require("../Pokemon.Stats");
+var Pokemon_Type = require("../Pokemon.Type");
+var Data_Foldable = require("../Data.Foldable");
+var Data_Functor = require("../Data.Functor");
+var allSpecies = [ {
+    name: "Rowlet", 
+    baseStats: {
+        hp: 68, 
+        atk: 55, 
+        def: 55, 
+        spa: 50, 
+        spd: 50, 
+        spe: 42
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Dartrix", 
+    baseStats: {
+        hp: 78, 
+        atk: 75, 
+        def: 75, 
+        spa: 70, 
+        spd: 70, 
+        spe: 52
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Decidueye", 
+    baseStats: {
+        hp: 78, 
+        atk: 107, 
+        def: 75, 
+        spa: 100, 
+        spd: 100, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ghost.value)
+}, {
+    name: "Litten", 
+    baseStats: {
+        hp: 45, 
+        atk: 65, 
+        def: 40, 
+        spa: 60, 
+        spd: 40, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Torracat", 
+    baseStats: {
+        hp: 65, 
+        atk: 85, 
+        def: 50, 
+        spa: 80, 
+        spd: 50, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Incineroar", 
+    baseStats: {
+        hp: 95, 
+        atk: 115, 
+        def: 90, 
+        spa: 80, 
+        spd: 90, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Popplio", 
+    baseStats: {
+        hp: 50, 
+        atk: 54, 
+        def: 54, 
+        spa: 66, 
+        spd: 56, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Brionne", 
+    baseStats: {
+        hp: 60, 
+        atk: 69, 
+        def: 69, 
+        spa: 91, 
+        spd: 81, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Primarina", 
+    baseStats: {
+        hp: 80, 
+        atk: 74, 
+        def: 74, 
+        spa: 126, 
+        spd: 116, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Pikipek", 
+    baseStats: {
+        hp: 35, 
+        atk: 75, 
+        def: 30, 
+        spa: 30, 
+        spd: 30, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Trumbeak", 
+    baseStats: {
+        hp: 55, 
+        atk: 85, 
+        def: 50, 
+        spa: 40, 
+        spd: 50, 
+        spe: 75
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Toucannon", 
+    baseStats: {
+        hp: 80, 
+        atk: 120, 
+        def: 75, 
+        spa: 75, 
+        spd: 75, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Yungoos", 
+    baseStats: {
+        hp: 48, 
+        atk: 70, 
+        def: 30, 
+        spa: 30, 
+        spd: 30, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Gumshoos", 
+    baseStats: {
+        hp: 88, 
+        atk: 110, 
+        def: 60, 
+        spa: 55, 
+        spd: 60, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Rattata-Alola", 
+    baseStats: {
+        hp: 30, 
+        atk: 56, 
+        def: 35, 
+        spa: 25, 
+        spd: 35, 
+        spe: 72
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Raticate-Alola", 
+    baseStats: {
+        hp: 75, 
+        atk: 71, 
+        def: 70, 
+        spa: 40, 
+        spd: 80, 
+        spe: 77
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Caterpie", 
+    baseStats: {
+        hp: 45, 
+        atk: 30, 
+        def: 35, 
+        spa: 20, 
+        spd: 20, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Metapod", 
+    baseStats: {
+        hp: 50, 
+        atk: 20, 
+        def: 55, 
+        spa: 25, 
+        spd: 25, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Butterfree", 
+    baseStats: {
+        hp: 60, 
+        atk: 45, 
+        def: 50, 
+        spa: 90, 
+        spd: 80, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Ledyba", 
+    baseStats: {
+        hp: 40, 
+        atk: 20, 
+        def: 30, 
+        spa: 40, 
+        spd: 80, 
+        spe: 55
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Ledian", 
+    baseStats: {
+        hp: 55, 
+        atk: 35, 
+        def: 50, 
+        spa: 55, 
+        spd: 110, 
+        spe: 85
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Spinarak", 
+    baseStats: {
+        hp: 40, 
+        atk: 60, 
+        def: 40, 
+        spa: 40, 
+        spd: 40, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Poison.value)
+}, {
+    name: "Ariados", 
+    baseStats: {
+        hp: 70, 
+        atk: 90, 
+        def: 70, 
+        spa: 60, 
+        spd: 70, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Poison.value)
+}, {
+    name: "Pichu", 
+    baseStats: {
+        hp: 20, 
+        atk: 40, 
+        def: 15, 
+        spa: 35, 
+        spd: 35, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Pikachu", 
+    baseStats: {
+        hp: 35, 
+        atk: 55, 
+        def: 40, 
+        spa: 50, 
+        spd: 50, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Raichu-Alola", 
+    baseStats: {
+        hp: 60, 
+        atk: 85, 
+        def: 50, 
+        spa: 95, 
+        spd: 85, 
+        spe: 110
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Grubbin", 
+    baseStats: {
+        hp: 47, 
+        atk: 62, 
+        def: 45, 
+        spa: 55, 
+        spd: 45, 
+        spe: 46
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Charjabug", 
+    baseStats: {
+        hp: 57, 
+        atk: 82, 
+        def: 95, 
+        spa: 55, 
+        spd: 75, 
+        spe: 36
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Electric.value)
+}, {
+    name: "Vikavolt", 
+    baseStats: {
+        hp: 77, 
+        atk: 70, 
+        def: 90, 
+        spa: 145, 
+        spd: 75, 
+        spe: 43
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Electric.value)
+} ];
+var speciesByName = Data_StrMap.fromFoldable(Data_Foldable.foldableArray)(Data_Functor.map(Data_Functor.functorArray)(function (v) {
+    return new Data_Tuple.Tuple(Data_String.toLower(v.name), v);
+})(allSpecies));
+var speciesNames = Data_Functor.map(Data_Functor.functorArray)(function (v) {
+    return v.name;
+})(allSpecies);
+module.exports = {
+    allSpecies: allSpecies, 
+    speciesByName: speciesByName, 
+    speciesNames: speciesNames
+};
+
+},{"../Data.Foldable":269,"../Data.Functor":289,"../Data.Maybe":327,"../Data.StrMap":363,"../Data.String":367,"../Data.Tuple":370,"../Pokemon.Species":385,"../Pokemon.Stats":387,"../Pokemon.Type":388,"../Prelude":389}],387:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -40999,9 +42060,13 @@ module.exports = {
     battleStats: battleStats
 };
 
-},{"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.Int":298,"../Data.Semiring":357,"../Prelude":384}],383:[function(require,module,exports){
+},{"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.Int":298,"../Data.Semiring":357,"../Prelude":389}],388:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
+var Data_Eq = require("../Data.Eq");
+var Data_Ord = require("../Data.Ord");
+var Data_Generic = require("../Data.Generic");
+var Data_Maybe = require("../Data.Maybe");
 var Normal = (function () {
     function Normal() {
 
@@ -41128,6 +42193,179 @@ var Fairy = (function () {
     Fairy.value = new Fairy();
     return Fairy;
 })();
+var genericType = new Data_Generic.Generic(function (v) {
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Normal" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Normal.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Fighting" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Fighting.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Flying" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Flying.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Poison" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Poison.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Ground" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Ground.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Rock" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Rock.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Bug" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Bug.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Ghost" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Ghost.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Steel" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Steel.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Fire" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Fire.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Water" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Water.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Grass" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Grass.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Electric" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Electric.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Psychic" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Psychic.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Ice" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Ice.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Dragon" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Dragon.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Dark" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Dark.value);
+    };
+    if (v instanceof Data_Generic.SProd && (v.value0 === "Pokemon.Type.Fairy" && v.value1.length === 0)) {
+        return new Data_Maybe.Just(Fairy.value);
+    };
+    return Data_Maybe.Nothing.value;
+}, function ($dollarq) {
+    return new Data_Generic.SigProd("Pokemon.Type.Type", [ {
+        sigConstructor: "Pokemon.Type.Normal", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Fighting", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Flying", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Poison", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Ground", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Rock", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Bug", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Ghost", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Steel", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Fire", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Water", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Grass", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Electric", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Psychic", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Ice", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Dragon", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Dark", 
+        sigValues: [  ]
+    }, {
+        sigConstructor: "Pokemon.Type.Fairy", 
+        sigValues: [  ]
+    } ]);
+}, function (v) {
+    if (v instanceof Normal) {
+        return new Data_Generic.SProd("Pokemon.Type.Normal", [  ]);
+    };
+    if (v instanceof Fighting) {
+        return new Data_Generic.SProd("Pokemon.Type.Fighting", [  ]);
+    };
+    if (v instanceof Flying) {
+        return new Data_Generic.SProd("Pokemon.Type.Flying", [  ]);
+    };
+    if (v instanceof Poison) {
+        return new Data_Generic.SProd("Pokemon.Type.Poison", [  ]);
+    };
+    if (v instanceof Ground) {
+        return new Data_Generic.SProd("Pokemon.Type.Ground", [  ]);
+    };
+    if (v instanceof Rock) {
+        return new Data_Generic.SProd("Pokemon.Type.Rock", [  ]);
+    };
+    if (v instanceof Bug) {
+        return new Data_Generic.SProd("Pokemon.Type.Bug", [  ]);
+    };
+    if (v instanceof Ghost) {
+        return new Data_Generic.SProd("Pokemon.Type.Ghost", [  ]);
+    };
+    if (v instanceof Steel) {
+        return new Data_Generic.SProd("Pokemon.Type.Steel", [  ]);
+    };
+    if (v instanceof Fire) {
+        return new Data_Generic.SProd("Pokemon.Type.Fire", [  ]);
+    };
+    if (v instanceof Water) {
+        return new Data_Generic.SProd("Pokemon.Type.Water", [  ]);
+    };
+    if (v instanceof Grass) {
+        return new Data_Generic.SProd("Pokemon.Type.Grass", [  ]);
+    };
+    if (v instanceof Electric) {
+        return new Data_Generic.SProd("Pokemon.Type.Electric", [  ]);
+    };
+    if (v instanceof Psychic) {
+        return new Data_Generic.SProd("Pokemon.Type.Psychic", [  ]);
+    };
+    if (v instanceof Ice) {
+        return new Data_Generic.SProd("Pokemon.Type.Ice", [  ]);
+    };
+    if (v instanceof Dragon) {
+        return new Data_Generic.SProd("Pokemon.Type.Dragon", [  ]);
+    };
+    if (v instanceof Dark) {
+        return new Data_Generic.SProd("Pokemon.Type.Dark", [  ]);
+    };
+    if (v instanceof Fairy) {
+        return new Data_Generic.SProd("Pokemon.Type.Fairy", [  ]);
+    };
+    throw new Error("Failed pattern match at Pokemon.Type line 27, column 1 - line 27, column 44: " + [ v.constructor.name ]);
+});
+var eqType = new Data_Eq.Eq(Data_Generic.gEq(genericType));
+var ordType = new Data_Ord.Ord(function () {
+    return eqType;
+}, Data_Generic.gCompare(genericType));
 module.exports = {
     Normal: Normal, 
     Fighting: Fighting, 
@@ -41146,10 +42384,13 @@ module.exports = {
     Ice: Ice, 
     Dragon: Dragon, 
     Dark: Dark, 
-    Fairy: Fairy
+    Fairy: Fairy, 
+    genericType: genericType, 
+    eqType: eqType, 
+    ordType: ordType
 };
 
-},{}],384:[function(require,module,exports){
+},{"../Data.Eq":263,"../Data.Generic":291,"../Data.Maybe":327,"../Data.Ord":343}],389:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -41179,7 +42420,7 @@ var Data_Unit = require("../Data.Unit");
 var Data_Void = require("../Data.Void");
 module.exports = {};
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.NaturalTransformation":335,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Unit":370,"../Data.Void":371}],385:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.NaturalTransformation":335,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Unit":374,"../Data.Void":375}],390:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -41243,7 +42484,7 @@ function unsafeFromPropsArray(props) {
 };
 exports.unsafeFromPropsArray = unsafeFromPropsArray;
 
-},{"react":180}],386:[function(require,module,exports){
+},{"react":180}],391:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -41687,7 +42928,7 @@ module.exports = {
     unsafeUnfoldProps: $foreign.unsafeUnfoldProps
 };
 
-},{"../React":389,"./foreign":385}],387:[function(require,module,exports){
+},{"../React":394,"./foreign":390}],392:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var React = require("../React");
@@ -42167,7 +43408,7 @@ module.exports = {
     "wbr'": wbr$prime
 };
 
-},{"../React":389,"../React.DOM.Props":386,"../Unsafe.Coerce":395}],388:[function(require,module,exports){
+},{"../React":394,"../React.DOM.Props":391,"../Unsafe.Coerce":400}],393:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -42333,7 +43574,7 @@ function stopPropagation(event) {
 };
 exports.stopPropagation = stopPropagation;
 
-},{"react":180}],389:[function(require,module,exports){
+},{"react":180}],394:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -42420,7 +43661,7 @@ module.exports = {
     writeStateWithCallback: $foreign.writeStateWithCallback
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Eff":213,"../Data.Unit":370,"../Prelude":384,"../Unsafe.Coerce":395,"./foreign":388}],390:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Eff":213,"../Data.Unit":374,"../Prelude":389,"../Unsafe.Coerce":400,"./foreign":393}],395:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -42438,7 +43679,7 @@ exports.findDOMNodeImpl = ReactDOM.findDOMNode;
 exports.renderToStringImpl = ReactDOMServer.renderToString;
 exports.renderToStaticMarkupImpl = ReactDOMServer.renderToStaticMarkup;
 
-},{"react-dom":25,"react-dom/server":155}],391:[function(require,module,exports){
+},{"react-dom":25,"react-dom/server":155}],396:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -42462,7 +43703,7 @@ module.exports = {
     unmountComponentAtNode: unmountComponentAtNode
 };
 
-},{"../Control.Monad.Eff":213,"../DOM":248,"../DOM.Node.Types":247,"../Data.Function.Eff":281,"../Data.Function.Uncurried":283,"../Data.Maybe":327,"../React":389,"./foreign":390}],392:[function(require,module,exports){
+},{"../Control.Monad.Eff":213,"../DOM":248,"../DOM.Node.Types":247,"../Data.Function.Eff":281,"../Data.Function.Uncurried":283,"../Data.Maybe":327,"../React":394,"./foreign":395}],397:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -42850,7 +44091,7 @@ module.exports = {
     monoidSpec: monoidSpec
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.Free.Trans":217,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens":321,"../Data.Lens.Fold":300,"../Data.Lens.Getter":301,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Market":306,"../Data.Lens.Internal.Tagged":309,"../Data.Lens.Lens":314,"../Data.Lens.Prism":317,"../Data.Lens.Setter":318,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Monoid":334,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Strong":350,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Tuple":366,"../Data.Unit":370,"../Prelude":384,"../React":389,"../React.DOM":387}],393:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.Free.Trans":217,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens":321,"../Data.Lens.Fold":300,"../Data.Lens.Getter":301,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Market":306,"../Data.Lens.Internal.Tagged":309,"../Data.Lens.Lens":314,"../Data.Lens.Prism":317,"../Data.Lens.Setter":318,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Monoid":334,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Strong":350,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389,"../React":394,"../React.DOM":392}],398:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Proxy3 = (function () {
@@ -42880,7 +44121,7 @@ module.exports = {
     Proxy3: Proxy3
 };
 
-},{}],394:[function(require,module,exports){
+},{}],399:[function(require,module,exports){
 "use strict";
 
 // module Unsafe.Coerce
@@ -42889,7 +44130,7 @@ exports.unsafeCoerce = function (x) {
   return x;
 };
 
-},{}],395:[function(require,module,exports){
+},{}],400:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -42897,10 +44138,10 @@ module.exports = {
     unsafeCoerce: $foreign.unsafeCoerce
 };
 
-},{"./foreign":394}],396:[function(require,module,exports){
+},{"./foreign":399}],401:[function(require,module,exports){
 require('Main').main();
 
-},{"Main":372}],397:[function(require,module,exports){
+},{"Main":376}],402:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -43021,4 +44262,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[396]);
+},{}]},{},[401]);
