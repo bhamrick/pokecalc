@@ -684,7 +684,7 @@ battlerSpec = T.simpleSpec performAction render
                             Battler (b { species = Species (s { type2 = t })})
             UpdateLevel l -> do
                 void $ T.modifyState \(Battler b) ->
-                    Battler (b { level = l })
+                    Battler (b { level = max 0 (min 100 l) })
             UpdateMove1 m -> do
                 void $ T.modifyState \(Battler b) ->
                     Battler (b { move1 = m })

@@ -21190,7 +21190,7 @@ var battlerSpec = (function () {
                                 $166[$167] = v2[$167];
                             };
                         };
-                        $166.level = action.value0;
+                        $166.level = Data_Ord.max(Data_Ord.ordInt)(0)(Data_Ord.min(Data_Ord.ordInt)(100)(action.value0));
                         return $166;
                     }));
                 };
@@ -41705,6 +41705,3246 @@ var allSpecies = [ {
     }, 
     type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
     type2: new Data_Maybe.Just(Pokemon_Type.Electric.value)
+}, {
+    name: "Bonsly", 
+    baseStats: {
+        hp: 50, 
+        atk: 80, 
+        def: 95, 
+        spa: 10, 
+        spd: 45, 
+        spe: 10
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Sudowoodo", 
+    baseStats: {
+        hp: 70, 
+        atk: 100, 
+        def: 115, 
+        spa: 30, 
+        spd: 65, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Happiny", 
+    baseStats: {
+        hp: 100, 
+        atk: 5, 
+        def: 5, 
+        spa: 15, 
+        spd: 65, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Chansey", 
+    baseStats: {
+        hp: 250, 
+        atk: 5, 
+        def: 5, 
+        spa: 35, 
+        spd: 105, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Blissey", 
+    baseStats: {
+        hp: 255, 
+        atk: 10, 
+        def: 10, 
+        spa: 75, 
+        spd: 135, 
+        spe: 55
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Munchlax", 
+    baseStats: {
+        hp: 135, 
+        atk: 85, 
+        def: 40, 
+        spa: 40, 
+        spd: 85, 
+        spe: 5
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Snorlax", 
+    baseStats: {
+        hp: 160, 
+        atk: 110, 
+        def: 65, 
+        spa: 65, 
+        spd: 110, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Slowpoke", 
+    baseStats: {
+        hp: 90, 
+        atk: 65, 
+        def: 65, 
+        spa: 40, 
+        spd: 40, 
+        spe: 15
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Slowbro", 
+    baseStats: {
+        hp: 95, 
+        atk: 75, 
+        def: 110, 
+        spa: 100, 
+        spd: 80, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Slowking", 
+    baseStats: {
+        hp: 95, 
+        atk: 75, 
+        def: 80, 
+        spa: 100, 
+        spd: 110, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Wingull", 
+    baseStats: {
+        hp: 40, 
+        atk: 30, 
+        def: 30, 
+        spa: 55, 
+        spd: 30, 
+        spe: 85
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Pelipper", 
+    baseStats: {
+        hp: 60, 
+        atk: 50, 
+        def: 100, 
+        spa: 95, 
+        spd: 70, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Abra", 
+    baseStats: {
+        hp: 25, 
+        atk: 20, 
+        def: 15, 
+        spa: 105, 
+        spd: 55, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Psychic.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Kadabra", 
+    baseStats: {
+        hp: 40, 
+        atk: 35, 
+        def: 30, 
+        spa: 120, 
+        spd: 70, 
+        spe: 105
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Psychic.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Alakazam", 
+    baseStats: {
+        hp: 55, 
+        atk: 50, 
+        def: 45, 
+        spa: 135, 
+        spd: 95, 
+        spe: 120
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Psychic.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Meowth-Alola", 
+    baseStats: {
+        hp: 40, 
+        atk: 35, 
+        def: 35, 
+        spa: 50, 
+        spd: 40, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Persian-Alola", 
+    baseStats: {
+        hp: 65, 
+        atk: 60, 
+        def: 60, 
+        spa: 75, 
+        spd: 65, 
+        spe: 115
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Magnemite", 
+    baseStats: {
+        hp: 25, 
+        atk: 35, 
+        def: 70, 
+        spa: 95, 
+        spd: 55, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Magneton", 
+    baseStats: {
+        hp: 50, 
+        atk: 60, 
+        def: 95, 
+        spa: 120, 
+        spd: 70, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Magnezone", 
+    baseStats: {
+        hp: 70, 
+        atk: 70, 
+        def: 115, 
+        spa: 130, 
+        spd: 90, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Grimer-Alola", 
+    baseStats: {
+        hp: 80, 
+        atk: 80, 
+        def: 50, 
+        spa: 40, 
+        spd: 50, 
+        spe: 25
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Muk-Alola", 
+    baseStats: {
+        hp: 105, 
+        atk: 105, 
+        def: 75, 
+        spa: 65, 
+        spd: 100, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Growlithe", 
+    baseStats: {
+        hp: 55, 
+        atk: 70, 
+        def: 45, 
+        spa: 70, 
+        spd: 50, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Arcanine", 
+    baseStats: {
+        hp: 90, 
+        atk: 110, 
+        def: 80, 
+        spa: 100, 
+        spd: 80, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Drowzee", 
+    baseStats: {
+        hp: 60, 
+        atk: 48, 
+        def: 45, 
+        spa: 43, 
+        spd: 90, 
+        spe: 42
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Psychic.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Hypno", 
+    baseStats: {
+        hp: 85, 
+        atk: 73, 
+        def: 70, 
+        spa: 73, 
+        spd: 115, 
+        spe: 67
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Psychic.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Makuhita", 
+    baseStats: {
+        hp: 72, 
+        atk: 60, 
+        def: 30, 
+        spa: 20, 
+        spd: 30, 
+        spe: 25
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Hariyama", 
+    baseStats: {
+        hp: 144, 
+        atk: 120, 
+        def: 60, 
+        spa: 40, 
+        spd: 60, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Smeargle", 
+    baseStats: {
+        hp: 55, 
+        atk: 20, 
+        def: 35, 
+        spa: 20, 
+        spd: 45, 
+        spe: 75
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Crabrawler", 
+    baseStats: {
+        hp: 47, 
+        atk: 82, 
+        def: 57, 
+        spa: 42, 
+        spd: 47, 
+        spe: 63
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Crabominable", 
+    baseStats: {
+        hp: 97, 
+        atk: 132, 
+        def: 77, 
+        spa: 62, 
+        spd: 67, 
+        spe: 43
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ice.value)
+}, {
+    name: "Gastly", 
+    baseStats: {
+        hp: 30, 
+        atk: 35, 
+        def: 30, 
+        spa: 100, 
+        spd: 35, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Poison.value)
+}, {
+    name: "Haunter", 
+    baseStats: {
+        hp: 45, 
+        atk: 50, 
+        def: 45, 
+        spa: 115, 
+        spd: 55, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Poison.value)
+}, {
+    name: "Gengar", 
+    baseStats: {
+        hp: 60, 
+        atk: 65, 
+        def: 60, 
+        spa: 130, 
+        spd: 75, 
+        spe: 110
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Poison.value)
+}, {
+    name: "Drifloon", 
+    baseStats: {
+        hp: 90, 
+        atk: 50, 
+        def: 34, 
+        spa: 60, 
+        spd: 44, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Drifblim", 
+    baseStats: {
+        hp: 150, 
+        atk: 80, 
+        def: 44, 
+        spa: 90, 
+        spd: 54, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Misdreavus", 
+    baseStats: {
+        hp: 60, 
+        atk: 60, 
+        def: 60, 
+        spa: 85, 
+        spd: 85, 
+        spe: 85
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Mismagius", 
+    baseStats: {
+        hp: 60, 
+        atk: 60, 
+        def: 60, 
+        spa: 105, 
+        spd: 105, 
+        spe: 105
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Zubat", 
+    baseStats: {
+        hp: 40, 
+        atk: 45, 
+        def: 35, 
+        spa: 30, 
+        spd: 40, 
+        spe: 55
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Golbat", 
+    baseStats: {
+        hp: 75, 
+        atk: 80, 
+        def: 70, 
+        spa: 65, 
+        spd: 75, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Crobat", 
+    baseStats: {
+        hp: 85, 
+        atk: 90, 
+        def: 80, 
+        spa: 70, 
+        spd: 80, 
+        spe: 130
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Diglett-Alola", 
+    baseStats: {
+        hp: 10, 
+        atk: 55, 
+        def: 30, 
+        spa: 35, 
+        spd: 45, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Dugtrio-Alola", 
+    baseStats: {
+        hp: 35, 
+        atk: 100, 
+        def: 60, 
+        spa: 50, 
+        spd: 70, 
+        spe: 110
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Spearow", 
+    baseStats: {
+        hp: 40, 
+        atk: 60, 
+        def: 30, 
+        spa: 31, 
+        spd: 31, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Fearow", 
+    baseStats: {
+        hp: 65, 
+        atk: 90, 
+        def: 65, 
+        spa: 61, 
+        spd: 61, 
+        spe: 100
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Rufflet", 
+    baseStats: {
+        hp: 70, 
+        atk: 83, 
+        def: 50, 
+        spa: 37, 
+        spd: 50, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Braviary", 
+    baseStats: {
+        hp: 100, 
+        atk: 123, 
+        def: 75, 
+        spa: 57, 
+        spd: 75, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Vullaby", 
+    baseStats: {
+        hp: 70, 
+        atk: 55, 
+        def: 75, 
+        spa: 45, 
+        spd: 65, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Mandibuzz", 
+    baseStats: {
+        hp: 110, 
+        atk: 65, 
+        def: 105, 
+        spa: 55, 
+        spd: 95, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Mankey", 
+    baseStats: {
+        hp: 40, 
+        atk: 80, 
+        def: 35, 
+        spa: 35, 
+        spd: 45, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Primeape", 
+    baseStats: {
+        hp: 65, 
+        atk: 105, 
+        def: 60, 
+        spa: 60, 
+        spd: 70, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Delibird", 
+    baseStats: {
+        hp: 45, 
+        atk: 55, 
+        def: 45, 
+        spa: 65, 
+        spd: 45, 
+        spe: 75
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Oricorio-Baille", 
+    baseStats: {
+        hp: 75, 
+        atk: 70, 
+        def: 70, 
+        spa: 98, 
+        spd: 70, 
+        spe: 93
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Oricorio-Pom-Pom", 
+    baseStats: {
+        hp: 75, 
+        atk: 70, 
+        def: 70, 
+        spa: 98, 
+        spd: 70, 
+        spe: 93
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Oricorio-P'au", 
+    baseStats: {
+        hp: 75, 
+        atk: 70, 
+        def: 70, 
+        spa: 98, 
+        spd: 70, 
+        spe: 93
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Psychic.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Oricorio-Sensu", 
+    baseStats: {
+        hp: 75, 
+        atk: 70, 
+        def: 70, 
+        spa: 98, 
+        spd: 70, 
+        spe: 93
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Cutiefly", 
+    baseStats: {
+        hp: 40, 
+        atk: 45, 
+        def: 40, 
+        spa: 55, 
+        spd: 40, 
+        spe: 84
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Ribombee", 
+    baseStats: {
+        hp: 60, 
+        atk: 55, 
+        def: 60, 
+        spa: 95, 
+        spd: 70, 
+        spe: 124
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Petilil", 
+    baseStats: {
+        hp: 45, 
+        atk: 35, 
+        def: 50, 
+        spa: 70, 
+        spd: 50, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Lilligant", 
+    baseStats: {
+        hp: 70, 
+        atk: 60, 
+        def: 75, 
+        spa: 110, 
+        spd: 75, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Cottonee", 
+    baseStats: {
+        hp: 40, 
+        atk: 27, 
+        def: 60, 
+        spa: 37, 
+        spd: 50, 
+        spe: 66
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Whimsicott", 
+    baseStats: {
+        hp: 60, 
+        atk: 67, 
+        def: 85, 
+        spa: 77, 
+        spd: 75, 
+        spe: 116
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Psyduck", 
+    baseStats: {
+        hp: 50, 
+        atk: 52, 
+        def: 48, 
+        spa: 65, 
+        spd: 50, 
+        spe: 55
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Golduck", 
+    baseStats: {
+        hp: 80, 
+        atk: 82, 
+        def: 78, 
+        spa: 95, 
+        spd: 80, 
+        spe: 85
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Magikarp", 
+    baseStats: {
+        hp: 20, 
+        atk: 10, 
+        def: 55, 
+        spa: 15, 
+        spd: 20, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Gyarados", 
+    baseStats: {
+        hp: 95, 
+        atk: 125, 
+        def: 79, 
+        spa: 60, 
+        spd: 100, 
+        spe: 81
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Barboach", 
+    baseStats: {
+        hp: 50, 
+        atk: 48, 
+        def: 43, 
+        spa: 46, 
+        spd: 41, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ground.value)
+}, {
+    name: "Whiscash", 
+    baseStats: {
+        hp: 110, 
+        atk: 78, 
+        def: 73, 
+        spa: 76, 
+        spd: 71, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ground.value)
+}, {
+    name: "Machop", 
+    baseStats: {
+        hp: 70, 
+        atk: 80, 
+        def: 50, 
+        spa: 35, 
+        spd: 35, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Machoke", 
+    baseStats: {
+        hp: 80, 
+        atk: 100, 
+        def: 70, 
+        spa: 50, 
+        spd: 60, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Machamp", 
+    baseStats: {
+        hp: 90, 
+        atk: 130, 
+        def: 80, 
+        spa: 65, 
+        spd: 85, 
+        spe: 55
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Roggenrola", 
+    baseStats: {
+        hp: 55, 
+        atk: 75, 
+        def: 85, 
+        spa: 25, 
+        spd: 25, 
+        spe: 15
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Boldore", 
+    baseStats: {
+        hp: 70, 
+        atk: 105, 
+        def: 105, 
+        spa: 50, 
+        spd: 40, 
+        spe: 20
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Gigalith", 
+    baseStats: {
+        hp: 85, 
+        atk: 135, 
+        def: 130, 
+        spa: 60, 
+        spd: 80, 
+        spe: 25
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Carbink", 
+    baseStats: {
+        hp: 50, 
+        atk: 50, 
+        def: 150, 
+        spa: 50, 
+        spd: 150, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Sableye", 
+    baseStats: {
+        hp: 50, 
+        atk: 75, 
+        def: 75, 
+        spa: 65, 
+        spd: 65, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ghost.value)
+}, {
+    name: "Rockruff", 
+    baseStats: {
+        hp: 45, 
+        atk: 65, 
+        def: 40, 
+        spa: 30, 
+        spd: 40, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Lycanroc-Midday", 
+    baseStats: {
+        hp: 75, 
+        atk: 115, 
+        def: 65, 
+        spa: 55, 
+        spd: 65, 
+        spe: 112
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Lycanroc-Midnight", 
+    baseStats: {
+        hp: 85, 
+        atk: 115, 
+        def: 75, 
+        spa: 55, 
+        spd: 75, 
+        spe: 82
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Spinda", 
+    baseStats: {
+        hp: 60, 
+        atk: 60, 
+        def: 60, 
+        spa: 60, 
+        spd: 60, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Tentacool", 
+    baseStats: {
+        hp: 40, 
+        atk: 40, 
+        def: 35, 
+        spa: 50, 
+        spd: 100, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Poison.value)
+}, {
+    name: "Tentacruel", 
+    baseStats: {
+        hp: 80, 
+        atk: 70, 
+        def: 65, 
+        spa: 80, 
+        spd: 120, 
+        spe: 100
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Poison.value)
+}, {
+    name: "Finneon", 
+    baseStats: {
+        hp: 49, 
+        atk: 49, 
+        def: 56, 
+        spa: 49, 
+        spd: 61, 
+        spe: 66
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Lumineon", 
+    baseStats: {
+        hp: 69, 
+        atk: 69, 
+        def: 76, 
+        spa: 69, 
+        spd: 86, 
+        spe: 91
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Wishiwashi-Solo", 
+    baseStats: {
+        hp: 45, 
+        atk: 20, 
+        def: 20, 
+        spa: 25, 
+        spd: 25, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Wishiwashi-School", 
+    baseStats: {
+        hp: 45, 
+        atk: 140, 
+        def: 130, 
+        spa: 140, 
+        spd: 135, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Luvdisc", 
+    baseStats: {
+        hp: 43, 
+        atk: 30, 
+        def: 55, 
+        spa: 40, 
+        spd: 65, 
+        spe: 97
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Corsola", 
+    baseStats: {
+        hp: 65, 
+        atk: 55, 
+        def: 95, 
+        spa: 65, 
+        spd: 95, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Rock.value)
+}, {
+    name: "Mareanie", 
+    baseStats: {
+        hp: 50, 
+        atk: 53, 
+        def: 62, 
+        spa: 43, 
+        spd: 52, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Water.value)
+}, {
+    name: "Toxapex", 
+    baseStats: {
+        hp: 50, 
+        atk: 63, 
+        def: 152, 
+        spa: 53, 
+        spd: 142, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Water.value)
+}, {
+    name: "Shellder", 
+    baseStats: {
+        hp: 30, 
+        atk: 65, 
+        def: 100, 
+        spa: 45, 
+        spd: 25, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Cloyster", 
+    baseStats: {
+        hp: 50, 
+        atk: 95, 
+        def: 180, 
+        spa: 85, 
+        spd: 45, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ice.value)
+}, {
+    name: "Bagon", 
+    baseStats: {
+        hp: 45, 
+        atk: 75, 
+        def: 60, 
+        spa: 40, 
+        spd: 30, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Shelgon", 
+    baseStats: {
+        hp: 65, 
+        atk: 95, 
+        def: 100, 
+        spa: 60, 
+        spd: 50, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Salamence", 
+    baseStats: {
+        hp: 95, 
+        atk: 135, 
+        def: 80, 
+        spa: 110, 
+        spd: 80, 
+        spe: 100
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Lillipup", 
+    baseStats: {
+        hp: 45, 
+        atk: 60, 
+        def: 45, 
+        spa: 25, 
+        spd: 45, 
+        spe: 55
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Herdier", 
+    baseStats: {
+        hp: 65, 
+        atk: 80, 
+        def: 65, 
+        spa: 35, 
+        spd: 65, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Stoutland", 
+    baseStats: {
+        hp: 85, 
+        atk: 110, 
+        def: 90, 
+        spa: 45, 
+        spd: 90, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Eevee", 
+    baseStats: {
+        hp: 55, 
+        atk: 55, 
+        def: 50, 
+        spa: 45, 
+        spd: 65, 
+        spe: 55
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Vaporeon", 
+    baseStats: {
+        hp: 130, 
+        atk: 65, 
+        def: 60, 
+        spa: 110, 
+        spd: 95, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Jolteon", 
+    baseStats: {
+        hp: 65, 
+        atk: 65, 
+        def: 60, 
+        spa: 110, 
+        spd: 95, 
+        spe: 130
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Flareon", 
+    baseStats: {
+        hp: 65, 
+        atk: 130, 
+        def: 60, 
+        spa: 95, 
+        spd: 110, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Espeon", 
+    baseStats: {
+        hp: 65, 
+        atk: 65, 
+        def: 60, 
+        spa: 130, 
+        spd: 95, 
+        spe: 110
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Psychic.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Umbreon", 
+    baseStats: {
+        hp: 95, 
+        atk: 65, 
+        def: 110, 
+        spa: 60, 
+        spd: 130, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Leafeon", 
+    baseStats: {
+        hp: 65, 
+        atk: 110, 
+        def: 130, 
+        spa: 60, 
+        spd: 65, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Glaceon", 
+    baseStats: {
+        hp: 65, 
+        atk: 60, 
+        def: 110, 
+        spa: 130, 
+        spd: 95, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Sylveon", 
+    baseStats: {
+        hp: 95, 
+        atk: 65, 
+        def: 65, 
+        spa: 110, 
+        spd: 130, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fairy.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Mudbray", 
+    baseStats: {
+        hp: 70, 
+        atk: 100, 
+        def: 70, 
+        spa: 45, 
+        spd: 55, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Mudsdale", 
+    baseStats: {
+        hp: 100, 
+        atk: 125, 
+        def: 100, 
+        spa: 55, 
+        spd: 85, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Igglybuff", 
+    baseStats: {
+        hp: 90, 
+        atk: 30, 
+        def: 15, 
+        spa: 40, 
+        spd: 20, 
+        spe: 15
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Jigglypuff", 
+    baseStats: {
+        hp: 115, 
+        atk: 45, 
+        def: 20, 
+        spa: 45, 
+        spd: 25, 
+        spe: 20
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Wigglytuff", 
+    baseStats: {
+        hp: 140, 
+        atk: 70, 
+        def: 45, 
+        spa: 85, 
+        spd: 50, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Tauros", 
+    baseStats: {
+        hp: 75, 
+        atk: 100, 
+        def: 95, 
+        spa: 40, 
+        spd: 70, 
+        spe: 110
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Miltank", 
+    baseStats: {
+        hp: 95, 
+        atk: 80, 
+        def: 105, 
+        spa: 40, 
+        spd: 70, 
+        spe: 100
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Surskit", 
+    baseStats: {
+        hp: 40, 
+        atk: 30, 
+        def: 32, 
+        spa: 50, 
+        spd: 52, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Water.value)
+}, {
+    name: "Masquerain", 
+    baseStats: {
+        hp: 70, 
+        atk: 60, 
+        def: 62, 
+        spa: 100, 
+        spd: 82, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Dewpider", 
+    baseStats: {
+        hp: 38, 
+        atk: 40, 
+        def: 52, 
+        spa: 40, 
+        spd: 72, 
+        spe: 27
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Water.value)
+}, {
+    name: "Araquanid", 
+    baseStats: {
+        hp: 68, 
+        atk: 70, 
+        def: 92, 
+        spa: 50, 
+        spd: 132, 
+        spe: 42
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Water.value)
+}, {
+    name: "Fomantis", 
+    baseStats: {
+        hp: 40, 
+        atk: 55, 
+        def: 35, 
+        spa: 50, 
+        spd: 35, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Lurantis", 
+    baseStats: {
+        hp: 70, 
+        atk: 105, 
+        def: 90, 
+        spa: 80, 
+        spd: 90, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Morelull", 
+    baseStats: {
+        hp: 40, 
+        atk: 35, 
+        def: 55, 
+        spa: 65, 
+        spd: 75, 
+        spe: 15
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Shiinotic", 
+    baseStats: {
+        hp: 60, 
+        atk: 45, 
+        def: 80, 
+        spa: 90, 
+        spd: 100, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Paras", 
+    baseStats: {
+        hp: 35, 
+        atk: 70, 
+        def: 55, 
+        spa: 45, 
+        spd: 55, 
+        spe: 25
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Grass.value)
+}, {
+    name: "Parasect", 
+    baseStats: {
+        hp: 60, 
+        atk: 95, 
+        def: 80, 
+        spa: 60, 
+        spd: 80, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Grass.value)
+}, {
+    name: "Poliwag", 
+    baseStats: {
+        hp: 40, 
+        atk: 50, 
+        def: 40, 
+        spa: 40, 
+        spd: 40, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Poliwhirl", 
+    baseStats: {
+        hp: 65, 
+        atk: 65, 
+        def: 65, 
+        spa: 50, 
+        spd: 50, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Poliwrath", 
+    baseStats: {
+        hp: 90, 
+        atk: 95, 
+        def: 95, 
+        spa: 70, 
+        spd: 90, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fighting.value)
+}, {
+    name: "Politoed", 
+    baseStats: {
+        hp: 90, 
+        atk: 75, 
+        def: 75, 
+        spa: 90, 
+        spd: 100, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Goldeen", 
+    baseStats: {
+        hp: 45, 
+        atk: 67, 
+        def: 60, 
+        spa: 35, 
+        spd: 50, 
+        spe: 63
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Seaking", 
+    baseStats: {
+        hp: 80, 
+        atk: 92, 
+        def: 65, 
+        spa: 65, 
+        spd: 80, 
+        spe: 68
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Feebas", 
+    baseStats: {
+        hp: 20, 
+        atk: 15, 
+        def: 20, 
+        spa: 10, 
+        spd: 55, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Milotic", 
+    baseStats: {
+        hp: 95, 
+        atk: 60, 
+        def: 79, 
+        spa: 100, 
+        spd: 125, 
+        spe: 81
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Alomomola", 
+    baseStats: {
+        hp: 165, 
+        atk: 75, 
+        def: 80, 
+        spa: 40, 
+        spd: 45, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Fletchling", 
+    baseStats: {
+        hp: 45, 
+        atk: 50, 
+        def: 43, 
+        spa: 40, 
+        spd: 38, 
+        spe: 62
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Fletchinder", 
+    baseStats: {
+        hp: 62, 
+        atk: 73, 
+        def: 55, 
+        spa: 56, 
+        spd: 52, 
+        spe: 84
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Talonflame", 
+    baseStats: {
+        hp: 78, 
+        atk: 81, 
+        def: 71, 
+        spa: 74, 
+        spd: 69, 
+        spe: 126
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Salandit", 
+    baseStats: {
+        hp: 48, 
+        atk: 44, 
+        def: 40, 
+        spa: 71, 
+        spd: 40, 
+        spe: 77
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fire.value)
+}, {
+    name: "Salazzle", 
+    baseStats: {
+        hp: 68, 
+        atk: 64, 
+        def: 60, 
+        spa: 111, 
+        spd: 60, 
+        spe: 117
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fire.value)
+}, {
+    name: "Cubone", 
+    baseStats: {
+        hp: 50, 
+        atk: 50, 
+        def: 95, 
+        spa: 40, 
+        spd: 50, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Marowak-Alola", 
+    baseStats: {
+        hp: 60, 
+        atk: 80, 
+        def: 110, 
+        spa: 50, 
+        spd: 80, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ghost.value)
+}, {
+    name: "Kangaskhan", 
+    baseStats: {
+        hp: 105, 
+        atk: 95, 
+        def: 80, 
+        spa: 40, 
+        spd: 80, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Magby", 
+    baseStats: {
+        hp: 45, 
+        atk: 75, 
+        def: 37, 
+        spa: 70, 
+        spd: 55, 
+        spe: 83
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Magmar", 
+    baseStats: {
+        hp: 65, 
+        atk: 95, 
+        def: 57, 
+        spa: 100, 
+        spd: 85, 
+        spe: 93
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Magmortar", 
+    baseStats: {
+        hp: 75, 
+        atk: 95, 
+        def: 67, 
+        spa: 125, 
+        spd: 95, 
+        spe: 83
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Stufful", 
+    baseStats: {
+        hp: 70, 
+        atk: 75, 
+        def: 50, 
+        spa: 45, 
+        spd: 50, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fighting.value)
+}, {
+    name: "Bewear", 
+    baseStats: {
+        hp: 120, 
+        atk: 125, 
+        def: 80, 
+        spa: 55, 
+        spd: 60, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fighting.value)
+}, {
+    name: "Bounsweet", 
+    baseStats: {
+        hp: 42, 
+        atk: 30, 
+        def: 38, 
+        spa: 30, 
+        spd: 38, 
+        spe: 32
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Steenee", 
+    baseStats: {
+        hp: 52, 
+        atk: 40, 
+        def: 48, 
+        spa: 40, 
+        spd: 48, 
+        spe: 62
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Tsareena", 
+    baseStats: {
+        hp: 72, 
+        atk: 120, 
+        def: 98, 
+        spa: 50, 
+        spd: 98, 
+        spe: 72
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Comfey", 
+    baseStats: {
+        hp: 51, 
+        atk: 52, 
+        def: 90, 
+        spa: 82, 
+        spd: 110, 
+        spe: 100
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fairy.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Pinsir", 
+    baseStats: {
+        hp: 65, 
+        atk: 125, 
+        def: 100, 
+        spa: 55, 
+        spd: 70, 
+        spe: 85
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Oranguru", 
+    baseStats: {
+        hp: 90, 
+        atk: 60, 
+        def: 80, 
+        spa: 90, 
+        spd: 110, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Passimian", 
+    baseStats: {
+        hp: 100, 
+        atk: 120, 
+        def: 90, 
+        spa: 40, 
+        spd: 60, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Goomy", 
+    baseStats: {
+        hp: 45, 
+        atk: 50, 
+        def: 35, 
+        spa: 55, 
+        spd: 75, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Sliggoo", 
+    baseStats: {
+        hp: 68, 
+        atk: 75, 
+        def: 53, 
+        spa: 83, 
+        spd: 113, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Goodra", 
+    baseStats: {
+        hp: 90, 
+        atk: 100, 
+        def: 70, 
+        spa: 110, 
+        spd: 150, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Castform", 
+    baseStats: {
+        hp: 70, 
+        atk: 70, 
+        def: 70, 
+        spa: 70, 
+        spd: 70, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Wimpod", 
+    baseStats: {
+        hp: 25, 
+        atk: 35, 
+        def: 40, 
+        spa: 20, 
+        spd: 30, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Water.value)
+}, {
+    name: "Golisopod", 
+    baseStats: {
+        hp: 75, 
+        atk: 125, 
+        def: 140, 
+        spa: 60, 
+        spd: 90, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Water.value)
+}, {
+    name: "Staryu", 
+    baseStats: {
+        hp: 30, 
+        atk: 45, 
+        def: 55, 
+        spa: 70, 
+        spd: 55, 
+        spe: 85
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Starmie", 
+    baseStats: {
+        hp: 60, 
+        atk: 75, 
+        def: 85, 
+        spa: 100, 
+        spd: 85, 
+        spe: 115
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Sandyghast", 
+    baseStats: {
+        hp: 55, 
+        atk: 55, 
+        def: 80, 
+        spa: 70, 
+        spd: 45, 
+        spe: 15
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ground.value)
+}, {
+    name: "Palossand", 
+    baseStats: {
+        hp: 85, 
+        atk: 75, 
+        def: 110, 
+        spa: 100, 
+        spd: 75, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ground.value)
+}, {
+    name: "Cranidos", 
+    baseStats: {
+        hp: 67, 
+        atk: 125, 
+        def: 40, 
+        spa: 30, 
+        spd: 30, 
+        spe: 58
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Rampardos", 
+    baseStats: {
+        hp: 97, 
+        atk: 165, 
+        def: 60, 
+        spa: 65, 
+        spd: 50, 
+        spe: 58
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Shieldon", 
+    baseStats: {
+        hp: 30, 
+        atk: 42, 
+        def: 118, 
+        spa: 42, 
+        spd: 88, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Bastiodon", 
+    baseStats: {
+        hp: 60, 
+        atk: 52, 
+        def: 168, 
+        spa: 47, 
+        spd: 138, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Archen", 
+    baseStats: {
+        hp: 55, 
+        atk: 112, 
+        def: 45, 
+        spa: 74, 
+        spd: 45, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Archeops", 
+    baseStats: {
+        hp: 75, 
+        atk: 140, 
+        def: 65, 
+        spa: 112, 
+        spd: 65, 
+        spe: 110
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Tirtouga", 
+    baseStats: {
+        hp: 54, 
+        atk: 78, 
+        def: 103, 
+        spa: 53, 
+        spd: 45, 
+        spe: 22
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Rock.value)
+}, {
+    name: "Carracosta", 
+    baseStats: {
+        hp: 74, 
+        atk: 108, 
+        def: 133, 
+        spa: 83, 
+        spd: 65, 
+        spe: 32
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Rock.value)
+}, {
+    name: "Phantump", 
+    baseStats: {
+        hp: 43, 
+        atk: 70, 
+        def: 48, 
+        spa: 50, 
+        spd: 60, 
+        spe: 38
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Grass.value)
+}, {
+    name: "Trevenant", 
+    baseStats: {
+        hp: 85, 
+        atk: 110, 
+        def: 76, 
+        spa: 65, 
+        spd: 82, 
+        spe: 56
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Grass.value)
+}, {
+    name: "Nosepass", 
+    baseStats: {
+        hp: 30, 
+        atk: 45, 
+        def: 135, 
+        spa: 45, 
+        spd: 90, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Probopass", 
+    baseStats: {
+        hp: 60, 
+        atk: 55, 
+        def: 145, 
+        spa: 75, 
+        spd: 150, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Pyukumuku", 
+    baseStats: {
+        hp: 55, 
+        atk: 60, 
+        def: 130, 
+        spa: 30, 
+        spd: 130, 
+        spe: 5
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Chinchou", 
+    baseStats: {
+        hp: 75, 
+        atk: 38, 
+        def: 38, 
+        spa: 56, 
+        spd: 56, 
+        spe: 67
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Electric.value)
+}, {
+    name: "Lanturn", 
+    baseStats: {
+        hp: 125, 
+        atk: 58, 
+        def: 58, 
+        spa: 76, 
+        spd: 76, 
+        spe: 67
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Electric.value)
+}, {
+    name: "Type: Null", 
+    baseStats: {
+        hp: 95, 
+        atk: 95, 
+        def: 95, 
+        spa: 95, 
+        spd: 95, 
+        spe: 59
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Silvally", 
+    baseStats: {
+        hp: 95, 
+        atk: 95, 
+        def: 95, 
+        spa: 95, 
+        spd: 95, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Trubbish", 
+    baseStats: {
+        hp: 50, 
+        atk: 50, 
+        def: 62, 
+        spa: 40, 
+        spd: 62, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Garbodor", 
+    baseStats: {
+        hp: 80, 
+        atk: 95, 
+        def: 82, 
+        spa: 60, 
+        spd: 82, 
+        spe: 75
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Poison.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Skarmory", 
+    baseStats: {
+        hp: 65, 
+        atk: 80, 
+        def: 140, 
+        spa: 40, 
+        spd: 70, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Steel.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Ditto", 
+    baseStats: {
+        hp: 48, 
+        atk: 48, 
+        def: 48, 
+        spa: 48, 
+        spd: 48, 
+        spe: 48
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Cleffa", 
+    baseStats: {
+        hp: 50, 
+        atk: 25, 
+        def: 28, 
+        spa: 45, 
+        spd: 55, 
+        spe: 15
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fairy.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Clefairy", 
+    baseStats: {
+        hp: 70, 
+        atk: 45, 
+        def: 48, 
+        spa: 60, 
+        spd: 65, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fairy.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Clefable", 
+    baseStats: {
+        hp: 95, 
+        atk: 70, 
+        def: 73, 
+        spa: 95, 
+        spd: 90, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fairy.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Minior", 
+    baseStats: {
+        hp: 60, 
+        atk: 60, 
+        def: 100, 
+        spa: 60, 
+        spd: 100, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Beldum", 
+    baseStats: {
+        hp: 40, 
+        atk: 55, 
+        def: 80, 
+        spa: 35, 
+        spd: 60, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Steel.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Metang", 
+    baseStats: {
+        hp: 60, 
+        atk: 75, 
+        def: 100, 
+        spa: 55, 
+        spd: 80, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Steel.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Metagross", 
+    baseStats: {
+        hp: 80, 
+        atk: 135, 
+        def: 130, 
+        spa: 95, 
+        spd: 90, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Steel.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Porygon", 
+    baseStats: {
+        hp: 65, 
+        atk: 60, 
+        def: 70, 
+        spa: 85, 
+        spd: 75, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Porygon2", 
+    baseStats: {
+        hp: 85, 
+        atk: 80, 
+        def: 90, 
+        spa: 105, 
+        spd: 95, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Porygon-Z", 
+    baseStats: {
+        hp: 85, 
+        atk: 80, 
+        def: 70, 
+        spa: 135, 
+        spd: 75, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Pancham", 
+    baseStats: {
+        hp: 67, 
+        atk: 82, 
+        def: 62, 
+        spa: 46, 
+        spd: 48, 
+        spe: 43
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Pangoro", 
+    baseStats: {
+        hp: 95, 
+        atk: 124, 
+        def: 78, 
+        spa: 69, 
+        spd: 71, 
+        spe: 58
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Komala", 
+    baseStats: {
+        hp: 65, 
+        atk: 115, 
+        def: 65, 
+        spa: 75, 
+        spd: 95, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Torkoal", 
+    baseStats: {
+        hp: 70, 
+        atk: 85, 
+        def: 140, 
+        spa: 85, 
+        spd: 70, 
+        spe: 20
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Turtonator", 
+    baseStats: {
+        hp: 60, 
+        atk: 78, 
+        def: 135, 
+        spa: 91, 
+        spd: 85, 
+        spe: 36
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fire.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dragon.value)
+}, {
+    name: "Togedemaru", 
+    baseStats: {
+        hp: 65, 
+        atk: 98, 
+        def: 63, 
+        spa: 40, 
+        spd: 73, 
+        spe: 96
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Elekid", 
+    baseStats: {
+        hp: 45, 
+        atk: 63, 
+        def: 37, 
+        spa: 65, 
+        spd: 55, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Electabuzz", 
+    baseStats: {
+        hp: 65, 
+        atk: 83, 
+        def: 57, 
+        spa: 95, 
+        spd: 85, 
+        spe: 105
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Electivire", 
+    baseStats: {
+        hp: 75, 
+        atk: 123, 
+        def: 67, 
+        spa: 95, 
+        spd: 85, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Geodude-Alola", 
+    baseStats: {
+        hp: 40, 
+        atk: 80, 
+        def: 100, 
+        spa: 30, 
+        spd: 30, 
+        spe: 20
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Electric.value)
+}, {
+    name: "Graveler-Alola", 
+    baseStats: {
+        hp: 55, 
+        atk: 95, 
+        def: 115, 
+        spa: 45, 
+        spd: 45, 
+        spe: 35
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Electric.value)
+}, {
+    name: "Golem-Alola", 
+    baseStats: {
+        hp: 80, 
+        atk: 120, 
+        def: 130, 
+        spa: 55, 
+        spd: 65, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Electric.value)
+}, {
+    name: "Sandile", 
+    baseStats: {
+        hp: 50, 
+        atk: 72, 
+        def: 35, 
+        spa: 35, 
+        spd: 35, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Krokorok", 
+    baseStats: {
+        hp: 60, 
+        atk: 82, 
+        def: 45, 
+        spa: 45, 
+        spd: 45, 
+        spe: 74
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Krookodile", 
+    baseStats: {
+        hp: 95, 
+        atk: 117, 
+        def: 80, 
+        spa: 65, 
+        spd: 70, 
+        spe: 92
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Trapinch", 
+    baseStats: {
+        hp: 45, 
+        atk: 100, 
+        def: 45, 
+        spa: 45, 
+        spd: 45, 
+        spe: 10
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Vibrava", 
+    baseStats: {
+        hp: 50, 
+        atk: 70, 
+        def: 50, 
+        spa: 50, 
+        spd: 50, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dragon.value)
+}, {
+    name: "Flygon", 
+    baseStats: {
+        hp: 80, 
+        atk: 100, 
+        def: 80, 
+        spa: 80, 
+        spd: 80, 
+        spe: 100
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ground.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dragon.value)
+}, {
+    name: "Gible", 
+    baseStats: {
+        hp: 58, 
+        atk: 70, 
+        def: 45, 
+        spa: 40, 
+        spd: 45, 
+        spe: 42
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ground.value)
+}, {
+    name: "Gabite", 
+    baseStats: {
+        hp: 68, 
+        atk: 90, 
+        def: 65, 
+        spa: 50, 
+        spd: 55, 
+        spe: 82
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ground.value)
+}, {
+    name: "Garchomp", 
+    baseStats: {
+        hp: 108, 
+        atk: 130, 
+        def: 95, 
+        spa: 80, 
+        spd: 85, 
+        spe: 102
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ground.value)
+}, {
+    name: "Klefki", 
+    baseStats: {
+        hp: 57, 
+        atk: 80, 
+        def: 91, 
+        spa: 80, 
+        spd: 87, 
+        spe: 75
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Steel.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Mimikyu", 
+    baseStats: {
+        hp: 55, 
+        atk: 90, 
+        def: 80, 
+        spa: 50, 
+        spd: 105, 
+        spe: 96
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Bruxish", 
+    baseStats: {
+        hp: 68, 
+        atk: 105, 
+        def: 70, 
+        spa: 70, 
+        spd: 70, 
+        spe: 92
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Drampa", 
+    baseStats: {
+        hp: 78, 
+        atk: 60, 
+        def: 85, 
+        spa: 135, 
+        spd: 91, 
+        spe: 36
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dragon.value)
+}, {
+    name: "Absol", 
+    baseStats: {
+        hp: 65, 
+        atk: 130, 
+        def: 60, 
+        spa: 75, 
+        spd: 60, 
+        spe: 75
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Snorunt", 
+    baseStats: {
+        hp: 50, 
+        atk: 50, 
+        def: 50, 
+        spa: 50, 
+        spd: 50, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Glalie", 
+    baseStats: {
+        hp: 80, 
+        atk: 80, 
+        def: 80, 
+        spa: 80, 
+        spd: 80, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Froslass", 
+    baseStats: {
+        hp: 70, 
+        atk: 80, 
+        def: 70, 
+        spa: 80, 
+        spd: 70, 
+        spe: 110
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ghost.value)
+}, {
+    name: "Sneasel", 
+    baseStats: {
+        hp: 55, 
+        atk: 95, 
+        def: 55, 
+        spa: 35, 
+        spd: 75, 
+        spe: 115
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ice.value)
+}, {
+    name: "Weavile", 
+    baseStats: {
+        hp: 70, 
+        atk: 120, 
+        def: 65, 
+        spa: 45, 
+        spd: 85, 
+        spe: 125
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ice.value)
+}, {
+    name: "Sandshrew-Alola", 
+    baseStats: {
+        hp: 50, 
+        atk: 75, 
+        def: 90, 
+        spa: 10, 
+        spd: 35, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Sandslash-Alola", 
+    baseStats: {
+        hp: 75, 
+        atk: 100, 
+        def: 120, 
+        spa: 25, 
+        spd: 65, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Vulpix-Alola", 
+    baseStats: {
+        hp: 38, 
+        atk: 41, 
+        def: 40, 
+        spa: 50, 
+        spd: 65, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Ninetales-Alola", 
+    baseStats: {
+        hp: 73, 
+        atk: 67, 
+        def: 75, 
+        spa: 81, 
+        spd: 100, 
+        spe: 109
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Vanillite", 
+    baseStats: {
+        hp: 36, 
+        atk: 50, 
+        def: 50, 
+        spa: 65, 
+        spd: 60, 
+        spe: 44
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Vanillish", 
+    baseStats: {
+        hp: 51, 
+        atk: 65, 
+        def: 65, 
+        spa: 80, 
+        spd: 75, 
+        spe: 59
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Vanilluxe", 
+    baseStats: {
+        hp: 71, 
+        atk: 95, 
+        def: 85, 
+        spa: 110, 
+        spd: 95, 
+        spe: 79
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ice.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Snubbull", 
+    baseStats: {
+        hp: 60, 
+        atk: 80, 
+        def: 50, 
+        spa: 40, 
+        spd: 40, 
+        spe: 30
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fairy.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Granbull", 
+    baseStats: {
+        hp: 90, 
+        atk: 120, 
+        def: 75, 
+        spa: 60, 
+        spd: 60, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fairy.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Shellos", 
+    baseStats: {
+        hp: 76, 
+        atk: 48, 
+        def: 48, 
+        spa: 57, 
+        spd: 62, 
+        spe: 34
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Gastrodon", 
+    baseStats: {
+        hp: 111, 
+        atk: 83, 
+        def: 68, 
+        spa: 92, 
+        spd: 82, 
+        spe: 39
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ground.value)
+}, {
+    name: "Relicanth", 
+    baseStats: {
+        hp: 100, 
+        atk: 90, 
+        def: 130, 
+        spa: 45, 
+        spd: 65, 
+        spe: 55
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Rock.value)
+}, {
+    name: "Dhelmise", 
+    baseStats: {
+        hp: 70, 
+        atk: 131, 
+        def: 100, 
+        spa: 86, 
+        spd: 90, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Ghost.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Grass.value)
+}, {
+    name: "Carvanha", 
+    baseStats: {
+        hp: 45, 
+        atk: 90, 
+        def: 20, 
+        spa: 65, 
+        spd: 20, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Sharpedo", 
+    baseStats: {
+        hp: 70, 
+        atk: 120, 
+        def: 40, 
+        spa: 95, 
+        spd: 40, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dark.value)
+}, {
+    name: "Wailmer", 
+    baseStats: {
+        hp: 130, 
+        atk: 70, 
+        def: 35, 
+        spa: 70, 
+        spd: 35, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Wailord", 
+    baseStats: {
+        hp: 170, 
+        atk: 90, 
+        def: 45, 
+        spa: 90, 
+        spd: 45, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Lapras", 
+    baseStats: {
+        hp: 130, 
+        atk: 85, 
+        def: 80, 
+        spa: 85, 
+        spd: 95, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Ice.value)
+}, {
+    name: "Exeggcute", 
+    baseStats: {
+        hp: 60, 
+        atk: 40, 
+        def: 80, 
+        spa: 60, 
+        spd: 45, 
+        spe: 40
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Psychic.value)
+}, {
+    name: "Exeggutor-Alola", 
+    baseStats: {
+        hp: 95, 
+        atk: 105, 
+        def: 85, 
+        spa: 125, 
+        spd: 75, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dragon.value)
+}, {
+    name: "Jangmo-o", 
+    baseStats: {
+        hp: 45, 
+        atk: 55, 
+        def: 65, 
+        spa: 45, 
+        spd: 45, 
+        spe: 45
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Hakamo-o", 
+    baseStats: {
+        hp: 55, 
+        atk: 75, 
+        def: 90, 
+        spa: 65, 
+        spd: 70, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fighting.value)
+}, {
+    name: "Kommo-o", 
+    baseStats: {
+        hp: 75, 
+        atk: 110, 
+        def: 125, 
+        spa: 100, 
+        spd: 105, 
+        spe: 85
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fighting.value)
+}, {
+    name: "Emolga", 
+    baseStats: {
+        hp: 55, 
+        atk: 75, 
+        def: 60, 
+        spa: 75, 
+        spd: 60, 
+        spe: 103
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Scyther", 
+    baseStats: {
+        hp: 70, 
+        atk: 110, 
+        def: 80, 
+        spa: 55, 
+        spd: 80, 
+        spe: 105
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Scizor", 
+    baseStats: {
+        hp: 70, 
+        atk: 130, 
+        def: 100, 
+        spa: 55, 
+        spd: 80, 
+        spe: 65
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Murkrow", 
+    baseStats: {
+        hp: 60, 
+        atk: 85, 
+        def: 42, 
+        spa: 85, 
+        spd: 42, 
+        spe: 91
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Honchkrow", 
+    baseStats: {
+        hp: 100, 
+        atk: 125, 
+        def: 52, 
+        spa: 105, 
+        spd: 52, 
+        spe: 71
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Riolu", 
+    baseStats: {
+        hp: 40, 
+        atk: 70, 
+        def: 40, 
+        spa: 35, 
+        spd: 40, 
+        spe: 60
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Lucario", 
+    baseStats: {
+        hp: 70, 
+        atk: 110, 
+        def: 70, 
+        spa: 115, 
+        spd: 70, 
+        spe: 90
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Fighting.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Dratini", 
+    baseStats: {
+        hp: 41, 
+        atk: 64, 
+        def: 45, 
+        spa: 50, 
+        spd: 50, 
+        spe: 50
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Dragonair", 
+    baseStats: {
+        hp: 61, 
+        atk: 84, 
+        def: 65, 
+        spa: 70, 
+        spd: 70, 
+        spe: 70
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Dragonite", 
+    baseStats: {
+        hp: 91, 
+        atk: 134, 
+        def: 95, 
+        spa: 100, 
+        spd: 100, 
+        spe: 80
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dragon.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Aerodactyl", 
+    baseStats: {
+        hp: 80, 
+        atk: 105, 
+        def: 65, 
+        spa: 60, 
+        spd: 75, 
+        spe: 130
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Tapu Koko", 
+    baseStats: {
+        hp: 70, 
+        atk: 115, 
+        def: 85, 
+        spa: 95, 
+        spd: 75, 
+        spe: 130
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Tapu Lele", 
+    baseStats: {
+        hp: 70, 
+        atk: 85, 
+        def: 75, 
+        spa: 130, 
+        spd: 115, 
+        spe: 95
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Psychic.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Tapu Bulu", 
+    baseStats: {
+        hp: 70, 
+        atk: 130, 
+        def: 115, 
+        spa: 85, 
+        spd: 95, 
+        spe: 75
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Tapu Fini", 
+    baseStats: {
+        hp: 70, 
+        atk: 75, 
+        def: 115, 
+        spa: 95, 
+        spd: 130, 
+        spe: 85
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Water.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fairy.value)
+}, {
+    name: "Nihilego", 
+    baseStats: {
+        hp: 109, 
+        atk: 53, 
+        def: 47, 
+        spa: 127, 
+        spd: 131, 
+        spe: 103
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Rock.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Poison.value)
+}, {
+    name: "Buzzwole", 
+    baseStats: {
+        hp: 107, 
+        atk: 139, 
+        def: 139, 
+        spa: 53, 
+        spd: 53, 
+        spe: 79
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fighting.value)
+}, {
+    name: "Pheromosa", 
+    baseStats: {
+        hp: 71, 
+        atk: 137, 
+        def: 37, 
+        spa: 137, 
+        spd: 37, 
+        spe: 151
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Bug.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Fighting.value)
+}, {
+    name: "Xurkitree", 
+    baseStats: {
+        hp: 83, 
+        atk: 89, 
+        def: 71, 
+        spa: 173, 
+        spd: 71, 
+        spe: 83
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Electric.value), 
+    type2: Data_Maybe.Nothing.value
+}, {
+    name: "Celesteela", 
+    baseStats: {
+        hp: 97, 
+        atk: 101, 
+        def: 103, 
+        spa: 107, 
+        spd: 101, 
+        spe: 61
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Steel.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Flying.value)
+}, {
+    name: "Kartana", 
+    baseStats: {
+        hp: 59, 
+        atk: 181, 
+        def: 131, 
+        spa: 59, 
+        spd: 31, 
+        spe: 109
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Grass.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Steel.value)
+}, {
+    name: "Guzzlord", 
+    baseStats: {
+        hp: 223, 
+        atk: 101, 
+        def: 53, 
+        spa: 97, 
+        spd: 53, 
+        spe: 43
+    }, 
+    type1: new Data_Maybe.Just(Pokemon_Type.Dark.value), 
+    type2: new Data_Maybe.Just(Pokemon_Type.Dragon.value)
 } ];
 var speciesByName = Data_StrMap.fromFoldable(Data_Foldable.foldableArray)(Data_Functor.map(Data_Functor.functorArray)(function (v) {
     return new Data_Tuple.Tuple(Data_String.toLower(v.name), v);
