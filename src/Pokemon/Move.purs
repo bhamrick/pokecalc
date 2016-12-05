@@ -14,7 +14,13 @@ newtype Move = Move
     { name :: String
     , power :: Int
     , accuracy :: Int
+    , spread :: Boolean
     , type_ :: Type
     , class_ :: MoveClass
     , effect :: MoveEffect
     }
+
+allMoves :: Array Move
+allMoves =
+    [
+    ]
