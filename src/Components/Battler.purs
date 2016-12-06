@@ -656,7 +656,7 @@ battlerSpec = T.simpleSpec performAction render
                     let
                     newName = (unsafeCoerce e).target.value
                     in
-                    case StrMap.lookup newName moveByName of
+                    case StrMap.lookup (toLower newName) moveByName of
                         Nothing -> dispatchMove (Move (m { name = newName }))
                         Just newMove -> dispatchMove newMove
                 ] []

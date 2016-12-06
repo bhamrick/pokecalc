@@ -21574,7 +21574,7 @@ var battlerSpec = (function () {
         return function (v) {
             return React_DOM["div'"]([ React_DOM.input([ React_DOM_Props.placeholder("Move Name"), React_DOM_Props.defaultValue(v.name), React_DOM_Props.list("move"), React_DOM_Props.onChange(function (e) {
                 var newName = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                var $252 = Data_StrMap.lookup(newName)(Pokemon_Move.moveByName);
+                var $252 = Data_StrMap.lookup(Data_String.toLower(newName))(Pokemon_Move.moveByName);
                 if ($252 instanceof Data_Maybe.Nothing) {
                     return dispatchMove((function () {
                         var $253 = {};
@@ -41818,6 +41818,158 @@ var noMove = {
     effect: NoEffect.value
 };
 var allMoves = [ noMove, {
+    name: "Dazzling Gleam", 
+    power: 80, 
+    accuracy: 100, 
+    spread: true, 
+    type_: Pokemon_Type.Fairy.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Normal.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Bug", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Bug.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Dark", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Dark.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Dragon", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Dragon.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Electric", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Electric.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Fighting", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Fighting.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Fire", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Fire.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Flying", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Flying.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Ghost", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Ghost.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Grass", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Grass.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Ground", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Ground.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Ice", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Ice.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Poison", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Poison.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Psychic", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Psychic.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Rock", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Rock.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Steel", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Steel.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Hidden Power Water", 
+    power: 60, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Water.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
+    name: "Moonblast", 
+    power: 95, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Fairy.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+}, {
     name: "Thunderbolt", 
     power: 90, 
     accuracy: 100, 
