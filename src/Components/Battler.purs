@@ -27,10 +27,10 @@ data BattlerAction
     | UpdateType1 (Maybe Type)
     | UpdateType2 (Maybe Type)
     | UpdateLevel Int
-    | UpdateMove1 (Maybe Move)
-    | UpdateMove2 (Maybe Move)
-    | UpdateMove3 (Maybe Move)
-    | UpdateMove4 (Maybe Move)
+    | UpdateMove1 Move
+    | UpdateMove2 Move
+    | UpdateMove3 Move
+    | UpdateMove4 Move
     | UpdateIV Stat Int
     | UpdateEV Stat Int
     | UpdateNature Nature
@@ -65,7 +65,6 @@ battlerSpec = T.simpleSpec performAction render
                 , typeDropdown (dispatch <<< UpdateType1) s.type1
                 , typeDropdown (dispatch <<< UpdateType2) s.type2
                 , natureDropdown (dispatch <<< UpdateNature) b.nature
-                -- TODO: moves
                 , statTable
                     dispatch
                     s.baseStats
@@ -78,6 +77,10 @@ battlerSpec = T.simpleSpec performAction render
                         b.evs
                         b.nature
                     )
+                , moveSelection (dispatch <<< UpdateMove1) b.move1
+                , moveSelection (dispatch <<< UpdateMove2) b.move2
+                , moveSelection (dispatch <<< UpdateMove3) b.move3
+                , moveSelection (dispatch <<< UpdateMove4) b.move4
                 ]
     statTable dispatch (BaseStats base) (IVs ivs) (EVs evs) (BattleStats computed) =
         R.table'
@@ -643,6 +646,52 @@ battlerSpec = T.simpleSpec performAction render
                 [ R.text "Timid (+Spe, -Atk)" ]
             ]
 
+    moveSelection dispatchMove (Move m) =
+        R.div'
+            [ R.input
+                [ RP.placeholder "Move Name"
+                , RP.defaultValue m.name
+                , RP.list "move"
+                , RP.onChange \e ->
+                    let
+                    newName = (unsafeCoerce e).target.value
+                    in
+                    case StrMap.lookup newName moveByName of
+                        Nothing -> dispatchMove (Move (m { name = newName }))
+                        Just newMove -> dispatchMove newMove
+                ] []
+            , R.input
+                [ RP.value (show m.power)
+                , RP.onChange \e ->
+                    case Int.fromString (unsafeCoerce e).target.value of
+                        Nothing -> pure unit
+                        Just p -> dispatchMove (Move (m { power = p }))
+                ] []
+            , R.select
+                [ RP.value (case m.class_ of
+                    Physical -> "physical"
+                    Special -> "special"
+                    Status -> "status"
+                    )
+                , RP.onChange \e ->
+                    case (unsafeCoerce e).target.value of
+                        "physical" -> dispatchMove (Move (m { class_ = Physical }))
+                        "special" -> dispatchMove (Move (m { class_ = Special }))
+                        "status" -> dispatchMove (Move (m { class_ = Status }))
+                        _ -> pure unit
+                ]
+                [ R.option
+                    [ RP.value "physical" ]
+                    [ R.text "Physical" ]
+                , R.option
+                    [ RP.value "special" ]
+                    [ R.text "Special" ]
+                , R.option
+                    [ RP.value "status" ]
+                    [ R.text "Status" ]
+                ]
+            ]
+
     performAction :: T.PerformAction eff Battler props BattlerAction
     performAction action _ _ =
         case action of
@@ -690,13 +739,13 @@ battlerSpec = T.simpleSpec performAction render
                     Battler (b { move1 = m })
             UpdateMove2 m -> do
                 void $ T.modifyState \(Battler b) ->
-                    Battler (b { move1 = m })
+                    Battler (b { move2 = m })
             UpdateMove3 m -> do
                 void $ T.modifyState \(Battler b) ->
-                    Battler (b { move1 = m })
+                    Battler (b { move3 = m })
             UpdateMove4 m -> do
                 void $ T.modifyState \(Battler b) ->
-                    Battler (b { move1 = m })
+                    Battler (b { move4 = m })
             UpdateIV stat v -> do
                 let v' = min 31 (max 0 v)
                 void $ T.modifyState \(Battler b) ->

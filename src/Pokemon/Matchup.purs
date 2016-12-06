@@ -18,7 +18,8 @@ type DamageRangeSet =
 
 noDamage :: DamageRange
 noDamage =
-    { minRoll: 0
+    { move: noMove
+    , minRoll: 0
     , maxRoll: 0
     , minRollPct: 0.0
     , maxRollPct: 0.0
@@ -44,32 +45,16 @@ matchupSummary (Battler attacker) (Battler defender) =
                 GT -> Faster
                 EQ -> SpeedTie
         , offensiveRanges:
-            { range1: case attacker.move1 of
-                Nothing -> noDamage
-                Just m -> damageRange (Battler attacker) m (Battler defender)
-            , range2: case attacker.move2 of
-                Nothing -> noDamage
-                Just m -> damageRange (Battler attacker) m (Battler defender)
-            , range3: case attacker.move3 of
-                Nothing -> noDamage
-                Just m -> damageRange (Battler attacker) m (Battler defender)
-            , range4: case attacker.move4 of
-                Nothing -> noDamage
-                Just m -> damageRange (Battler attacker) m (Battler defender)
+            { range1: damageRange (Battler attacker) attacker.move1 (Battler defender)
+            , range2: damageRange (Battler attacker) attacker.move2 (Battler defender)
+            , range3: damageRange (Battler attacker) attacker.move3 (Battler defender)
+            , range4: damageRange (Battler attacker) attacker.move4 (Battler defender)
             }
         , defensiveRanges:
-            { range1: case defender.move1 of
-                Nothing -> noDamage
-                Just m -> damageRange (Battler defender) m (Battler attacker)
-            , range2: case defender.move2 of
-                Nothing -> noDamage
-                Just m -> damageRange (Battler defender) m (Battler attacker)
-            , range3: case defender.move3 of
-                Nothing -> noDamage
-                Just m -> damageRange (Battler defender) m (Battler attacker)
-            , range4: case defender.move4 of
-                Nothing -> noDamage
-                Just m -> damageRange (Battler defender) m (Battler attacker)
+            { range1: damageRange (Battler defender) defender.move1 (Battler attacker)
+            , range2: damageRange (Battler defender) defender.move2 (Battler attacker)
+            , range3: damageRange (Battler defender) defender.move3 (Battler attacker)
+            , range4: damageRange (Battler defender) defender.move4 (Battler attacker)
             }
         }
     where

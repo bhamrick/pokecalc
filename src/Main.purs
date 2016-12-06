@@ -26,51 +26,54 @@ import Pokemon.Move
 
 import Components.Calculator
 
-initialState =
-    { battler: Battler
-        { species: Species
-            { name: ""
-            , baseStats: BaseStats
-                { hp: 80
-                , atk: 80
-                , def: 80
-                , spa: 80
-                , spd: 80
-                , spe: 80
-                }
-            , type1: Just Normal
-            , type2: Nothing
+defaultBattler = Battler
+    { species: Species
+        { name: ""
+        , baseStats: BaseStats
+            { hp: 80
+            , atk: 80
+            , def: 80
+            , spa: 80
+            , spd: 80
+            , spe: 80
             }
-        , level: 50
-        , move1: Nothing
-        , move2: Nothing
-        , move3: Nothing
-        , move4: Nothing
-        , ivs: IVs
-            { hp: 31
-            , atk: 31
-            , def: 31
-            , spa: 31
-            , spd: 31
-            , spe: 31
-            }
-        , evs: EVs
-            { hp: 4
-            , atk: 252
-            , def: 0
-            , spa: 252
-            , spd: 0
-            , spe: 0
-            }
-        , nature: Quirky
-        , stages: Stages
-            { atk: 0
-            , def: 0
-            , spa: 0
-            , spd: 0
-            , spe: 0
-            }
+        , type1: Just Normal
+        , type2: Nothing
         }
+    , level: 50
+    , move1: noMove 
+    , move2: noMove 
+    , move3: noMove 
+    , move4: noMove
+    , ivs: IVs
+        { hp: 31
+        , atk: 31
+        , def: 31
+        , spa: 31
+        , spd: 31
+        , spe: 31
+        }
+    , evs: EVs
+        { hp: 0
+        , atk: 0
+        , def: 0
+        , spa: 0
+        , spd: 0
+        , spe: 0
+        }
+    , nature: Quirky
+    , stages: Stages
+        { atk: 0
+        , def: 0
+        , spa: 0
+        , spd: 0
+        , spe: 0
+        }
+    }
+
+initialState =
+    { battler: defaultBattler
+    , opponent: defaultBattler
     }
 
 main :: forall e. Eff (dom :: DOM.DOM | e) Unit

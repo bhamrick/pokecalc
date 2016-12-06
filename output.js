@@ -84,7 +84,7 @@ var EventListener = {
 
 module.exports = EventListener;
 }).call(this,require('_process'))
-},{"./emptyFunction":8,"_process":402}],2:[function(require,module,exports){
+},{"./emptyFunction":8,"_process":405}],2:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -361,7 +361,7 @@ function createArrayFromMixed(obj) {
 
 module.exports = createArrayFromMixed;
 }).call(this,require('_process'))
-},{"./invariant":16,"_process":402}],7:[function(require,module,exports){
+},{"./invariant":16,"_process":405}],7:[function(require,module,exports){
 (function (process){
 'use strict';
 
@@ -447,7 +447,7 @@ function createNodesFromMarkup(markup, handleScript) {
 
 module.exports = createNodesFromMarkup;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":2,"./createArrayFromMixed":6,"./getMarkupWrap":12,"./invariant":16,"_process":402}],8:[function(require,module,exports){
+},{"./ExecutionEnvironment":2,"./createArrayFromMixed":6,"./getMarkupWrap":12,"./invariant":16,"_process":405}],8:[function(require,module,exports){
 "use strict";
 
 /**
@@ -508,7 +508,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = emptyObject;
 }).call(this,require('_process'))
-},{"_process":402}],10:[function(require,module,exports){
+},{"_process":405}],10:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -667,7 +667,7 @@ function getMarkupWrap(nodeName) {
 
 module.exports = getMarkupWrap;
 }).call(this,require('_process'))
-},{"./ExecutionEnvironment":2,"./invariant":16,"_process":402}],13:[function(require,module,exports){
+},{"./ExecutionEnvironment":2,"./invariant":16,"_process":405}],13:[function(require,module,exports){
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -830,7 +830,7 @@ function invariant(condition, format, a, b, c, d, e, f) {
 
 module.exports = invariant;
 }).call(this,require('_process'))
-},{"_process":402}],17:[function(require,module,exports){
+},{"_process":405}],17:[function(require,module,exports){
 'use strict';
 
 /**
@@ -1102,7 +1102,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = warning;
 }).call(this,require('_process'))
-},{"./emptyFunction":8,"_process":402}],24:[function(require,module,exports){
+},{"./emptyFunction":8,"_process":405}],24:[function(require,module,exports){
 'use strict';
 /* eslint-disable no-unused-vars */
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -2034,7 +2034,7 @@ var CSSPropertyOperations = {
 
 module.exports = CSSPropertyOperations;
 }).call(this,require('_process'))
-},{"./CSSProperty":29,"./ReactInstrumentation":88,"./dangerousStyleValue":129,"_process":402,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/camelizeStyleName":4,"fbjs/lib/hyphenateStyleName":15,"fbjs/lib/memoizeStringOnly":19,"fbjs/lib/warning":23}],31:[function(require,module,exports){
+},{"./CSSProperty":29,"./ReactInstrumentation":88,"./dangerousStyleValue":129,"_process":405,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/camelizeStyleName":4,"fbjs/lib/hyphenateStyleName":15,"fbjs/lib/memoizeStringOnly":19,"fbjs/lib/warning":23}],31:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -2155,7 +2155,7 @@ var CallbackQueue = function () {
 
 module.exports = PooledClass.addPoolingTo(CallbackQueue);
 }).call(this,require('_process'))
-},{"./PooledClass":49,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],32:[function(require,module,exports){
+},{"./PooledClass":49,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],32:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -2703,7 +2703,7 @@ var DOMChildrenOperations = {
 
 module.exports = DOMChildrenOperations;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":34,"./Danger":38,"./ReactDOMComponentTree":58,"./ReactInstrumentation":88,"./createMicrosoftUnsafeLocalFunction":128,"./setInnerHTML":150,"./setTextContent":151,"_process":402}],34:[function(require,module,exports){
+},{"./DOMLazyTree":34,"./Danger":38,"./ReactDOMComponentTree":58,"./ReactInstrumentation":88,"./createMicrosoftUnsafeLocalFunction":128,"./setInnerHTML":150,"./setTextContent":151,"_process":405}],34:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -3053,7 +3053,7 @@ var DOMProperty = {
 
 module.exports = DOMProperty;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],37:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],37:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3292,7 +3292,7 @@ var DOMPropertyOperations = {
 
 module.exports = DOMPropertyOperations;
 }).call(this,require('_process'))
-},{"./DOMProperty":36,"./ReactDOMComponentTree":58,"./ReactInstrumentation":88,"./quoteAttributeValueForBrowser":147,"_process":402,"fbjs/lib/warning":23}],38:[function(require,module,exports){
+},{"./DOMProperty":36,"./ReactDOMComponentTree":58,"./ReactInstrumentation":88,"./quoteAttributeValueForBrowser":147,"_process":405,"fbjs/lib/warning":23}],38:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -3342,7 +3342,7 @@ var Danger = {
 
 module.exports = Danger;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":34,"./reactProdInvariant":148,"_process":402,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/createNodesFromMarkup":7,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16}],39:[function(require,module,exports){
+},{"./DOMLazyTree":34,"./reactProdInvariant":148,"_process":405,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/createNodesFromMarkup":7,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16}],39:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -3748,7 +3748,7 @@ var EventPluginHub = {
 
 module.exports = EventPluginHub;
 }).call(this,require('_process'))
-},{"./EventPluginRegistry":42,"./EventPluginUtils":43,"./ReactErrorUtils":79,"./accumulateInto":125,"./forEachAccumulated":133,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],42:[function(require,module,exports){
+},{"./EventPluginRegistry":42,"./EventPluginUtils":43,"./ReactErrorUtils":79,"./accumulateInto":125,"./forEachAccumulated":133,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],42:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -4005,7 +4005,7 @@ var EventPluginRegistry = {
 
 module.exports = EventPluginRegistry;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],43:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],43:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -4233,7 +4233,7 @@ var EventPluginUtils = {
 
 module.exports = EventPluginUtils;
 }).call(this,require('_process'))
-},{"./ReactErrorUtils":79,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],44:[function(require,module,exports){
+},{"./ReactErrorUtils":79,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],44:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -4369,7 +4369,7 @@ var EventPropagators = {
 
 module.exports = EventPropagators;
 }).call(this,require('_process'))
-},{"./EventPluginHub":41,"./EventPluginUtils":43,"./accumulateInto":125,"./forEachAccumulated":133,"_process":402,"fbjs/lib/warning":23}],45:[function(require,module,exports){
+},{"./EventPluginHub":41,"./EventPluginUtils":43,"./accumulateInto":125,"./forEachAccumulated":133,"_process":405,"fbjs/lib/warning":23}],45:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -4872,7 +4872,7 @@ var LinkedValueUtils = {
 
 module.exports = LinkedValueUtils;
 }).call(this,require('_process'))
-},{"./ReactPropTypesSecret":96,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/React":158}],49:[function(require,module,exports){
+},{"./ReactPropTypesSecret":96,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/React":158}],49:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -4998,7 +4998,7 @@ var PooledClass = {
 
 module.exports = PooledClass;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],50:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],50:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5482,7 +5482,7 @@ var ReactChildReconciler = {
 
 module.exports = ReactChildReconciler;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":47,"./ReactReconciler":98,"./instantiateReactComponent":144,"./shouldUpdateReactComponent":152,"./traverseAllChildren":153,"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],52:[function(require,module,exports){
+},{"./KeyEscapeUtils":47,"./ReactReconciler":98,"./instantiateReactComponent":144,"./shouldUpdateReactComponent":152,"./traverseAllChildren":153,"_process":405,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],52:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -5560,7 +5560,7 @@ var ReactComponentEnvironment = {
 
 module.exports = ReactComponentEnvironment;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],54:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],54:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -6464,7 +6464,7 @@ var ReactCompositeComponent = {
 
 module.exports = ReactCompositeComponent;
 }).call(this,require('_process'))
-},{"./ReactComponentEnvironment":53,"./ReactErrorUtils":79,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactNodeTypes":93,"./ReactReconciler":98,"./checkReactTypeSpec":127,"./reactProdInvariant":148,"./shouldUpdateReactComponent":152,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24,"react/lib/React":158,"react/lib/ReactCurrentOwner":163}],55:[function(require,module,exports){
+},{"./ReactComponentEnvironment":53,"./ReactErrorUtils":79,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactNodeTypes":93,"./ReactReconciler":98,"./checkReactTypeSpec":127,"./reactProdInvariant":148,"./shouldUpdateReactComponent":152,"_process":405,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24,"react/lib/React":158,"react/lib/ReactCurrentOwner":163}],55:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -6577,7 +6577,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactDOM;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":58,"./ReactDOMInvalidARIAHook":64,"./ReactDOMNullInputValuePropHook":65,"./ReactDOMUnknownPropertyHook":73,"./ReactDefaultInjection":76,"./ReactInstrumentation":88,"./ReactMount":91,"./ReactReconciler":98,"./ReactUpdates":105,"./ReactVersion":106,"./findDOMNode":131,"./getHostComponentFromComposite":138,"./renderSubtreeIntoContainer":149,"_process":402,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/warning":23}],56:[function(require,module,exports){
+},{"./ReactDOMComponentTree":58,"./ReactDOMInvalidARIAHook":64,"./ReactDOMNullInputValuePropHook":65,"./ReactDOMUnknownPropertyHook":73,"./ReactDefaultInjection":76,"./ReactInstrumentation":88,"./ReactMount":91,"./ReactReconciler":98,"./ReactUpdates":105,"./ReactVersion":106,"./findDOMNode":131,"./getHostComponentFromComposite":138,"./renderSubtreeIntoContainer":149,"_process":405,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/warning":23}],56:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -7574,7 +7574,7 @@ _assign(ReactDOMComponent.prototype, ReactDOMComponent.Mixin, ReactMultiChild.Mi
 
 module.exports = ReactDOMComponent;
 }).call(this,require('_process'))
-},{"./AutoFocusUtils":27,"./CSSPropertyOperations":30,"./DOMLazyTree":34,"./DOMNamespaces":35,"./DOMProperty":36,"./DOMPropertyOperations":37,"./EventPluginHub":41,"./EventPluginRegistry":42,"./ReactBrowserEventEmitter":50,"./ReactDOMComponentFlags":57,"./ReactDOMComponentTree":58,"./ReactDOMInput":63,"./ReactDOMOption":66,"./ReactDOMSelect":67,"./ReactDOMTextarea":71,"./ReactInstrumentation":88,"./ReactMultiChild":92,"./ReactServerRenderingTransaction":102,"./escapeTextContentForBrowser":130,"./isEventSupported":145,"./reactProdInvariant":148,"./validateDOMNesting":154,"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24}],57:[function(require,module,exports){
+},{"./AutoFocusUtils":27,"./CSSPropertyOperations":30,"./DOMLazyTree":34,"./DOMNamespaces":35,"./DOMProperty":36,"./DOMPropertyOperations":37,"./EventPluginHub":41,"./EventPluginRegistry":42,"./ReactBrowserEventEmitter":50,"./ReactDOMComponentFlags":57,"./ReactDOMComponentTree":58,"./ReactDOMInput":63,"./ReactDOMOption":66,"./ReactDOMSelect":67,"./ReactDOMTextarea":71,"./ReactInstrumentation":88,"./ReactMultiChild":92,"./ReactServerRenderingTransaction":102,"./escapeTextContentForBrowser":130,"./isEventSupported":145,"./reactProdInvariant":148,"./validateDOMNesting":154,"_process":405,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16,"fbjs/lib/shallowEqual":22,"fbjs/lib/warning":23,"object-assign":24}],57:[function(require,module,exports){
 /**
  * Copyright 2015-present, Facebook, Inc.
  * All rights reserved.
@@ -7782,7 +7782,7 @@ var ReactDOMComponentTree = {
 
 module.exports = ReactDOMComponentTree;
 }).call(this,require('_process'))
-},{"./DOMProperty":36,"./ReactDOMComponentFlags":57,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],59:[function(require,module,exports){
+},{"./DOMProperty":36,"./ReactDOMComponentFlags":57,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],59:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -7817,7 +7817,7 @@ function ReactDOMContainerInfo(topLevelWrapper, node) {
 
 module.exports = ReactDOMContainerInfo;
 }).call(this,require('_process'))
-},{"./validateDOMNesting":154,"_process":402}],60:[function(require,module,exports){
+},{"./validateDOMNesting":154,"_process":405}],60:[function(require,module,exports){
 /**
  * Copyright 2014-present, Facebook, Inc.
  * All rights reserved.
@@ -8200,7 +8200,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMInput;
 }).call(this,require('_process'))
-},{"./DOMPropertyOperations":37,"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],64:[function(require,module,exports){
+},{"./DOMPropertyOperations":37,"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],64:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8295,7 +8295,7 @@ var ReactDOMInvalidARIAHook = {
 
 module.exports = ReactDOMInvalidARIAHook;
 }).call(this,require('_process'))
-},{"./DOMProperty":36,"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],65:[function(require,module,exports){
+},{"./DOMProperty":36,"_process":405,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],65:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8340,7 +8340,7 @@ var ReactDOMNullInputValuePropHook = {
 
 module.exports = ReactDOMNullInputValuePropHook;
 }).call(this,require('_process'))
-},{"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],66:[function(require,module,exports){
+},{"_process":405,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],66:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8465,7 +8465,7 @@ var ReactDOMOption = {
 
 module.exports = ReactDOMOption;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":58,"./ReactDOMSelect":67,"_process":402,"fbjs/lib/warning":23,"object-assign":24,"react/lib/React":158}],67:[function(require,module,exports){
+},{"./ReactDOMComponentTree":58,"./ReactDOMSelect":67,"_process":405,"fbjs/lib/warning":23,"object-assign":24,"react/lib/React":158}],67:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -8667,7 +8667,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMSelect;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"_process":402,"fbjs/lib/warning":23,"object-assign":24}],68:[function(require,module,exports){
+},{"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"_process":405,"fbjs/lib/warning":23,"object-assign":24}],68:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -9071,7 +9071,7 @@ _assign(ReactDOMTextComponent.prototype, {
 
 module.exports = ReactDOMTextComponent;
 }).call(this,require('_process'))
-},{"./DOMChildrenOperations":33,"./DOMLazyTree":34,"./ReactDOMComponentTree":58,"./escapeTextContentForBrowser":130,"./reactProdInvariant":148,"./validateDOMNesting":154,"_process":402,"fbjs/lib/invariant":16,"object-assign":24}],71:[function(require,module,exports){
+},{"./DOMChildrenOperations":33,"./DOMLazyTree":34,"./ReactDOMComponentTree":58,"./escapeTextContentForBrowser":130,"./reactProdInvariant":148,"./validateDOMNesting":154,"_process":405,"fbjs/lib/invariant":16,"object-assign":24}],71:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -9227,7 +9227,7 @@ function _handleChange(event) {
 
 module.exports = ReactDOMTextarea;
 }).call(this,require('_process'))
-},{"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],72:[function(require,module,exports){
+},{"./LinkedValueUtils":48,"./ReactDOMComponentTree":58,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],72:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -9365,7 +9365,7 @@ module.exports = {
   traverseEnterLeave: traverseEnterLeave
 };
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],73:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],73:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -9479,7 +9479,7 @@ var ReactDOMUnknownPropertyHook = {
 
 module.exports = ReactDOMUnknownPropertyHook;
 }).call(this,require('_process'))
-},{"./DOMProperty":36,"./EventPluginRegistry":42,"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],74:[function(require,module,exports){
+},{"./DOMProperty":36,"./EventPluginRegistry":42,"_process":405,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],74:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -9842,7 +9842,7 @@ if (/[?&]react_perf\b/.test(url)) {
 
 module.exports = ReactDebugTool;
 }).call(this,require('_process'))
-},{"./ReactHostOperationHistoryHook":84,"./ReactInvalidSetStateWarningHook":89,"_process":402,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/performanceNow":21,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],75:[function(require,module,exports){
+},{"./ReactHostOperationHistoryHook":84,"./ReactInvalidSetStateWarningHook":89,"_process":405,"fbjs/lib/ExecutionEnvironment":2,"fbjs/lib/performanceNow":21,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],75:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -10125,7 +10125,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactErrorUtils;
 }).call(this,require('_process'))
-},{"_process":402}],80:[function(require,module,exports){
+},{"_process":405}],80:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -10413,7 +10413,7 @@ var ReactHostComponent = {
 
 module.exports = ReactHostComponent;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"object-assign":24}],84:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"object-assign":24}],84:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -10679,7 +10679,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = { debugTool: debugTool };
 }).call(this,require('_process'))
-},{"./ReactDebugTool":74,"_process":402}],89:[function(require,module,exports){
+},{"./ReactDebugTool":74,"_process":405}],89:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -10718,7 +10718,7 @@ var ReactInvalidSetStateWarningHook = {
 
 module.exports = ReactInvalidSetStateWarningHook;
 }).call(this,require('_process'))
-},{"_process":402,"fbjs/lib/warning":23}],90:[function(require,module,exports){
+},{"_process":405,"fbjs/lib/warning":23}],90:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -11308,7 +11308,7 @@ var ReactMount = {
 
 module.exports = ReactMount;
 }).call(this,require('_process'))
-},{"./DOMLazyTree":34,"./DOMProperty":36,"./ReactBrowserEventEmitter":50,"./ReactDOMComponentTree":58,"./ReactDOMContainerInfo":59,"./ReactDOMFeatureFlags":61,"./ReactFeatureFlags":82,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactMarkupChecksum":90,"./ReactReconciler":98,"./ReactUpdateQueue":104,"./ReactUpdates":105,"./instantiateReactComponent":144,"./reactProdInvariant":148,"./setInnerHTML":150,"./shouldUpdateReactComponent":152,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/React":158,"react/lib/ReactCurrentOwner":163}],92:[function(require,module,exports){
+},{"./DOMLazyTree":34,"./DOMProperty":36,"./ReactBrowserEventEmitter":50,"./ReactDOMComponentTree":58,"./ReactDOMContainerInfo":59,"./ReactDOMFeatureFlags":61,"./ReactFeatureFlags":82,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactMarkupChecksum":90,"./ReactReconciler":98,"./ReactUpdateQueue":104,"./ReactUpdates":105,"./instantiateReactComponent":144,"./reactProdInvariant":148,"./setInnerHTML":150,"./shouldUpdateReactComponent":152,"_process":405,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/React":158,"react/lib/ReactCurrentOwner":163}],92:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -11760,7 +11760,7 @@ var ReactMultiChild = {
 
 module.exports = ReactMultiChild;
 }).call(this,require('_process'))
-},{"./ReactChildReconciler":51,"./ReactComponentEnvironment":53,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactReconciler":98,"./flattenChildren":132,"./reactProdInvariant":148,"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16,"react/lib/ReactCurrentOwner":163}],93:[function(require,module,exports){
+},{"./ReactChildReconciler":51,"./ReactComponentEnvironment":53,"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactReconciler":98,"./flattenChildren":132,"./reactProdInvariant":148,"_process":405,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16,"react/lib/ReactCurrentOwner":163}],93:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -11802,7 +11802,7 @@ var ReactNodeTypes = {
 
 module.exports = ReactNodeTypes;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"react/lib/React":158}],94:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"react/lib/React":158}],94:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -11898,7 +11898,7 @@ var ReactOwner = {
 
 module.exports = ReactOwner;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],95:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],95:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -11925,7 +11925,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactPropTypeLocationNames;
 }).call(this,require('_process'))
-},{"_process":402}],96:[function(require,module,exports){
+},{"_process":405}],96:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12122,7 +12122,7 @@ PooledClass.addPoolingTo(ReactReconcileTransaction);
 
 module.exports = ReactReconcileTransaction;
 }).call(this,require('_process'))
-},{"./CallbackQueue":31,"./PooledClass":49,"./ReactBrowserEventEmitter":50,"./ReactInputSelection":86,"./ReactInstrumentation":88,"./ReactUpdateQueue":104,"./Transaction":123,"_process":402,"object-assign":24}],98:[function(require,module,exports){
+},{"./CallbackQueue":31,"./PooledClass":49,"./ReactBrowserEventEmitter":50,"./ReactInputSelection":86,"./ReactInstrumentation":88,"./ReactUpdateQueue":104,"./Transaction":123,"_process":405,"object-assign":24}],98:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -12292,7 +12292,7 @@ var ReactReconciler = {
 
 module.exports = ReactReconciler;
 }).call(this,require('_process'))
-},{"./ReactInstrumentation":88,"./ReactRef":99,"_process":402,"fbjs/lib/warning":23}],99:[function(require,module,exports){
+},{"./ReactInstrumentation":88,"./ReactRef":99,"_process":405,"fbjs/lib/warning":23}],99:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -12495,7 +12495,7 @@ module.exports = {
   renderToStaticMarkup: renderToStaticMarkup
 };
 }).call(this,require('_process'))
-},{"./ReactDOMContainerInfo":59,"./ReactDefaultBatchingStrategy":75,"./ReactInstrumentation":88,"./ReactMarkupChecksum":90,"./ReactReconciler":98,"./ReactServerBatchingStrategy":100,"./ReactServerRenderingTransaction":102,"./ReactUpdates":105,"./instantiateReactComponent":144,"./reactProdInvariant":148,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"react/lib/React":158}],102:[function(require,module,exports){
+},{"./ReactDOMContainerInfo":59,"./ReactDefaultBatchingStrategy":75,"./ReactInstrumentation":88,"./ReactMarkupChecksum":90,"./ReactReconciler":98,"./ReactServerBatchingStrategy":100,"./ReactServerRenderingTransaction":102,"./ReactUpdates":105,"./instantiateReactComponent":144,"./reactProdInvariant":148,"_process":405,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"react/lib/React":158}],102:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -12587,7 +12587,7 @@ PooledClass.addPoolingTo(ReactServerRenderingTransaction);
 
 module.exports = ReactServerRenderingTransaction;
 }).call(this,require('_process'))
-},{"./PooledClass":49,"./ReactInstrumentation":88,"./ReactServerUpdateQueue":103,"./Transaction":123,"_process":402,"object-assign":24}],103:[function(require,module,exports){
+},{"./PooledClass":49,"./ReactInstrumentation":88,"./ReactServerUpdateQueue":103,"./Transaction":123,"_process":405,"object-assign":24}],103:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -12728,7 +12728,7 @@ var ReactServerUpdateQueue = function () {
 
 module.exports = ReactServerUpdateQueue;
 }).call(this,require('_process'))
-},{"./ReactUpdateQueue":104,"_process":402,"fbjs/lib/warning":23}],104:[function(require,module,exports){
+},{"./ReactUpdateQueue":104,"_process":405,"fbjs/lib/warning":23}],104:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -12956,7 +12956,7 @@ var ReactUpdateQueue = {
 
 module.exports = ReactUpdateQueue;
 }).call(this,require('_process'))
-},{"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],105:[function(require,module,exports){
+},{"./ReactInstanceMap":87,"./ReactInstrumentation":88,"./ReactUpdates":105,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],105:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -13209,7 +13209,7 @@ var ReactUpdates = {
 
 module.exports = ReactUpdates;
 }).call(this,require('_process'))
-},{"./CallbackQueue":31,"./PooledClass":49,"./ReactFeatureFlags":82,"./ReactReconciler":98,"./Transaction":123,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"object-assign":24}],106:[function(require,module,exports){
+},{"./CallbackQueue":31,"./PooledClass":49,"./ReactFeatureFlags":82,"./ReactReconciler":98,"./Transaction":123,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"object-assign":24}],106:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -13946,7 +13946,7 @@ var SimpleEventPlugin = {
 
 module.exports = SimpleEventPlugin;
 }).call(this,require('_process'))
-},{"./EventPropagators":44,"./ReactDOMComponentTree":58,"./SyntheticAnimationEvent":110,"./SyntheticClipboardEvent":111,"./SyntheticDragEvent":113,"./SyntheticEvent":114,"./SyntheticFocusEvent":115,"./SyntheticKeyboardEvent":117,"./SyntheticMouseEvent":118,"./SyntheticTouchEvent":119,"./SyntheticTransitionEvent":120,"./SyntheticUIEvent":121,"./SyntheticWheelEvent":122,"./getEventCharCode":134,"./reactProdInvariant":148,"_process":402,"fbjs/lib/EventListener":1,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16}],110:[function(require,module,exports){
+},{"./EventPropagators":44,"./ReactDOMComponentTree":58,"./SyntheticAnimationEvent":110,"./SyntheticClipboardEvent":111,"./SyntheticDragEvent":113,"./SyntheticEvent":114,"./SyntheticFocusEvent":115,"./SyntheticKeyboardEvent":117,"./SyntheticMouseEvent":118,"./SyntheticTouchEvent":119,"./SyntheticTransitionEvent":120,"./SyntheticUIEvent":121,"./SyntheticWheelEvent":122,"./getEventCharCode":134,"./reactProdInvariant":148,"_process":405,"fbjs/lib/EventListener":1,"fbjs/lib/emptyFunction":8,"fbjs/lib/invariant":16}],110:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -14365,7 +14365,7 @@ function getPooledWarningPropertyDefinition(propName, getVal) {
   }
 }
 }).call(this,require('_process'))
-},{"./PooledClass":49,"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23,"object-assign":24}],115:[function(require,module,exports){
+},{"./PooledClass":49,"_process":405,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23,"object-assign":24}],115:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15018,7 +15018,7 @@ var TransactionImpl = {
 
 module.exports = TransactionImpl;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],124:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],124:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15105,7 +15105,7 @@ function accumulateInto(current, next) {
 
 module.exports = accumulateInto;
 }).call(this,require('_process'))
-},{"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16}],126:[function(require,module,exports){
+},{"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16}],126:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15238,7 +15238,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactPropTypeLocationNames":95,"./ReactPropTypesSecret":96,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],128:[function(require,module,exports){
+},{"./ReactPropTypeLocationNames":95,"./ReactPropTypesSecret":96,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],128:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -15351,7 +15351,7 @@ function dangerousStyleValue(name, value, component) {
 
 module.exports = dangerousStyleValue;
 }).call(this,require('_process'))
-},{"./CSSProperty":29,"_process":402,"fbjs/lib/warning":23}],130:[function(require,module,exports){
+},{"./CSSProperty":29,"_process":405,"fbjs/lib/warning":23}],130:[function(require,module,exports){
 /**
  * Copyright 2016-present, Facebook, Inc.
  * All rights reserved.
@@ -15536,7 +15536,7 @@ function findDOMNode(componentOrElement) {
 
 module.exports = findDOMNode;
 }).call(this,require('_process'))
-},{"./ReactDOMComponentTree":58,"./ReactInstanceMap":87,"./getHostComponentFromComposite":138,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],132:[function(require,module,exports){
+},{"./ReactDOMComponentTree":58,"./ReactInstanceMap":87,"./getHostComponentFromComposite":138,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],132:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -15614,7 +15614,7 @@ function flattenChildren(children, selfDebugID) {
 
 module.exports = flattenChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":47,"./traverseAllChildren":153,"_process":402,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],133:[function(require,module,exports){
+},{"./KeyEscapeUtils":47,"./traverseAllChildren":153,"_process":405,"fbjs/lib/warning":23,"react/lib/ReactComponentTreeHook":162}],133:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16295,7 +16295,7 @@ function instantiateReactComponent(node, shouldHaveDebugID) {
 
 module.exports = instantiateReactComponent;
 }).call(this,require('_process'))
-},{"./ReactCompositeComponent":54,"./ReactEmptyComponent":78,"./ReactHostComponent":83,"./getNextDebugID":140,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],145:[function(require,module,exports){
+},{"./ReactCompositeComponent":54,"./ReactEmptyComponent":78,"./ReactHostComponent":83,"./getNextDebugID":140,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],145:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -16857,7 +16857,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":47,"./ReactElementSymbol":77,"./getIteratorFn":139,"./reactProdInvariant":148,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],154:[function(require,module,exports){
+},{"./KeyEscapeUtils":47,"./ReactElementSymbol":77,"./getIteratorFn":139,"./reactProdInvariant":148,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"react/lib/ReactCurrentOwner":163}],154:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -17241,7 +17241,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = validateDOMNesting;
 }).call(this,require('_process'))
-},{"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23,"object-assign":24}],155:[function(require,module,exports){
+},{"_process":405,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23,"object-assign":24}],155:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/ReactDOMServer');
@@ -17250,7 +17250,7 @@ module.exports = require('./lib/ReactDOMServer');
 arguments[4][47][0].apply(exports,arguments)
 },{"dup":47}],157:[function(require,module,exports){
 arguments[4][49][0].apply(exports,arguments)
-},{"./reactProdInvariant":178,"_process":402,"dup":49,"fbjs/lib/invariant":16}],158:[function(require,module,exports){
+},{"./reactProdInvariant":178,"_process":405,"dup":49,"fbjs/lib/invariant":16}],158:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -17341,7 +17341,7 @@ var React = {
 
 module.exports = React;
 }).call(this,require('_process'))
-},{"./ReactChildren":159,"./ReactClass":160,"./ReactComponent":161,"./ReactDOMFactories":164,"./ReactElement":165,"./ReactElementValidator":167,"./ReactPropTypes":170,"./ReactPureComponent":172,"./ReactVersion":173,"./onlyChild":177,"_process":402,"fbjs/lib/warning":23,"object-assign":24}],159:[function(require,module,exports){
+},{"./ReactChildren":159,"./ReactClass":160,"./ReactComponent":161,"./ReactDOMFactories":164,"./ReactElement":165,"./ReactElementValidator":167,"./ReactPropTypes":170,"./ReactPureComponent":172,"./ReactVersion":173,"./onlyChild":177,"_process":405,"fbjs/lib/warning":23,"object-assign":24}],159:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18251,7 +18251,7 @@ var ReactClass = {
 
 module.exports = ReactClass;
 }).call(this,require('_process'))
-},{"./ReactComponent":161,"./ReactElement":165,"./ReactNoopUpdateQueue":168,"./ReactPropTypeLocationNames":169,"./reactProdInvariant":178,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],161:[function(require,module,exports){
+},{"./ReactComponent":161,"./ReactElement":165,"./ReactNoopUpdateQueue":168,"./ReactPropTypeLocationNames":169,"./reactProdInvariant":178,"_process":405,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23,"object-assign":24}],161:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -18371,7 +18371,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = ReactComponent;
 }).call(this,require('_process'))
-},{"./ReactNoopUpdateQueue":168,"./canDefineProperty":174,"./reactProdInvariant":178,"_process":402,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],162:[function(require,module,exports){
+},{"./ReactNoopUpdateQueue":168,"./canDefineProperty":174,"./reactProdInvariant":178,"_process":405,"fbjs/lib/emptyObject":9,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],162:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2016-present, Facebook, Inc.
@@ -18707,7 +18707,7 @@ var ReactComponentTreeHook = {
 
 module.exports = ReactComponentTreeHook;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":163,"./reactProdInvariant":178,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],163:[function(require,module,exports){
+},{"./ReactCurrentOwner":163,"./reactProdInvariant":178,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],163:[function(require,module,exports){
 /**
  * Copyright 2013-present, Facebook, Inc.
  * All rights reserved.
@@ -18910,7 +18910,7 @@ var ReactDOMFactories = {
 
 module.exports = ReactDOMFactories;
 }).call(this,require('_process'))
-},{"./ReactElement":165,"./ReactElementValidator":167,"_process":402}],165:[function(require,module,exports){
+},{"./ReactElement":165,"./ReactElementValidator":167,"_process":405}],165:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2014-present, Facebook, Inc.
@@ -19253,7 +19253,7 @@ ReactElement.isValidElement = function (object) {
 
 module.exports = ReactElement;
 }).call(this,require('_process'))
-},{"./ReactCurrentOwner":163,"./ReactElementSymbol":166,"./canDefineProperty":174,"_process":402,"fbjs/lib/warning":23,"object-assign":24}],166:[function(require,module,exports){
+},{"./ReactCurrentOwner":163,"./ReactElementSymbol":166,"./canDefineProperty":174,"_process":405,"fbjs/lib/warning":23,"object-assign":24}],166:[function(require,module,exports){
 arguments[4][77][0].apply(exports,arguments)
 },{"dup":77}],167:[function(require,module,exports){
 (function (process){
@@ -19484,7 +19484,7 @@ var ReactElementValidator = {
 
 module.exports = ReactElementValidator;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":162,"./ReactCurrentOwner":163,"./ReactElement":165,"./canDefineProperty":174,"./checkReactTypeSpec":175,"./getIteratorFn":176,"_process":402,"fbjs/lib/warning":23}],168:[function(require,module,exports){
+},{"./ReactComponentTreeHook":162,"./ReactCurrentOwner":163,"./ReactElement":165,"./canDefineProperty":174,"./checkReactTypeSpec":175,"./getIteratorFn":176,"_process":405,"fbjs/lib/warning":23}],168:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2015-present, Facebook, Inc.
@@ -19582,9 +19582,9 @@ var ReactNoopUpdateQueue = {
 
 module.exports = ReactNoopUpdateQueue;
 }).call(this,require('_process'))
-},{"_process":402,"fbjs/lib/warning":23}],169:[function(require,module,exports){
+},{"_process":405,"fbjs/lib/warning":23}],169:[function(require,module,exports){
 arguments[4][95][0].apply(exports,arguments)
-},{"_process":402,"dup":95}],170:[function(require,module,exports){
+},{"_process":405,"dup":95}],170:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -20020,7 +20020,7 @@ function getClassName(propValue) {
 
 module.exports = ReactPropTypes;
 }).call(this,require('_process'))
-},{"./ReactElement":165,"./ReactPropTypeLocationNames":169,"./ReactPropTypesSecret":171,"./getIteratorFn":176,"_process":402,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23}],171:[function(require,module,exports){
+},{"./ReactElement":165,"./ReactPropTypeLocationNames":169,"./ReactPropTypesSecret":171,"./getIteratorFn":176,"_process":405,"fbjs/lib/emptyFunction":8,"fbjs/lib/warning":23}],171:[function(require,module,exports){
 arguments[4][96][0].apply(exports,arguments)
 },{"dup":96}],172:[function(require,module,exports){
 /**
@@ -20094,7 +20094,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 module.exports = canDefineProperty;
 }).call(this,require('_process'))
-},{"_process":402}],175:[function(require,module,exports){
+},{"_process":405}],175:[function(require,module,exports){
 (function (process){
 /**
  * Copyright 2013-present, Facebook, Inc.
@@ -20183,7 +20183,7 @@ function checkReactTypeSpec(typeSpecs, values, location, componentName, element,
 
 module.exports = checkReactTypeSpec;
 }).call(this,require('_process'))
-},{"./ReactComponentTreeHook":162,"./ReactPropTypeLocationNames":169,"./ReactPropTypesSecret":171,"./reactProdInvariant":178,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],176:[function(require,module,exports){
+},{"./ReactComponentTreeHook":162,"./ReactPropTypeLocationNames":169,"./ReactPropTypesSecret":171,"./reactProdInvariant":178,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],176:[function(require,module,exports){
 arguments[4][139][0].apply(exports,arguments)
 },{"dup":139}],177:[function(require,module,exports){
 (function (process){
@@ -20225,7 +20225,7 @@ function onlyChild(children) {
 
 module.exports = onlyChild;
 }).call(this,require('_process'))
-},{"./ReactElement":165,"./reactProdInvariant":178,"_process":402,"fbjs/lib/invariant":16}],178:[function(require,module,exports){
+},{"./ReactElement":165,"./reactProdInvariant":178,"_process":405,"fbjs/lib/invariant":16}],178:[function(require,module,exports){
 arguments[4][148][0].apply(exports,arguments)
 },{"dup":148}],179:[function(require,module,exports){
 (function (process){
@@ -20405,7 +20405,7 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 }).call(this,require('_process'))
-},{"./KeyEscapeUtils":156,"./ReactCurrentOwner":163,"./ReactElementSymbol":166,"./getIteratorFn":176,"./reactProdInvariant":178,"_process":402,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],180:[function(require,module,exports){
+},{"./KeyEscapeUtils":156,"./ReactCurrentOwner":163,"./ReactElementSymbol":166,"./getIteratorFn":176,"./reactProdInvariant":178,"_process":405,"fbjs/lib/invariant":16,"fbjs/lib/warning":23}],180:[function(require,module,exports){
 'use strict';
 
 module.exports = require('./lib/React');
@@ -20633,64 +20633,64 @@ var battlerSpec = (function () {
                 if (curType instanceof Data_Maybe.Just && curType.value0 instanceof Pokemon_Type.Fairy) {
                     return "fairy";
                 };
-                throw new Error("Failed pattern match at Components.Battler line 408, column 25 - line 428, column 17: " + [ curType.constructor.name ]);
+                throw new Error("Failed pattern match at Components.Battler line 411, column 25 - line 431, column 17: " + [ curType.constructor.name ]);
             })()), React_DOM_Props.onChange(function (e) {
-                var $41 = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                if ($41 === "none") {
+                var $42 = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                if ($42 === "none") {
                     return dispatchType(Data_Maybe.Nothing.value);
                 };
-                if ($41 === "normal") {
+                if ($42 === "normal") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Normal.value));
                 };
-                if ($41 === "fighting") {
+                if ($42 === "fighting") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Fighting.value));
                 };
-                if ($41 === "flying") {
+                if ($42 === "flying") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Flying.value));
                 };
-                if ($41 === "poison") {
+                if ($42 === "poison") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Poison.value));
                 };
-                if ($41 === "ground") {
+                if ($42 === "ground") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Ground.value));
                 };
-                if ($41 === "rock") {
+                if ($42 === "rock") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Rock.value));
                 };
-                if ($41 === "bug") {
+                if ($42 === "bug") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Bug.value));
                 };
-                if ($41 === "ghost") {
+                if ($42 === "ghost") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Ghost.value));
                 };
-                if ($41 === "steel") {
+                if ($42 === "steel") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Steel.value));
                 };
-                if ($41 === "fire") {
+                if ($42 === "fire") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Fire.value));
                 };
-                if ($41 === "water") {
+                if ($42 === "water") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Water.value));
                 };
-                if ($41 === "grass") {
+                if ($42 === "grass") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Grass.value));
                 };
-                if ($41 === "electric") {
+                if ($42 === "electric") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Electric.value));
                 };
-                if ($41 === "psychic") {
+                if ($42 === "psychic") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Psychic.value));
                 };
-                if ($41 === "ice") {
+                if ($42 === "ice") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Ice.value));
                 };
-                if ($41 === "dragon") {
+                if ($42 === "dragon") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Dragon.value));
                 };
-                if ($41 === "dark") {
+                if ($42 === "dark") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Dark.value));
                 };
-                if ($41 === "fairy") {
+                if ($42 === "fairy") {
                     return dispatchType(new Data_Maybe.Just(Pokemon_Type.Fairy.value));
                 };
                 return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
@@ -20704,310 +20704,310 @@ var battlerSpec = (function () {
                     return function (v3) {
                         return React_DOM["table'"]([ React_DOM["tbody'"]([ React_DOM["tr'"]([ React_DOM["th'"]([  ]), React_DOM["th'"]([ React_DOM.text("Base") ]), React_DOM["th'"]([ React_DOM.text("IV") ]), React_DOM["th'"]([ React_DOM.text("EV") ]), React_DOM["th'"]([ React_DOM.text("Stat") ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("HP") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.hp)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $47 = contents === "";
-                            if ($47) {
+                            var $48 = contents === "";
+                            if ($48) {
                                 return dispatch(new UpdateBaseStat(Pokemon_Stats.HP.value, 0));
                             };
-                            if (!$47) {
-                                var $48 = Data_Int.fromString(contents);
-                                if ($48 instanceof Data_Maybe.Nothing) {
+                            if (!$48) {
+                                var $49 = Data_Int.fromString(contents);
+                                if ($49 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($48 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.HP.value, $48.value0));
+                                if ($49 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.HP.value, $49.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 109, column 38 - line 111, column 77: " + [ $48.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 112, column 38 - line 114, column 77: " + [ $49.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 107, column 33 - line 111, column 77: " + [ $47.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 110, column 33 - line 114, column 77: " + [ $48.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.hp)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $50 = contents === "";
-                            if ($50) {
+                            var $51 = contents === "";
+                            if ($51) {
                                 return dispatch(new UpdateIV(Pokemon_Stats.HP.value, 0));
                             };
-                            if (!$50) {
-                                var $51 = Data_Int.fromString(contents);
-                                if ($51 instanceof Data_Maybe.Nothing) {
+                            if (!$51) {
+                                var $52 = Data_Int.fromString(contents);
+                                if ($52 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($51 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.HP.value, $51.value0));
+                                if ($52 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateIV(Pokemon_Stats.HP.value, $52.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 124, column 38 - line 126, column 71: " + [ $51.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 127, column 38 - line 129, column 71: " + [ $52.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 122, column 33 - line 126, column 71: " + [ $50.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 125, column 33 - line 129, column 71: " + [ $51.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.hp)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $53 = contents === "";
-                            if ($53) {
+                            var $54 = contents === "";
+                            if ($54) {
                                 return dispatch(new UpdateEV(Pokemon_Stats.HP.value, 0));
                             };
-                            if (!$53) {
-                                var $54 = Data_Int.fromString(contents);
-                                if ($54 instanceof Data_Maybe.Nothing) {
+                            if (!$54) {
+                                var $55 = Data_Int.fromString(contents);
+                                if ($55 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($54 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.HP.value, $54.value0));
+                                if ($55 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.HP.value, $55.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 139, column 38 - line 141, column 71: " + [ $54.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 142, column 38 - line 144, column 71: " + [ $55.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 137, column 33 - line 141, column 71: " + [ $53.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 140, column 33 - line 144, column 71: " + [ $54.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.hp)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Atk") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.atk)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $56 = contents === "";
-                            if ($56) {
+                            var $57 = contents === "";
+                            if ($57) {
                                 return dispatch(new UpdateBaseStat(Pokemon_Stats.Atk.value, 0));
                             };
-                            if (!$56) {
-                                var $57 = Data_Int.fromString(contents);
-                                if ($57 instanceof Data_Maybe.Nothing) {
+                            if (!$57) {
+                                var $58 = Data_Int.fromString(contents);
+                                if ($58 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($57 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Atk.value, $57.value0));
+                                if ($58 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Atk.value, $58.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 160, column 38 - line 162, column 78: " + [ $57.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 163, column 38 - line 165, column 78: " + [ $58.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 158, column 33 - line 162, column 78: " + [ $56.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 161, column 33 - line 165, column 78: " + [ $57.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.atk)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $59 = contents === "";
-                            if ($59) {
+                            var $60 = contents === "";
+                            if ($60) {
                                 return dispatch(new UpdateIV(Pokemon_Stats.Atk.value, 0));
                             };
-                            if (!$59) {
-                                var $60 = Data_Int.fromString(contents);
-                                if ($60 instanceof Data_Maybe.Nothing) {
+                            if (!$60) {
+                                var $61 = Data_Int.fromString(contents);
+                                if ($61 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($60 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.Atk.value, $60.value0));
+                                if ($61 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateIV(Pokemon_Stats.Atk.value, $61.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 175, column 38 - line 177, column 72: " + [ $60.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 178, column 38 - line 180, column 72: " + [ $61.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 173, column 33 - line 177, column 72: " + [ $59.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 176, column 33 - line 180, column 72: " + [ $60.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.atk)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $62 = contents === "";
-                            if ($62) {
+                            var $63 = contents === "";
+                            if ($63) {
                                 return dispatch(new UpdateEV(Pokemon_Stats.Atk.value, 0));
                             };
-                            if (!$62) {
-                                var $63 = Data_Int.fromString(contents);
-                                if ($63 instanceof Data_Maybe.Nothing) {
+                            if (!$63) {
+                                var $64 = Data_Int.fromString(contents);
+                                if ($64 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($63 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.Atk.value, $63.value0));
+                                if ($64 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.Atk.value, $64.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 190, column 38 - line 192, column 72: " + [ $63.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 193, column 38 - line 195, column 72: " + [ $64.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 188, column 33 - line 192, column 72: " + [ $62.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 191, column 33 - line 195, column 72: " + [ $63.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.atk)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Def") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.def)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $65 = contents === "";
-                            if ($65) {
+                            var $66 = contents === "";
+                            if ($66) {
                                 return dispatch(new UpdateBaseStat(Pokemon_Stats.Def.value, 0));
                             };
-                            if (!$65) {
-                                var $66 = Data_Int.fromString(contents);
-                                if ($66 instanceof Data_Maybe.Nothing) {
+                            if (!$66) {
+                                var $67 = Data_Int.fromString(contents);
+                                if ($67 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($66 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Def.value, $66.value0));
+                                if ($67 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Def.value, $67.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 211, column 38 - line 213, column 78: " + [ $66.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 214, column 38 - line 216, column 78: " + [ $67.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 209, column 33 - line 213, column 78: " + [ $65.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 212, column 33 - line 216, column 78: " + [ $66.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.def)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $68 = contents === "";
-                            if ($68) {
+                            var $69 = contents === "";
+                            if ($69) {
                                 return dispatch(new UpdateIV(Pokemon_Stats.Def.value, 0));
                             };
-                            if (!$68) {
-                                var $69 = Data_Int.fromString(contents);
-                                if ($69 instanceof Data_Maybe.Nothing) {
+                            if (!$69) {
+                                var $70 = Data_Int.fromString(contents);
+                                if ($70 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($69 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.Def.value, $69.value0));
+                                if ($70 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateIV(Pokemon_Stats.Def.value, $70.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 226, column 38 - line 228, column 72: " + [ $69.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 229, column 38 - line 231, column 72: " + [ $70.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 224, column 33 - line 228, column 72: " + [ $68.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 227, column 33 - line 231, column 72: " + [ $69.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.def)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $71 = contents === "";
-                            if ($71) {
+                            var $72 = contents === "";
+                            if ($72) {
                                 return dispatch(new UpdateEV(Pokemon_Stats.Def.value, 0));
                             };
-                            if (!$71) {
-                                var $72 = Data_Int.fromString(contents);
-                                if ($72 instanceof Data_Maybe.Nothing) {
+                            if (!$72) {
+                                var $73 = Data_Int.fromString(contents);
+                                if ($73 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($72 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.Def.value, $72.value0));
+                                if ($73 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.Def.value, $73.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 241, column 38 - line 243, column 72: " + [ $72.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 244, column 38 - line 246, column 72: " + [ $73.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 239, column 33 - line 243, column 72: " + [ $71.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 242, column 33 - line 246, column 72: " + [ $72.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.def)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("SpA") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spa)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $74 = contents === "";
-                            if ($74) {
+                            var $75 = contents === "";
+                            if ($75) {
                                 return dispatch(new UpdateBaseStat(Pokemon_Stats.SpA.value, 0));
                             };
-                            if (!$74) {
-                                var $75 = Data_Int.fromString(contents);
-                                if ($75 instanceof Data_Maybe.Nothing) {
+                            if (!$75) {
+                                var $76 = Data_Int.fromString(contents);
+                                if ($76 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($75 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.SpA.value, $75.value0));
+                                if ($76 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.SpA.value, $76.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 262, column 38 - line 264, column 78: " + [ $75.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 265, column 38 - line 267, column 78: " + [ $76.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 260, column 33 - line 264, column 78: " + [ $74.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 263, column 33 - line 267, column 78: " + [ $75.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spa)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $77 = contents === "";
-                            if ($77) {
+                            var $78 = contents === "";
+                            if ($78) {
                                 return dispatch(new UpdateIV(Pokemon_Stats.SpA.value, 0));
                             };
-                            if (!$77) {
-                                var $78 = Data_Int.fromString(contents);
-                                if ($78 instanceof Data_Maybe.Nothing) {
+                            if (!$78) {
+                                var $79 = Data_Int.fromString(contents);
+                                if ($79 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($78 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.SpA.value, $78.value0));
+                                if ($79 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateIV(Pokemon_Stats.SpA.value, $79.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 277, column 38 - line 279, column 72: " + [ $78.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 280, column 38 - line 282, column 72: " + [ $79.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 275, column 33 - line 279, column 72: " + [ $77.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 278, column 33 - line 282, column 72: " + [ $78.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spa)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $80 = contents === "";
-                            if ($80) {
+                            var $81 = contents === "";
+                            if ($81) {
                                 return dispatch(new UpdateEV(Pokemon_Stats.SpA.value, 0));
                             };
-                            if (!$80) {
-                                var $81 = Data_Int.fromString(contents);
-                                if ($81 instanceof Data_Maybe.Nothing) {
+                            if (!$81) {
+                                var $82 = Data_Int.fromString(contents);
+                                if ($82 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($81 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.SpA.value, $81.value0));
+                                if ($82 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.SpA.value, $82.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 292, column 38 - line 294, column 72: " + [ $81.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 295, column 38 - line 297, column 72: " + [ $82.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 290, column 33 - line 294, column 72: " + [ $80.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 293, column 33 - line 297, column 72: " + [ $81.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.spa)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("SpD") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spd)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $83 = contents === "";
-                            if ($83) {
+                            var $84 = contents === "";
+                            if ($84) {
                                 return dispatch(new UpdateBaseStat(Pokemon_Stats.SpD.value, 0));
                             };
-                            if (!$83) {
-                                var $84 = Data_Int.fromString(contents);
-                                if ($84 instanceof Data_Maybe.Nothing) {
+                            if (!$84) {
+                                var $85 = Data_Int.fromString(contents);
+                                if ($85 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($84 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.SpD.value, $84.value0));
+                                if ($85 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.SpD.value, $85.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 313, column 38 - line 315, column 78: " + [ $84.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 316, column 38 - line 318, column 78: " + [ $85.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 311, column 33 - line 315, column 78: " + [ $83.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 314, column 33 - line 318, column 78: " + [ $84.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spd)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $86 = contents === "";
-                            if ($86) {
+                            var $87 = contents === "";
+                            if ($87) {
                                 return dispatch(new UpdateIV(Pokemon_Stats.SpD.value, 0));
                             };
-                            if (!$86) {
-                                var $87 = Data_Int.fromString(contents);
-                                if ($87 instanceof Data_Maybe.Nothing) {
+                            if (!$87) {
+                                var $88 = Data_Int.fromString(contents);
+                                if ($88 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($87 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.SpD.value, $87.value0));
+                                if ($88 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateIV(Pokemon_Stats.SpD.value, $88.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 328, column 38 - line 330, column 72: " + [ $87.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 331, column 38 - line 333, column 72: " + [ $88.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 326, column 33 - line 330, column 72: " + [ $86.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 329, column 33 - line 333, column 72: " + [ $87.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spd)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $89 = contents === "";
-                            if ($89) {
+                            var $90 = contents === "";
+                            if ($90) {
                                 return dispatch(new UpdateEV(Pokemon_Stats.SpD.value, 0));
                             };
-                            if (!$89) {
-                                var $90 = Data_Int.fromString(contents);
-                                if ($90 instanceof Data_Maybe.Nothing) {
+                            if (!$90) {
+                                var $91 = Data_Int.fromString(contents);
+                                if ($91 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($90 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.SpD.value, $90.value0));
+                                if ($91 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.SpD.value, $91.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 343, column 38 - line 345, column 72: " + [ $90.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 346, column 38 - line 348, column 72: " + [ $91.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 341, column 33 - line 345, column 72: " + [ $89.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 344, column 33 - line 348, column 72: " + [ $90.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.spd)) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text("Spe") ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.spe)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $92 = contents === "";
-                            if ($92) {
+                            var $93 = contents === "";
+                            if ($93) {
                                 return dispatch(new UpdateBaseStat(Pokemon_Stats.Spe.value, 0));
                             };
-                            if (!$92) {
-                                var $93 = Data_Int.fromString(contents);
-                                if ($93 instanceof Data_Maybe.Nothing) {
+                            if (!$93) {
+                                var $94 = Data_Int.fromString(contents);
+                                if ($94 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($93 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Spe.value, $93.value0));
+                                if ($94 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateBaseStat(Pokemon_Stats.Spe.value, $94.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 364, column 38 - line 366, column 78: " + [ $93.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 367, column 38 - line 369, column 78: " + [ $94.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 362, column 33 - line 366, column 78: " + [ $92.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 365, column 33 - line 369, column 78: " + [ $93.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.spe)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $95 = contents === "";
-                            if ($95) {
+                            var $96 = contents === "";
+                            if ($96) {
                                 return dispatch(new UpdateIV(Pokemon_Stats.Spe.value, 0));
                             };
-                            if (!$95) {
-                                var $96 = Data_Int.fromString(contents);
-                                if ($96 instanceof Data_Maybe.Nothing) {
+                            if (!$96) {
+                                var $97 = Data_Int.fromString(contents);
+                                if ($97 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($96 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateIV(Pokemon_Stats.Spe.value, $96.value0));
+                                if ($97 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateIV(Pokemon_Stats.Spe.value, $97.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 379, column 38 - line 381, column 72: " + [ $96.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 382, column 38 - line 384, column 72: " + [ $97.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 377, column 33 - line 381, column 72: " + [ $95.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 380, column 33 - line 384, column 72: " + [ $96.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v2.spe)), React_DOM_Props.onChange(function (e) {
                             var contents = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                            var $98 = contents === "";
-                            if ($98) {
+                            var $99 = contents === "";
+                            if ($99) {
                                 return dispatch(new UpdateEV(Pokemon_Stats.Spe.value, 0));
                             };
-                            if (!$98) {
-                                var $99 = Data_Int.fromString(contents);
-                                if ($99 instanceof Data_Maybe.Nothing) {
+                            if (!$99) {
+                                var $100 = Data_Int.fromString(contents);
+                                if ($100 instanceof Data_Maybe.Nothing) {
                                     return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                                 };
-                                if ($99 instanceof Data_Maybe.Just) {
-                                    return dispatch(new UpdateEV(Pokemon_Stats.Spe.value, $99.value0));
+                                if ($100 instanceof Data_Maybe.Just) {
+                                    return dispatch(new UpdateEV(Pokemon_Stats.Spe.value, $100.value0));
                                 };
-                                throw new Error("Failed pattern match at Components.Battler line 394, column 38 - line 396, column 72: " + [ $99.constructor.name ]);
+                                throw new Error("Failed pattern match at Components.Battler line 397, column 38 - line 399, column 72: " + [ $100.constructor.name ]);
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 392, column 33 - line 396, column 72: " + [ $98.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 395, column 33 - line 399, column 72: " + [ $99.constructor.name ]);
                         }) ])([  ]) ]), React_DOM["td'"]([ React_DOM.text(Data_Show.show(Data_Show.showInt)(v3.spe)) ]) ]) ]) ]);
                     };
                 };
@@ -21019,227 +21019,227 @@ var battlerSpec = (function () {
             return function (v1) {
                 if (action instanceof UpdateSpeciesName) {
                     return Control_Bind.bind(Control_Monad_Free_Trans.bindFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $107 = {};
-                        for (var $108 in v2) {
-                            if (v2.hasOwnProperty($108)) {
-                                $107[$108] = v2[$108];
+                        var $108 = {};
+                        for (var $109 in v2) {
+                            if (v2.hasOwnProperty($109)) {
+                                $108[$109] = v2[$109];
                             };
                         };
-                        $107.species = (function () {
-                            var $104 = {};
-                            for (var $105 in v2.species) {
-                                if (v2.species.hasOwnProperty($105)) {
-                                    $104[$105] = v2.species[$105];
+                        $108.species = (function () {
+                            var $105 = {};
+                            for (var $106 in v2.species) {
+                                if (v2.species.hasOwnProperty($106)) {
+                                    $105[$106] = v2.species[$106];
                                 };
                             };
-                            $104.name = action.value0;
-                            return $104;
+                            $105.name = action.value0;
+                            return $105;
                         })();
-                        return $107;
+                        return $108;
                     })))(function () {
-                        var $110 = Data_StrMap.lookup(Data_String.toLower(action.value0))(Pokemon_SpeciesData.speciesByName);
-                        if ($110 instanceof Data_Maybe.Nothing) {
+                        var $111 = Data_StrMap.lookup(Data_String.toLower(action.value0))(Pokemon_SpeciesData.speciesByName);
+                        if ($111 instanceof Data_Maybe.Nothing) {
                             return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
                         };
-                        if ($110 instanceof Data_Maybe.Just) {
+                        if ($111 instanceof Data_Maybe.Just) {
                             return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                                var $112 = {};
-                                for (var $113 in v2) {
-                                    if (v2.hasOwnProperty($113)) {
-                                        $112[$113] = v2[$113];
+                                var $113 = {};
+                                for (var $114 in v2) {
+                                    if (v2.hasOwnProperty($114)) {
+                                        $113[$114] = v2[$114];
                                     };
                                 };
-                                $112.species = $110.value0;
-                                return $112;
+                                $113.species = $111.value0;
+                                return $113;
                             }));
                         };
-                        throw new Error("Failed pattern match at Components.Battler line 654, column 17 - line 658, column 62: " + [ $110.constructor.name ]);
+                        throw new Error("Failed pattern match at Components.Battler line 703, column 17 - line 707, column 62: " + [ $111.constructor.name ]);
                     });
                 };
                 if (action instanceof UpdateBaseStat) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
                         var base$prime = (function () {
                             if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $121 = {};
-                                for (var $122 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($122)) {
-                                        $121[$122] = v3.species.baseStats[$122];
+                                var $122 = {};
+                                for (var $123 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($123)) {
+                                        $122[$123] = v3.species.baseStats[$123];
                                     };
                                 };
-                                $121.hp = action.value1;
-                                return $121;
+                                $122.hp = action.value1;
+                                return $122;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $124 = {};
-                                for (var $125 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($125)) {
-                                        $124[$125] = v3.species.baseStats[$125];
+                                var $125 = {};
+                                for (var $126 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($126)) {
+                                        $125[$126] = v3.species.baseStats[$126];
                                     };
                                 };
-                                $124.atk = action.value1;
-                                return $124;
+                                $125.atk = action.value1;
+                                return $125;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $127 = {};
-                                for (var $128 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($128)) {
-                                        $127[$128] = v3.species.baseStats[$128];
+                                var $128 = {};
+                                for (var $129 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($129)) {
+                                        $128[$129] = v3.species.baseStats[$129];
                                     };
                                 };
-                                $127.def = action.value1;
-                                return $127;
+                                $128.def = action.value1;
+                                return $128;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $130 = {};
-                                for (var $131 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($131)) {
-                                        $130[$131] = v3.species.baseStats[$131];
+                                var $131 = {};
+                                for (var $132 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($132)) {
+                                        $131[$132] = v3.species.baseStats[$132];
                                     };
                                 };
-                                $130.spa = action.value1;
-                                return $130;
+                                $131.spa = action.value1;
+                                return $131;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $133 = {};
-                                for (var $134 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($134)) {
-                                        $133[$134] = v3.species.baseStats[$134];
+                                var $134 = {};
+                                for (var $135 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($135)) {
+                                        $134[$135] = v3.species.baseStats[$135];
                                     };
                                 };
-                                $133.spd = action.value1;
-                                return $133;
+                                $134.spd = action.value1;
+                                return $134;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $136 = {};
-                                for (var $137 in v3.species.baseStats) {
-                                    if (v3.species.baseStats.hasOwnProperty($137)) {
-                                        $136[$137] = v3.species.baseStats[$137];
+                                var $137 = {};
+                                for (var $138 in v3.species.baseStats) {
+                                    if (v3.species.baseStats.hasOwnProperty($138)) {
+                                        $137[$138] = v3.species.baseStats[$138];
                                     };
                                 };
-                                $136.spe = action.value1;
-                                return $136;
+                                $137.spe = action.value1;
+                                return $137;
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 666, column 45 - line 672, column 64: " + [ action.value0.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 715, column 45 - line 721, column 64: " + [ action.value0.constructor.name ]);
                         })();
-                        var $142 = {};
-                        for (var $143 in v3) {
-                            if (v3.hasOwnProperty($143)) {
-                                $142[$143] = v3[$143];
+                        var $143 = {};
+                        for (var $144 in v3) {
+                            if (v3.hasOwnProperty($144)) {
+                                $143[$144] = v3[$144];
                             };
                         };
-                        $142.species = (function () {
-                            var $139 = {};
-                            for (var $140 in v3.species) {
-                                if (v3.species.hasOwnProperty($140)) {
-                                    $139[$140] = v3.species[$140];
+                        $143.species = (function () {
+                            var $140 = {};
+                            for (var $141 in v3.species) {
+                                if (v3.species.hasOwnProperty($141)) {
+                                    $140[$141] = v3.species[$141];
                                 };
                             };
-                            $139.baseStats = base$prime;
-                            return $139;
+                            $140.baseStats = base$prime;
+                            return $140;
                         })();
-                        return $142;
+                        return $143;
                     }));
                 };
                 if (action instanceof UpdateType1) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $152 = {};
-                        for (var $153 in v2) {
-                            if (v2.hasOwnProperty($153)) {
-                                $152[$153] = v2[$153];
+                        var $153 = {};
+                        for (var $154 in v2) {
+                            if (v2.hasOwnProperty($154)) {
+                                $153[$154] = v2[$154];
                             };
                         };
-                        $152.species = (function () {
-                            var $149 = {};
-                            for (var $150 in v2.species) {
-                                if (v2.species.hasOwnProperty($150)) {
-                                    $149[$150] = v2.species[$150];
+                        $153.species = (function () {
+                            var $150 = {};
+                            for (var $151 in v2.species) {
+                                if (v2.species.hasOwnProperty($151)) {
+                                    $150[$151] = v2.species[$151];
                                 };
                             };
-                            $149.type1 = action.value0;
-                            return $149;
+                            $150.type1 = action.value0;
+                            return $150;
                         })();
-                        return $152;
+                        return $153;
                     }));
                 };
                 if (action instanceof UpdateType2) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $161 = {};
-                        for (var $162 in v2) {
-                            if (v2.hasOwnProperty($162)) {
-                                $161[$162] = v2[$162];
+                        var $162 = {};
+                        for (var $163 in v2) {
+                            if (v2.hasOwnProperty($163)) {
+                                $162[$163] = v2[$163];
                             };
                         };
-                        $161.species = (function () {
-                            var $158 = {};
-                            for (var $159 in v2.species) {
-                                if (v2.species.hasOwnProperty($159)) {
-                                    $158[$159] = v2.species[$159];
+                        $162.species = (function () {
+                            var $159 = {};
+                            for (var $160 in v2.species) {
+                                if (v2.species.hasOwnProperty($160)) {
+                                    $159[$160] = v2.species[$160];
                                 };
                             };
-                            $158.type2 = action.value0;
-                            return $158;
+                            $159.type2 = action.value0;
+                            return $159;
                         })();
-                        return $161;
+                        return $162;
                     }));
                 };
                 if (action instanceof UpdateLevel) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $166 = {};
-                        for (var $167 in v2) {
-                            if (v2.hasOwnProperty($167)) {
-                                $166[$167] = v2[$167];
+                        var $167 = {};
+                        for (var $168 in v2) {
+                            if (v2.hasOwnProperty($168)) {
+                                $167[$168] = v2[$168];
                             };
                         };
-                        $166.level = Data_Ord.max(Data_Ord.ordInt)(0)(Data_Ord.min(Data_Ord.ordInt)(100)(action.value0));
-                        return $166;
+                        $167.level = Data_Ord.max(Data_Ord.ordInt)(0)(Data_Ord.min(Data_Ord.ordInt)(100)(action.value0));
+                        return $167;
                     }));
                 };
                 if (action instanceof UpdateMove1) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $171 = {};
-                        for (var $172 in v2) {
-                            if (v2.hasOwnProperty($172)) {
-                                $171[$172] = v2[$172];
+                        var $172 = {};
+                        for (var $173 in v2) {
+                            if (v2.hasOwnProperty($173)) {
+                                $172[$173] = v2[$173];
                             };
                         };
-                        $171.move1 = action.value0;
-                        return $171;
+                        $172.move1 = action.value0;
+                        return $172;
                     }));
                 };
                 if (action instanceof UpdateMove2) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $176 = {};
-                        for (var $177 in v2) {
-                            if (v2.hasOwnProperty($177)) {
-                                $176[$177] = v2[$177];
+                        var $177 = {};
+                        for (var $178 in v2) {
+                            if (v2.hasOwnProperty($178)) {
+                                $177[$178] = v2[$178];
                             };
                         };
-                        $176.move1 = action.value0;
-                        return $176;
+                        $177.move2 = action.value0;
+                        return $177;
                     }));
                 };
                 if (action instanceof UpdateMove3) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $181 = {};
-                        for (var $182 in v2) {
-                            if (v2.hasOwnProperty($182)) {
-                                $181[$182] = v2[$182];
+                        var $182 = {};
+                        for (var $183 in v2) {
+                            if (v2.hasOwnProperty($183)) {
+                                $182[$183] = v2[$183];
                             };
                         };
-                        $181.move1 = action.value0;
-                        return $181;
+                        $182.move3 = action.value0;
+                        return $182;
                     }));
                 };
                 if (action instanceof UpdateMove4) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $186 = {};
-                        for (var $187 in v2) {
-                            if (v2.hasOwnProperty($187)) {
-                                $186[$187] = v2[$187];
+                        var $187 = {};
+                        for (var $188 in v2) {
+                            if (v2.hasOwnProperty($188)) {
+                                $187[$188] = v2[$188];
                             };
                         };
-                        $186.move1 = action.value0;
-                        return $186;
+                        $187.move4 = action.value0;
+                        return $187;
                     }));
                 };
                 if (action instanceof UpdateIV) {
@@ -21247,75 +21247,75 @@ var battlerSpec = (function () {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
                         var ivs$prime = (function () {
                             if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $193 = {};
-                                for (var $194 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($194)) {
-                                        $193[$194] = v3.ivs[$194];
+                                var $194 = {};
+                                for (var $195 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($195)) {
+                                        $194[$195] = v3.ivs[$195];
                                     };
                                 };
-                                $193.hp = v$prime;
-                                return $193;
+                                $194.hp = v$prime;
+                                return $194;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $196 = {};
-                                for (var $197 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($197)) {
-                                        $196[$197] = v3.ivs[$197];
+                                var $197 = {};
+                                for (var $198 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($198)) {
+                                        $197[$198] = v3.ivs[$198];
                                     };
                                 };
-                                $196.atk = v$prime;
-                                return $196;
+                                $197.atk = v$prime;
+                                return $197;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $199 = {};
-                                for (var $200 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($200)) {
-                                        $199[$200] = v3.ivs[$200];
+                                var $200 = {};
+                                for (var $201 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($201)) {
+                                        $200[$201] = v3.ivs[$201];
                                     };
                                 };
-                                $199.def = v$prime;
-                                return $199;
+                                $200.def = v$prime;
+                                return $200;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $202 = {};
-                                for (var $203 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($203)) {
-                                        $202[$203] = v3.ivs[$203];
+                                var $203 = {};
+                                for (var $204 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($204)) {
+                                        $203[$204] = v3.ivs[$204];
                                     };
                                 };
-                                $202.spa = v$prime;
-                                return $202;
+                                $203.spa = v$prime;
+                                return $203;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $205 = {};
-                                for (var $206 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($206)) {
-                                        $205[$206] = v3.ivs[$206];
+                                var $206 = {};
+                                for (var $207 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($207)) {
+                                        $206[$207] = v3.ivs[$207];
                                     };
                                 };
-                                $205.spd = v$prime;
-                                return $205;
+                                $206.spd = v$prime;
+                                return $206;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $208 = {};
-                                for (var $209 in v3.ivs) {
-                                    if (v3.ivs.hasOwnProperty($209)) {
-                                        $208[$209] = v3.ivs[$209];
+                                var $209 = {};
+                                for (var $210 in v3.ivs) {
+                                    if (v3.ivs.hasOwnProperty($210)) {
+                                        $209[$210] = v3.ivs[$210];
                                     };
                                 };
-                                $208.spe = v$prime;
-                                return $208;
+                                $209.spe = v$prime;
+                                return $209;
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 706, column 36 - line 712, column 56: " + [ action.value0.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 755, column 36 - line 761, column 56: " + [ action.value0.constructor.name ]);
                         })();
-                        var $211 = {};
-                        for (var $212 in v3) {
-                            if (v3.hasOwnProperty($212)) {
-                                $211[$212] = v3[$212];
+                        var $212 = {};
+                        for (var $213 in v3) {
+                            if (v3.hasOwnProperty($213)) {
+                                $212[$213] = v3[$213];
                             };
                         };
-                        $211.ivs = ivs$prime;
-                        return $211;
+                        $212.ivs = ivs$prime;
+                        return $212;
                     }));
                 };
                 if (action instanceof UpdateEV) {
@@ -21323,87 +21323,87 @@ var battlerSpec = (function () {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v3) {
                         var evs$prime = (function () {
                             if (action.value0 instanceof Pokemon_Stats.HP) {
-                                var $219 = {};
-                                for (var $220 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($220)) {
-                                        $219[$220] = v3.evs[$220];
+                                var $220 = {};
+                                for (var $221 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($221)) {
+                                        $220[$221] = v3.evs[$221];
                                     };
                                 };
-                                $219.hp = v$prime;
-                                return $219;
+                                $220.hp = v$prime;
+                                return $220;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Atk) {
-                                var $222 = {};
-                                for (var $223 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($223)) {
-                                        $222[$223] = v3.evs[$223];
+                                var $223 = {};
+                                for (var $224 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($224)) {
+                                        $223[$224] = v3.evs[$224];
                                     };
                                 };
-                                $222.atk = v$prime;
-                                return $222;
+                                $223.atk = v$prime;
+                                return $223;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Def) {
-                                var $225 = {};
-                                for (var $226 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($226)) {
-                                        $225[$226] = v3.evs[$226];
+                                var $226 = {};
+                                for (var $227 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($227)) {
+                                        $226[$227] = v3.evs[$227];
                                     };
                                 };
-                                $225.def = v$prime;
-                                return $225;
+                                $226.def = v$prime;
+                                return $226;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpA) {
-                                var $228 = {};
-                                for (var $229 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($229)) {
-                                        $228[$229] = v3.evs[$229];
+                                var $229 = {};
+                                for (var $230 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($230)) {
+                                        $229[$230] = v3.evs[$230];
                                     };
                                 };
-                                $228.spa = v$prime;
-                                return $228;
+                                $229.spa = v$prime;
+                                return $229;
                             };
                             if (action.value0 instanceof Pokemon_Stats.SpD) {
-                                var $231 = {};
-                                for (var $232 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($232)) {
-                                        $231[$232] = v3.evs[$232];
+                                var $232 = {};
+                                for (var $233 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($233)) {
+                                        $232[$233] = v3.evs[$233];
                                     };
                                 };
-                                $231.spd = v$prime;
-                                return $231;
+                                $232.spd = v$prime;
+                                return $232;
                             };
                             if (action.value0 instanceof Pokemon_Stats.Spe) {
-                                var $234 = {};
-                                for (var $235 in v3.evs) {
-                                    if (v3.evs.hasOwnProperty($235)) {
-                                        $234[$235] = v3.evs[$235];
+                                var $235 = {};
+                                for (var $236 in v3.evs) {
+                                    if (v3.evs.hasOwnProperty($236)) {
+                                        $235[$236] = v3.evs[$236];
                                     };
                                 };
-                                $234.spe = v$prime;
-                                return $234;
+                                $235.spe = v$prime;
+                                return $235;
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 721, column 36 - line 727, column 56: " + [ action.value0.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 770, column 36 - line 776, column 56: " + [ action.value0.constructor.name ]);
                         })();
-                        var $237 = {};
-                        for (var $238 in v3) {
-                            if (v3.hasOwnProperty($238)) {
-                                $237[$238] = v3[$238];
+                        var $238 = {};
+                        for (var $239 in v3) {
+                            if (v3.hasOwnProperty($239)) {
+                                $238[$239] = v3[$239];
                             };
                         };
-                        $237.evs = evs$prime;
-                        return $237;
+                        $238.evs = evs$prime;
+                        return $238;
                     }));
                 };
                 if (action instanceof UpdateNature) {
                     return Data_Functor["void"](Control_Monad_Free_Trans.functorFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.functorAff))(Thermite.modifyState(function (v2) {
-                        var $243 = {};
-                        for (var $244 in v2) {
-                            if (v2.hasOwnProperty($244)) {
-                                $243[$244] = v2[$244];
+                        var $244 = {};
+                        for (var $245 in v2) {
+                            if (v2.hasOwnProperty($245)) {
+                                $244[$245] = v2[$245];
                             };
                         };
-                        $243.nature = action.value0;
-                        return $243;
+                        $244.nature = action.value0;
+                        return $244;
                     }));
                 };
                 return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
@@ -21413,80 +21413,80 @@ var battlerSpec = (function () {
     var natureDropdown = function (dispatchNature) {
         return function (nature) {
             return React_DOM.select([ React_DOM_Props.onChange(function (e) {
-                var $247 = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                if ($247 === "adamant") {
+                var $248 = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                if ($248 === "adamant") {
                     return dispatchNature(Pokemon_Stats.Adamant.value);
                 };
-                if ($247 === "bashful") {
+                if ($248 === "bashful") {
                     return dispatchNature(Pokemon_Stats.Bashful.value);
                 };
-                if ($247 === "bold") {
+                if ($248 === "bold") {
                     return dispatchNature(Pokemon_Stats.Bold.value);
                 };
-                if ($247 === "brave") {
+                if ($248 === "brave") {
                     return dispatchNature(Pokemon_Stats.Brave.value);
                 };
-                if ($247 === "calm") {
+                if ($248 === "calm") {
                     return dispatchNature(Pokemon_Stats.Calm.value);
                 };
-                if ($247 === "careful") {
+                if ($248 === "careful") {
                     return dispatchNature(Pokemon_Stats.Careful.value);
                 };
-                if ($247 === "docile") {
+                if ($248 === "docile") {
                     return dispatchNature(Pokemon_Stats.Docile.value);
                 };
-                if ($247 === "gentle") {
+                if ($248 === "gentle") {
                     return dispatchNature(Pokemon_Stats.Gentle.value);
                 };
-                if ($247 === "hardy") {
+                if ($248 === "hardy") {
                     return dispatchNature(Pokemon_Stats.Hardy.value);
                 };
-                if ($247 === "hasty") {
+                if ($248 === "hasty") {
                     return dispatchNature(Pokemon_Stats.Hasty.value);
                 };
-                if ($247 === "impish") {
+                if ($248 === "impish") {
                     return dispatchNature(Pokemon_Stats.Impish.value);
                 };
-                if ($247 === "jolly") {
+                if ($248 === "jolly") {
                     return dispatchNature(Pokemon_Stats.Jolly.value);
                 };
-                if ($247 === "lax") {
+                if ($248 === "lax") {
                     return dispatchNature(Pokemon_Stats.Lax.value);
                 };
-                if ($247 === "lonely") {
+                if ($248 === "lonely") {
                     return dispatchNature(Pokemon_Stats.Lonely.value);
                 };
-                if ($247 === "mild") {
+                if ($248 === "mild") {
                     return dispatchNature(Pokemon_Stats.Mild.value);
                 };
-                if ($247 === "modest") {
+                if ($248 === "modest") {
                     return dispatchNature(Pokemon_Stats.Modest.value);
                 };
-                if ($247 === "naive") {
+                if ($248 === "naive") {
                     return dispatchNature(Pokemon_Stats.Naive.value);
                 };
-                if ($247 === "naughty") {
+                if ($248 === "naughty") {
                     return dispatchNature(Pokemon_Stats.Naughty.value);
                 };
-                if ($247 === "quiet") {
+                if ($248 === "quiet") {
                     return dispatchNature(Pokemon_Stats.Quiet.value);
                 };
-                if ($247 === "quirky") {
+                if ($248 === "quirky") {
                     return dispatchNature(Pokemon_Stats.Quirky.value);
                 };
-                if ($247 === "rash") {
+                if ($248 === "rash") {
                     return dispatchNature(Pokemon_Stats.Rash.value);
                 };
-                if ($247 === "relaxed") {
+                if ($248 === "relaxed") {
                     return dispatchNature(Pokemon_Stats.Relaxed.value);
                 };
-                if ($247 === "sassy") {
+                if ($248 === "sassy") {
                     return dispatchNature(Pokemon_Stats.Sassy.value);
                 };
-                if ($247 === "serious") {
+                if ($248 === "serious") {
                     return dispatchNature(Pokemon_Stats.Serious.value);
                 };
-                if ($247 === "timid") {
+                if ($248 === "timid") {
                     return dispatchNature(Pokemon_Stats.Timid.value);
                 };
                 return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
@@ -21566,8 +21566,100 @@ var battlerSpec = (function () {
                 if (nature instanceof Pokemon_Stats.Timid) {
                     return "timid";
                 };
-                throw new Error("Failed pattern match at Components.Battler line 541, column 25 - line 567, column 17: " + [ nature.constructor.name ]);
+                throw new Error("Failed pattern match at Components.Battler line 544, column 25 - line 570, column 17: " + [ nature.constructor.name ]);
             })()) ])([ React_DOM.option([ React_DOM_Props.value("adamant") ])([ React_DOM.text("Adamant (+Atk, -SpA)") ]), React_DOM.option([ React_DOM_Props.value("bashful") ])([ React_DOM.text("Bashful") ]), React_DOM.option([ React_DOM_Props.value("bold") ])([ React_DOM.text("Bold (+Def, -Atk)") ]), React_DOM.option([ React_DOM_Props.value("brave") ])([ React_DOM.text("Brave (+Atk, -Spe)") ]), React_DOM.option([ React_DOM_Props.value("calm") ])([ React_DOM.text("Calm (+SpD, -Atk)") ]), React_DOM.option([ React_DOM_Props.value("careful") ])([ React_DOM.text("Careful (+SpD, -SpA)") ]), React_DOM.option([ React_DOM_Props.value("docile") ])([ React_DOM.text("Docile") ]), React_DOM.option([ React_DOM_Props.value("gentle") ])([ React_DOM.text("Gentle (+SpD, -Def)") ]), React_DOM.option([ React_DOM_Props.value("hardy") ])([ React_DOM.text("Hardy") ]), React_DOM.option([ React_DOM_Props.value("hasty") ])([ React_DOM.text("Hasty (+Spe, -Def)") ]), React_DOM.option([ React_DOM_Props.value("impish") ])([ React_DOM.text("Impish (+Def, -SpA)") ]), React_DOM.option([ React_DOM_Props.value("jolly") ])([ React_DOM.text("Jolly (+Spe, -SpA)") ]), React_DOM.option([ React_DOM_Props.value("lax") ])([ React_DOM.text("Lax (+Def, -SpD)") ]), React_DOM.option([ React_DOM_Props.value("lonely") ])([ React_DOM.text("Lonely (+Atk, -Def)") ]), React_DOM.option([ React_DOM_Props.value("mild") ])([ React_DOM.text("Mild (+SpA, -Def)") ]), React_DOM.option([ React_DOM_Props.value("modest") ])([ React_DOM.text("Modest (+SpA, -Atk)") ]), React_DOM.option([ React_DOM_Props.value("naive") ])([ React_DOM.text("Naive (+Spe, -SpD)") ]), React_DOM.option([ React_DOM_Props.value("naughty") ])([ React_DOM.text("Naughty (+Atk, -SpD)") ]), React_DOM.option([ React_DOM_Props.value("quiet") ])([ React_DOM.text("Quiet (+SpA, -Spe)") ]), React_DOM.option([ React_DOM_Props.value("quirky") ])([ React_DOM.text("Quirky") ]), React_DOM.option([ React_DOM_Props.value("rash") ])([ React_DOM.text("Rash (+SpA, -SpD)") ]), React_DOM.option([ React_DOM_Props.value("relaxed") ])([ React_DOM.text("Relaxed (+Def, -Spe)") ]), React_DOM.option([ React_DOM_Props.value("sassy") ])([ React_DOM.text("Sassy (+SpD, -Spe)") ]), React_DOM.option([ React_DOM_Props.value("serious") ])([ React_DOM.text("Serious") ]), React_DOM.option([ React_DOM_Props.value("timid") ])([ React_DOM.text("Timid (+Spe, -Atk)") ]) ]);
+        };
+    };
+    var moveSelection = function (dispatchMove) {
+        return function (v) {
+            return React_DOM["div'"]([ React_DOM.input([ React_DOM_Props.placeholder("Move Name"), React_DOM_Props.defaultValue(v.name), React_DOM_Props.list("move"), React_DOM_Props.onChange(function (e) {
+                var newName = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                var $252 = Data_StrMap.lookup(newName)(Pokemon_Move.moveByName);
+                if ($252 instanceof Data_Maybe.Nothing) {
+                    return dispatchMove((function () {
+                        var $253 = {};
+                        for (var $254 in v) {
+                            if (v.hasOwnProperty($254)) {
+                                $253[$254] = v[$254];
+                            };
+                        };
+                        $253.name = newName;
+                        return $253;
+                    })());
+                };
+                if ($252 instanceof Data_Maybe.Just) {
+                    return dispatchMove($252.value0);
+                };
+                throw new Error("Failed pattern match at Components.Battler line 659, column 21 - line 661, column 61: " + [ $252.constructor.name ]);
+            }) ])([  ]), React_DOM.input([ React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v.power)), React_DOM_Props.onChange(function (e) {
+                var $257 = Data_Int.fromString((Unsafe_Coerce.unsafeCoerce(e)).target.value);
+                if ($257 instanceof Data_Maybe.Nothing) {
+                    return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+                };
+                if ($257 instanceof Data_Maybe.Just) {
+                    return dispatchMove((function () {
+                        var $258 = {};
+                        for (var $259 in v) {
+                            if (v.hasOwnProperty($259)) {
+                                $258[$259] = v[$259];
+                            };
+                        };
+                        $258.power = $257.value0;
+                        return $258;
+                    })());
+                };
+                throw new Error("Failed pattern match at Components.Battler line 666, column 21 - line 668, column 72: " + [ $257.constructor.name ]);
+            }) ])([  ]), React_DOM.select([ React_DOM_Props.value((function () {
+                if (v.class_ instanceof Pokemon_Move.Physical) {
+                    return "physical";
+                };
+                if (v.class_ instanceof Pokemon_Move.Special) {
+                    return "special";
+                };
+                if (v.class_ instanceof Pokemon_Move.Status) {
+                    return "status";
+                };
+                throw new Error("Failed pattern match at Components.Battler line 671, column 29 - line 675, column 21: " + [ v.class_.constructor.name ]);
+            })()), React_DOM_Props.onChange(function (e) {
+                var $263 = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
+                if ($263 === "physical") {
+                    return dispatchMove((function () {
+                        var $264 = {};
+                        for (var $265 in v) {
+                            if (v.hasOwnProperty($265)) {
+                                $264[$265] = v[$265];
+                            };
+                        };
+                        $264.class_ = Pokemon_Move.Physical.value;
+                        return $264;
+                    })());
+                };
+                if ($263 === "special") {
+                    return dispatchMove((function () {
+                        var $267 = {};
+                        for (var $268 in v) {
+                            if (v.hasOwnProperty($268)) {
+                                $267[$268] = v[$268];
+                            };
+                        };
+                        $267.class_ = Pokemon_Move.Special.value;
+                        return $267;
+                    })());
+                };
+                if ($263 === "status") {
+                    return dispatchMove((function () {
+                        var $270 = {};
+                        for (var $271 in v) {
+                            if (v.hasOwnProperty($271)) {
+                                $270[$271] = v[$271];
+                            };
+                        };
+                        $270.class_ = Pokemon_Move.Status.value;
+                        return $270;
+                    })());
+                };
+                return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
+            }) ])([ React_DOM.option([ React_DOM_Props.value("physical") ])([ React_DOM.text("Physical") ]), React_DOM.option([ React_DOM_Props.value("special") ])([ React_DOM.text("Special") ]), React_DOM.option([ React_DOM_Props.value("status") ])([ React_DOM.text("Status") ]) ]) ]);
         };
     };
     var render = function (dispatch) {
@@ -21578,28 +21670,36 @@ var battlerSpec = (function () {
                         return dispatch(new UpdateSpeciesName((Unsafe_Coerce.unsafeCoerce(e)).target.value));
                     }) ])([  ]), React_DOM.input([ React_DOM_Props.placeholder("Level"), React_DOM_Props.value(Data_Show.show(Data_Show.showInt)(v1.level)), React_DOM_Props.onChange(function (e) {
                         var val = (Unsafe_Coerce.unsafeCoerce(e)).target.value;
-                        var $254 = val === "";
-                        if ($254) {
+                        var $278 = val === "";
+                        if ($278) {
                             return dispatch(new UpdateLevel(0));
                         };
-                        if (!$254) {
-                            var $255 = Data_Int.fromString((Unsafe_Coerce.unsafeCoerce(e)).target.value);
-                            if ($255 instanceof Data_Maybe.Nothing) {
+                        if (!$278) {
+                            var $279 = Data_Int.fromString((Unsafe_Coerce.unsafeCoerce(e)).target.value);
+                            if ($279 instanceof Data_Maybe.Nothing) {
                                 return Control_Applicative.pure(Control_Monad_Eff.applicativeEff)(Data_Unit.unit);
                             };
-                            if ($255 instanceof Data_Maybe.Just) {
-                                return dispatch(new UpdateLevel($255.value0));
+                            if ($279 instanceof Data_Maybe.Just) {
+                                return dispatch(new UpdateLevel($279.value0));
                             };
-                            throw new Error("Failed pattern match at Components.Battler line 61, column 29 - line 63, column 67: " + [ $255.constructor.name ]);
+                            throw new Error("Failed pattern match at Components.Battler line 61, column 29 - line 63, column 67: " + [ $279.constructor.name ]);
                         };
-                        throw new Error("Failed pattern match at Components.Battler line 58, column 25 - line 63, column 67: " + [ $254.constructor.name ]);
-                    }) ])([  ]), typeDropdown(function ($257) {
-                        return dispatch(UpdateType1.create($257));
-                    })(v1.species.type1), typeDropdown(function ($258) {
-                        return dispatch(UpdateType2.create($258));
-                    })(v1.species.type2), natureDropdown(function ($259) {
-                        return dispatch(UpdateNature.create($259));
-                    })(v1.nature), statTable(dispatch)(v1.species.baseStats)(v1.ivs)(v1.evs)(Pokemon_Stats.battleStats(v1.species.baseStats)(v1.level)(v1.ivs)(v1.evs)(v1.nature)) ];
+                        throw new Error("Failed pattern match at Components.Battler line 58, column 25 - line 63, column 67: " + [ $278.constructor.name ]);
+                    }) ])([  ]), typeDropdown(function ($281) {
+                        return dispatch(UpdateType1.create($281));
+                    })(v1.species.type1), typeDropdown(function ($282) {
+                        return dispatch(UpdateType2.create($282));
+                    })(v1.species.type2), natureDropdown(function ($283) {
+                        return dispatch(UpdateNature.create($283));
+                    })(v1.nature), statTable(dispatch)(v1.species.baseStats)(v1.ivs)(v1.evs)(Pokemon_Stats.battleStats(v1.species.baseStats)(v1.level)(v1.ivs)(v1.evs)(v1.nature)), moveSelection(function ($284) {
+                        return dispatch(UpdateMove1.create($284));
+                    })(v1.move1), moveSelection(function ($285) {
+                        return dispatch(UpdateMove2.create($285));
+                    })(v1.move2), moveSelection(function ($286) {
+                        return dispatch(UpdateMove3.create($286));
+                    })(v1.move3), moveSelection(function ($287) {
+                        return dispatch(UpdateMove4.create($287));
+                    })(v1.move4) ];
                 };
             };
         };
@@ -21623,32 +21723,39 @@ module.exports = {
     battlerSpec: battlerSpec
 };
 
-},{"../Control.Applicative":185,"../Control.Bind":191,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Eff":213,"../Control.Monad.Free.Trans":217,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.Int":298,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Show":359,"../Data.StrMap":363,"../Data.String":367,"../Data.Unit":374,"../Pokemon.Battler":383,"../Pokemon.Move":384,"../Pokemon.Species":385,"../Pokemon.SpeciesData":386,"../Pokemon.Stats":387,"../Pokemon.Type":388,"../Prelude":389,"../React":394,"../React.DOM":392,"../React.DOM.Props":391,"../ReactDOM":396,"../Thermite":397,"../Unsafe.Coerce":400}],182:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Bind":191,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Eff":213,"../Control.Monad.Free.Trans":217,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.Int":298,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Show":359,"../Data.StrMap":363,"../Data.String":367,"../Data.Unit":374,"../Pokemon.Battler":383,"../Pokemon.Move":386,"../Pokemon.Species":387,"../Pokemon.SpeciesData":388,"../Pokemon.Stats":389,"../Pokemon.Type":390,"../Prelude":391,"../React":396,"../React.DOM":394,"../React.DOM.Props":393,"../ReactDOM":398,"../Thermite":400,"../Unsafe.Coerce":403}],182:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
 var Data_Either = require("../Data.Either");
 var Data_Lens = require("../Data.Lens");
 var Data_Foldable = require("../Data.Foldable");
+var Text_Format = require("../Text.Format");
 var Pokemon_Battler = require("../Pokemon.Battler");
 var Pokemon_SpeciesData = require("../Pokemon.SpeciesData");
+var Pokemon_Matchup = require("../Pokemon.Matchup");
+var Pokemon_Move = require("../Pokemon.Move");
 var Components_Battler = require("../Components.Battler");
 var Thermite = require("../Thermite");
 var React = require("../React");
 var React_DOM = require("../React.DOM");
 var React_DOM_Props = require("../React.DOM.Props");
 var ReactDOM = require("../ReactDOM");
-var Data_Lens_Lens = require("../Data.Lens.Lens");
-var Data_Lens_Prism = require("../Data.Lens.Prism");
-var Data_Functor = require("../Data.Functor");
+var Data_Function = require("../Data.Function");
+var Data_Monoid = require("../Data.Monoid");
+var Data_Void = require("../Data.Void");
+var Data_Lens_Getter = require("../Data.Lens.Getter");
+var Data_Lens_Internal_Forget = require("../Data.Lens.Internal.Forget");
 var Control_Applicative = require("../Control.Applicative");
 var Control_Monad_Free_Trans = require("../Control.Monad.Free.Trans");
 var Control_Coroutine = require("../Control.Coroutine");
 var Control_Monad_Aff = require("../Control.Monad.Aff");
 var Data_Unit = require("../Data.Unit");
+var Data_Lens_Lens = require("../Data.Lens.Lens");
+var Data_Lens_Prism = require("../Data.Lens.Prism");
+var Data_Functor = require("../Data.Functor");
 var Data_Lens_Setter = require("../Data.Lens.Setter");
 var Data_Profunctor_Strong = require("../Data.Profunctor.Strong");
-var Data_Function = require("../Data.Function");
 var OnBattler = (function () {
     function OnBattler(value0) {
         this.value0 = value0;
@@ -21658,25 +21765,113 @@ var OnBattler = (function () {
     };
     return OnBattler;
 })();
+var OnOpponent = (function () {
+    function OnOpponent(value0) {
+        this.value0 = value0;
+    };
+    OnOpponent.create = function (value0) {
+        return new OnOpponent(value0);
+    };
+    return OnOpponent;
+})();
+var matchupSpec = (function () {
+    var render = function (dispatch) {
+        return function (v) {
+            return function (v1) {
+                return function (v2) {
+                    return [ React_DOM.div([ React_DOM_Props.className("speedMatchup") ])([ (function () {
+                        if (v1.speedMatchup instanceof Pokemon_Matchup.Faster) {
+                            return React_DOM.span([ React_DOM_Props.className("green") ])([ React_DOM.text("Faster") ]);
+                        };
+                        if (v1.speedMatchup instanceof Pokemon_Matchup.Slower) {
+                            return React_DOM.span([ React_DOM_Props.className("red") ])([ React_DOM.text("Slower") ]);
+                        };
+                        if (v1.speedMatchup instanceof Pokemon_Matchup.SpeedTie) {
+                            return React_DOM.span([ React_DOM_Props.className("yellow") ])([ React_DOM.text("Speed Tie") ]);
+                        };
+                        throw new Error("Failed pattern match at Components.Calculator line 116, column 15 - line 125, column 43: " + [ v1.speedMatchup.constructor.name ]);
+                    })() ]), React_DOM.table([ React_DOM_Props.className("offensiveMatchup") ])([ React_DOM["tbody'"]([ React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text(v1.offensiveRanges.range1.move.name) ]), React_DOM["td'"]([ React_DOM.text(Data_Foldable.fold(Data_Foldable.foldableArray)(Data_Monoid.monoidString)([ Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.offensiveRanges.range1.minRollPct), "% - ", Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.offensiveRanges.range1.maxRollPct), "%" ])) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text(v1.offensiveRanges.range2.move.name) ]), React_DOM["td'"]([ React_DOM.text(Data_Foldable.fold(Data_Foldable.foldableArray)(Data_Monoid.monoidString)([ Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.offensiveRanges.range2.minRollPct), "% - ", Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.offensiveRanges.range2.maxRollPct), "%" ])) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text(v1.offensiveRanges.range3.move.name) ]), React_DOM["td'"]([ React_DOM.text(Data_Foldable.fold(Data_Foldable.foldableArray)(Data_Monoid.monoidString)([ Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.offensiveRanges.range3.minRollPct), "% - ", Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.offensiveRanges.range3.maxRollPct), "%" ])) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text(v1.offensiveRanges.range4.move.name) ]), React_DOM["td'"]([ React_DOM.text(Data_Foldable.fold(Data_Foldable.foldableArray)(Data_Monoid.monoidString)([ Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.offensiveRanges.range4.minRollPct), "% - ", Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.offensiveRanges.range4.maxRollPct), "%" ])) ]) ]) ]) ]), React_DOM.table([ React_DOM_Props.className("defensiveMatchup") ])([ React_DOM["tbody'"]([ React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text(Data_Foldable.fold(Data_Foldable.foldableArray)(Data_Monoid.monoidString)([ Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.defensiveRanges.range1.minRollPct), "% - ", Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.defensiveRanges.range1.maxRollPct), "%" ])) ]), React_DOM["td'"]([ React_DOM.text(v1.defensiveRanges.range1.move.name) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text(Data_Foldable.fold(Data_Foldable.foldableArray)(Data_Monoid.monoidString)([ Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.defensiveRanges.range2.minRollPct), "% - ", Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.defensiveRanges.range2.maxRollPct), "%" ])) ]), React_DOM["td'"]([ React_DOM.text(v1.defensiveRanges.range2.move.name) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text(Data_Foldable.fold(Data_Foldable.foldableArray)(Data_Monoid.monoidString)([ Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.defensiveRanges.range3.minRollPct), "% - ", Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.defensiveRanges.range3.maxRollPct), "%" ])) ]), React_DOM["td'"]([ React_DOM.text(v1.defensiveRanges.range3.move.name) ]) ]), React_DOM["tr'"]([ React_DOM["td'"]([ React_DOM.text(Data_Foldable.fold(Data_Foldable.foldableArray)(Data_Monoid.monoidString)([ Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.defensiveRanges.range4.minRollPct), "% - ", Text_Format.format(Text_Format.formatNumber)(Text_Format.precision(2))(v1.defensiveRanges.range4.maxRollPct), "%" ])) ]), React_DOM["td'"]([ React_DOM.text(v1.defensiveRanges.range4.move.name) ]) ]) ]) ]) ];
+                };
+            };
+        };
+    };
+    var performAction = function (action) {
+        return function (v) {
+            return function (v1) {
+                return Data_Void.absurd(action);
+            };
+        };
+    };
+    return Thermite.simpleSpec(performAction)(render);
+})();
+var derived = function (f) {
+    return function (spec) {
+        var render = function (dispatch) {
+            return function (p) {
+                return function (a) {
+                    return Data_Lens_Getter.view(Thermite._render(Data_Lens_Internal_Forget.strongForget))(spec)(Data_Void.absurd)(p)(f(a));
+                };
+            };
+        };
+        var performAction = function (v) {
+            return function (v1) {
+                return function (v2) {
+                    return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
+                };
+            };
+        };
+        return Thermite.simpleSpec(performAction)(render);
+    };
+};
+var _opponent = function (dictStrong) {
+    return Data_Lens_Lens.lens(function (v) {
+        return v.opponent;
+    })(function (v) {
+        return function (v1) {
+            var $46 = {};
+            for (var $47 in v) {
+                if (v.hasOwnProperty($47)) {
+                    $46[$47] = v[$47];
+                };
+            };
+            $46.opponent = v1;
+            return $46;
+        };
+    })(dictStrong);
+};
+var _devoid = function (dictChoice) {
+    return Data_Lens_Prism.prism(Data_Void.absurd)(Data_Either.Left.create)(dictChoice);
+};
 var _battler = function (dictStrong) {
     return Data_Lens_Lens.lens(function (v) {
         return v.battler;
     })(function (v) {
         return function (v1) {
-            var $12 = {};
-            for (var $13 in v) {
-                if (v.hasOwnProperty($13)) {
-                    $12[$13] = v[$13];
+            var $49 = {};
+            for (var $50 in v) {
+                if (v.hasOwnProperty($50)) {
+                    $49[$50] = v[$50];
                 };
             };
-            $12.battler = v1;
-            return $12;
+            $49.battler = v1;
+            return $49;
         };
     })(dictStrong);
 };
+var _OnOpponent = function (dictChoice) {
+    return Data_Lens_Prism.prism(OnOpponent.create)(function (ca) {
+        if (ca instanceof OnOpponent) {
+            return new Data_Either.Right(ca.value0);
+        };
+        return new Data_Either.Left(ca);
+    })(dictChoice);
+};
 var _OnBattler = function (dictChoice) {
     return Data_Lens_Prism.prism(OnBattler.create)(function (ca) {
-        return new Data_Either.Right(ca.value0);
+        if (ca instanceof OnBattler) {
+            return new Data_Either.Right(ca.value0);
+        };
+        return new Data_Either.Left(ca);
     })(dictChoice);
 };
 var calculatorSpec = (function () {
@@ -21701,6 +21896,27 @@ var calculatorSpec = (function () {
         };
         return Thermite.simpleSpec(performAction)(render);
     })();
+    var moveList = (function () {
+        var render = function (dispatch) {
+            return function (v) {
+                return function (s) {
+                    return function (v1) {
+                        return [ React_DOM.datalist([ React_DOM_Props._id("move") ])(Data_Functor.map(Data_Functor.functorArray)(function (n) {
+                            return React_DOM.option([ React_DOM_Props.value(n) ])([  ]);
+                        })(Pokemon_Move.moveNames)) ];
+                    };
+                };
+            };
+        };
+        var performAction = function (v) {
+            return function (v1) {
+                return function (v2) {
+                    return Control_Applicative.pure(Control_Monad_Free_Trans.applicativeFreeT(Control_Coroutine.functorCoTransform)(Control_Monad_Aff.monadAff))(Data_Unit.unit);
+                };
+            };
+        };
+        return Thermite.simpleSpec(performAction)(render);
+    })();
     var container = Data_Lens_Setter.over(Thermite._render(Data_Profunctor_Strong.strongFn))(function (render) {
         return function (d) {
             return function (p) {
@@ -21712,20 +21928,32 @@ var calculatorSpec = (function () {
             };
         };
     });
-    return container(Data_Foldable.fold(Data_Foldable.foldableArray)(Thermite.monoidSpec)([ pokemonList, Thermite.focus(function (dictStrong) {
+    return container(Data_Foldable.fold(Data_Foldable.foldableArray)(Thermite.monoidSpec)([ pokemonList, moveList, Thermite.focus(function (dictStrong) {
         return _battler(dictStrong);
     })(function (dictChoice) {
         return _OnBattler(dictChoice);
-    })(Components_Battler.battlerSpec) ]));
+    })(Components_Battler.battlerSpec), Thermite.focus(function (dictStrong) {
+        return _opponent(dictStrong);
+    })(function (dictChoice) {
+        return _OnOpponent(dictChoice);
+    })(Components_Battler.battlerSpec), derived(function (s) {
+        return Pokemon_Matchup.matchupSummary(s.battler)(s.opponent);
+    })(matchupSpec) ]));
 })();
 module.exports = {
     OnBattler: OnBattler, 
+    OnOpponent: OnOpponent, 
     _OnBattler: _OnBattler, 
+    _OnOpponent: _OnOpponent, 
     _battler: _battler, 
-    calculatorSpec: calculatorSpec
+    _devoid: _devoid, 
+    _opponent: _opponent, 
+    calculatorSpec: calculatorSpec, 
+    derived: derived, 
+    matchupSpec: matchupSpec
 };
 
-},{"../Components.Battler":181,"../Control.Applicative":185,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Free.Trans":217,"../Data.Either":261,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens":321,"../Data.Lens.Lens":314,"../Data.Lens.Prism":317,"../Data.Lens.Setter":318,"../Data.Profunctor.Strong":350,"../Data.Unit":374,"../Pokemon.Battler":383,"../Pokemon.SpeciesData":386,"../Prelude":389,"../React":394,"../React.DOM":392,"../React.DOM.Props":391,"../ReactDOM":396,"../Thermite":397}],183:[function(require,module,exports){
+},{"../Components.Battler":181,"../Control.Applicative":185,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Free.Trans":217,"../Data.Either":261,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens":321,"../Data.Lens.Getter":301,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Lens":314,"../Data.Lens.Prism":317,"../Data.Lens.Setter":318,"../Data.Monoid":334,"../Data.Profunctor.Strong":350,"../Data.Unit":374,"../Data.Void":375,"../Pokemon.Battler":383,"../Pokemon.Matchup":385,"../Pokemon.Move":386,"../Pokemon.SpeciesData":388,"../Prelude":391,"../React":396,"../React.DOM":394,"../React.DOM.Props":393,"../ReactDOM":398,"../Text.Format":399,"../Thermite":400}],183:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Functor = require("../Data.Functor");
@@ -22550,7 +22778,7 @@ module.exports = {
     functorCoTransform: functorCoTransform
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Monad.Free.Trans":217,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Parallel":234,"../Control.Parallel.Class":233,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],195:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Monad.Free.Trans":217,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Parallel":234,"../Control.Parallel.Class":233,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":391}],195:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -22762,7 +22990,7 @@ module.exports = {
     _takeVar: $foreign._takeVar
 };
 
-},{"../Control.Monad.Eff.Exception":207,"../Data.Function.Uncurried":283,"../Prelude":389,"./foreign":197}],199:[function(require,module,exports){
+},{"../Control.Monad.Eff.Exception":207,"../Data.Function.Uncurried":283,"../Prelude":391,"./foreign":197}],199:[function(require,module,exports){
 /* globals setTimeout, clearTimeout, setImmediate, clearImmediate */
 "use strict";
 
@@ -23446,7 +23674,7 @@ module.exports = {
     parallelParAff: parallelParAff
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Aff.Internal":198,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Exception":207,"../Control.Monad.Error.Class":214,"../Control.Monad.Rec.Class":221,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Parallel":234,"../Control.Parallel.Class":233,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Unit":374,"../Prelude":389,"../Unsafe.Coerce":400,"./foreign":199}],201:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Aff.Internal":198,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Exception":207,"../Control.Monad.Error.Class":214,"../Control.Monad.Rec.Class":221,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Parallel":234,"../Control.Parallel.Class":233,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Unit":374,"../Prelude":391,"../Unsafe.Coerce":403,"./foreign":199}],201:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -23462,7 +23690,7 @@ module.exports = {
     callCC: callCC
 };
 
-},{"../Prelude":389}],202:[function(require,module,exports){
+},{"../Prelude":391}],202:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -23634,7 +23862,7 @@ module.exports = {
     monadStateContT: monadStateContT
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Reader.Class":219,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Prelude":389}],203:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Reader.Class":219,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Prelude":391}],203:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -23803,7 +24031,7 @@ module.exports = {
     throwException: $foreign.throwException
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Eff":213,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Show":359,"../Prelude":389,"./foreign":206}],208:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Eff":213,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Show":359,"../Prelude":391,"./foreign":206}],208:[function(require,module,exports){
 "use strict";
 
 exports.newRef = function (val) {
@@ -23862,7 +24090,7 @@ module.exports = {
     writeRef: $foreign.writeRef
 };
 
-},{"../Control.Monad.Eff":213,"../Data.Unit":374,"../Prelude":389,"./foreign":208}],210:[function(require,module,exports){
+},{"../Control.Monad.Eff":213,"../Data.Unit":374,"../Prelude":391,"./foreign":208}],210:[function(require,module,exports){
 "use strict";
 
 exports.unsafeCoerceEff = function (f) {
@@ -24055,7 +24283,7 @@ module.exports = {
     monadErrorMaybe: monadErrorMaybe
 };
 
-},{"../Data.Either":261,"../Data.Function":284,"../Data.Maybe":327,"../Data.Unit":374,"../Prelude":389}],215:[function(require,module,exports){
+},{"../Data.Either":261,"../Data.Function":284,"../Data.Maybe":327,"../Data.Unit":374,"../Prelude":391}],215:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24366,7 +24594,7 @@ module.exports = {
     monadWriterExceptT: monadWriterExceptT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Tuple":370,"../Prelude":389}],216:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Tuple":370,"../Prelude":391}],216:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24391,7 +24619,7 @@ module.exports = {
     withExcept: withExcept
 };
 
-},{"../Control.Monad.Error.Class":214,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Identity":294,"../Data.Newtype":336,"../Prelude":389}],217:[function(require,module,exports){
+},{"../Control.Monad.Error.Class":214,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Identity":294,"../Data.Newtype":336,"../Prelude":391}],217:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24661,7 +24889,7 @@ module.exports = {
     monadRecFreeT: monadRecFreeT
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Exists":266,"../Data.Functor":289,"../Data.Unit":374,"../Prelude":389}],218:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Exists":266,"../Data.Functor":289,"../Data.Unit":374,"../Prelude":391}],218:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24926,7 +25154,7 @@ module.exports = {
     monadWriterMaybeT: monadWriterMaybeT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":389}],219:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":391}],219:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -24969,7 +25197,7 @@ module.exports = {
     monadReaderFun: monadReaderFun
 };
 
-},{"../Control.Category":192,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Functor":289,"../Prelude":389}],220:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Functor":289,"../Prelude":391}],220:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25233,7 +25461,7 @@ module.exports = {
     monadRecReaderT: monadRecReaderT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Distributive":260,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Prelude":389}],221:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Distributive":260,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Prelude":391}],221:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25451,7 +25679,7 @@ module.exports = {
     monadRecEither: monadRecEither
 };
 
-},{"../Control.Applicative":185,"../Control.Bind":191,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.ST":223,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Functor":289,"../Data.Identity":294,"../Data.Unit":374,"../Partial.Unsafe":380,"../Prelude":389}],222:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Bind":191,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.ST":223,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Functor":289,"../Data.Identity":294,"../Data.Unit":374,"../Partial.Unsafe":380,"../Prelude":391}],222:[function(require,module,exports){
 "use strict";
 
 exports.newSTRef = function (val) {
@@ -25553,7 +25781,7 @@ module.exports = {
     state: state
 };
 
-},{"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],225:[function(require,module,exports){
+},{"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":391}],225:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25864,7 +26092,7 @@ module.exports = {
     monadWriterStateT: monadWriterStateT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Lazy":196,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],226:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Lazy":196,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":391}],226:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25905,7 +26133,7 @@ module.exports = {
     withState: withState
 };
 
-},{"../Control.Monad.State.Class":224,"../Control.Monad.State.Trans":225,"../Control.Semigroupoid":236,"../Data.Identity":294,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":389}],227:[function(require,module,exports){
+},{"../Control.Monad.State.Class":224,"../Control.Monad.State.Trans":225,"../Control.Semigroupoid":236,"../Data.Identity":294,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":391}],227:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25920,7 +26148,7 @@ module.exports = {
     lift: lift
 };
 
-},{"../Prelude":389}],228:[function(require,module,exports){
+},{"../Prelude":391}],228:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -25974,7 +26202,7 @@ module.exports = {
     tell: tell
 };
 
-},{"../Control.Applicative":185,"../Control.Bind":191,"../Data.Function":284,"../Data.Tuple":370,"../Prelude":389}],229:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Bind":191,"../Data.Function":284,"../Data.Tuple":370,"../Prelude":391}],229:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -26270,7 +26498,7 @@ module.exports = {
     monadWriterWriterT: monadWriterWriterT
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],230:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad":230,"../Control.Monad.Cont.Class":201,"../Control.Monad.Eff.Class":203,"../Control.Monad.Error.Class":214,"../Control.Monad.Reader.Class":219,"../Control.Monad.Rec.Class":221,"../Control.Monad.State.Class":224,"../Control.Monad.Trans.Class":227,"../Control.Monad.Writer.Class":228,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":391}],230:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -26618,7 +26846,7 @@ module.exports = {
     monadParParCont: monadParParCont
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad.Cont.Trans":202,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Ref":209,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.Except.Trans":215,"../Control.Monad.Maybe.Trans":218,"../Control.Monad.Reader.Trans":220,"../Control.Monad.Writer.Trans":229,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Compose":285,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Unit":374,"../Prelude":389}],234:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Monad.Cont.Trans":202,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Ref":209,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.Except.Trans":215,"../Control.Monad.Maybe.Trans":218,"../Control.Monad.Reader.Trans":220,"../Control.Monad.Writer.Trans":229,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Compose":285,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Unit":374,"../Prelude":391}],234:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -26666,7 +26894,7 @@ module.exports = {
     parTraverse_: parTraverse_
 };
 
-},{"../Control.Category":192,"../Control.Parallel.Class":233,"../Control.Semigroupoid":236,"../Data.Foldable":269,"../Data.Traversable":369,"../Prelude":389}],235:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Parallel.Class":233,"../Control.Semigroupoid":236,"../Data.Foldable":269,"../Data.Traversable":369,"../Prelude":391}],235:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Alt = require("../Control.Alt");
@@ -26820,7 +27048,7 @@ module.exports = {
     isForeignProgressEvent: isForeignProgressEvent
 };
 
-},{"../Data.Either":261,"../Data.Eq":263,"../Data.Foreign":279,"../Data.Foreign.Class":270,"../Data.Newtype":336,"../Data.Ord":343,"../Prelude":389,"../Unsafe.Coerce":400,"./foreign":237}],239:[function(require,module,exports){
+},{"../Data.Either":261,"../Data.Eq":263,"../Data.Foreign":279,"../Data.Foreign.Class":270,"../Data.Newtype":336,"../Data.Ord":343,"../Prelude":391,"../Unsafe.Coerce":403,"./foreign":237}],239:[function(require,module,exports){
 "use strict";
 
 exports._readHTMLElement = function (failure) {
@@ -27249,7 +27477,7 @@ module.exports = {
     isForeignHTMLCanvasElement: isForeignHTMLCanvasElement
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../DOM.Event.Types":238,"../DOM.Node.Types":247,"../Data.Either":261,"../Data.Foreign":279,"../Data.Foreign.Class":270,"../Data.Identity":294,"../Data.List.Types":323,"../Prelude":389,"../Unsafe.Coerce":400,"./foreign":239}],241:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../DOM.Event.Types":238,"../DOM.Node.Types":247,"../Data.Either":261,"../Data.Foreign":279,"../Data.Foreign.Class":270,"../Data.Identity":294,"../Data.List.Types":323,"../Prelude":391,"../Unsafe.Coerce":403,"./foreign":239}],241:[function(require,module,exports){
 "use strict";
 
 exports.document = function (window) {
@@ -27478,7 +27706,7 @@ module.exports = {
     scrollY: $foreign.scrollY
 };
 
-},{"../Control.Monad.Eff":213,"../DOM":248,"../DOM.HTML.Types":240,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Nullable":339,"../Prelude":389,"./foreign":241}],243:[function(require,module,exports){
+},{"../Control.Monad.Eff":213,"../DOM":248,"../DOM.HTML.Types":240,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Nullable":339,"../Prelude":391,"./foreign":241}],243:[function(require,module,exports){
 /* global window */
 "use strict";
 
@@ -27605,7 +27833,7 @@ module.exports = {
     oOrdElementId: oOrdElementId
 };
 
-},{"../DOM.Event.Types":238,"../Data.Eq":263,"../Data.Newtype":336,"../Data.Ord":343,"../Prelude":389,"../Unsafe.Coerce":400}],248:[function(require,module,exports){
+},{"../DOM.Event.Types":238,"../Data.Eq":263,"../Data.Newtype":336,"../Data.Ord":343,"../Prelude":391,"../Unsafe.Coerce":403}],248:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 module.exports = {};
@@ -28408,7 +28636,7 @@ module.exports = {
     zipWith: $foreign.zipWith
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Lazy":196,"../Control.Monad.Rec.Class":221,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Partial.Unsafe":380,"../Prelude":389,"./foreign":249}],251:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Lazy":196,"../Control.Monad.Rec.Class":221,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Partial.Unsafe":380,"../Prelude":391,"./foreign":249}],251:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -28584,7 +28812,7 @@ module.exports = {
     bitraverse_: bitraverse_
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Monoid":334,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Unit":374,"../Prelude":389}],252:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Monoid":334,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Newtype":336,"../Data.Semigroup":355,"../Data.Unit":374,"../Prelude":391}],252:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Category = require("../Control.Category");
@@ -28666,7 +28894,7 @@ module.exports = {
     bitraverseDefault: bitraverseDefault
 };
 
-},{"../Control.Category":192,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Prelude":389}],254:[function(require,module,exports){
+},{"../Control.Category":192,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Prelude":391}],254:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var otherwise = true;
@@ -28948,7 +29176,7 @@ module.exports = {
     traversableConst: traversableConst
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Semigroupoid":236,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Functor.Contravariant":286,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],260:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Semigroupoid":236,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Functor.Contravariant":286,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":391}],260:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -29035,7 +29263,7 @@ module.exports = {
     distributiveFunction: distributiveFunction
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Identity":294,"../Data.Newtype":336,"../Prelude":389}],261:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Identity":294,"../Data.Newtype":336,"../Prelude":391}],261:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -29442,7 +29670,7 @@ module.exports = {
     semigroupEither: semigroupEither
 };
 
-},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Data.Bitraversable":253,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],262:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Data.Bitraversable":253,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":391}],262:[function(require,module,exports){
 "use strict";
 
 exports.refEq = function (r1) {
@@ -29615,7 +29843,7 @@ module.exports = {
     runExists: runExists
 };
 
-},{"../Unsafe.Coerce":400}],267:[function(require,module,exports){
+},{"../Unsafe.Coerce":403}],267:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_CommutativeRing = require("../Data.CommutativeRing");
@@ -30164,7 +30392,7 @@ module.exports = {
     foldableMultiplicative: foldableMultiplicative
 };
 
-},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid":334,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Monoid.Multiplicative":333,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Unit":374,"../Prelude":389,"./foreign":268}],270:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid":334,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Monoid.Multiplicative":333,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Unit":374,"../Prelude":391,"./foreign":268}],270:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -30333,7 +30561,7 @@ module.exports = {
     nullOrUndefinedAsForeign: nullOrUndefinedAsForeign
 };
 
-},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Array":250,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Foreign":279,"../Data.Foreign.Index":272,"../Data.Foreign.Null":274,"../Data.Foreign.NullOrUndefined":275,"../Data.Foreign.Undefined":277,"../Data.Functor":289,"../Data.Identity":294,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Semiring":357,"../Data.Traversable":369,"../Prelude":389}],271:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Array":250,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Foreign":279,"../Data.Foreign.Index":272,"../Data.Foreign.Null":274,"../Data.Foreign.NullOrUndefined":275,"../Data.Foreign.Undefined":277,"../Data.Functor":289,"../Data.Identity":294,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Semiring":357,"../Data.Traversable":369,"../Prelude":391}],271:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -30431,7 +30659,7 @@ module.exports = {
     indexInt: indexInt
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Data.Eq":263,"../Data.Foreign":279,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Prelude":389,"./foreign":271}],273:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Data.Eq":263,"../Data.Foreign":279,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Prelude":391,"./foreign":271}],273:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -30472,7 +30700,7 @@ module.exports = {
     writeNull: $foreign.writeNull
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":389,"./foreign":273}],275:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":391,"./foreign":273}],275:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -30506,7 +30734,7 @@ module.exports = {
     unNullOrUndefined: unNullOrUndefined
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":389}],276:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":391}],276:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -30547,7 +30775,7 @@ module.exports = {
     writeUndefined: $foreign.writeUndefined
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":389,"./foreign":276}],278:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Foreign":279,"../Data.Functor":289,"../Data.Identity":294,"../Data.Maybe":327,"../Prelude":391,"./foreign":276}],278:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -30876,7 +31104,7 @@ module.exports = {
     writeObject: $foreign.writeObject
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Error.Class":214,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.Either":261,"../Data.Eq":263,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Int":298,"../Data.List.NonEmpty":322,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.String":367,"../Prelude":389,"./foreign":278}],280:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Error.Class":214,"../Control.Monad.Except":216,"../Control.Monad.Except.Trans":215,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.Either":261,"../Data.Eq":263,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Int":298,"../Data.List.NonEmpty":322,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.String":367,"../Prelude":391,"./foreign":278}],280:[function(require,module,exports){
 exports.mkEffFn1 = function mkEffFn1(fn) {
   return function(x) {
     return fn(x)();
@@ -31595,7 +31823,7 @@ module.exports = {
     alternativeCompose: alternativeCompose
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],286:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":391}],286:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -31628,7 +31856,7 @@ module.exports = {
     coerce: coerce
 };
 
-},{"../Data.Functor":289,"../Data.Void":375,"../Prelude":389}],287:[function(require,module,exports){
+},{"../Data.Functor":289,"../Data.Void":375,"../Prelude":391}],287:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Functor = require("../Data.Functor");
@@ -32714,7 +32942,7 @@ module.exports = {
     showGenericSignature: showGenericSignature
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Semigroupoid":236,"../Data.Array":250,"../Data.Boolean":254,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Show":359,"../Data.String":367,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389,"../Type.Proxy":398,"./foreign":290}],292:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Semigroupoid":236,"../Data.Array":250,"../Data.Boolean":254,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Identity":294,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Show":359,"../Data.String":367,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":391,"../Type.Proxy":401,"./foreign":290}],292:[function(require,module,exports){
 "use strict";
 
 exports.boolConj = function (b1) {
@@ -33012,7 +33240,7 @@ module.exports = {
     traversableIdentity: traversableIdentity
 };
 
-},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],295:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":391}],295:[function(require,module,exports){
 "use strict";
 
 // module Data.Int.Bits
@@ -33675,7 +33903,7 @@ module.exports = {
     unfolded: unfolded
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid":334,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Monoid.Multiplicative":333,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389}],301:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid":334,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Endo":332,"../Data.Monoid.Multiplicative":333,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":391}],301:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33727,7 +33955,7 @@ module.exports = {
     viewOn: viewOn
 };
 
-},{"../Control.Category":192,"../Control.Monad.State.Class":224,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":389}],302:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Monad.State.Class":224,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Tuple":370,"../Prelude":391}],302:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33799,7 +34027,7 @@ module.exports = {
     unIndex: unIndex
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Monad.State":226,"../Control.Monad.State.Class":224,"../Control.Monad.State.Trans":225,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Compose":285,"../Data.Identity":294,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Internal.Wander":310,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Star":349,"../Data.Semiring":357,"../Data.Tuple":370,"../Prelude":389}],303:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Monad.State":226,"../Control.Monad.State.Class":224,"../Control.Monad.State.Trans":225,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Compose":285,"../Data.Identity":294,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Internal.Wander":310,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Star":349,"../Data.Semiring":357,"../Data.Tuple":370,"../Prelude":391}],303:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33842,7 +34070,7 @@ module.exports = {
     profunctorExchange: profunctorExchange
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Functor":289,"../Data.Profunctor":351,"../Prelude":389}],304:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Functor":289,"../Data.Profunctor":351,"../Prelude":391}],304:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -33925,7 +34153,7 @@ module.exports = {
     wanderForget: wanderForget
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Const":259,"../Data.Either":261,"../Data.Functor":289,"../Data.Lens.Internal.Wander":310,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Cochoice":347,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],305:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Const":259,"../Data.Either":261,"../Data.Functor":289,"../Data.Lens.Internal.Wander":310,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Cochoice":347,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":391}],305:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34011,7 +34239,7 @@ module.exports = {
     wanderIndexed: wanderIndexed
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Lens.Internal.Wander":310,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],306:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Lens.Internal.Wander":310,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":391}],306:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34079,7 +34307,7 @@ module.exports = {
     choiceMarket: choiceMarket
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Functor":289,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Prelude":389}],307:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Either":261,"../Data.Functor":289,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Prelude":391}],307:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34169,7 +34397,7 @@ module.exports = {
     costrongRe: costrongRe
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Cochoice":347,"../Data.Profunctor.Costrong":348,"../Data.Profunctor.Strong":350,"../Prelude":389}],308:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Cochoice":347,"../Data.Profunctor.Costrong":348,"../Data.Profunctor.Strong":350,"../Prelude":391}],308:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34227,7 +34455,7 @@ module.exports = {
     strongShop: strongShop
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Profunctor":351,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],309:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Profunctor":351,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":391}],309:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Either = require("../Data.Either");
@@ -34314,7 +34542,7 @@ module.exports = {
     wanderStar: wanderStar
 };
 
-},{"../Data.Functor":289,"../Data.Identity":294,"../Data.Newtype":336,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Star":349,"../Data.Profunctor.Strong":350,"../Prelude":389}],311:[function(require,module,exports){
+},{"../Data.Functor":289,"../Data.Identity":294,"../Data.Newtype":336,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Star":349,"../Data.Profunctor.Strong":350,"../Prelude":391}],311:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34450,7 +34678,7 @@ module.exports = {
     withIso: withIso
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens.Internal.Exchange":303,"../Data.Lens.Internal.Re":307,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Tuple":370,"../Prelude":389}],312:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens.Internal.Exchange":303,"../Data.Lens.Internal.Re":307,"../Data.Lens.Types":320,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Tuple":370,"../Prelude":391}],312:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Lens_Lens = require("../Data.Lens.Lens");
@@ -34481,7 +34709,7 @@ module.exports = {
     united: united
 };
 
-},{"../Data.Function":284,"../Data.Lens.Lens":314,"../Data.Unit":374,"../Prelude":389}],314:[function(require,module,exports){
+},{"../Data.Function":284,"../Data.Lens.Lens":314,"../Data.Unit":374,"../Prelude":391}],314:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34539,7 +34767,7 @@ module.exports = {
     withLens: withLens
 };
 
-},{"../Control.Category":192,"../Data.Lens.Internal.Shop":308,"../Data.Lens.Types":320,"../Data.Profunctor":351,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],315:[function(require,module,exports){
+},{"../Control.Category":192,"../Data.Lens.Internal.Shop":308,"../Data.Lens.Types":320,"../Data.Profunctor":351,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":391}],315:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Either = require("../Data.Either");
@@ -34576,7 +34804,7 @@ module.exports = {
     _Nothing: _Nothing
 };
 
-},{"../Data.Either":261,"../Data.Function":284,"../Data.Lens.Prism":317,"../Data.Maybe":327,"../Data.Unit":374,"../Prelude":389}],317:[function(require,module,exports){
+},{"../Data.Either":261,"../Data.Function":284,"../Data.Lens.Prism":317,"../Data.Maybe":327,"../Data.Unit":374,"../Prelude":391}],317:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34683,7 +34911,7 @@ module.exports = {
     withPrism: withPrism
 };
 
-},{"../Control.Category":192,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Market":306,"../Data.Lens.Internal.Tagged":309,"../Data.Lens.Types":320,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Prelude":389}],318:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Eq":263,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Market":306,"../Data.Lens.Internal.Tagged":309,"../Data.Lens.Types":320,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Prelude":391}],318:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34874,7 +35102,7 @@ module.exports = {
     subOver: subOver
 };
 
-},{"../Control.Monad.State.Class":224,"../Control.Semigroupoid":236,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.Maybe":327,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Tuple":370,"../Prelude":389}],319:[function(require,module,exports){
+},{"../Control.Monad.State.Class":224,"../Control.Semigroupoid":236,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Types":320,"../Data.Maybe":327,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Tuple":370,"../Prelude":391}],319:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -34979,7 +35207,7 @@ module.exports = {
     traversed: traversed
 };
 
-},{"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Lens.Indexed":302,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Internal.Wander":310,"../Data.Lens.Types":320,"../Data.Monoid.Disj":330,"../Data.Newtype":336,"../Data.Profunctor.Star":349,"../Data.Traversable":369,"../Data.Tuple":370,"../Prelude":389}],320:[function(require,module,exports){
+},{"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Category":192,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Lens.Indexed":302,"../Data.Lens.Internal.Indexed":305,"../Data.Lens.Internal.Wander":310,"../Data.Lens.Types":320,"../Data.Monoid.Disj":330,"../Data.Newtype":336,"../Data.Profunctor.Star":349,"../Data.Traversable":369,"../Data.Tuple":370,"../Prelude":391}],320:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Lens_Internal_Exchange = require("../Data.Lens.Internal.Exchange");
@@ -35092,7 +35320,7 @@ module.exports = {
     uncons: uncons
 };
 
-},{"../Control.Bind":191,"../Control.Semigroupoid":236,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Semiring":357,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Prelude":389}],323:[function(require,module,exports){
+},{"../Control.Bind":191,"../Control.Semigroupoid":236,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Semiring":357,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Prelude":391}],323:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -35585,7 +35813,7 @@ module.exports = {
     traversableNonEmptyList: traversableNonEmptyList
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Generic":291,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Data.Unit":374,"../Prelude":389}],324:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Generic":291,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Data.Unit":374,"../Prelude":391}],324:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36540,7 +36768,7 @@ module.exports = {
     zipWithA: zipWithA
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Lazy":196,"../Control.Monad.Rec.Class":221,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Boolean":254,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Data.Unit":374,"../Prelude":389}],325:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Lazy":196,"../Control.Monad.Rec.Class":221,"../Control.Semigroupoid":236,"../Data.Bifunctor":252,"../Data.Boolean":254,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.NonEmpty":337,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Data.Unit":374,"../Prelude":391}],325:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36615,7 +36843,7 @@ module.exports = {
     monoidFirst: monoidFirst
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":389}],326:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":391}],326:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36693,7 +36921,7 @@ module.exports = {
     monoidLast: monoidLast
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":389}],327:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":391}],327:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -36959,7 +37187,7 @@ module.exports = {
     showMaybe: showMaybe
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Extend":195,"../Control.Monad":230,"../Control.MonadZero":232,"../Control.Plus":235,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Unit":374,"../Prelude":389}],328:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Extend":195,"../Control.Monad":230,"../Control.MonadZero":232,"../Control.Plus":235,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Unit":374,"../Prelude":391}],328:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37074,7 +37302,7 @@ module.exports = {
     monoidAdditive: monoidAdditive
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":389}],329:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":391}],329:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37202,7 +37430,7 @@ module.exports = {
     semiringConj: semiringConj
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":389}],330:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":391}],330:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37330,7 +37558,7 @@ module.exports = {
     semiringDisj: semiringDisj
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":389}],331:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":391}],331:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37444,7 +37672,7 @@ module.exports = {
     monoidDual: monoidDual
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":389}],332:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Show":359,"../Prelude":391}],332:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37487,7 +37715,7 @@ module.exports = {
     monoidEndo: monoidEndo
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Prelude":389}],333:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Semigroup":355,"../Prelude":391}],333:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37602,7 +37830,7 @@ module.exports = {
     monoidMultiplicative: monoidMultiplicative
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":389}],334:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Monad":230,"../Data.Bounded":257,"../Data.Eq":263,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Prelude":391}],334:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37666,7 +37894,7 @@ module.exports = {
     monoidArray: monoidArray
 };
 
-},{"../Data.Boolean":254,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Unit":374,"../Prelude":389}],335:[function(require,module,exports){
+},{"../Data.Boolean":254,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.Ord":343,"../Data.Semigroup":355,"../Data.Unit":374,"../Prelude":391}],335:[function(require,module,exports){
 arguments[4][248][0].apply(exports,arguments)
 },{"dup":248}],336:[function(require,module,exports){
 // Generated by psc version 0.10.2
@@ -37784,7 +38012,7 @@ module.exports = {
     wrap: wrap
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Functor":289,"../Prelude":389}],337:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Functor":289,"../Prelude":391}],337:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -37958,7 +38186,7 @@ module.exports = {
     traversableNonEmpty: traversableNonEmpty
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":389}],338:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Control.Plus":235,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Semigroup":355,"../Data.Show":359,"../Data.Traversable":369,"../Prelude":391}],338:[function(require,module,exports){
 "use strict";
 
 exports["null"] = null;
@@ -38008,7 +38236,7 @@ module.exports = {
     ordNullable: ordNullable
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Show":359,"../Prelude":389,"./foreign":338}],340:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Show":359,"../Prelude":391,"./foreign":338}],340:[function(require,module,exports){
 "use strict";
 
 exports.unsafeCompareImpl = function (lt) {
@@ -38478,7 +38706,7 @@ module.exports = {
     choiceFn: choiceFn
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Profunctor":351,"../Prelude":389}],346:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Profunctor":351,"../Prelude":391}],346:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -38500,7 +38728,7 @@ module.exports = {
     closedFunction: closedFunction
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Profunctor":351,"../Prelude":389}],347:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Profunctor":351,"../Prelude":391}],347:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Either = require("../Data.Either");
@@ -38784,7 +39012,7 @@ module.exports = {
     closedStar: closedStar
 };
 
-},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Distributive":260,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Closed":346,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":389}],350:[function(require,module,exports){
+},{"../Control.Alt":183,"../Control.Alternative":184,"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.MonadPlus":231,"../Control.MonadZero":232,"../Control.Plus":235,"../Control.Semigroupoid":236,"../Data.Distributive":260,"../Data.Either":261,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.Newtype":336,"../Data.Profunctor":351,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Closed":346,"../Data.Profunctor.Strong":350,"../Data.Tuple":370,"../Prelude":391}],350:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -38841,7 +39069,7 @@ module.exports = {
     strongFn: strongFn
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Functor":289,"../Data.Profunctor":351,"../Data.Tuple":370,"../Prelude":389}],351:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Functor":289,"../Data.Profunctor":351,"../Data.Tuple":370,"../Prelude":391}],351:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -38903,7 +39131,7 @@ module.exports = {
     profunctorFn: profunctorFn
 };
 
-},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Newtype":336,"../Prelude":389}],352:[function(require,module,exports){
+},{"../Control.Category":192,"../Control.Semigroupoid":236,"../Data.Newtype":336,"../Prelude":391}],352:[function(require,module,exports){
 "use strict";
 
 exports.intSub = function (x) {
@@ -39694,7 +39922,7 @@ module.exports = {
     size: $foreign.size
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Eff":213,"../Control.Monad.ST":223,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Semigroup":355,"../Data.Show":359,"../Data.StrMap.ST":361,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Prelude":389,"./foreign":362}],364:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad.Eff":213,"../Control.Monad.ST":223,"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Function.Uncurried":283,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Semigroup":355,"../Data.Show":359,"../Data.StrMap.ST":361,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unfoldable":372,"../Prelude":391,"./foreign":362}],364:[function(require,module,exports){
 "use strict";
 
 exports.charCodeAt = function (i) {
@@ -40062,7 +40290,7 @@ module.exports = {
     trim: $foreign.trim
 };
 
-},{"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.String.Unsafe":365,"../Prelude":389,"./foreign":366}],368:[function(require,module,exports){
+},{"../Control.Semigroupoid":236,"../Data.Eq":263,"../Data.Function":284,"../Data.Maybe":327,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.String.Unsafe":365,"../Prelude":391,"./foreign":366}],368:[function(require,module,exports){
 "use strict";
 
 // jshint maxparams: 3
@@ -40487,7 +40715,7 @@ module.exports = {
     traversableMultiplicative: traversableMultiplicative
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Multiplicative":333,"../Prelude":389,"./foreign":368}],370:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Category":192,"../Data.Foldable":269,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Maybe.Last":326,"../Data.Monoid.Additive":328,"../Data.Monoid.Conj":329,"../Data.Monoid.Disj":330,"../Data.Monoid.Dual":331,"../Data.Monoid.Multiplicative":333,"../Prelude":391,"./foreign":368}],370:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -40884,7 +41112,7 @@ module.exports = {
     bitraversableTuple: bitraversableTuple
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Biapplicative":188,"../Control.Biapply":189,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Lazy":196,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Data.Bitraversable":253,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Data.Unit":374,"../Prelude":389}],371:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Biapplicative":188,"../Control.Biapply":189,"../Control.Bind":191,"../Control.Comonad":193,"../Control.Extend":195,"../Control.Lazy":196,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Bifoldable":251,"../Data.Bifunctor":252,"../Data.Bitraversable":253,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Functor.Invariant":287,"../Data.HeytingAlgebra":293,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Monoid":334,"../Data.Newtype":336,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Traversable":369,"../Data.Unit":374,"../Prelude":391}],371:[function(require,module,exports){
 "use strict";
 
 exports.unfoldrArrayImpl = function (isNothing) {
@@ -40981,7 +41209,7 @@ module.exports = {
     unfoldableArray: unfoldableArray
 };
 
-},{"../Data.Function":284,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ring":353,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unit":374,"../Partial.Unsafe":380,"../Prelude":389,"./foreign":371}],373:[function(require,module,exports){
+},{"../Data.Function":284,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ring":353,"../Data.Traversable":369,"../Data.Tuple":370,"../Data.Unit":374,"../Partial.Unsafe":380,"../Prelude":391,"./foreign":371}],373:[function(require,module,exports){
 "use strict";
 
 exports.unit = {};
@@ -41049,51 +41277,53 @@ var Components_Calculator = require("../Components.Calculator");
 var Data_Functor = require("../Data.Functor");
 var Control_Bind = require("../Control.Bind");
 var Control_Semigroupoid = require("../Control.Semigroupoid");
-var initialState = {
-    battler: {
-        species: {
-            name: "", 
-            baseStats: {
-                hp: 80, 
-                atk: 80, 
-                def: 80, 
-                spa: 80, 
-                spd: 80, 
-                spe: 80
-            }, 
-            type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
-            type2: Data_Maybe.Nothing.value
+var defaultBattler = {
+    species: {
+        name: "", 
+        baseStats: {
+            hp: 80, 
+            atk: 80, 
+            def: 80, 
+            spa: 80, 
+            spd: 80, 
+            spe: 80
         }, 
-        level: 50, 
-        move1: Data_Maybe.Nothing.value, 
-        move2: Data_Maybe.Nothing.value, 
-        move3: Data_Maybe.Nothing.value, 
-        move4: Data_Maybe.Nothing.value, 
-        ivs: {
-            hp: 31, 
-            atk: 31, 
-            def: 31, 
-            spa: 31, 
-            spd: 31, 
-            spe: 31
-        }, 
-        evs: {
-            hp: 4, 
-            atk: 252, 
-            def: 0, 
-            spa: 252, 
-            spd: 0, 
-            spe: 0
-        }, 
-        nature: Pokemon_Stats.Quirky.value, 
-        stages: {
-            atk: 0, 
-            def: 0, 
-            spa: 0, 
-            spd: 0, 
-            spe: 0
-        }
+        type1: new Data_Maybe.Just(Pokemon_Type.Normal.value), 
+        type2: Data_Maybe.Nothing.value
+    }, 
+    level: 50, 
+    move1: Pokemon_Move.noMove, 
+    move2: Pokemon_Move.noMove, 
+    move3: Pokemon_Move.noMove, 
+    move4: Pokemon_Move.noMove, 
+    ivs: {
+        hp: 31, 
+        atk: 31, 
+        def: 31, 
+        spa: 31, 
+        spd: 31, 
+        spe: 31
+    }, 
+    evs: {
+        hp: 0, 
+        atk: 0, 
+        def: 0, 
+        spa: 0, 
+        spd: 0, 
+        spe: 0
+    }, 
+    nature: Pokemon_Stats.Quirky.value, 
+    stages: {
+        atk: 0, 
+        def: 0, 
+        spa: 0, 
+        spd: 0, 
+        spe: 0
     }
+};
+var initialState = {
+    battler: defaultBattler, 
+    opponent: defaultBattler
 };
 var main = Data_Functor["void"](Control_Monad_Eff.functorEff)((function () {
     var component = Thermite.createClass(Components_Calculator.calculatorSpec)(initialState);
@@ -41108,11 +41338,12 @@ var main = Data_Functor["void"](Control_Monad_Eff.functorEff)((function () {
     };
 })());
 module.exports = {
+    defaultBattler: defaultBattler, 
     initialState: initialState, 
     main: main
 };
 
-},{"../Components.Calculator":182,"../Control.Bind":191,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Console":205,"../Control.Semigroupoid":236,"../DOM":248,"../DOM.HTML":244,"../DOM.HTML.Types":240,"../DOM.HTML.Window":242,"../DOM.Node.ParentNode":246,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Nullable":339,"../Partial.Unsafe":380,"../Pokemon.Battler":383,"../Pokemon.Move":384,"../Pokemon.Species":385,"../Pokemon.Stats":387,"../Pokemon.Type":388,"../Prelude":389,"../React":394,"../ReactDOM":396,"../Thermite":397}],377:[function(require,module,exports){
+},{"../Components.Calculator":182,"../Control.Bind":191,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Console":205,"../Control.Semigroupoid":236,"../DOM":248,"../DOM.HTML":244,"../DOM.HTML.Types":240,"../DOM.HTML.Window":242,"../DOM.Node.ParentNode":246,"../Data.Functor":289,"../Data.Maybe":327,"../Data.Nullable":339,"../Partial.Unsafe":380,"../Pokemon.Battler":383,"../Pokemon.Move":386,"../Pokemon.Species":387,"../Pokemon.Stats":389,"../Pokemon.Type":390,"../Prelude":391,"../React":396,"../ReactDOM":398,"../Thermite":400}],377:[function(require,module,exports){
 "use strict";
 
 // module Math
@@ -41288,10 +41519,264 @@ module.exports = {
     Battler: Battler
 };
 
-},{"../Data.Maybe":327,"../Pokemon.Move":384,"../Pokemon.Species":385,"../Pokemon.Stats":387}],384:[function(require,module,exports){
+},{"../Data.Maybe":327,"../Pokemon.Move":386,"../Pokemon.Species":387,"../Pokemon.Stats":389}],384:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
+var Prelude = require("../Prelude");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Int = require("../Data.Int");
+var Pokemon_Battler = require("../Pokemon.Battler");
+var Pokemon_Move = require("../Pokemon.Move");
+var Pokemon_Stats = require("../Pokemon.Stats");
+var Pokemon_Species = require("../Pokemon.Species");
 var Pokemon_Type = require("../Pokemon.Type");
+var Data_EuclideanRing = require("../Data.EuclideanRing");
+var Data_Semiring = require("../Data.Semiring");
+var Data_HeytingAlgebra = require("../Data.HeytingAlgebra");
+var Data_Eq = require("../Data.Eq");
+var Data_Function = require("../Data.Function");
+var damage = function (v) {
+    return function (v1) {
+        return function (v2) {
+            return function (roll) {
+                var spreadModifier = (function () {
+                    if (v1.spread) {
+                        return 0.75;
+                    };
+                    if (!v1.spread) {
+                        return 1.0;
+                    };
+                    throw new Error("Failed pattern match at Pokemon.Damage line 70, column 9 - line 71, column 5: " + [ v1.spread.constructor.name ]);
+                })();
+                var rollModifier = (85.0 + Data_Int.toNumber(roll)) / 100.0;
+                var defenderStats = (function () {
+                    var $11 = Pokemon_Stats.battleStats(v2.species.baseStats)(v2.level)(v2.ivs)(v2.evs)(v2.nature);
+                    return $11;
+                })();
+                var defenseStat = (function () {
+                    if (v1.class_ instanceof Pokemon_Move.Physical) {
+                        return defenderStats.def;
+                    };
+                    if (v1.class_ instanceof Pokemon_Move.Special) {
+                        return defenderStats.spd;
+                    };
+                    if (v1.class_ instanceof Pokemon_Move.Status) {
+                        return 1000;
+                    };
+                    throw new Error("Failed pattern match at Pokemon.Damage line 52, column 9 - line 56, column 5: " + [ v1.class_.constructor.name ]);
+                })();
+                var type1Modifier = (function () {
+                    if (v2.species.type1 instanceof Data_Maybe.Nothing) {
+                        return 1.0;
+                    };
+                    if (v2.species.type1 instanceof Data_Maybe.Just) {
+                        return Pokemon_Type.effectiveness(v1.type_)(v2.species.type1.value0);
+                    };
+                    throw new Error("Failed pattern match at Pokemon.Damage line 62, column 9 - line 64, column 51: " + [ v2.species.type1.constructor.name ]);
+                })();
+                var type2Modifier = (function () {
+                    if (v2.species.type2 instanceof Data_Maybe.Nothing) {
+                        return 1.0;
+                    };
+                    if (v2.species.type2 instanceof Data_Maybe.Just) {
+                        return Pokemon_Type.effectiveness(v1.type_)(v2.species.type2.value0);
+                    };
+                    throw new Error("Failed pattern match at Pokemon.Damage line 66, column 9 - line 68, column 51: " + [ v2.species.type2.constructor.name ]);
+                })();
+                var criticalModifier = (function () {
+                    if (false) {
+                        return 1.5;
+                    };
+                    if (!false) {
+                        return 1.0;
+                    };
+                    throw new Error("Failed pattern match at Pokemon.Damage line 60, column 24 - line 61, column 5: " + [ false.constructor.name ]);
+                })();
+                var attackerStats = (function () {
+                    var $19 = Pokemon_Stats.battleStats(v.species.baseStats)(v.level)(v.ivs)(v.evs)(v.nature);
+                    return $19;
+                })();
+                var hasStab = Data_Eq.eq(Data_Maybe.eqMaybe(Pokemon_Type.eqType))(v.species.type1)(new Data_Maybe.Just(v1.type_)) || Data_Eq.eq(Data_Maybe.eqMaybe(Pokemon_Type.eqType))(v.species.type2)(new Data_Maybe.Just(v1.type_));
+                var stabModifier = (function () {
+                    if (hasStab) {
+                        return 1.5;
+                    };
+                    if (!hasStab) {
+                        return 1.0;
+                    };
+                    throw new Error("Failed pattern match at Pokemon.Damage line 58, column 20 - line 59, column 5: " + [ hasStab.constructor.name ]);
+                })();
+                var modifier = stabModifier * criticalModifier * type1Modifier * type2Modifier * spreadModifier * rollModifier;
+                var attackStat = (function () {
+                    if (v1.class_ instanceof Pokemon_Move.Physical) {
+                        return attackerStats.atk;
+                    };
+                    if (v1.class_ instanceof Pokemon_Move.Special) {
+                        return attackerStats.spa;
+                    };
+                    if (v1.class_ instanceof Pokemon_Move.Status) {
+                        return 0;
+                    };
+                    throw new Error("Failed pattern match at Pokemon.Damage line 47, column 9 - line 51, column 5: " + [ v1.class_.constructor.name ]);
+                })();
+                return Data_Int.floor((((2.0 * Data_Int.toNumber(v.level) + 10.0) / 250.0) * (Data_Int.toNumber(attackStat) / Data_Int.toNumber(defenseStat)) * Data_Int.toNumber(v1.power) + 2.0) * modifier);
+            };
+        };
+    };
+};
+var maxDamage = function (attacker) {
+    return function (move) {
+        return function (defender) {
+            return damage(attacker)(move)(defender)(15);
+        };
+    };
+};
+var minDamage = function (attacker) {
+    return function (move) {
+        return function (defender) {
+            return damage(attacker)(move)(defender)(0);
+        };
+    };
+};
+var damageRange = function (v) {
+    return function (m) {
+        return function (v1) {
+            var realMove = 0 !== m.power;
+            var minRoll = minDamage(v)(m)(v1);
+            var maxRoll = maxDamage(v)(m)(v1);
+            var defenderHp = (function () {
+                var $27 = Pokemon_Stats.battleStats(v1.species.baseStats)(v1.level)(v1.ivs)(v1.evs)(v1.nature);
+                return $27.hp;
+            })();
+            if (realMove) {
+                return {
+                    move: m, 
+                    minRoll: minRoll, 
+                    maxRoll: maxRoll, 
+                    minRollPct: (Data_Int.toNumber(minRoll) / Data_Int.toNumber(defenderHp)) * 100.0, 
+                    maxRollPct: (Data_Int.toNumber(maxRoll) / Data_Int.toNumber(defenderHp)) * 100.0
+                };
+            };
+            if (!realMove) {
+                return {
+                    move: m, 
+                    minRoll: 0, 
+                    maxRoll: 0, 
+                    minRollPct: 0.0, 
+                    maxRollPct: 0.0
+                };
+            };
+            throw new Error("Failed pattern match at Pokemon.Damage line 107, column 5 - line 121, column 9: " + [ realMove.constructor.name ]);
+        };
+    };
+};
+module.exports = {
+    damage: damage, 
+    damageRange: damageRange, 
+    maxDamage: maxDamage, 
+    minDamage: minDamage
+};
+
+},{"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.HeytingAlgebra":293,"../Data.Int":298,"../Data.Maybe":327,"../Data.Semiring":357,"../Pokemon.Battler":383,"../Pokemon.Move":386,"../Pokemon.Species":387,"../Pokemon.Stats":389,"../Pokemon.Type":390,"../Prelude":391}],385:[function(require,module,exports){
+// Generated by psc version 0.10.2
+"use strict";
+var Data_Maybe = require("../Data.Maybe");
+var Data_Ord = require("../Data.Ord");
+var Pokemon_Battler = require("../Pokemon.Battler");
+var Pokemon_Species = require("../Pokemon.Species");
+var Pokemon_Move = require("../Pokemon.Move");
+var Pokemon_Stats = require("../Pokemon.Stats");
+var Pokemon_Damage = require("../Pokemon.Damage");
+var Data_Ordering = require("../Data.Ordering");
+var Faster = (function () {
+    function Faster() {
+
+    };
+    Faster.value = new Faster();
+    return Faster;
+})();
+var Slower = (function () {
+    function Slower() {
+
+    };
+    Slower.value = new Slower();
+    return Slower;
+})();
+var SpeedTie = (function () {
+    function SpeedTie() {
+
+    };
+    SpeedTie.value = new SpeedTie();
+    return SpeedTie;
+})();
+var MatchupSummary = function (x) {
+    return x;
+};
+var noDamage = {
+    move: Pokemon_Move.noMove, 
+    minRoll: 0, 
+    maxRoll: 0, 
+    minRollPct: 0.0, 
+    maxRollPct: 0.0
+};
+var matchupSummary = function (v) {
+    return function (v1) {
+        var defenderSpeed = (function () {
+            var $5 = Pokemon_Stats.battleStats(v1.species.baseStats)(v1.level)(v1.ivs)(v1.evs)(v1.nature);
+            return $5.spe;
+        })();
+        var attackerSpeed = (function () {
+            var $7 = Pokemon_Stats.battleStats(v.species.baseStats)(v.level)(v.ivs)(v.evs)(v.nature);
+            return $7.spe;
+        })();
+        return {
+            speedMatchup: (function () {
+                var $8 = Data_Ord.compare(Data_Ord.ordInt)(attackerSpeed)(defenderSpeed);
+                if ($8 instanceof Data_Ordering.LT) {
+                    return Slower.value;
+                };
+                if ($8 instanceof Data_Ordering.GT) {
+                    return Faster.value;
+                };
+                if ($8 instanceof Data_Ordering.EQ) {
+                    return SpeedTie.value;
+                };
+                throw new Error("Failed pattern match at Pokemon.Matchup line 43, column 13 - line 46, column 31: " + [ $8.constructor.name ]);
+            })(), 
+            offensiveRanges: {
+                range1: Pokemon_Damage.damageRange(v)(v.move1)(v1), 
+                range2: Pokemon_Damage.damageRange(v)(v.move2)(v1), 
+                range3: Pokemon_Damage.damageRange(v)(v.move3)(v1), 
+                range4: Pokemon_Damage.damageRange(v)(v.move4)(v1)
+            }, 
+            defensiveRanges: {
+                range1: Pokemon_Damage.damageRange(v1)(v1.move1)(v), 
+                range2: Pokemon_Damage.damageRange(v1)(v1.move2)(v), 
+                range3: Pokemon_Damage.damageRange(v1)(v1.move3)(v), 
+                range4: Pokemon_Damage.damageRange(v1)(v1.move4)(v)
+            }
+        };
+    };
+};
+module.exports = {
+    MatchupSummary: MatchupSummary, 
+    Faster: Faster, 
+    Slower: Slower, 
+    SpeedTie: SpeedTie, 
+    matchupSummary: matchupSummary, 
+    noDamage: noDamage
+};
+
+},{"../Data.Maybe":327,"../Data.Ord":343,"../Data.Ordering":344,"../Pokemon.Battler":383,"../Pokemon.Damage":384,"../Pokemon.Move":386,"../Pokemon.Species":387,"../Pokemon.Stats":389}],386:[function(require,module,exports){
+// Generated by psc version 0.10.2
+"use strict";
+var Prelude = require("../Prelude");
+var Data_StrMap = require("../Data.StrMap");
+var Data_String = require("../Data.String");
+var Data_Tuple = require("../Data.Tuple");
+var Pokemon_Type = require("../Pokemon.Type");
+var Data_Foldable = require("../Data.Foldable");
+var Data_Functor = require("../Data.Functor");
 var NoEffect = (function () {
     function NoEffect() {
 
@@ -41323,15 +41808,43 @@ var Status = (function () {
 var Move = function (x) {
     return x;
 };
+var noMove = {
+    name: "", 
+    power: 0, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Normal.value, 
+    class_: Physical.value, 
+    effect: NoEffect.value
+};
+var allMoves = [ noMove, {
+    name: "Thunderbolt", 
+    power: 90, 
+    accuracy: 100, 
+    spread: false, 
+    type_: Pokemon_Type.Electric.value, 
+    class_: Special.value, 
+    effect: NoEffect.value
+} ];
+var moveByName = Data_StrMap.fromFoldable(Data_Foldable.foldableArray)(Data_Functor.map(Data_Functor.functorArray)(function (v) {
+    return new Data_Tuple.Tuple(Data_String.toLower(v.name), v);
+})(allMoves));
+var moveNames = Data_Functor.map(Data_Functor.functorArray)(function (v) {
+    return v.name;
+})(allMoves);
 module.exports = {
     Move: Move, 
     Physical: Physical, 
     Special: Special, 
     Status: Status, 
-    NoEffect: NoEffect
+    NoEffect: NoEffect, 
+    allMoves: allMoves, 
+    moveByName: moveByName, 
+    moveNames: moveNames, 
+    noMove: noMove
 };
 
-},{"../Pokemon.Type":388}],385:[function(require,module,exports){
+},{"../Data.Foldable":269,"../Data.Functor":289,"../Data.StrMap":363,"../Data.String":367,"../Data.Tuple":370,"../Pokemon.Type":390,"../Prelude":391}],387:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Maybe = require("../Data.Maybe");
@@ -41344,7 +41857,7 @@ module.exports = {
     Species: Species
 };
 
-},{"../Data.Maybe":327,"../Pokemon.Stats":387,"../Pokemon.Type":388}],386:[function(require,module,exports){
+},{"../Data.Maybe":327,"../Pokemon.Stats":389,"../Pokemon.Type":390}],388:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -44958,7 +45471,7 @@ module.exports = {
     speciesNames: speciesNames
 };
 
-},{"../Data.Foldable":269,"../Data.Functor":289,"../Data.Maybe":327,"../Data.StrMap":363,"../Data.String":367,"../Data.Tuple":370,"../Pokemon.Species":385,"../Pokemon.Stats":387,"../Pokemon.Type":388,"../Prelude":389}],387:[function(require,module,exports){
+},{"../Data.Foldable":269,"../Data.Functor":289,"../Data.Maybe":327,"../Data.StrMap":363,"../Data.String":367,"../Data.Tuple":370,"../Pokemon.Species":387,"../Pokemon.Stats":389,"../Pokemon.Type":390,"../Prelude":391}],389:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -45462,7 +45975,7 @@ module.exports = {
     battleStats: battleStats
 };
 
-},{"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.Int":298,"../Data.Semiring":357,"../Prelude":389}],388:[function(require,module,exports){
+},{"../Data.EuclideanRing":265,"../Data.Function":284,"../Data.Int":298,"../Data.Semiring":357,"../Prelude":391}],390:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Data_Eq = require("../Data.Eq");
@@ -45768,6 +46281,422 @@ var eqType = new Data_Eq.Eq(Data_Generic.gEq(genericType));
 var ordType = new Data_Ord.Ord(function () {
     return eqType;
 }, Data_Generic.gCompare(genericType));
+var effectiveness = function (attackType) {
+    return function (defenseType) {
+        if (attackType instanceof Normal) {
+            if (defenseType instanceof Rock) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ghost) {
+                return 0.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Fighting) {
+            if (defenseType instanceof Normal) {
+                return 2.0;
+            };
+            if (defenseType instanceof Flying) {
+                return 0.5;
+            };
+            if (defenseType instanceof Poison) {
+                return 0.5;
+            };
+            if (defenseType instanceof Rock) {
+                return 2.0;
+            };
+            if (defenseType instanceof Bug) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ghost) {
+                return 0.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 2.0;
+            };
+            if (defenseType instanceof Psychic) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ice) {
+                return 2.0;
+            };
+            if (defenseType instanceof Dark) {
+                return 2.0;
+            };
+            if (defenseType instanceof Fairy) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Flying) {
+            if (defenseType instanceof Fighting) {
+                return 2.0;
+            };
+            if (defenseType instanceof Rock) {
+                return 0.5;
+            };
+            if (defenseType instanceof Bug) {
+                return 2.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Grass) {
+                return 2.0;
+            };
+            if (defenseType instanceof Electric) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Poison) {
+            if (defenseType instanceof Poison) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ground) {
+                return 0.5;
+            };
+            if (defenseType instanceof Rock) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ghost) {
+                return 0.5;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.0;
+            };
+            if (defenseType instanceof Grass) {
+                return 2.0;
+            };
+            if (defenseType instanceof Fairy) {
+                return 2.0;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Ground) {
+            if (defenseType instanceof Flying) {
+                return 0.0;
+            };
+            if (defenseType instanceof Poison) {
+                return 2.0;
+            };
+            if (defenseType instanceof Rock) {
+                return 2.0;
+            };
+            if (defenseType instanceof Bug) {
+                return 0.5;
+            };
+            if (defenseType instanceof Steel) {
+                return 2.0;
+            };
+            if (defenseType instanceof Fire) {
+                return 2.0;
+            };
+            if (defenseType instanceof Grass) {
+                return 0.5;
+            };
+            if (defenseType instanceof Electric) {
+                return 2.0;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Rock) {
+            if (defenseType instanceof Fighting) {
+                return 0.5;
+            };
+            if (defenseType instanceof Flying) {
+                return 2.0;
+            };
+            if (defenseType instanceof Ground) {
+                return 0.5;
+            };
+            if (defenseType instanceof Bug) {
+                return 2.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Fire) {
+                return 2.0;
+            };
+            if (defenseType instanceof Ice) {
+                return 2.0;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Bug) {
+            if (defenseType instanceof Fighting) {
+                return 0.5;
+            };
+            if (defenseType instanceof Flying) {
+                return 0.5;
+            };
+            if (defenseType instanceof Poison) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ghost) {
+                return 0.5;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Fire) {
+                return 0.5;
+            };
+            if (defenseType instanceof Grass) {
+                return 2.0;
+            };
+            if (defenseType instanceof Psychic) {
+                return 2.0;
+            };
+            if (defenseType instanceof Dark) {
+                return 2.0;
+            };
+            if (defenseType instanceof Fairy) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Ghost) {
+            if (defenseType instanceof Normal) {
+                return 0.0;
+            };
+            if (defenseType instanceof Ghost) {
+                return 2.0;
+            };
+            if (defenseType instanceof Psychic) {
+                return 2.0;
+            };
+            if (defenseType instanceof Dark) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Steel) {
+            if (defenseType instanceof Rock) {
+                return 2.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Fire) {
+                return 0.5;
+            };
+            if (defenseType instanceof Water) {
+                return 0.5;
+            };
+            if (defenseType instanceof Electric) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ice) {
+                return 2.0;
+            };
+            if (defenseType instanceof Fairy) {
+                return 2.0;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Fire) {
+            if (defenseType instanceof Rock) {
+                return 0.5;
+            };
+            if (defenseType instanceof Bug) {
+                return 2.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 2.0;
+            };
+            if (defenseType instanceof Fire) {
+                return 0.5;
+            };
+            if (defenseType instanceof Water) {
+                return 0.5;
+            };
+            if (defenseType instanceof Grass) {
+                return 2.0;
+            };
+            if (defenseType instanceof Ice) {
+                return 2.0;
+            };
+            if (defenseType instanceof Dragon) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Water) {
+            if (defenseType instanceof Ground) {
+                return 2.0;
+            };
+            if (defenseType instanceof Rock) {
+                return 2.0;
+            };
+            if (defenseType instanceof Fire) {
+                return 2.0;
+            };
+            if (defenseType instanceof Water) {
+                return 0.5;
+            };
+            if (defenseType instanceof Grass) {
+                return 0.5;
+            };
+            if (defenseType instanceof Dragon) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Grass) {
+            if (defenseType instanceof Flying) {
+                return 0.5;
+            };
+            if (defenseType instanceof Poison) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ground) {
+                return 2.0;
+            };
+            if (defenseType instanceof Rock) {
+                return 2.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Fire) {
+                return 0.5;
+            };
+            if (defenseType instanceof Water) {
+                return 2.0;
+            };
+            if (defenseType instanceof Grass) {
+                return 0.5;
+            };
+            if (defenseType instanceof Dragon) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Electric) {
+            if (defenseType instanceof Flying) {
+                return 2.0;
+            };
+            if (defenseType instanceof Ground) {
+                return 0.0;
+            };
+            if (defenseType instanceof Water) {
+                return 2.0;
+            };
+            if (defenseType instanceof Grass) {
+                return 0.5;
+            };
+            if (defenseType instanceof Electric) {
+                return 0.5;
+            };
+            if (defenseType instanceof Dragon) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Psychic) {
+            if (defenseType instanceof Fighting) {
+                return 2.0;
+            };
+            if (defenseType instanceof Poison) {
+                return 2.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Psychic) {
+                return 0.5;
+            };
+            if (defenseType instanceof Dark) {
+                return 0.0;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Ice) {
+            if (defenseType instanceof Flying) {
+                return 2.0;
+            };
+            if (defenseType instanceof Ground) {
+                return 2.0;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Fire) {
+                return 0.5;
+            };
+            if (defenseType instanceof Water) {
+                return 0.5;
+            };
+            if (defenseType instanceof Grass) {
+                return 2.0;
+            };
+            if (defenseType instanceof Ice) {
+                return 0.5;
+            };
+            if (defenseType instanceof Dragon) {
+                return 2.0;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Dragon) {
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Dragon) {
+                return 2.0;
+            };
+            if (defenseType instanceof Fairy) {
+                return 0.0;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Dark) {
+            if (defenseType instanceof Fighting) {
+                return 0.5;
+            };
+            if (defenseType instanceof Ghost) {
+                return 2.0;
+            };
+            if (defenseType instanceof Psychic) {
+                return 2.0;
+            };
+            if (defenseType instanceof Dark) {
+                return 0.5;
+            };
+            if (defenseType instanceof Fairy) {
+                return 0.5;
+            };
+            return 1.0;
+        };
+        if (attackType instanceof Fairy) {
+            if (defenseType instanceof Fighting) {
+                return 2.0;
+            };
+            if (defenseType instanceof Poison) {
+                return 0.5;
+            };
+            if (defenseType instanceof Steel) {
+                return 0.5;
+            };
+            if (defenseType instanceof Fire) {
+                return 0.5;
+            };
+            if (defenseType instanceof Dragon) {
+                return 2.0;
+            };
+            if (defenseType instanceof Dark) {
+                return 2.0;
+            };
+            return 1.0;
+        };
+        throw new Error("Failed pattern match at Pokemon.Type line 37, column 5 - line 192, column 18: " + [ attackType.constructor.name ]);
+    };
+};
 module.exports = {
     Normal: Normal, 
     Fighting: Fighting, 
@@ -45787,12 +46716,13 @@ module.exports = {
     Dragon: Dragon, 
     Dark: Dark, 
     Fairy: Fairy, 
+    effectiveness: effectiveness, 
     genericType: genericType, 
     eqType: eqType, 
     ordType: ordType
 };
 
-},{"../Data.Eq":263,"../Data.Generic":291,"../Data.Maybe":327,"../Data.Ord":343}],389:[function(require,module,exports){
+},{"../Data.Eq":263,"../Data.Generic":291,"../Data.Maybe":327,"../Data.Ord":343}],391:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Control_Applicative = require("../Control.Applicative");
@@ -45822,7 +46752,7 @@ var Data_Unit = require("../Data.Unit");
 var Data_Void = require("../Data.Void");
 module.exports = {};
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.NaturalTransformation":335,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Unit":374,"../Data.Void":375}],390:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Monad":230,"../Control.Semigroupoid":236,"../Data.Boolean":254,"../Data.BooleanAlgebra":255,"../Data.Bounded":257,"../Data.CommutativeRing":258,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.Field":267,"../Data.Function":284,"../Data.Functor":289,"../Data.HeytingAlgebra":293,"../Data.NaturalTransformation":335,"../Data.Ord":343,"../Data.Ordering":344,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.Unit":374,"../Data.Void":375}],392:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -45886,7 +46816,7 @@ function unsafeFromPropsArray(props) {
 };
 exports.unsafeFromPropsArray = unsafeFromPropsArray;
 
-},{"react":180}],391:[function(require,module,exports){
+},{"react":180}],393:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -46330,7 +47260,7 @@ module.exports = {
     unsafeUnfoldProps: $foreign.unsafeUnfoldProps
 };
 
-},{"../React":394,"./foreign":390}],392:[function(require,module,exports){
+},{"../React":396,"./foreign":392}],394:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var React = require("../React");
@@ -46810,7 +47740,7 @@ module.exports = {
     "wbr'": wbr$prime
 };
 
-},{"../React":394,"../React.DOM.Props":391,"../Unsafe.Coerce":400}],393:[function(require,module,exports){
+},{"../React":396,"../React.DOM.Props":393,"../Unsafe.Coerce":403}],395:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -46976,7 +47906,7 @@ function stopPropagation(event) {
 };
 exports.stopPropagation = stopPropagation;
 
-},{"react":180}],394:[function(require,module,exports){
+},{"react":180}],396:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -47063,7 +47993,7 @@ module.exports = {
     writeStateWithCallback: $foreign.writeStateWithCallback
 };
 
-},{"../Control.Applicative":185,"../Control.Monad.Eff":213,"../Data.Unit":374,"../Prelude":389,"../Unsafe.Coerce":400,"./foreign":393}],395:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Monad.Eff":213,"../Data.Unit":374,"../Prelude":391,"../Unsafe.Coerce":403,"./foreign":395}],397:[function(require,module,exports){
 /* global exports */
 "use strict";
 
@@ -47081,7 +48011,7 @@ exports.findDOMNodeImpl = ReactDOM.findDOMNode;
 exports.renderToStringImpl = ReactDOMServer.renderToString;
 exports.renderToStaticMarkupImpl = ReactDOMServer.renderToStaticMarkup;
 
-},{"react-dom":25,"react-dom/server":155}],396:[function(require,module,exports){
+},{"react-dom":25,"react-dom/server":155}],398:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -47105,7 +48035,259 @@ module.exports = {
     unmountComponentAtNode: unmountComponentAtNode
 };
 
-},{"../Control.Monad.Eff":213,"../DOM":248,"../DOM.Node.Types":247,"../Data.Function.Eff":281,"../Data.Function.Uncurried":283,"../Data.Maybe":327,"../React":394,"./foreign":395}],397:[function(require,module,exports){
+},{"../Control.Monad.Eff":213,"../DOM":248,"../DOM.Node.Types":247,"../Data.Function.Eff":281,"../Data.Function.Uncurried":283,"../Data.Maybe":327,"../React":396,"./foreign":397}],399:[function(require,module,exports){
+// Generated by psc version 0.10.2
+"use strict";
+var Prelude = require("../Prelude");
+var Control_Alt = require("../Control.Alt");
+var Data_Unfoldable = require("../Data.Unfoldable");
+var Data_Int = require("../Data.Int");
+var Data_Maybe = require("../Data.Maybe");
+var Data_Monoid = require("../Data.Monoid");
+var Data_String = require("../Data.String");
+var $$Math = require("../Math");
+var Data_Eq = require("../Data.Eq");
+var Data_HeytingAlgebra = require("../Data.HeytingAlgebra");
+var Data_Semigroup = require("../Data.Semigroup");
+var Data_Ord = require("../Data.Ord");
+var Data_Ring = require("../Data.Ring");
+var Data_Show = require("../Data.Show");
+var Data_EuclideanRing = require("../Data.EuclideanRing");
+var Data_Semiring = require("../Data.Semiring");
+var Properties = (function () {
+    function Properties(value0) {
+        this.value0 = value0;
+    };
+    Properties.create = function (value0) {
+        return new Properties(value0);
+    };
+    return Properties;
+})();
+var Format = function (format) {
+    this.format = format;
+};
+var semigroupProperties = new Data_Semigroup.Semigroup(function (v) {
+    return function (v1) {
+        var rec = {
+            width: Control_Alt.alt(Data_Maybe.altMaybe)(v1.value0.width)(v.value0.width), 
+            padChar: Control_Alt.alt(Data_Maybe.altMaybe)(v1.value0.padChar)(v.value0.padChar), 
+            signed: Control_Alt.alt(Data_Maybe.altMaybe)(v1.value0.signed)(v.value0.signed), 
+            precision: Control_Alt.alt(Data_Maybe.altMaybe)(v1.value0.precision)(v.value0.precision)
+        };
+        return new Properties(rec);
+    };
+});
+var padLeft = function (c) {
+    return function (len) {
+        return function (str) {
+            var prefix = Data_String.fromCharArray(Data_Unfoldable.replicate(Data_Unfoldable.unfoldableArray)(len - Data_String.length(str))(c));
+            return prefix + str;
+        };
+    };
+};
+var formatString = new Format(function (v) {
+    return function (str) {
+        var padChar = Data_Maybe.fromMaybe(" ")(v.value0.padChar);
+        if (v.value0.width instanceof Data_Maybe.Just) {
+            return padLeft(padChar)(v.value0.width.value0)(str);
+        };
+        if (v.value0.width instanceof Data_Maybe.Nothing) {
+            return str;
+        };
+        throw new Error("Failed pattern match at Text.Format line 91, column 5 - line 93, column 21: " + [ v.value0.width.constructor.name ]);
+    };
+});
+var format = function (dict) {
+    return dict.format;
+};
+var formatNumber = new Format(function (v) {
+    return function (v1) {
+        var num = v1;
+        if (Data_Eq.eq(Data_Maybe.eqMaybe(Data_Eq.eqInt))(v.value0.precision)(new Data_Maybe.Just(0))) {
+            return format(formatInt)(v)(Data_Int.round(num));
+        };
+        var padChar = Data_Maybe.fromMaybe(" ")(v.value0.padChar);
+        var num = (function () {
+            if (v.value0.precision instanceof Data_Maybe.Nothing) {
+                return v1;
+            };
+            if (v.value0.precision instanceof Data_Maybe.Just) {
+                var f = $$Math.pow(10.0)(Data_Int.toNumber(v.value0.precision.value0));
+                return $$Math.round(f * v1) / f;
+            };
+            throw new Error("Failed pattern match at Text.Format line 136, column 12 - line 140, column 40: " + [ v.value0.precision.constructor.name ]);
+        })();
+        var numAbsStr$prime = Data_Show.show(Data_Show.showNumber)($$Math.abs(num));
+        var paddedZeros = function (p) {
+            var d = Data_String.length(Data_String.dropWhile(function (v2) {
+                return v2 !== ".";
+            })(numAbsStr$prime)) - 1;
+            return Data_String.fromCharArray(Data_Unfoldable.replicate(Data_Unfoldable.unfoldableArray)(p - d)("0"));
+        };
+        var numAbsStr = (function () {
+            if (v.value0.precision instanceof Data_Maybe.Nothing) {
+                return numAbsStr$prime;
+            };
+            if (v.value0.precision instanceof Data_Maybe.Just) {
+                return numAbsStr$prime + paddedZeros(v.value0.precision.value0);
+            };
+            throw new Error("Failed pattern match at Text.Format line 145, column 18 - line 147, column 57: " + [ v.value0.precision.constructor.name ]);
+        })();
+        var nonNegative = num >= 0.0;
+        var isSigned = Data_Maybe.fromMaybe(false)(v.value0.signed);
+        var numSgn = (function () {
+            if (nonNegative) {
+                if (isSigned) {
+                    return "+";
+                };
+                if (!isSigned) {
+                    return "";
+                };
+                throw new Error("Failed pattern match at Text.Format line 151, column 23 - line 151, column 51: " + [ isSigned.constructor.name ]);
+            };
+            if (!nonNegative) {
+                return "-";
+            };
+            throw new Error("Failed pattern match at Text.Format line 150, column 15 - line 152, column 22: " + [ nonNegative.constructor.name ]);
+        })();
+        if (v.value0.width instanceof Data_Maybe.Just) {
+            var $28 = padChar === " ";
+            if ($28) {
+                return padLeft(padChar)(v.value0.width.value0)(numSgn + numAbsStr);
+            };
+            if (!$28) {
+                return numSgn + padLeft(padChar)(v.value0.width.value0 - Data_String.length(numSgn))(numAbsStr);
+            };
+            throw new Error("Failed pattern match at Text.Format line 128, column 9 - line 132, column 70: " + [ $28.constructor.name ]);
+        };
+        if (v.value0.width instanceof Data_Maybe.Nothing) {
+            return numSgn + numAbsStr;
+        };
+        throw new Error("Failed pattern match at Text.Format line 126, column 5 - line 133, column 37: " + [ v.value0.width.constructor.name ]);
+    };
+});
+var formatInt = new Format(function (v) {
+    return function (num) {
+        if (Data_Maybe.fromMaybe(0)(v.value0.precision) > 0) {
+            return format(formatNumber)(v)(Data_Int.toNumber(num));
+        };
+        var padChar = Data_Maybe.fromMaybe(" ")(v.value0.padChar);
+        var nonNegative = num >= 0;
+        var numAbs = (function () {
+            if (nonNegative) {
+                return num;
+            };
+            if (!nonNegative) {
+                return -num;
+            };
+            throw new Error("Failed pattern match at Text.Format line 115, column 15 - line 115, column 50: " + [ nonNegative.constructor.name ]);
+        })();
+        var isSigned = Data_Maybe.fromMaybe(false)(v.value0.signed);
+        var numSgn = (function () {
+            if (nonNegative) {
+                if (isSigned) {
+                    return "+";
+                };
+                if (!isSigned) {
+                    return "";
+                };
+                throw new Error("Failed pattern match at Text.Format line 117, column 23 - line 117, column 51: " + [ isSigned.constructor.name ]);
+            };
+            if (!nonNegative) {
+                return "-";
+            };
+            throw new Error("Failed pattern match at Text.Format line 116, column 15 - line 120, column 1: " + [ nonNegative.constructor.name ]);
+        })();
+        if (v.value0.width instanceof Data_Maybe.Just) {
+            var $38 = padChar === " ";
+            if ($38) {
+                return padLeft(padChar)(v.value0.width.value0)(numSgn + Data_Show.show(Data_Show.showInt)(numAbs));
+            };
+            if (!$38) {
+                return numSgn + padLeft(padChar)(v.value0.width.value0 - Data_String.length(numSgn))(Data_Show.show(Data_Show.showInt)(numAbs));
+            };
+            throw new Error("Failed pattern match at Text.Format line 104, column 9 - line 108, column 74: " + [ $38.constructor.name ]);
+        };
+        if (v.value0.width instanceof Data_Maybe.Nothing) {
+            return numSgn + Data_Show.show(Data_Show.showInt)(numAbs);
+        };
+        throw new Error("Failed pattern match at Text.Format line 102, column 5 - line 109, column 39: " + [ v.value0.width.constructor.name ]);
+    };
+});
+var eqProperties = new Data_Eq.Eq(function (v) {
+    return function (v1) {
+        return Data_Eq.eq(Data_Maybe.eqMaybe(Data_Eq.eqInt))(v.value0.width)(v1.value0.width) && (Data_Eq.eq(Data_Maybe.eqMaybe(Data_Eq.eqChar))(v.value0.padChar)(v1.value0.padChar) && (Data_Eq.eq(Data_Maybe.eqMaybe(Data_Eq.eqBoolean))(v.value0.signed)(v1.value0.signed) && Data_Eq.eq(Data_Maybe.eqMaybe(Data_Eq.eqInt))(v.value0.precision)(v1.value0.precision)));
+    };
+});
+var $$default = {
+    width: Data_Maybe.Nothing.value, 
+    padChar: Data_Maybe.Nothing.value, 
+    signed: Data_Maybe.Nothing.value, 
+    precision: Data_Maybe.Nothing.value
+};
+var monoidProperties = new Data_Monoid.Monoid(function () {
+    return semigroupProperties;
+}, new Properties($$default));
+var precision = function (digits) {
+    return new Properties((function () {
+        var $45 = {};
+        for (var $46 in $$default) {
+            if ($$default.hasOwnProperty($46)) {
+                $45[$46] = $$default[$46];
+            };
+        };
+        $45.precision = new Data_Maybe.Just(digits);
+        return $45;
+    })());
+};
+var signed = new Properties((function () {
+    var $48 = {};
+    for (var $49 in $$default) {
+        if ($$default.hasOwnProperty($49)) {
+            $48[$49] = $$default[$49];
+        };
+    };
+    $48.signed = new Data_Maybe.Just(true);
+    return $48;
+})());
+var width = function (n) {
+    return new Properties((function () {
+        var $51 = {};
+        for (var $52 in $$default) {
+            if ($$default.hasOwnProperty($52)) {
+                $51[$52] = $$default[$52];
+            };
+        };
+        $51.width = new Data_Maybe.Just(n);
+        return $51;
+    })());
+};
+var zeroFill = new Properties((function () {
+    var $54 = {};
+    for (var $55 in $$default) {
+        if ($$default.hasOwnProperty($55)) {
+            $54[$55] = $$default[$55];
+        };
+    };
+    $54.padChar = new Data_Maybe.Just("0");
+    return $54;
+})());
+module.exports = {
+    Format: Format, 
+    format: format, 
+    precision: precision, 
+    signed: signed, 
+    width: width, 
+    zeroFill: zeroFill, 
+    eqProperties: eqProperties, 
+    semigroupProperties: semigroupProperties, 
+    monoidProperties: monoidProperties, 
+    formatString: formatString, 
+    formatInt: formatInt, 
+    formatNumber: formatNumber
+};
+
+},{"../Control.Alt":183,"../Data.Eq":263,"../Data.EuclideanRing":265,"../Data.HeytingAlgebra":293,"../Data.Int":298,"../Data.Maybe":327,"../Data.Monoid":334,"../Data.Ord":343,"../Data.Ring":353,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Show":359,"../Data.String":367,"../Data.Unfoldable":372,"../Math":378,"../Prelude":391}],400:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Prelude = require("../Prelude");
@@ -47493,7 +48675,7 @@ module.exports = {
     monoidSpec: monoidSpec
 };
 
-},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.Free.Trans":217,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens":321,"../Data.Lens.Fold":300,"../Data.Lens.Getter":301,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Market":306,"../Data.Lens.Internal.Tagged":309,"../Data.Lens.Lens":314,"../Data.Lens.Prism":317,"../Data.Lens.Setter":318,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Monoid":334,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Strong":350,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":389,"../React":394,"../React.DOM":392}],398:[function(require,module,exports){
+},{"../Control.Applicative":185,"../Control.Apply":187,"../Control.Bind":191,"../Control.Category":192,"../Control.Coroutine":194,"../Control.Monad.Aff":200,"../Control.Monad.Eff":213,"../Control.Monad.Eff.Class":203,"../Control.Monad.Eff.Unsafe":211,"../Control.Monad.Free.Trans":217,"../Control.Monad.Rec.Class":221,"../Control.Monad.Trans.Class":227,"../Control.Semigroupoid":236,"../Data.Either":261,"../Data.Foldable":269,"../Data.Function":284,"../Data.Functor":289,"../Data.Lens":321,"../Data.Lens.Fold":300,"../Data.Lens.Getter":301,"../Data.Lens.Internal.Forget":304,"../Data.Lens.Internal.Market":306,"../Data.Lens.Internal.Tagged":309,"../Data.Lens.Lens":314,"../Data.Lens.Prism":317,"../Data.Lens.Setter":318,"../Data.List":324,"../Data.List.Types":323,"../Data.Maybe":327,"../Data.Maybe.First":325,"../Data.Monoid":334,"../Data.Profunctor.Choice":345,"../Data.Profunctor.Strong":350,"../Data.Semigroup":355,"../Data.Semiring":357,"../Data.Tuple":370,"../Data.Unit":374,"../Prelude":391,"../React":396,"../React.DOM":394}],401:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var Proxy3 = (function () {
@@ -47523,7 +48705,7 @@ module.exports = {
     Proxy3: Proxy3
 };
 
-},{}],399:[function(require,module,exports){
+},{}],402:[function(require,module,exports){
 "use strict";
 
 // module Unsafe.Coerce
@@ -47532,7 +48714,7 @@ exports.unsafeCoerce = function (x) {
   return x;
 };
 
-},{}],400:[function(require,module,exports){
+},{}],403:[function(require,module,exports){
 // Generated by psc version 0.10.2
 "use strict";
 var $foreign = require("./foreign");
@@ -47540,10 +48722,10 @@ module.exports = {
     unsafeCoerce: $foreign.unsafeCoerce
 };
 
-},{"./foreign":399}],401:[function(require,module,exports){
+},{"./foreign":402}],404:[function(require,module,exports){
 require('Main').main();
 
-},{"Main":376}],402:[function(require,module,exports){
+},{"Main":376}],405:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};
@@ -47664,4 +48846,4 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}]},{},[401]);
+},{}]},{},[404]);

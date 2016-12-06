@@ -9,10 +9,10 @@ import Pokemon.Move
 newtype Battler = Battler
     { species :: Species
     , level :: Int
-    , move1 :: Maybe Move
-    , move2 :: Maybe Move
-    , move3 :: Maybe Move
-    , move4 :: Maybe Move
+    , move1 :: Move
+    , move2 :: Move
+    , move3 :: Move
+    , move4 :: Move
     , ivs :: IVs
     , evs :: EVs
     , nature :: Nature
